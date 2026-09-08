@@ -1,0 +1,27 @@
+{
+  "styleName": "北欧极简风格",
+  "styleEn": "Nordic Minimalism",
+  "titlePrimary": "北欧极简",
+  "titleAccent": "风格",
+  "titlePrimaryHex": "#344C46",
+  "titleAccentHex": "#A66A4A",
+  "scene": "一间明亮、安静的北欧极简起居室，以浅木家具、亚麻织物和克制的陶器形成少而精的生活场景。",
+  "foreground": "画面左下角一张浅木小桌，桌上只有一只哑光陶杯。",
+  "midground": "自然白亚麻沙发作为主角，搭配一只低饱和鼠尾草绿靠垫。",
+  "background": "大面积干净浅墙与窗帘，自然侧光穿过窗户，留下柔和阴影。",
+  "composition": "平视略偏侧角度，沙发位于中心偏右，左侧用留白平衡；不添加第二个独立场景。",
+  "materials": "浅色橡木、天然亚麻、哑光陶器。",
+  "lighting": "明亮柔和的日间侧光，阴影通透，不加复古黄色滤镜。",
+  "mood": "安静、轻盈、自然。",
+  "medium": "细腻写实的室内摄影气质。",
+  "colors": [
+    { "name": "自然白", "hex": "#F2EFE7", "englishName": "Natural White" },
+    { "name": "浅橡木", "hex": "#C8AA82", "englishName": "Light Oak" },
+    { "name": "鼠尾草绿", "hex": "#8B9B88", "englishName": "Sage Green" },
+    { "name": "炭灰", "hex": "#3C403D", "englishName": "Charcoal Grey" }
+  ],
+  "sidebarCn": ["让光走进日常", "让留白容纳呼吸", "少一点繁复", "多一点自在"],
+  "sidebarEn": ["Less Noise.", "More Living."],
+  "badges": ["简净", "自然", "松弛"],
+  "avoid": "深色英伦书房、密集格纹、厚重雕花、霓虹灯、过量摆件。"
+}
