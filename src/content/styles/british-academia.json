@@ -1,0 +1,70 @@
+{
+  "id": "british-academia",
+  "name": "英伦学院复古",
+  "englishName": "British Academia",
+  "aliases": ["British Academia"],
+  "summary": "古旧书页、深色木作与格纹，在安静的书房里重拾沉稳的秩序。",
+  "category": "retro",
+  "tags": ["calm", "nostalgic", "wood", "textile", "blue", "red", "cream", "poster", "slides"],
+  "cover": "british-academia-poster",
+  "images": [
+    {
+      "asset": "british-academia-poster",
+      "caption": "英伦学院复古 · 完整参考海报"
+    }
+  ],
+  "palettes": [
+    {
+      "id": "poster",
+      "name": "海报配色",
+      "description": "色值根据海报文字逐项核对。",
+      "colors": [
+        {
+          "id": "color-1",
+          "name": "普鲁士蓝",
+          "hex": "#1F3A5F",
+          "status": "verified"
+        },
+        {
+          "id": "color-2",
+          "name": "奶杏",
+          "hex": "#E8D8C3",
+          "status": "verified"
+        },
+        {
+          "id": "color-3",
+          "name": "酒红",
+          "hex": "#6E2131",
+          "status": "verified"
+        },
+        {
+          "id": "color-4",
+          "name": "焦糖棕",
+          "hex": "#8B5A3C",
+          "status": "verified"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "title": "字体气质",
+      "body": "衬线标题呼应旧书的印刷气质，正文保持简洁。"
+    },
+    {
+      "title": "构图与节奏",
+      "body": "利用规则边框与对齐构成有秩序的版面，留白承接复杂纹理。"
+    },
+    {
+      "title": "材质观察",
+      "body": "深木色、织物格纹与黄铜适合小面积组合。"
+    }
+  ],
+  "applications": [
+    "以奶杏作为大面积底色，深蓝承载文字，酒红用作少量强调。 以上为整理建议，尚未作为实际项目验证。"
+  ],
+  "practice": [],
+  "related": [],
+  "order": 1,
+  "updatedAt": "2026-09-08"
+}

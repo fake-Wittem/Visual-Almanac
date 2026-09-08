@@ -1,0 +1,70 @@
+{
+  "id": "mid-century",
+  "name": "中世纪摩登",
+  "englishName": "Mid-century Modern",
+  "aliases": ["Mid-century Modern", "中古现代", "世纪中期现代", "Mid Century"],
+  "summary": "橄榄绿、芥末黄与温暖木色，组成自然而理性的日常美学。",
+  "category": "retro",
+  "tags": ["warm", "calm", "wood", "geometry", "green", "orange", "brown", "slides", "brand"],
+  "cover": "mid-century-poster",
+  "images": [
+    {
+      "asset": "mid-century-poster",
+      "caption": "中世纪摩登 · 完整参考海报"
+    }
+  ],
+  "palettes": [
+    {
+      "id": "poster",
+      "name": "海报配色",
+      "description": "从海报配色条内部区域取样的近似颜色，并非图中文字的精确转录。",
+      "colors": [
+        {
+          "id": "color-1",
+          "name": "牛油果绿",
+          "hex": "#6B6E3E",
+          "status": "sampled"
+        },
+        {
+          "id": "color-2",
+          "name": "芥末黄",
+          "hex": "#C08C34",
+          "status": "sampled"
+        },
+        {
+          "id": "color-3",
+          "name": "焦橙",
+          "hex": "#AD582E",
+          "status": "sampled"
+        },
+        {
+          "id": "color-4",
+          "name": "胡桃木棕",
+          "hex": "#6B4636",
+          "status": "sampled"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "title": "字体气质",
+      "body": "简洁无衬线字体与适度粗细对比，呼应实用主义气质。"
+    },
+    {
+      "title": "构图与节奏",
+      "body": "不对称色块与规则网格并用，以形状的重复形成节奏。"
+    },
+    {
+      "title": "材质观察",
+      "body": "木纹、织物与哑光表面保持自然温度。"
+    }
+  ],
+  "applications": [
+    "用浅色底和木色建立基础，橄榄绿与焦橙分别担任主体和强调。 以上为整理建议，尚未作为实际项目验证。"
+  ],
+  "practice": [],
+  "related": [],
+  "order": 5,
+  "updatedAt": "2026-09-08"
+}

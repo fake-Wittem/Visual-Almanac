@@ -1,0 +1,32 @@
+name: Verify
+on:
+  push:
+    branches: [main]
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          cache: npm
+      - run: npm ci
+      - run: npm run check
+      - uses: actions/upload-artifact@v4
+        with:
+          name: visual-almanac-dist
+          path: dist
+      - name: Verify independent Nginx container
+        run: |
+          docker build -t visual-almanac:test .
+          docker run -d --name almanac-test -p 127.0.0.1:8080:80 visual-almanac:test
+          docker exec almanac-test nginx -t
+          curl --retry 10 --retry-connrefused --retry-delay 1 --fail http://127.0.0.1:8080/ -o /dev/null
+          curl --fail http://127.0.0.1:8080/styles/british-academia -o /dev/null
+          curl --fail http://127.0.0.1:8080/images/generated/british-academia-poster-thumb.webp -o /dev/null
+          test "$(curl -s -o /dev/null -w '%{http_code}' http://127.0.0.1:8080/images/missing.png)" = "404"
+          test "$(curl -s -o /dev/null -w '%{http_code}' http://127.0.0.1:8080/assets/missing.js)" = "404"

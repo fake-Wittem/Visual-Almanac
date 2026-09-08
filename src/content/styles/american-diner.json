@@ -1,0 +1,81 @@
+{
+  "id": "american-diner",
+  "name": "美式餐厅50s复古",
+  "englishName": "1950s American Diner",
+  "aliases": ["1950s American Diner"],
+  "summary": "薄荷绿和樱桃红相遇，明亮的金属与棋盘格带来轻快的怀旧感。",
+  "category": "retro",
+  "tags": [
+    "lively",
+    "nostalgic",
+    "geometry",
+    "metal",
+    "contrast",
+    "green",
+    "red",
+    "cream",
+    "brand",
+    "poster"
+  ],
+  "cover": "american-diner-poster",
+  "images": [
+    {
+      "asset": "american-diner-poster",
+      "caption": "美式餐厅50s复古 · 完整参考海报"
+    }
+  ],
+  "palettes": [
+    {
+      "id": "poster",
+      "name": "海报配色",
+      "description": "从海报配色条内部区域取样的近似颜色，并非图中文字的精确转录。",
+      "colors": [
+        {
+          "id": "color-1",
+          "name": "薄荷绿",
+          "hex": "#7BB3AB",
+          "status": "sampled"
+        },
+        {
+          "id": "color-2",
+          "name": "樱桃红",
+          "hex": "#B44748",
+          "status": "sampled"
+        },
+        {
+          "id": "color-3",
+          "name": "奶油黄",
+          "hex": "#E8D5A1",
+          "status": "sampled"
+        },
+        {
+          "id": "color-4",
+          "name": "雾银灰",
+          "hex": "#92989E",
+          "status": "sampled"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "title": "字体气质",
+      "body": "圆润醒目的标题传递活泼感，正文控制装饰。"
+    },
+    {
+      "title": "构图与节奏",
+      "body": "大色块配规则格纹，注意让信息比图案更突出。"
+    },
+    {
+      "title": "材质观察",
+      "body": "金属亮面和棋盘格以小面积表达，避免满屏铺陈。"
+    }
+  ],
+  "applications": [
+    "用奶油黄作底色，薄荷绿作主色，樱桃红用于行动和重点。 以上为整理建议，尚未作为实际项目验证。"
+  ],
+  "practice": [],
+  "related": [],
+  "order": 8,
+  "updatedAt": "2026-09-08"
+}

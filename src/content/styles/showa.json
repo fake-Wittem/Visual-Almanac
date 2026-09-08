@@ -1,0 +1,70 @@
+{
+  "id": "showa",
+  "name": "昭和日式复古",
+  "englishName": "Showa Nostalgia",
+  "aliases": ["Showa Nostalgia"],
+  "summary": "暖灯、深木色与生活旧物，留住朴素、亲近而缓慢的时间。",
+  "category": "retro",
+  "tags": ["warm", "nostalgic", "wood", "textile", "green", "brown", "cream", "poster", "slides"],
+  "cover": "showa-poster",
+  "images": [
+    {
+      "asset": "showa-poster",
+      "caption": "昭和日式复古 · 完整参考海报"
+    }
+  ],
+  "palettes": [
+    {
+      "id": "poster",
+      "name": "海报配色",
+      "description": "从海报配色条内部区域取样的近似颜色，并非图中文字的精确转录。",
+      "colors": [
+        {
+          "id": "color-1",
+          "name": "橄榄绿",
+          "hex": "#595E39",
+          "status": "sampled"
+        },
+        {
+          "id": "color-2",
+          "name": "琥珀黄",
+          "hex": "#C29445",
+          "status": "sampled"
+        },
+        {
+          "id": "color-3",
+          "name": "复古红",
+          "hex": "#A24432",
+          "status": "sampled"
+        },
+        {
+          "id": "color-4",
+          "name": "米白",
+          "hex": "#DACAB5",
+          "status": "sampled"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "title": "字体气质",
+      "body": "亲切的衬线标题与普通正文组合，不必模拟所有旧招牌。"
+    },
+    {
+      "title": "构图与节奏",
+      "body": "采用安静的网格与适量留白，用小物件建立生活感。"
+    },
+    {
+      "title": "材质观察",
+      "body": "木质、花纹织物与暖灯构成可感知的温度。"
+    }
+  ],
+  "applications": [
+    "以米白减轻深木色重量，琥珀黄或复古红少量强调。 以上为整理建议，尚未作为实际项目验证。"
+  ],
+  "practice": [],
+  "related": [],
+  "order": 7,
+  "updatedAt": "2026-09-08"
+}

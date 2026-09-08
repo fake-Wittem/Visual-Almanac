@@ -1,0 +1,80 @@
+{
+  "id": "hollywood",
+  "name": "好莱坞黄金时代复古",
+  "englishName": "Old Hollywood",
+  "aliases": ["Old Hollywood"],
+  "summary": "丝绒暗红、暖金灯光与深黑阴影，共同构成戏剧性的银幕气质。",
+  "category": "retro",
+  "tags": [
+    "luxurious",
+    "mysterious",
+    "textile",
+    "contrast",
+    "black",
+    "gold",
+    "red",
+    "poster",
+    "brand"
+  ],
+  "cover": "hollywood-poster",
+  "images": [
+    {
+      "asset": "hollywood-poster",
+      "caption": "好莱坞黄金时代复古 · 完整参考海报"
+    }
+  ],
+  "palettes": [
+    {
+      "id": "poster",
+      "name": "海报配色",
+      "description": "从海报配色条内部区域取样的近似颜色，并非图中文字的精确转录。",
+      "colors": [
+        {
+          "id": "color-1",
+          "name": "炭烧黑",
+          "hex": "#2E2A27",
+          "status": "sampled"
+        },
+        {
+          "id": "color-2",
+          "name": "香槟金",
+          "hex": "#C6A372",
+          "status": "sampled"
+        },
+        {
+          "id": "color-3",
+          "name": "红宝石",
+          "hex": "#601F24",
+          "status": "sampled"
+        },
+        {
+          "id": "color-4",
+          "name": "象牙白",
+          "hex": "#E5D5C2",
+          "status": "sampled"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "title": "字体气质",
+      "body": "有对比度的衬线大标题，配少量简洁说明。"
+    },
+    {
+      "title": "构图与节奏",
+      "body": "以单一主视觉和强烈明暗构成戏剧焦点。"
+    },
+    {
+      "title": "材质观察",
+      "body": "丝绒、暖灯与金属反光有节制地组合。"
+    }
+  ],
+  "applications": [
+    "以黑色建立舞台感，用象牙白保证阅读，金红集中在重点。 以上为整理建议，尚未作为实际项目验证。"
+  ],
+  "practice": [],
+  "related": [],
+  "order": 11,
+  "updatedAt": "2026-09-08"
+}

@@ -1,0 +1,70 @@
+{
+  "id": "french-salon",
+  "name": "法式沙龙复古",
+  "englishName": "French Salon",
+  "aliases": ["French Salon"],
+  "summary": "雾蓝、浅粉和米白在自然光里融合，细腻曲线带来轻盈的优雅。",
+  "category": "retro",
+  "tags": ["elegant", "calm", "muted", "textile", "blue", "cream", "brand", "slides"],
+  "cover": "french-salon-poster",
+  "images": [
+    {
+      "asset": "french-salon-poster",
+      "caption": "法式沙龙复古 · 完整参考海报"
+    }
+  ],
+  "palettes": [
+    {
+      "id": "poster",
+      "name": "海报配色",
+      "description": "从海报配色条内部区域取样的近似颜色，并非图中文字的精确转录。",
+      "colors": [
+        {
+          "id": "color-1",
+          "name": "雾蓝",
+          "hex": "#788C9A",
+          "status": "sampled"
+        },
+        {
+          "id": "color-2",
+          "name": "灰粉",
+          "hex": "#D3B3A5",
+          "status": "sampled"
+        },
+        {
+          "id": "color-3",
+          "name": "亚麻米",
+          "hex": "#E3D4BD",
+          "status": "sampled"
+        },
+        {
+          "id": "color-4",
+          "name": "旧金色",
+          "hex": "#A48358",
+          "status": "sampled"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "title": "字体气质",
+      "body": "细腻衬线标题与轻量正文组合，保留呼吸感。"
+    },
+    {
+      "title": "构图与节奏",
+      "body": "以大块留白与轻柔曲线组织画面，减少高密度装饰。"
+    },
+    {
+      "title": "材质观察",
+      "body": "亚麻、织物与少量旧金色细线适合作为细节。"
+    }
+  ],
+  "applications": [
+    "用米白形成背景，雾蓝作为主要色，灰粉用于柔和的辅助。 以上为整理建议，尚未作为实际项目验证。"
+  ],
+  "practice": [],
+  "related": [],
+  "order": 3,
+  "updatedAt": "2026-09-08"
+}

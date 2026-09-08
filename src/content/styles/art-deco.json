@@ -1,0 +1,81 @@
+{
+  "id": "art-deco",
+  "name": "摩登装饰复古",
+  "englishName": "Art Deco",
+  "aliases": ["Art Deco"],
+  "summary": "几何秩序与黑金对照，把复古的华丽转化为清晰、利落的装饰语言。",
+  "category": "retro",
+  "tags": [
+    "luxurious",
+    "elegant",
+    "geometry",
+    "metal",
+    "contrast",
+    "black",
+    "gold",
+    "green",
+    "brand",
+    "poster"
+  ],
+  "cover": "art-deco-poster",
+  "images": [
+    {
+      "asset": "art-deco-poster",
+      "caption": "摩登装饰复古 · 完整参考海报"
+    }
+  ],
+  "palettes": [
+    {
+      "id": "poster",
+      "name": "海报配色",
+      "description": "从海报配色条内部区域取样的近似颜色，并非图中文字的精确转录。",
+      "colors": [
+        {
+          "id": "color-1",
+          "name": "黑曜黑",
+          "hex": "#272320",
+          "status": "sampled"
+        },
+        {
+          "id": "color-2",
+          "name": "香槟金",
+          "hex": "#BC9E70",
+          "status": "sampled"
+        },
+        {
+          "id": "color-3",
+          "name": "孔雀绿",
+          "hex": "#26514F",
+          "status": "sampled"
+        },
+        {
+          "id": "color-4",
+          "name": "奶油白",
+          "hex": "#E5DAC7",
+          "status": "sampled"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "title": "字体气质",
+      "body": "几何感标题搭配克制正文，强调字距与对齐。"
+    },
+    {
+      "title": "构图与节奏",
+      "body": "对称构图、放射线和重复几何形成视觉节奏。"
+    },
+    {
+      "title": "材质观察",
+      "body": "金属、亮面与深色织物只取少量重点。"
+    }
+  ],
+  "applications": [
+    "用黑色与奶油白建立对比，金色用于线条，孔雀绿用于重点块。 以上为整理建议，尚未作为实际项目验证。"
+  ],
+  "practice": [],
+  "related": [],
+  "order": 4,
+  "updatedAt": "2026-09-08"
+}

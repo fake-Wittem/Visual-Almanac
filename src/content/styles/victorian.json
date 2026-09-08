@@ -1,0 +1,70 @@
+{
+  "id": "victorian",
+  "name": "维多利亚古典",
+  "englishName": "Victorian Classic",
+  "aliases": ["Victorian Classic"],
+  "summary": "深绿与酒红交织，雕饰、丝绒和古金色细节营造浓郁的古典气息。",
+  "category": "retro",
+  "tags": ["luxurious", "elegant", "wood", "textile", "green", "red", "gold", "brand", "poster"],
+  "cover": "victorian-poster",
+  "images": [
+    {
+      "asset": "victorian-poster",
+      "caption": "维多利亚古典 · 完整参考海报"
+    }
+  ],
+  "palettes": [
+    {
+      "id": "poster",
+      "name": "海报配色",
+      "description": "从海报配色条内部区域取样的近似颜色，并非图中文字的精确转录。",
+      "colors": [
+        {
+          "id": "color-1",
+          "name": "墨绿",
+          "hex": "#2C4237",
+          "status": "sampled"
+        },
+        {
+          "id": "color-2",
+          "name": "暗红",
+          "hex": "#692A2F",
+          "status": "sampled"
+        },
+        {
+          "id": "color-3",
+          "name": "古董金",
+          "hex": "#9E7643",
+          "status": "sampled"
+        },
+        {
+          "id": "color-4",
+          "name": "象牙白",
+          "hex": "#E3D3BB",
+          "status": "sampled"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "title": "字体气质",
+      "body": "衬线标题适合表达古典气质，避免正文过度装饰。"
+    },
+    {
+      "title": "构图与节奏",
+      "body": "对称布局配合装饰边框，建立庄重的视觉中心。"
+    },
+    {
+      "title": "材质观察",
+      "body": "丝绒、雕花木作与古金色点缀构成丰富层次。"
+    }
+  ],
+  "applications": [
+    "深绿色作主体，象牙白提供阅读区域，古金用于分隔线。 以上为整理建议，尚未作为实际项目验证。"
+  ],
+  "practice": [],
+  "related": [],
+  "order": 2,
+  "updatedAt": "2026-09-08"
+}

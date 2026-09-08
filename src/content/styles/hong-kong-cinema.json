@@ -1,0 +1,70 @@
+{
+  "id": "hong-kong-cinema",
+  "name": "港风电影复古",
+  "englishName": "Hong Kong Cinema",
+  "aliases": ["Hong Kong Cinema"],
+  "summary": "雨夜、霓虹与街巷的深影，让冷暖色彩在电影感中相遇。",
+  "category": "retro",
+  "tags": ["nostalgic", "mysterious", "neon", "contrast", "blue", "red", "orange", "poster"],
+  "cover": "hong-kong-cinema-poster",
+  "images": [
+    {
+      "asset": "hong-kong-cinema-poster",
+      "caption": "港风电影复古 · 完整参考海报"
+    }
+  ],
+  "palettes": [
+    {
+      "id": "poster",
+      "name": "海报配色",
+      "description": "从海报配色条内部区域取样的近似颜色，并非图中文字的精确转录。",
+      "colors": [
+        {
+          "id": "color-1",
+          "name": "孔雀蓝",
+          "hex": "#1E505D",
+          "status": "sampled"
+        },
+        {
+          "id": "color-2",
+          "name": "复刻红",
+          "hex": "#762630",
+          "status": "sampled"
+        },
+        {
+          "id": "color-3",
+          "name": "暖橙棕",
+          "hex": "#AD622E",
+          "status": "sampled"
+        },
+        {
+          "id": "color-4",
+          "name": "煤灰黑",
+          "hex": "#2B2828",
+          "status": "sampled"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "title": "字体气质",
+      "body": "醒目的中文标题配少量窄体说明，重视文字层级。"
+    },
+    {
+      "title": "构图与节奏",
+      "body": "明暗反差形成焦点，纵向标识和局部光源带动画面。"
+    },
+    {
+      "title": "材质观察",
+      "body": "颗粒、湿润反光与旧招牌适合局部使用。"
+    }
+  ],
+  "applications": [
+    "以煤灰黑压住背景，蓝色建立冷调，红橙只点亮视觉焦点。 以上为整理建议，尚未作为实际项目验证。"
+  ],
+  "practice": [],
+  "related": [],
+  "order": 6,
+  "updatedAt": "2026-09-08"
+}

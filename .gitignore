@@ -1,0 +1,16 @@
+node_modules/
+dist/
+coverage/
+artifacts/
+public/images/generated/
+.env*
+!.env.example
+*.log
+*.tsbuildinfo
+.DS_Store
+.idea/
+.vscode/
+*.pem
+*.key
+# 原始海报在 public/images/originals 中保留一份；根目录原文件不重复提交。
+/ChatGPT Image *.png

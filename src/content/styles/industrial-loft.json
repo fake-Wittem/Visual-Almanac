@@ -1,0 +1,81 @@
+{
+  "id": "industrial-loft",
+  "name": "工业阁楼复古",
+  "englishName": "Industrial Loft",
+  "aliases": ["Industrial Loft"],
+  "summary": "砖墙、铁件与皮革，在低调的深色空间中留下材料本身的痕迹。",
+  "category": "retro",
+  "tags": [
+    "calm",
+    "nostalgic",
+    "metal",
+    "wood",
+    "contrast",
+    "black",
+    "brown",
+    "blue",
+    "slides",
+    "poster"
+  ],
+  "cover": "industrial-loft-poster",
+  "images": [
+    {
+      "asset": "industrial-loft-poster",
+      "caption": "工业阁楼复古 · 完整参考海报"
+    }
+  ],
+  "palettes": [
+    {
+      "id": "poster",
+      "name": "海报配色",
+      "description": "从海报配色条内部区域取样的近似颜色，并非图中文字的精确转录。",
+      "colors": [
+        {
+          "id": "color-1",
+          "name": "铁锈棕",
+          "hex": "#7A4630",
+          "status": "sampled"
+        },
+        {
+          "id": "color-2",
+          "name": "炭黑",
+          "hex": "#393937",
+          "status": "sampled"
+        },
+        {
+          "id": "color-3",
+          "name": "烟尘蓝",
+          "hex": "#475A68",
+          "status": "sampled"
+        },
+        {
+          "id": "color-4",
+          "name": "皮革棕",
+          "hex": "#64402C",
+          "status": "sampled"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "title": "字体气质",
+      "body": "结实的无衬线标题与规整正文形成直接的表达。"
+    },
+    {
+      "title": "构图与节奏",
+      "body": "用坚实网格、留白和清晰分隔组织信息。"
+    },
+    {
+      "title": "材质观察",
+      "body": "砖墙、金属与皮革纹理作为观察线索，避免降低正文可读性。"
+    }
+  ],
+  "applications": [
+    "浅灰作为阅读底色，炭黑负责标题，铁锈棕仅突出关键信息。 以上为整理建议，尚未作为实际项目验证。"
+  ],
+  "practice": [],
+  "related": [],
+  "order": 10,
+  "updatedAt": "2026-09-08"
+}

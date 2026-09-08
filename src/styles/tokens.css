@@ -1,0 +1,13 @@
+:root {
+  --page: #f6f5f1;
+  --paper: #faf9f6;
+  --ink: #2d342b;
+  --muted: #6e7468;
+  --line: #dfdfd5;
+  --accent: #536247;
+  --accent-soft: #e8ecdf;
+  --hover: #eeeee6;
+  --sans: 'Inter', 'Segoe UI', 'Microsoft YaHei', sans-serif;
+  --serif: 'Iowan Old Style', 'Palatino Linotype', 'Songti SC', 'SimSun', serif;
+  --mono: 'Cascadia Code', 'Consolas', monospace;
+}

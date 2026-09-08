@@ -1,0 +1,9 @@
+node_modules
+dist
+.git
+artifacts
+coverage
+public/images/generated
+ChatGPT Image *.png
+.env*
+*.log

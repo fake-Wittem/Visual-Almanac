@@ -1,0 +1,70 @@
+{
+  "id": "bohemian",
+  "name": "波西米亚复古",
+  "englishName": "Bohemian Living",
+  "aliases": ["Bohemian Living"],
+  "summary": "陶土、藤编与织物肌理相互叠加，让温暖的大地色自由生长。",
+  "category": "retro",
+  "tags": ["free", "warm", "organic", "textile", "orange", "brown", "cream", "brand", "poster"],
+  "cover": "bohemian-poster",
+  "images": [
+    {
+      "asset": "bohemian-poster",
+      "caption": "波西米亚复古 · 完整参考海报"
+    }
+  ],
+  "palettes": [
+    {
+      "id": "poster",
+      "name": "海报配色",
+      "description": "从海报配色条内部区域取样的近似颜色，并非图中文字的精确转录。",
+      "colors": [
+        {
+          "id": "color-1",
+          "name": "赤陶橘",
+          "hex": "#B05D3E",
+          "status": "sampled"
+        },
+        {
+          "id": "color-2",
+          "name": "橄榄绿",
+          "hex": "#776D46",
+          "status": "sampled"
+        },
+        {
+          "id": "color-3",
+          "name": "赭黄",
+          "hex": "#BC8E50",
+          "status": "sampled"
+        },
+        {
+          "id": "color-4",
+          "name": "亚麻白",
+          "hex": "#E3D3C2",
+          "status": "sampled"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "title": "字体气质",
+      "body": "有温度的标题字体搭配清晰正文，避免过多字体混用。"
+    },
+    {
+      "title": "构图与节奏",
+      "body": "适度错落的图片和留白形成轻松节奏，保持阅读顺序。"
+    },
+    {
+      "title": "材质观察",
+      "body": "藤编、织物与天然肌理是观察到的主要特征。"
+    }
+  ],
+  "applications": [
+    "大面积亚麻白承接陶土色和橄榄绿，纹理只留在装饰区域。 以上为整理建议，尚未作为实际项目验证。"
+  ],
+  "practice": [],
+  "related": [],
+  "order": 9,
+  "updatedAt": "2026-09-08"
+}

@@ -1,0 +1,70 @@
+{
+  "id": "tropical",
+  "name": "热带殖民复古",
+  "englishName": "Tropical Retreat",
+  "aliases": ["Tropical Retreat"],
+  "summary": "植物绿、藤编与明亮的自然光，形成舒展而有层次的热带想象。",
+  "category": "retro",
+  "tags": ["free", "warm", "organic", "wood", "green", "brown", "cream", "brand", "slides"],
+  "cover": "tropical-poster",
+  "images": [
+    {
+      "asset": "tropical-poster",
+      "caption": "热带殖民复古 · 完整参考海报"
+    }
+  ],
+  "palettes": [
+    {
+      "id": "poster",
+      "name": "海报配色",
+      "description": "从海报配色条内部区域取样的近似颜色，并非图中文字的精确转录。",
+      "colors": [
+        {
+          "id": "color-1",
+          "name": "棕榈绿",
+          "hex": "#3E4D3C",
+          "status": "sampled"
+        },
+        {
+          "id": "color-2",
+          "name": "藤编棕",
+          "hex": "#976D48",
+          "status": "sampled"
+        },
+        {
+          "id": "color-3",
+          "name": "象牙米",
+          "hex": "#E3D3BD",
+          "status": "sampled"
+        },
+        {
+          "id": "color-4",
+          "name": "日落橘",
+          "hex": "#C26A3A",
+          "status": "sampled"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "title": "字体气质",
+      "body": "舒展的标题与简洁正文适合自然主题表达。"
+    },
+    {
+      "title": "构图与节奏",
+      "body": "采用宽松留白与植物形态，图片之间保持清晰节奏。"
+    },
+    {
+      "title": "材质观察",
+      "body": "藤编、木作和植物形成材质线索。"
+    }
+  ],
+  "applications": [
+    "用象牙米作为轻盈底色，棕榈绿形成主色，日落橘小面积提亮。 以上为整理建议，尚未作为实际项目验证。"
+  ],
+  "practice": [],
+  "related": [],
+  "order": 12,
+  "updatedAt": "2026-09-08"
+}
