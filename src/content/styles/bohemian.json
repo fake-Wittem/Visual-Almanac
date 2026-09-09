@@ -60,11 +60,55 @@
       "body": "藤编、织物与天然肌理是观察到的主要特征。"
     }
   ],
-  "applications": [
-    "大面积亚麻白承接陶土色和橄榄绿，纹理只留在装饰区域。 以上为整理建议，尚未作为实际项目验证。"
-  ],
-  "practice": [],
+  "applications": ["大面积亚麻白承接陶土色和橄榄绿，纹理只留在装饰区域。"],
   "related": [],
   "order": 9,
-  "updatedAt": "2026-09-08"
+  "updatedAt": "2026-09-09",
+  "designHistory": {
+    "overview": "“波西米亚”在这里是一种生活与审美态度的延伸，不等同于某一地区的统一室内样式。其文化线索从 19 世纪艺术家的非主流生活，延伸到 1960 年代的混搭与反文化。",
+    "timeline": [
+      {
+        "year": 1851,
+        "period": "1849—1851 年",
+        "title": "艺术家生活进入大众叙事",
+        "body": "Murger 的戏剧与小说把巴黎贫困艺术家的生活带入大众文化。1851 年出版的《波西米亚生活场景》帮助传播了这一文化形象。",
+        "sourceIds": ["murger"]
+      },
+      {
+        "year": 1960,
+        "period": "1960 年代后期",
+        "title": "旧衣与跨文化织物形成混搭",
+        "body": "嬉皮文化影响服饰选择，宽松层叠、二手衣物以及来自不同地区的纺织品成为表达个人生活方式的资源。",
+        "sourceIds": ["sixties"]
+      },
+      {
+        "year": 1969,
+        "period": "1969 年前后",
+        "title": "自然与共同生活成为理想",
+        "body": "伍德斯托克等音乐节体现了反文化对户外、共同体与不同生活方式的追求，为后来重视自然感的审美提供文化参照。",
+        "sourceIds": ["revolution"]
+      }
+    ],
+    "interpretation": "本档案把自由混搭转译为藤编、亚麻、陶土色与植物。它是当代室内搭配视角，不代表这些材料都由嬉皮文化发明，也不把不同文化的织物视为同一种传统。",
+    "sources": [
+      {
+        "id": "murger",
+        "title": "Scènes de la vie de bohème",
+        "publisher": "Bibliothèque nationale de France",
+        "url": "https://essentiels.bnf.fr/fr/en-images/2484ffce-5b54-4f7c-a785-08e0a079dc13-scenes-la-vie-boheme"
+      },
+      {
+        "id": "sixties",
+        "title": "An introduction to 1960s fashion",
+        "publisher": "Victoria and Albert Museum",
+        "url": "https://www.vam.ac.uk/articles/an-introduction-to-1960s-fashion"
+      },
+      {
+        "id": "revolution",
+        "title": "About You Say You Want a Revolution?",
+        "publisher": "Victoria and Albert Museum",
+        "url": "https://www.vam.ac.uk/articles/about-the-revolutions-exhibition"
+      }
+    ]
+  }
 }

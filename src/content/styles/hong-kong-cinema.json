@@ -60,11 +60,49 @@
       "body": "颗粒、湿润反光与旧招牌适合局部使用。"
     }
   ],
-  "applications": [
-    "以煤灰黑压住背景，蓝色建立冷调，红橙只点亮视觉焦点。 以上为整理建议，尚未作为实际项目验证。"
-  ],
-  "practice": [],
+  "applications": ["以煤灰黑压住背景，蓝色建立冷调，红橙只点亮视觉焦点。"],
   "related": [],
   "order": 6,
-  "updatedAt": "2026-09-08"
+  "updatedAt": "2026-09-09",
+  "designHistory": {
+    "overview": "“港风电影复古”是城市招牌文化与电影视觉的交汇，而非一套独立的建筑流派。这里从香港霓虹的街头背景，追踪到王家卫电影对都市情绪和历史记忆的表达。",
+    "timeline": [
+      {
+        "year": 1920,
+        "period": "1920 年代起",
+        "title": "霓虹进入香港街头",
+        "body": "霓虹在 1920 年代传入香港，随后成为商业招牌和夜间街景的重要媒介。手写字形、店铺图案与发光色彩共同构成可辨认的都市语言。",
+        "sourceIds": ["neon"]
+      },
+      {
+        "year": 1988,
+        "period": "1988—1995 年",
+        "title": "街巷被转化为电影情绪",
+        "body": "从《旺角卡门》到《重庆森林》《堕落天使》，王家卫的影像把鲜明色彩、城市空间和人物的孤独感相连，形成强烈的情绪化视觉表达。",
+        "sourceIds": ["wong"]
+      },
+      {
+        "year": 2000,
+        "period": "2000 年前后",
+        "title": "怀旧转向被重构的城市记忆",
+        "body": "《花样年华》等作品回望 1960 年代香港。服装、布景和色彩共同组织记忆；影片的制作年代与故事发生年代需要分开理解。",
+        "sourceIds": ["wong"]
+      }
+    ],
+    "interpretation": "海报用冷蓝、暖红与雨夜光影概括其中一类电影氛围。它既不是香港电影史的全貌，也不是某部影片的原始画面或官方配色。",
+    "sources": [
+      {
+        "id": "neon",
+        "title": "A City’s Collage: Conserving Hong Kong’s Neon",
+        "publisher": "M+ Museum",
+        "url": "https://www.mplus.org.hk/en/magazine/collecting-conserving-exhibiting-neon-signs-mplus-museum-hong-kong/"
+      },
+      {
+        "id": "wong",
+        "title": "In the mood for loneliness and longing: how Wong Kar Wai depicts emotion",
+        "publisher": "British Film Institute",
+        "url": "https://www.bfi.org.uk/features/mood-love-wong-kar-wai-emotion"
+      }
+    ]
+  }
 }

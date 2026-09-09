@@ -71,11 +71,49 @@
       "body": "金属亮面和棋盘格以小面积表达，避免满屏铺陈。"
     }
   ],
-  "applications": [
-    "用奶油黄作底色，薄荷绿作主色，樱桃红用于行动和重点。 以上为整理建议，尚未作为实际项目验证。"
-  ],
-  "practice": [],
+  "applications": ["用奶油黄作底色，薄荷绿作主色，樱桃红用于行动和重点。"],
   "related": [],
   "order": 8,
-  "updatedAt": "2026-09-08"
+  "updatedAt": "2026-09-09",
+  "designHistory": {
+    "overview": "美式 diner 的历史早于 1950 年代：它从服务城市劳动者的餐车，发展为可预制运输的餐馆，再成为战后道路生活的一部分。本档案聚焦其中明快、金属感强的中叶形象。",
+    "timeline": [
+      {
+        "year": 1900,
+        "period": "19 世纪末—20 世纪初",
+        "title": "从夜班餐车出发",
+        "body": "早期午餐车以移动方式为城市夜班劳动者供餐。“车”的狭长形态与便捷服务，是后来 diner 空间的重要前身。",
+        "sourceIds": ["lamys"]
+      },
+      {
+        "year": 1920,
+        "period": "1920 年代",
+        "title": "餐馆成为可运输的产品",
+        "body": "制造商开始在工厂生产配备齐全的餐馆单元，再运往经营地点。餐馆的空间布局因而与工业制造、运输和快速开业紧密相连。",
+        "sourceIds": ["diner"]
+      },
+      {
+        "year": 1946,
+        "period": "1940—1950 年代",
+        "title": "战后餐饮与道路文化交汇",
+        "body": "1946 年的 Lamy’s Diner 展示了战后餐馆的吧台式服务。到 1950 年代末，商业活动向城市中心之外转移，diner 也面对新的经营环境。",
+        "sourceIds": ["lamys"]
+      }
+    ],
+    "interpretation": "薄荷绿、樱桃红和明亮金属在这张海报中组成轻快的怀旧感。它概括的是中叶 diner 的一种视觉印象，而不是所有美国餐馆的共同历史面貌。",
+    "sources": [
+      {
+        "id": "lamys",
+        "title": "Lamy’s: A Diner from the Golden Age",
+        "publisher": "The Henry Ford",
+        "url": "https://www.thehenryford.org/collections/explore/articles/lamys-diner"
+      },
+      {
+        "id": "diner",
+        "title": "Diners: An American Original",
+        "publisher": "The Henry Ford",
+        "url": "https://www.thehenryford.org/collections/explore/articles/diners-an-american-original"
+      }
+    ]
+  }
 }

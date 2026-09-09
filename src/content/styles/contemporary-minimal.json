@@ -1,0 +1,114 @@
+{
+  "id": "contemporary-minimal",
+  "name": "当代极简主义设计",
+  "englishName": "Contemporary Minimal Design",
+  "aliases": ["Contemporary Minimal Design", "当代极简"],
+  "summary": "让光、比例与留白成为主角，以少量元素构成安静而明确的空间。",
+  "category": "modern-minimal",
+  "tags": ["calm", "rational", "geometry", "muted", "black", "cream", "slides", "brand"],
+  "cover": "contemporary-minimal-poster",
+  "images": [
+    {
+      "asset": "contemporary-minimal-poster",
+      "caption": "当代极简主义设计 · 风格演绎海报"
+    }
+  ],
+  "palettes": [
+    {
+      "id": "poster",
+      "name": "主题配色",
+      "description": "为本档案人工设定的视觉配色，海报色卡按相同 HEX 排版；不代表历史时期的标准色。",
+      "colors": [
+        {
+          "id": "color-1",
+          "name": "石膏白",
+          "hex": "#F4F1EA",
+          "status": "manual",
+          "role": "背景"
+        },
+        {
+          "id": "color-2",
+          "name": "石灰",
+          "hex": "#C7C4BD",
+          "status": "manual",
+          "role": "辅助底色"
+        },
+        {
+          "id": "color-3",
+          "name": "深炭",
+          "hex": "#363A3D",
+          "status": "manual",
+          "role": "正文与结构"
+        },
+        {
+          "id": "color-4",
+          "name": "雾蓝灰",
+          "hex": "#8F9CA3",
+          "status": "manual",
+          "role": "局部点缀"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "title": "构图与节奏",
+      "body": "单一视觉中心与大面积空白形成张力，细微的比例差别决定秩序。"
+    },
+    {
+      "title": "字体与信息",
+      "body": "限制字重与字号数量，标题和正文通过距离区分，保证足够的文字对比。"
+    },
+    {
+      "title": "材料与色彩",
+      "body": "平整石材与白墙让光影可见，克制不是降低质感或删掉必要信息。"
+    }
+  ],
+  "applications": [
+    "保留一个主要行动与清晰标题，减少竞争元素，用留白划分信息而不是增加卡片和装饰。"
+  ],
+  "related": ["swiss-international", "wabi-sabi"],
+  "order": 16,
+  "updatedAt": "2026-09-09",
+  "designHistory": {
+    "overview": "本档案讨论当代设计中的减法语言。它与极简艺术、建筑中的简朴传统有联系，但不能把所有简洁空间直接归属于 1960 年代的艺术运动。",
+    "timeline": [
+      {
+        "year": 1960,
+        "period": "1960 年代",
+        "title": "简化形式与材料的直接呈现",
+        "body": "MoMA 所藏 Judd、LeWitt 等作品展示重复单元、基本形和空间关系，为理解极简艺术提供参照。",
+        "sourceIds": ["minimal"]
+      },
+      {
+        "year": 1981,
+        "period": "1981 年起",
+        "title": "空间、比例和光的探索",
+        "body": "John Pawson 建立事务所后，将空间、比例、光与材料作为核心问题，发展出克制的建筑表达。",
+        "sourceIds": ["pawson"]
+      },
+      {
+        "year": 1996,
+        "period": "1996 年",
+        "title": "简朴成为跨文化的讨论",
+        "body": "Pawson 的《Minimum》回看不同文化中的简朴表达，使极简设计的讨论超出单一白色外观。",
+        "sourceIds": ["pawson"]
+      }
+    ],
+    "interpretation": "白墙、长凳和天光是对减法构成的编辑演绎，不是具体建筑复原；实际信息设计仍需保留必要提示与清楚层级。",
+    "sources": [
+      {
+        "id": "minimal",
+        "title": "Minimalism",
+        "publisher": "MoMA",
+        "url": "https://www.moma.org/collection/terms/minimalism"
+      },
+      {
+        "id": "pawson",
+        "title": "John Pawson",
+        "publisher": "Design Museum",
+        "url": "https://designmuseum.org/designers/john-pawson"
+      }
+    ]
+  }
+}

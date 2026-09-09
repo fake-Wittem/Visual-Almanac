@@ -70,11 +70,49 @@
       "body": "丝绒、暖灯与金属反光有节制地组合。"
     }
   ],
-  "applications": [
-    "以黑色建立舞台感，用象牙白保证阅读，金红集中在重点。 以上为整理建议，尚未作为实际项目验证。"
-  ],
-  "practice": [],
+  "applications": ["以黑色建立舞台感，用象牙白保证阅读，金红集中在重点。"],
   "related": [],
   "order": 11,
-  "updatedAt": "2026-09-08"
+  "updatedAt": "2026-09-09",
+  "designHistory": {
+    "overview": "好莱坞黄金时代的华丽感，既来自银幕，也来自制片厂对明星形象的系统塑造。以下以明星宣传与 George Hurrell 的摄影为线索，理解这种视觉语言的形成和传播。",
+    "timeline": [
+      {
+        "year": 1924,
+        "period": "1920 年代",
+        "title": "制片厂组织明星形象",
+        "body": "1924 年成立的 MGM 是大型制片厂体系的一例。服装、摄影和宣传部门共同塑造演员形象，使明星的公众面貌成为电影工业的一部分。",
+        "sourceIds": ["hurrell"]
+      },
+      {
+        "year": 1930,
+        "period": "1930—1940 年代初",
+        "title": "光影建立理想化的魅力",
+        "body": "Hurrell 的明星肖像通过姿态、精密布光与修饰，把人物塑造成高度理想化的形象。戏剧性照明成为黄金时代魅力的重要载体。",
+        "sourceIds": ["hurrell"]
+      },
+      {
+        "year": 1950,
+        "period": "战后至 1950 年代",
+        "title": "影像语言进入广告与时尚",
+        "body": "战后 Hurrell 转向纽约的广告与时尚摄影。这一职业轨迹说明，源于电影宣传的形象塑造方法也可进入更广泛的商业视觉领域。",
+        "sourceIds": ["portrait"]
+      }
+    ],
+    "interpretation": "海报把聚光感、深色背景与金红装饰组合成舞台般的氛围。这是对黄金时代视觉文化的当代转译，不能把历史黑白肖像直接当作这组彩色配色的证据。",
+    "sources": [
+      {
+        "id": "hurrell",
+        "title": "Star Power: Photographs from Hollywood’s Golden Age by George Hurrell",
+        "publisher": "Smithsonian National Portrait Gallery",
+        "url": "https://npg.si.edu/sites/default/files/hurrell_brochure_eng.pdf"
+      },
+      {
+        "id": "portrait",
+        "title": "George Hurrell",
+        "publisher": "National Portrait Gallery, London",
+        "url": "https://www.npg.org.uk/collections/search/person/mp65618/george-hurrell"
+      }
+    ]
+  }
 }

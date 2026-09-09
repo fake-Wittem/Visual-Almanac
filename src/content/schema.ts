@@ -36,6 +36,59 @@ const dateSchema = z
     const d = new Date(v)
     return !Number.isNaN(d.valueOf()) && d.toISOString().slice(0, 10) === v
   }, '无效日期')
+const historyText = z.string().trim().min(1, '设计史内容不能为空')
+export const designHistorySchema = z
+  .object({
+    overview: historyText,
+    timeline: z
+      .array(
+        z.object({
+          year: z.number().int(),
+          period: historyText,
+          title: historyText,
+          body: historyText,
+          sourceIds: z.array(idSchema).min(1, '每个历史阶段必须引用来源'),
+        }),
+      )
+      .min(3, '设计史至少包含三个发展阶段'),
+    interpretation: historyText,
+    sources: z
+      .array(
+        z.object({
+          id: idSchema,
+          title: historyText,
+          publisher: historyText,
+          url: z
+            .string()
+            .url()
+            .refine((url) => /^https:\/\//.test(url), '来源必须使用 HTTPS 链接'),
+        }),
+      )
+      .min(2, '设计史至少提供两项参考资料'),
+  })
+  .superRefine((history, ctx) => {
+    const ids = history.sources.map((source) => source.id)
+    if (new Set(ids).size !== ids.length)
+      ctx.addIssue({ code: 'custom', path: ['sources'], message: '设计史来源 ID 重复' })
+    history.timeline.forEach((entry, index) => {
+      if (index && entry.year < history.timeline[index - 1]!.year)
+        ctx.addIssue({
+          code: 'custom',
+          path: ['timeline', index, 'year'],
+          message: '发展阶段必须按时间顺序排列',
+        })
+      for (const id of entry.sourceIds)
+        if (!ids.includes(id))
+          ctx.addIssue({
+            code: 'custom',
+            path: ['timeline', index, 'sourceIds'],
+            message: `引用来源 ${id} 不存在`,
+          })
+    })
+    for (const id of ids)
+      if (!history.timeline.some((entry) => entry.sourceIds.includes(id)))
+        ctx.addIssue({ code: 'custom', path: ['sources'], message: `来源 ${id} 未被历史阶段引用` })
+  })
 export const styleSchema = z
   .object({
     id: idSchema,
@@ -50,11 +103,12 @@ export const styleSchema = z
     palettes: z.array(paletteSchema),
     notes: z.array(z.object({ title: z.string().min(1), body: z.string().min(1) })),
     applications: z.array(z.string()),
-    practice: z.array(z.string()),
+    designHistory: designHistorySchema,
     related: z.array(idSchema),
     order: z.number().int().nonnegative(),
     updatedAt: dateSchema,
   })
+  .strict()
   .refine((s) => s.images.some((i) => i.asset === s.cover), '封面必须属于图库')
   .refine((s) => new Set(s.palettes.map((p) => p.id)).size === s.palettes.length, '配色 ID 重复')
 export const assetSchema = z.object({
@@ -66,6 +120,7 @@ export const assetSchema = z.object({
   source: z.string(),
 })
 export type Style = z.infer<typeof styleSchema>
+export type DesignHistory = z.infer<typeof designHistorySchema>
 export type Palette = z.infer<typeof paletteSchema>
 export type Swatch = z.infer<typeof swatchSchema>
 export type Asset = z.infer<typeof assetSchema>

@@ -1,0 +1,120 @@
+{
+  "id": "retro-futurism",
+  "name": "复古未来主义",
+  "englishName": "Retrofuturism",
+  "aliases": ["Retrofuturism", "复古未来主义"],
+  "summary": "回看过去想象的明天，以流线城市、交通与旧媒介质感重新组合未来。",
+  "category": "future-tech",
+  "tags": ["nostalgic", "futuristic", "geometry", "muted", "orange", "blue", "poster"],
+  "cover": "retro-futurism-poster",
+  "images": [
+    {
+      "asset": "retro-futurism-poster",
+      "caption": "复古未来主义 · 风格演绎海报"
+    }
+  ],
+  "palettes": [
+    {
+      "id": "poster",
+      "name": "主题配色",
+      "description": "为本档案人工设定的视觉配色，海报色卡按相同 HEX 排版；不代表历史时期的标准色。",
+      "colors": [
+        {
+          "id": "color-1",
+          "name": "旧纸白",
+          "hex": "#E9DFC7",
+          "status": "manual",
+          "role": "浅色基底"
+        },
+        {
+          "id": "color-2",
+          "name": "日落橙",
+          "hex": "#D17D52",
+          "status": "manual",
+          "role": "建筑焦点"
+        },
+        {
+          "id": "color-3",
+          "name": "复古青",
+          "hex": "#648F96",
+          "status": "manual",
+          "role": "天空辅助"
+        },
+        {
+          "id": "color-4",
+          "name": "轨道蓝",
+          "hex": "#3D5966",
+          "status": "manual",
+          "role": "结构与正文"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "title": "构图与节奏",
+      "body": "交通曲线引导视线，建筑体块分出前后景，保留乐观而开阔的天空。"
+    },
+    {
+      "title": "字体与信息",
+      "body": "标题可以借用几何排版，旧印刷感作为辅助，不影响文字清晰度。"
+    },
+    {
+      "title": "材料与色彩",
+      "body": "奶油白、橙与青建立温暖未来感，低强度纸感连接历史媒介。"
+    }
+  ],
+  "applications": [
+    "在主题海报中围绕一条流线组织构图，选择明确的历史视觉参照，再加入当代想象，避免任意混搭时代。"
+  ],
+  "related": ["space-age", "art-deco"],
+  "order": 27,
+  "updatedAt": "2026-09-09",
+  "designHistory": {
+    "overview": "复古未来主义是对过去未来想象的重新观看和创作，不是某一年成立的正式运动。时间线梳理其可借鉴的历史图像与后续回响。",
+    "timeline": [
+      {
+        "year": 1939,
+        "period": "1939—1940 年",
+        "title": "世博会展示明日世界",
+        "body": "纽约世博会通过交通和城市展示描绘未来生活，将进步想象转化为可观看的公共图像。",
+        "sourceIds": ["fair"]
+      },
+      {
+        "year": 1960,
+        "period": "1960 年代",
+        "title": "未来想象转向太空生活",
+        "body": "太空竞赛和新材料让圆舱、塑料与人工色彩进入日常设计，成为后来回望的重要视觉资源。",
+        "sourceIds": ["space-chairs"]
+      },
+      {
+        "year": 1998,
+        "period": "1990 年代末及之后",
+        "title": "科幻影像成为再创作资源",
+        "body": "BFI 记录《银翼杀手》对 1998—1999 年时装设计的影响，显示旧有未来影像会被新的创作重新解释。",
+        "sourceIds": ["future-fashion"]
+      }
+    ],
+    "interpretation": "画面将旧式交通宣传气质与虚构环形城市结合，属于当代再创作。它与太空时代的区别在于回望和混合的创作视角。",
+    "sources": [
+      {
+        "id": "fair",
+        "title": "Flying into the World of Tomorrow",
+        "publisher": "Cooper Hewitt, Smithsonian Design Museum",
+        "url": "https://www.cooperhewitt.org/2015/11/28/flying-into-the-world-of-tomorrow/"
+      },
+      {
+        "id": "space-chairs",
+        "title": "Space-Age chairs",
+        "publisher": "Victoria and Albert Museum",
+        "url": "https://www.vam.ac.uk/articles/space-age-chairs"
+      },
+      {
+        "id": "future-fashion",
+        "title": "What we’ll be wearing in the future (if classic sci-fi films got it right)",
+        "publisher": "British Film Institute",
+        "url": "https://www.bfi.org.uk/features/what-we-ll-wearing-future-classic-sci-fi-films"
+      }
+    ]
+  }
+}

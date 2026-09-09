@@ -1,0 +1,124 @@
+{
+  "id": "digital-future",
+  "name": "当代数字未来",
+  "englishName": "Contemporary Digital Future",
+  "aliases": ["Contemporary Digital Future", "数字未来"],
+  "summary": "透明曲面、参数化形体与光谱色，在数字空间中构造新的材料想象。",
+  "category": "future-tech",
+  "tags": [
+    "futuristic",
+    "free",
+    "geometry",
+    "translucent",
+    "contrast",
+    "purple",
+    "blue",
+    "poster",
+    "brand"
+  ],
+  "cover": "digital-future-poster",
+  "images": [
+    {
+      "asset": "digital-future-poster",
+      "caption": "当代数字未来 · 风格演绎海报"
+    }
+  ],
+  "palettes": [
+    {
+      "id": "poster",
+      "name": "主题配色",
+      "description": "为本档案人工设定的视觉配色，海报色卡按相同 HEX 排版；不代表历史时期的标准色。",
+      "colors": [
+        {
+          "id": "color-1",
+          "name": "数字夜蓝",
+          "hex": "#161C37",
+          "status": "manual",
+          "role": "暗部背景"
+        },
+        {
+          "id": "color-2",
+          "name": "光谱紫",
+          "hex": "#8478CF",
+          "status": "manual",
+          "role": "主体光谱"
+        },
+        {
+          "id": "color-3",
+          "name": "冰晶青",
+          "hex": "#9BDDE2",
+          "status": "manual",
+          "role": "高光强调"
+        },
+        {
+          "id": "color-4",
+          "name": "像素白",
+          "hex": "#E8EAF4",
+          "status": "manual",
+          "role": "文字与高光"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "title": "构图与节奏",
+      "body": "单一流动主体对照精确平面，保留足够暗部，让粒子成为辅助而非噪声。"
+    },
+    {
+      "title": "字体与信息",
+      "body": "标题清楚简洁，少量等宽字符表达数字语境，避免无意义的数据堆砌。"
+    },
+    {
+      "title": "材料与色彩",
+      "body": "深蓝让透明与虹彩可见，紫青光色彼此区分，白色稳定高光和信息。"
+    }
+  ],
+  "applications": [
+    "使用一张数字雕塑作为主视觉，在实体正文区域收敛渐变和透明度，保持文字可读与交互层级。"
+  ],
+  "related": ["cyberpunk", "contemporary-minimal"],
+  "order": 28,
+  "updatedAt": "2026-09-09",
+  "designHistory": {
+    "overview": "当代数字未来是本站对数字媒介视觉的一组归纳。其历史线索包括计算机绘图、虚拟环境和日常数字物件，没有单一的创始团体。",
+    "timeline": [
+      {
+        "year": 1968,
+        "period": "1968—1969 年",
+        "title": "计算机艺术进入公共展览与收藏",
+        "body": "伦敦 Cybernetic Serendipity 展呈现早期数字与控制论艺术，V&A 随后收藏相关版画。",
+        "sourceIds": ["computer-art"]
+      },
+      {
+        "year": 1970,
+        "period": "1970 年代",
+        "title": "规则绘图与虚拟空间扩展",
+        "body": "V&A 收藏线索包括 Vera Molnár 的计算机绘图及 David Em 为 NASA 创作的可导航虚拟环境，数字媒介从平面延伸到空间。",
+        "sourceIds": ["digital"]
+      },
+      {
+        "year": 1998,
+        "period": "1998 年及之后",
+        "title": "数字设计融入日常文化",
+        "body": "从 iMac G3 等产品到网络动态贴图，数字物件的形式与传播成为设计收藏的一部分，媒介边界持续扩大。",
+        "sourceIds": ["digital"]
+      }
+    ],
+    "interpretation": "虹彩透明带是原创数字材料想象，代表当前编辑方向中的一支。它不冒充科学可视化、真实装置或某件馆藏作品。",
+    "sources": [
+      {
+        "id": "computer-art",
+        "title": "Computer Art: Processes & Techniques",
+        "publisher": "Victoria and Albert Museum",
+        "url": "https://www.vam.ac.uk/info/collection-selection-boxes-computer-art-processes-techniques"
+      },
+      {
+        "id": "digital",
+        "title": "Digital Art & Design",
+        "publisher": "Victoria and Albert Museum",
+        "url": "https://www.vam.ac.uk/collections/digital-art-design"
+      }
+    ]
+  }
+}

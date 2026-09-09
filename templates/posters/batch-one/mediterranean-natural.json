@@ -1,0 +1,32 @@
+{
+  "styleId": "mediterranean-natural",
+  "title": "地中海自然",
+  "accentLength": 2,
+  "colors": [
+    {
+      "name": "石灰白",
+      "hex": "#F2E8D8",
+      "englishName": "Lime White"
+    },
+    {
+      "name": "陶瓦红",
+      "hex": "#C47C57",
+      "englishName": "Roof Clay"
+    },
+    {
+      "name": "橄榄绿",
+      "hex": "#6D8270",
+      "englishName": "Olive Green"
+    },
+    {
+      "name": "海湾蓝",
+      "hex": "#467B8A",
+      "englishName": "Cove Blue"
+    }
+  ],
+  "sidebarCn": ["让树影落在墙上", "让海风穿过庭院", "用陶土留住温度", "把日常放慢一点"],
+  "sidebarEn": ["A Way of Seeing.", "A Way of Living."],
+  "badges": ["日光", "庭院", "海风"],
+  "sceneFile": "assets/poster-scenes/mediterranean-natural.png",
+  "scenePrompt": "Contemporary Mediterranean coastal courtyard on French Riviera, chalk limewashed walls, simple limestone paving, olive tree casting dappled shadows, terracotta water vessel foreground, plain built-in linen seat, distant turquoise sea through square opening. Restrained, bright daylight, unbranded architecture photography, no blue dome stereotype. Palette #F2E8D8 #C47C57 #6D8270 #467B8A."
+}

@@ -60,11 +60,55 @@
       "body": "木纹、织物与哑光表面保持自然温度。"
     }
   ],
-  "applications": [
-    "用浅色底和木色建立基础，橄榄绿与焦橙分别担任主体和强调。 以上为整理建议，尚未作为实际项目验证。"
-  ],
-  "practice": [],
+  "applications": ["用浅色底和木色建立基础，橄榄绿与焦橙分别担任主体和强调。"],
   "related": [],
   "order": 5,
-  "updatedAt": "2026-09-08"
+  "updatedAt": "2026-09-09",
+  "designHistory": {
+    "overview": "这里的 Mid-century Modern 指 20 世纪中叶现代设计，而不是欧洲中世纪。“中世纪摩登”保留海报原名；以下以 Eames 相关设计为线索，观察有机造型与量产材料的结合。",
+    "timeline": [
+      {
+        "year": 1940,
+        "period": "1940—1941 年",
+        "title": "有机设计连接形式与用途",
+        "body": "MoMA 发起“家居中的有机设计”竞赛，并于 1941 年举办展览，把结构、材料、用途与整体形态联系起来，也为获奖设计对接制造和销售。",
+        "sourceIds": ["organic"]
+      },
+      {
+        "year": 1948,
+        "period": "1948 年",
+        "title": "战后住宅推动低成本设计",
+        "body": "MoMA 的低成本家具竞赛回应战后大众家居需求。Eames 夫妇的座椅探索把人体支撑、工业制造和可负担性放进同一设计问题。",
+        "sourceIds": ["low-cost"]
+      },
+      {
+        "year": 1950,
+        "period": "1950 年",
+        "title": "新材料成为日常家具",
+        "body": "Eames 夫妇的 Side Chair 以玻璃纤维增强的模塑聚酯形成座壳，配合金属支撑与橡胶连接，体现了中叶家具把雕塑感与批量制造结合的方向。",
+        "sourceIds": ["chair"]
+      }
+    ],
+    "interpretation": "本档案以木色、有机轮廓和克制几何表现中叶家居气质。橄榄绿、芥末黄与焦橙是本张海报的组合，不是这一国际性设计倾向的固定色谱。",
+    "sources": [
+      {
+        "id": "organic",
+        "title": "Organic Design in Home Furnishings",
+        "publisher": "The Museum of Modern Art",
+        "url": "https://www.moma.org/calendar/exhibitions/1803"
+      },
+      {
+        "id": "low-cost",
+        "title": "Pirouette: Turning Points in Design — Object Labels",
+        "publisher": "The Museum of Modern Art",
+        "url": "https://press.moma.org/wp-content/uploads/2024/11/MoMA_Pirouette-ObjectLabels_Final.pdf"
+      },
+      {
+        "id": "chair",
+        "title": "Charles Eames, Ray Eames. Side Chair. 1950",
+        "publisher": "The Museum of Modern Art",
+        "url": "https://www.moma.org/collection/works/2105"
+      }
+    ]
+  }
 }

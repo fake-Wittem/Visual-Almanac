@@ -1,0 +1,114 @@
+{
+  "id": "swiss-international",
+  "name": "瑞士国际主义平面",
+  "englishName": "Swiss International Typographic Style",
+  "aliases": ["Swiss International Typographic Style", "瑞士国际主义"],
+  "summary": "以网格、非对称平衡和少量强色，让信息呈现清晰而有力的秩序。",
+  "category": "modern-minimal",
+  "tags": ["rational", "calm", "geometry", "contrast", "red", "black", "poster", "slides"],
+  "cover": "swiss-international-poster",
+  "images": [
+    {
+      "asset": "swiss-international-poster",
+      "caption": "瑞士国际主义平面 · 风格演绎海报"
+    }
+  ],
+  "palettes": [
+    {
+      "id": "poster",
+      "name": "主题配色",
+      "description": "为本档案人工设定的视觉配色，海报色卡按相同 HEX 排版；不代表历史时期的标准色。",
+      "colors": [
+        {
+          "id": "color-1",
+          "name": "朱砂红",
+          "hex": "#E74732",
+          "status": "manual",
+          "role": "视觉焦点"
+        },
+        {
+          "id": "color-2",
+          "name": "纸白",
+          "hex": "#F3F0E8",
+          "status": "manual",
+          "role": "背景"
+        },
+        {
+          "id": "color-3",
+          "name": "墨黑",
+          "hex": "#222222",
+          "status": "manual",
+          "role": "正文与网格"
+        },
+        {
+          "id": "color-4",
+          "name": "理性蓝",
+          "hex": "#446CB3",
+          "status": "manual",
+          "role": "辅助图形"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "title": "构图与节奏",
+      "body": "视觉重心偏向一侧，严格间距与网格连接图形、标题和正文。"
+    },
+    {
+      "title": "字体与信息",
+      "body": "无衬线字体、明确对齐和字号反差构成主要表达，正文避免装饰性变形。"
+    },
+    {
+      "title": "材料与色彩",
+      "body": "纸白与墨黑建立阅读对比，红色负责焦点；图形的精确边界优于材质堆叠。"
+    }
+  ],
+  "applications": [
+    "在海报或演示文稿中先设置栏网格，再放入一个强图形和两级文字，保留有规律的边距。"
+  ],
+  "related": ["bauhaus", "contemporary-minimal"],
+  "order": 14,
+  "updatedAt": "2026-09-09",
+  "designHistory": {
+    "overview": "Swiss Style 是对瑞士现代平面设计国际影响的概括。苏黎世与巴塞尔的教学和方法各有差异，不能缩减为一种字体或一张固定网格。",
+    "timeline": [
+      {
+        "year": 1915,
+        "period": "1910—1930 年代",
+        "title": "专业教育与现代构成",
+        "body": "巴塞尔和苏黎世开展应用图形教育，工艺联盟、摄影和构成观念参与形成现代平面语言。",
+        "sourceIds": ["swiss"]
+      },
+      {
+        "year": 1957,
+        "period": "1950—1960 年代",
+        "title": "字体与出版走向国际",
+        "body": "Helvetica 与 Univers 于 1957 年问世；《Neue Grafik》等出版物推动精确、非对称的视觉语言传播。",
+        "sourceIds": ["swiss"]
+      },
+      {
+        "year": 2007,
+        "period": "2007 年",
+        "title": "从传播工具到设计收藏",
+        "body": "MoMA 以 Helvetica 五十周年展呈现其在海报和标识中的不同用法，显示这种语言的持续影响。",
+        "sourceIds": ["helvetica"]
+      }
+    ],
+    "interpretation": "中央画面只用几何关系表达网格与视觉重心；完整档案仍保留馆藏系列的衬线外框，不把外框误称为瑞士排版范例。",
+    "sources": [
+      {
+        "id": "swiss",
+        "title": "Swiss Style forever",
+        "publisher": "瑞士联邦外交部 / Museum für Gestaltung Zürich",
+        "url": "https://www.aboutswitzerland.eda.admin.ch/de/swiss-style-forever-die-entstehungsgeschichte-einer-grafischen-tradition"
+      },
+      {
+        "id": "helvetica",
+        "title": "50 Years of Helvetica",
+        "publisher": "MoMA",
+        "url": "https://www.moma.org/calendar/exhibitions/38"
+      }
+    ]
+  }
+}

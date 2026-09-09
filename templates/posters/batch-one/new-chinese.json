@@ -1,0 +1,32 @@
+{
+  "styleId": "new-chinese",
+  "title": "当代新中式",
+  "accentLength": 3,
+  "colors": [
+    {
+      "name": "绢白",
+      "hex": "#EAE3D5",
+      "englishName": "Silk White"
+    },
+    {
+      "name": "玉灰绿",
+      "hex": "#64796D",
+      "englishName": "Jade Grey"
+    },
+    {
+      "name": "陶朱",
+      "hex": "#925144",
+      "englishName": "Clay Red"
+    },
+    {
+      "name": "墨青",
+      "hex": "#3C4542",
+      "englishName": "Ink Green"
+    }
+  ],
+  "sidebarCn": ["让传统进入日常", "让结构保持清楚", "让材料彼此呼应", "为生活留下空间"],
+  "sidebarEn": ["A Way of Seeing.", "A Way of Living."],
+  "badges": ["当代", "传承", "清雅"],
+  "sceneFile": "assets/poster-scenes/new-chinese.png",
+  "scenePrompt": "Contemporary Chinese interior: precisely detailed warm wood screen with broad open spacing, pale jade upholstered modern chair, simple travertine table with elegant deep cinnabar ceramic, abstract blank off-white artwork, soft courtyard daylight. Calm balanced asymmetry, contemporary material joints, no dragons, no lanterns, no pseudo historic palace. Palette #EAE3D5 #64796D #925144 #3C4542."
+}

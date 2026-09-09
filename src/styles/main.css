@@ -1137,16 +1137,207 @@ body:has(.toast) .back-to-top {
   color: var(--muted);
   max-width: 900px;
 }
-.source-note {
-  margin-top: 24px;
+.design-history {
+  margin-top: 48px;
+  padding-top: 32px;
+  border-top: 1px solid var(--line);
+}
+.history-overview {
+  max-width: 880px;
+  margin: -6px 0 32px;
+  color: var(--muted);
+  font-size: 14px;
+  line-height: 2;
+}
+.history-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(240px, 0.4fr);
+  gap: 48px;
+  align-items: start;
+}
+.history-timeline,
+.history-reading ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.history-timeline > li {
+  position: relative;
+  display: grid;
+  grid-template-columns: 150px minmax(0, 1fr);
+  gap: 24px;
+  padding: 0 0 28px 26px;
+  margin-left: 5px;
+  border-left: 1px solid var(--line);
+}
+.history-timeline > li:last-child {
+  padding-bottom: 0;
+}
+.history-timeline > li::before {
+  content: '';
+  position: absolute;
+  left: -5px;
+  top: 8px;
+  width: 9px;
+  height: 9px;
+  border: 2px solid var(--page);
+  border-radius: 50%;
+  background: var(--accent);
+  box-shadow: 0 0 0 1px var(--line);
+}
+.history-period {
   display: flex;
   flex-direction: column;
-  gap: 8px;
-  font-size: 11px;
+  gap: 5px;
+  font-size: 12px;
+}
+.history-index {
+  font: 10px/1.8 var(--mono);
+  color: var(--muted);
+  letter-spacing: 1px;
+}
+.history-event h3 {
+  font: 20px/1.5 var(--serif);
+  margin-bottom: 8px;
+}
+.history-event p {
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 2;
+}
+.history-citations {
+  display: flex;
+  gap: 6px;
+  margin-top: 4px;
+}
+.history-citations a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 36px;
+  min-height: 32px;
+  color: var(--accent);
+  font: 11px var(--mono);
+  border-radius: 3px;
+}
+.history-citations a:hover {
+  background: var(--accent-soft);
+}
+.history-reading {
+  padding: 22px;
+  border: 1px solid var(--line);
+  background: var(--paper);
+}
+.history-reading > h3 {
+  font: 20px/1.6 var(--serif);
+  margin: 5px 0 10px;
+}
+.history-reading li {
+  display: flex;
+  gap: 12px;
+  padding: 15px 0;
+  border-top: 1px solid var(--line);
+  scroll-margin-top: 32px;
+}
+.history-reading li:target,
+.history-reading li:focus {
+  background: var(--accent-soft);
+  outline: 2px solid var(--accent);
+  outline-offset: 5px;
+}
+.history-source-number {
+  color: var(--muted);
+  font: 11px/2 var(--mono);
+}
+.history-reading li > div {
+  min-width: 0;
+}
+.history-publisher {
+  display: block;
+  font-size: 10px;
+  color: var(--muted);
+  margin-bottom: 5px;
+}
+.history-reading a {
+  font-size: 12px;
+  line-height: 1.8;
+  overflow-wrap: anywhere;
+}
+.history-reading a svg {
+  display: inline;
+  vertical-align: middle;
+  margin-left: 4px;
+}
+.history-reading a:hover {
+  color: var(--accent);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.history-interpretation {
+  margin-top: 28px;
+  padding: 22px 26px;
+  background: var(--accent-soft);
+}
+.history-interpretation h3 {
+  font: 18px/1.6 var(--serif);
+  margin-bottom: 6px;
+}
+.history-interpretation p {
+  font-size: 13px;
+  line-height: 2;
   color: var(--muted);
 }
-.source-note > span:last-child {
-  font-size: 10px;
+.history-provenance {
+  display: grid;
+  gap: 6px;
+  margin-top: 18px;
+  color: var(--muted);
+  font-size: 11px;
+  line-height: 1.8;
+}
+@media (max-width: 1023px) {
+  .history-layout {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 28px;
+  }
+}
+@media (max-width: 767px) {
+  .design-history {
+    margin-top: 36px;
+    padding-top: 24px;
+  }
+  .history-overview {
+    font-size: 13px;
+    margin-bottom: 26px;
+  }
+  .history-timeline > li {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 10px;
+    padding-left: 20px;
+  }
+  .history-period {
+    flex-direction: row;
+    gap: 10px;
+    align-items: baseline;
+  }
+  .history-event h3 {
+    font-size: 19px;
+  }
+  .history-citations a {
+    min-width: 44px;
+    min-height: 44px;
+  }
+  .history-reading {
+    padding: 20px;
+  }
+  .history-reading a {
+    display: inline-block;
+    min-height: 44px;
+    font-size: 13px;
+  }
+  .history-interpretation {
+    padding: 20px;
+  }
 }
 .related-section {
   margin-top: 56px;

@@ -60,11 +60,49 @@
       "body": "亚麻、织物与少量旧金色细线适合作为细节。"
     }
   ],
-  "applications": [
-    "用米白形成背景，雾蓝作为主要色，灰粉用于柔和的辅助。 以上为整理建议，尚未作为实际项目验证。"
-  ],
-  "practice": [],
+  "applications": ["用米白形成背景，雾蓝作为主要色，灰粉用于柔和的辅助。"],
   "related": [],
   "order": 3,
-  "updatedAt": "2026-09-08"
+  "updatedAt": "2026-09-09",
+  "designHistory": {
+    "overview": "“法式沙龙复古”在这里指向以 18 世纪法国室内装饰和家具为主要参照的当代审美。其发展既与洛可可的曲线有关，也与巴黎工匠体系及之后的古典化变化有关。",
+    "timeline": [
+      {
+        "year": 1700,
+        "period": "18 世纪",
+        "title": "巴黎家具与室内工艺成熟",
+        "body": "巴黎家具制作依靠细分的工匠协作，木作、贴面与室内护墙板各有专业分工。精细制作的家具进入欧洲各地住宅，形成广泛影响。",
+        "sourceIds": ["furniture"]
+      },
+      {
+        "year": 1720,
+        "period": "1720—1730 年代",
+        "title": "洛可可带来轻盈曲线",
+        "body": "洛可可在法国工艺和设计中兴起，常见不对称的 C 形、S 形曲线及贝壳、植物装饰，并在家具、银器和陶瓷上展开。",
+        "sourceIds": ["rococo"]
+      },
+      {
+        "year": 1780,
+        "period": "18 世纪后期",
+        "title": "样式变化与工坊制度转折",
+        "body": "大都会博物馆所藏约 1788 年扶手椅保留了世纪末精细家具工艺的实例；1791 年行会制度被解散，原有制作组织也随之改变。",
+        "sourceIds": ["furniture"]
+      }
+    ],
+    "interpretation": "本档案用雾蓝、灰粉、米白与细曲线提炼轻盈的室内气质。这是对历史家具和装饰的再组织，并不意味着所有法国沙龙都采用柔和粉彩。",
+    "sources": [
+      {
+        "id": "furniture",
+        "title": "The Golden Age of French Furniture in the Eighteenth Century",
+        "publisher": "The Metropolitan Museum of Art",
+        "url": "https://www.metmuseum.org/essays/the-golden-age-of-french-furniture-in-the-eighteenth-century"
+      },
+      {
+        "id": "rococo",
+        "title": "The Rococo style – an introduction",
+        "publisher": "Victoria and Albert Museum",
+        "url": "https://www.vam.ac.uk/articles/the-rococo-style-an-introduction"
+      }
+    ]
+  }
 }

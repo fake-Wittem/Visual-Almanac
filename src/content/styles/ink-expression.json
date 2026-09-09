@@ -1,0 +1,112 @@
+{
+  "id": "ink-expression",
+  "name": "水墨写意视觉",
+  "englishName": "Expressive Ink",
+  "aliases": ["Expressive Ink", "水墨写意"],
+  "summary": "以墨色浓淡和虚实关系组织画面，留白与笔触共同构成表达。",
+  "category": "eastern-aesthetics",
+  "tags": ["calm", "free", "ink", "organic", "muted", "black", "red", "poster", "brand"],
+  "cover": "ink-expression-poster",
+  "images": [
+    {
+      "asset": "ink-expression-poster",
+      "caption": "水墨写意视觉 · 风格演绎海报"
+    }
+  ],
+  "palettes": [
+    {
+      "id": "poster",
+      "name": "主题配色",
+      "description": "为本档案人工设定的视觉配色，海报色卡按相同 HEX 排版；不代表历史时期的标准色。",
+      "colors": [
+        {
+          "id": "color-1",
+          "name": "纸素白",
+          "hex": "#F0EBDD",
+          "status": "manual",
+          "role": "留白背景"
+        },
+        {
+          "id": "color-2",
+          "name": "松墨",
+          "hex": "#202A2B",
+          "status": "manual",
+          "role": "浓墨主体"
+        },
+        {
+          "id": "color-3",
+          "name": "雾灰",
+          "hex": "#899692",
+          "status": "manual",
+          "role": "远景淡墨"
+        },
+        {
+          "id": "color-4",
+          "name": "朱砂",
+          "hex": "#AB4F40",
+          "status": "manual",
+          "role": "局部点缀"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "title": "构图与节奏",
+      "body": "用一处浓墨稳定重心，淡墨形成远近，空白也参与构图而不是等待填满。"
+    },
+    {
+      "title": "字体与信息",
+      "body": "题名与正文尽量清楚，少量具有笔意的标题即可，不把所有文字处理成难辨书法。"
+    },
+    {
+      "title": "材料与色彩",
+      "body": "纸白、墨黑和雾灰提供主要层次，朱砂仅作一点节奏，不是必备古典色。"
+    }
+  ],
+  "applications": ["主视觉采用一处墨形或山水片段，正文使用纯色底与清楚排版；避免纹理覆盖信息。"],
+  "related": ["chinese-literati", "contemporary-minimal"],
+  "order": 22,
+  "updatedAt": "2026-09-09",
+  "designHistory": {
+    "overview": "水墨是媒介，写意涉及表达方式，两者不能涵盖全部中国绘画。本档案关注笔墨如何从文人山水延伸到当代视觉语言。",
+    "timeline": [
+      {
+        "year": 1000,
+        "period": "宋元时期",
+        "title": "笔墨成为自我表达",
+        "body": "文人山水借书写性的用笔表达个人感受，使绘画超出对可见景物的描摹。",
+        "sourceIds": ["landscape"]
+      },
+      {
+        "year": 1600,
+        "period": "明清时期",
+        "title": "古法中的个人变化",
+        "body": "董其昌等画家重新组织前代笔墨和构图，历史样式成为新的表达资源，而非机械复制对象。",
+        "sourceIds": ["landscape"]
+      },
+      {
+        "year": 1980,
+        "period": "1980 年代—2013 年",
+        "title": "水墨观念进入当代媒介",
+        "body": "大都会 2013 年 Ink Art 展回顾 1980 年代以来的创作，呈现传统表达语言如何在新媒介中被转化。",
+        "sourceIds": ["ink"]
+      }
+    ],
+    "interpretation": "中央山水是原创生成的笔墨演绎，并非名家画作或古画复制。纸素与朱砂的搭配服务当前档案的阅读节奏。",
+    "sources": [
+      {
+        "id": "landscape",
+        "title": "Landscape Painting in Chinese Art",
+        "publisher": "The Metropolitan Museum of Art",
+        "url": "https://www.metmuseum.org/essays/landscape-painting-in-chinese-art"
+      },
+      {
+        "id": "ink",
+        "title": "Ink Art: Past as Present in Contemporary China",
+        "publisher": "The Metropolitan Museum of Art",
+        "url": "https://www.metmuseum.org/exhibitions/listings/2013/ink-art"
+      }
+    ]
+  }
+}

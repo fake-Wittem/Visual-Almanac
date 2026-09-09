@@ -1,0 +1,32 @@
+{
+  "styleId": "organic-modern",
+  "title": "有机现代",
+  "accentLength": 2,
+  "colors": [
+    {
+      "name": "燕麦白",
+      "hex": "#E9E3D7",
+      "englishName": "Oat White"
+    },
+    {
+      "name": "陶土棕",
+      "hex": "#A26B4D",
+      "englishName": "Clay Brown"
+    },
+    {
+      "name": "苔绿",
+      "hex": "#6F8061",
+      "englishName": "Moss Green"
+    },
+    {
+      "name": "木炭棕",
+      "hex": "#453D35",
+      "englishName": "Walnut Shade"
+    }
+  ],
+  "sidebarCn": ["让曲线彼此呼应", "让材料自然显露", "现代也有温度", "空间缓缓展开"],
+  "sidebarEn": ["A Way of Seeing.", "A Way of Living."],
+  "badges": ["曲线", "自然", "温润"],
+  "sceneFile": "assets/poster-scenes/organic-modern.png",
+  "scenePrompt": "Organic modern sculptural living room with ivory curved plaster alcove, biomorphic moss green low sofa, rounded walnut table and one large matte terracotta vase. Soft side lighting, rich tactile materials, asymmetrical flowing forms, no straight grid or clutter. Palette #E9E3D7 #A26B4D #6F8061 #453D35."
+}

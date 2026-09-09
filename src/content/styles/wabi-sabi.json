@@ -1,0 +1,114 @@
+{
+  "id": "wabi-sabi",
+  "name": "日式侘寂审美",
+  "englishName": "Wabi-sabi Aesthetics",
+  "aliases": ["Wabi-sabi Aesthetics", "日式侘寂"],
+  "summary": "质朴器物、柔和光线与不完满的轮廓，让时间感自然显露。",
+  "category": "eastern-aesthetics",
+  "tags": ["calm", "organic", "wood", "muted", "brown", "cream", "brand"],
+  "cover": "wabi-sabi-poster",
+  "images": [
+    {
+      "asset": "wabi-sabi-poster",
+      "caption": "日式侘寂审美 · 风格演绎海报"
+    }
+  ],
+  "palettes": [
+    {
+      "id": "poster",
+      "name": "主题配色",
+      "description": "为本档案人工设定的视觉配色，海报色卡按相同 HEX 排版；不代表历史时期的标准色。",
+      "colors": [
+        {
+          "id": "color-1",
+          "name": "土壁白",
+          "hex": "#D9CFBE",
+          "status": "manual",
+          "role": "背景"
+        },
+        {
+          "id": "color-2",
+          "name": "亚麻褐",
+          "hex": "#9F8D76",
+          "status": "manual",
+          "role": "辅助材料"
+        },
+        {
+          "id": "color-3",
+          "name": "石灰褐",
+          "hex": "#665F52",
+          "status": "manual",
+          "role": "器物层次"
+        },
+        {
+          "id": "color-4",
+          "name": "苔墨",
+          "hex": "#393E38",
+          "status": "manual",
+          "role": "正文与轮廓"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "title": "构图与节奏",
+      "body": "一只茶碗与一束枝条即可形成重心，不对称关系由实际器形而非刻意凌乱产生。"
+    },
+    {
+      "title": "字体与信息",
+      "body": "正文保持稳定、可辨，标题字重克制，留白为材料细节提供安静背景。"
+    },
+    {
+      "title": "材料与色彩",
+      "body": "土壁、木与陶的细微差别胜过强烈做旧，低饱和色不应成为一层均匀灰滤镜。"
+    }
+  ],
+  "applications": [
+    "用真实可辨的材质特写作为焦点，搭配宽松留白与高对比正文；避免把破损、灰墙当成侘寂的全部。"
+  ],
+  "related": ["natural-handcraft", "contemporary-minimal"],
+  "order": 23,
+  "updatedAt": "2026-09-09",
+  "designHistory": {
+    "overview": "“侘寂”在当代常作为综合审美名称使用。本档案以茶文化中的侘（wabi）为历史主线，关注质朴、自然与不规则之美，而不假定存在统一的装修流派。",
+    "timeline": [
+      {
+        "year": 1500,
+        "period": "16 世纪前期",
+        "title": "茶事与器物鉴赏",
+        "body": "茶会成为精英与商人交往的文化场域，中国传世器物在其中受到珍视。",
+        "sourceIds": ["tea"]
+      },
+      {
+        "year": 1550,
+        "period": "16 世纪中后期",
+        "title": "质朴器物获得新的价值",
+        "body": "千利休等茶人把朝鲜和日本较质朴的器物带入茶会，重新发现自然、不规则形态的审美意义。",
+        "sourceIds": ["tea"]
+      },
+      {
+        "year": 1600,
+        "period": "16 世纪末—17 世纪初",
+        "title": "茶陶出现不同表达",
+        "body": "古田织部相关茶陶发展出更富变化的形体与装饰，说明茶审美并非只能保持单一素朴外观。",
+        "sourceIds": ["oribe"]
+      }
+    ],
+    "interpretation": "当前场景选择安静、素朴的一支进行演绎，保留器物差异；它不等同茶道的全部，也没有把当代灰米配色当作历史规范。",
+    "sources": [
+      {
+        "id": "tea",
+        "title": "The Japanese Tea Ceremony",
+        "publisher": "The Metropolitan Museum of Art",
+        "url": "https://www.metmuseum.org/essays/the-japanese-tea-ceremony"
+      },
+      {
+        "id": "oribe",
+        "title": "Turning Point: Oribe and the Arts of Sixteenth-Century Japan",
+        "publisher": "The Metropolitan Museum of Art",
+        "url": "https://www.metmuseum.org/en/exhibitions/listings/2003/oribe"
+      }
+    ]
+  }
+}

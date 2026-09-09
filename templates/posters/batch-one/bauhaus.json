@@ -1,0 +1,32 @@
+{
+  "styleId": "bauhaus",
+  "title": "包豪斯风格",
+  "accentLength": 2,
+  "colors": [
+    {
+      "name": "朱红",
+      "hex": "#C8392B",
+      "englishName": "Vermilion"
+    },
+    {
+      "name": "钴蓝",
+      "hex": "#2256A4",
+      "englishName": "Cobalt Blue"
+    },
+    {
+      "name": "明黄",
+      "hex": "#E7BA3C",
+      "englishName": "Golden Yellow"
+    },
+    {
+      "name": "暖白",
+      "hex": "#EDE8DB",
+      "englishName": "Warm White"
+    }
+  ],
+  "sidebarCn": ["从基本形出发", "让材料说话", "让结构清楚", "让色彩有序"],
+  "sidebarEn": ["A Way of Seeing.", "A Way of Living."],
+  "badges": ["几何", "秩序", "原色"],
+  "sceneFile": "assets/poster-scenes/bauhaus.png",
+  "scenePrompt": "Bauhaus. Sculptural still life in an airy white workshop: cobalt blue sphere, vermilion red cube, golden yellow triangular prism, black bent steel tubular chair. Bold geometric composition, raking daylight, primary colors #C8392B #2256A4 #E7BA3C #EDE8DB. Photograph of real materials, not cartoon. No text."
+}

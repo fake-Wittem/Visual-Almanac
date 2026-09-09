@@ -60,11 +60,49 @@
       "body": "木质、花纹织物与暖灯构成可感知的温度。"
     }
   ],
-  "applications": [
-    "以米白减轻深木色重量，琥珀黄或复古红少量强调。 以上为整理建议，尚未作为实际项目验证。"
-  ],
-  "practice": [],
+  "applications": ["以米白减轻深木色重量，琥珀黄或复古红少量强调。"],
   "related": [],
   "order": 7,
-  "updatedAt": "2026-09-08"
+  "updatedAt": "2026-09-09",
+  "designHistory": {
+    "overview": "“昭和复古”常把日本不同年代的日常物件重新组合。这里以东京生活史为线索，区分战前城市住宅、战后家电普及与青年消费文化，而不把它们看成同时出现的一套样式。",
+    "timeline": [
+      {
+        "year": 1930,
+        "period": "1930—1940 年代",
+        "title": "木造日常与战争造成的断裂",
+        "body": "战前东京的普通住宅仍有木造生活空间；战争、空袭和物资短缺改变了城市与家庭生活。这段历史不能只以温暖怀旧来概括。",
+        "sourceIds": ["edo"]
+      },
+      {
+        "year": 1955,
+        "period": "1950 年代后期",
+        "title": "家电与集合住宅改变家庭",
+        "body": "经济增长带动电视、洗衣机和冰箱普及。1959 年建成的云雀丘团地是博物馆用来呈现这一生活转变的住宅案例。",
+        "sourceIds": ["edo"]
+      },
+      {
+        "year": 1967,
+        "period": "1960 年代",
+        "title": "青年时尚与新的消费面貌",
+        "body": "东京生活史展记录了 1967 年 Twiggy 访日后迷你裙的流行。国际时尚与日常消费交织，使“昭和”的视觉面貌持续改变。",
+        "sourceIds": ["lifestyles"]
+      }
+    ],
+    "interpretation": "深木色、暖灯与旧器物是本张海报对日常记忆的选择。它不覆盖昭和时期所有设计，也不意味着当时只有朴素、缓慢的一种生活方式。",
+    "sources": [
+      {
+        "id": "edo",
+        "title": "常設展：東京ゾーン",
+        "publisher": "江户东京博物馆",
+        "url": "https://www.edo-tokyo-museum.or.jp/p-exhibition/"
+      },
+      {
+        "id": "lifestyles",
+        "title": "Tokyo Lifestyles Exhibit",
+        "publisher": "江户东京博物馆",
+        "url": "https://www.edo-tokyo-museum.or.jp/en/s-exhibition/tokyo-lifestyles/"
+      }
+    ]
+  }
 }

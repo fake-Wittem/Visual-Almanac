@@ -60,11 +60,49 @@
       "body": "藤编、木作和植物形成材质线索。"
     }
   ],
-  "applications": [
-    "用象牙米作为轻盈底色，棕榈绿形成主色，日落橘小面积提亮。 以上为整理建议，尚未作为实际项目验证。"
-  ],
-  "practice": [],
+  "applications": ["用象牙米作为轻盈底色，棕榈绿形成主色，日落橘小面积提亮。"],
   "related": [],
   "order": 12,
-  "updatedAt": "2026-09-08"
+  "updatedAt": "2026-09-09",
+  "designHistory": {
+    "overview": "本档案以新加坡殖民时期 bungalow 的演变为一条具体线索，理解热带环境如何改变建筑形式。“热带殖民复古”是对这些空间元素的当代归纳，不能概括整个热带地区的设计传统。",
+    "timeline": [
+      {
+        "year": 1830,
+        "period": "1830—1860 年代",
+        "title": "独立住宅适应热带环境",
+        "body": "Bungalow 在 1830 年代被引入新加坡和马来亚。早期形式包括架高的木构或砖石住宅，建筑组织与当地气候条件密切相关。",
+        "sourceIds": ["bungalow"]
+      },
+      {
+        "year": 1900,
+        "period": "1900—1930 年代",
+        "title": "黑白住宅与装饰艺术并存",
+        "body": "黑白 bungalow 以白墙、深色构件和宽阔屋顶形成鲜明对比。1930 年建成的Bukit Chandu 住宅也带有 Art Deco 元素，显示样式并非单线发展。",
+        "sourceIds": ["bungalow", "bukit"]
+      },
+      {
+        "year": 1950,
+        "period": "1950—1960 年代",
+        "title": "现代几何语言进入住宅",
+        "body": "新加坡的现代 bungalow 转向更自由的几何造型。气候适应与新的形式语言继续结合，建筑不再只沿用早期历史装饰。",
+        "sourceIds": ["bungalow"]
+      }
+    ],
+    "interpretation": "海报强调绿植、藤编、遮阴与通透感，是对热带生活空间的视觉整理。建筑也承载殖民社会的权力与居住差异；这些背景不能被简化成纯粹的度假想象。",
+    "sources": [
+      {
+        "id": "bungalow",
+        "title": "Understanding the Bungalow",
+        "publisher": "新加坡市区重建局 URA",
+        "url": "https://www.ura.gov.sg/conservation/conservation-resources/understanding-the-bungalow/"
+      },
+      {
+        "id": "bukit",
+        "title": "Reflections at Bukit Chandu: The Building",
+        "publisher": "新加坡国家文物局 NHB",
+        "url": "https://www.nhb.gov.sg/bukitchandu/about-us/the-building"
+      }
+    ]
+  }
 }

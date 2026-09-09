@@ -1,0 +1,120 @@
+{
+  "id": "organic-modern",
+  "name": "有机现代",
+  "englishName": "Organic Modern",
+  "aliases": ["Organic Modern", "有机现代"],
+  "summary": "柔和曲线与自然材质进入现代空间，形体之间像生长一般连贯。",
+  "category": "natural-organic",
+  "tags": ["warm", "calm", "organic", "wood", "muted", "green", "brown", "brand"],
+  "cover": "organic-modern-poster",
+  "images": [
+    {
+      "asset": "organic-modern-poster",
+      "caption": "有机现代 · 风格演绎海报"
+    }
+  ],
+  "palettes": [
+    {
+      "id": "poster",
+      "name": "主题配色",
+      "description": "为本档案人工设定的视觉配色，海报色卡按相同 HEX 排版；不代表历史时期的标准色。",
+      "colors": [
+        {
+          "id": "color-1",
+          "name": "燕麦白",
+          "hex": "#E9E3D7",
+          "status": "manual",
+          "role": "背景"
+        },
+        {
+          "id": "color-2",
+          "name": "陶土棕",
+          "hex": "#A26B4D",
+          "status": "manual",
+          "role": "材料色"
+        },
+        {
+          "id": "color-3",
+          "name": "苔绿",
+          "hex": "#6F8061",
+          "status": "manual",
+          "role": "主体强调"
+        },
+        {
+          "id": "color-4",
+          "name": "木炭棕",
+          "hex": "#453D35",
+          "status": "manual",
+          "role": "正文与轮廓"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "title": "构图与节奏",
+      "body": "用弧线和不对称体块引导视线，曲面之间保留呼吸，不让所有元素都圆润。"
+    },
+    {
+      "title": "字体与信息",
+      "body": "简洁文字落在稳定基线上，与自由形体形成秩序对照。"
+    },
+    {
+      "title": "材料与色彩",
+      "body": "木、陶与织物提供层次，苔绿连接大地色，避免统一奶油滤镜。"
+    }
+  ],
+  "applications": [
+    "保持正文区域方正清楚，在主视觉或章节分隔处使用一条有机曲线，并以自然肌理作为局部重点。"
+  ],
+  "related": ["nordic-minimal", "natural-handcraft"],
+  "order": 17,
+  "updatedAt": "2026-09-09",
+  "designHistory": {
+    "overview": "“有机现代”是当代编辑名称。历史上的有机设计关注结构、材料和用途之间的整体关系，并不只是把家具边缘改成弧线。",
+    "timeline": [
+      {
+        "year": 1932,
+        "period": "1930 年代",
+        "title": "自然材料进入现代造型",
+        "body": "阿尔托通过弯曲木材等探索，把材料弹性与人体使用带入现代家具。",
+        "sourceIds": ["aalto"]
+      },
+      {
+        "year": 1940,
+        "period": "1940—1941 年",
+        "title": "有机设计成为公开议题",
+        "body": "MoMA 发起家具竞赛并举办展览，将部件与整体、结构与用途之间的协调作为有机设计的重要问题。",
+        "sourceIds": ["organic"]
+      },
+      {
+        "year": 1950,
+        "period": "1950—1960 年代",
+        "title": "有机家具进入国际生活想象",
+        "body": "丹麦家具的国际传播包含 Finn Juhl 等人的有机形式，使雕塑般的造型与家庭生活建立联系。",
+        "sourceIds": ["danish"]
+      }
+    ],
+    "interpretation": "本图把这组历史线索转译为曲面沙发、陶器和木质桌面；配色和具体形体是当代创作，不是历史标准套装。",
+    "sources": [
+      {
+        "id": "aalto",
+        "title": "Alvar Aalto: furniture milestones",
+        "publisher": "Alvar Aalto Foundation",
+        "url": "https://www.alvaraalto.fi/wp-content/uploads/old_images/2014/09/alvar-aalto_pm_en2.pdf"
+      },
+      {
+        "id": "organic",
+        "title": "Organic Design in Home Furnishings",
+        "publisher": "MoMA",
+        "url": "https://www.moma.org/calendar/exhibitions/1803"
+      },
+      {
+        "id": "danish",
+        "title": "Danish Modern",
+        "publisher": "Designmuseum Danmark",
+        "url": "https://designmuseum.dk/en/pressroom_danish-modern/"
+      }
+    ]
+  }
+}

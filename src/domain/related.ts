@@ -1,5 +1,6 @@
 import type { Style } from '../content/schema'
 import { tags } from '../content/tags'
+import { categories } from '../content/categories'
 export function relatedStyles(style: Style, all: readonly Style[]) {
   const rest = all.filter((s) => s.id !== style.id)
   const shared = (s: Style) => s.tags.filter((t) => style.tags.includes(t))
@@ -23,7 +24,7 @@ export function relatedStyles(style: Style, all: readonly Style[]) {
             .map((id) => tags.find((t) => t.id === id)?.name)
             .join('、')}`
         : s.category === style.category
-          ? '同属复古'
+          ? `同属${categories.find((c) => c.id === style.category)?.name ?? '当前分类'}`
           : '更多风格参考',
     }))
 }

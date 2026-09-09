@@ -1,0 +1,120 @@
+{
+  "id": "chinese-literati",
+  "name": "中式文人书斋",
+  "englishName": "Chinese Literati Studio",
+  "aliases": ["Chinese Literati Studio", "文人书斋"],
+  "summary": "书案、文房与庭院相望，让日常器物承载阅读、观景与自我修养。",
+  "category": "eastern-aesthetics",
+  "tags": ["calm", "elegant", "wood", "organic", "muted", "green", "black", "brand"],
+  "cover": "chinese-literati-poster",
+  "images": [
+    {
+      "asset": "chinese-literati-poster",
+      "caption": "中式文人书斋 · 风格演绎海报"
+    }
+  ],
+  "palettes": [
+    {
+      "id": "poster",
+      "name": "主题配色",
+      "description": "为本档案人工设定的视觉配色，海报色卡按相同 HEX 排版；不代表历史时期的标准色。",
+      "colors": [
+        {
+          "id": "color-1",
+          "name": "宣纸白",
+          "hex": "#E6DDC9",
+          "status": "manual",
+          "role": "背景与纸张"
+        },
+        {
+          "id": "color-2",
+          "name": "木墨棕",
+          "hex": "#493B31",
+          "status": "manual",
+          "role": "木质主体"
+        },
+        {
+          "id": "color-3",
+          "name": "竹灰绿",
+          "hex": "#74806A",
+          "status": "manual",
+          "role": "竹影辅助"
+        },
+        {
+          "id": "color-4",
+          "name": "砚石黑",
+          "hex": "#363A39",
+          "status": "manual",
+          "role": "正文与轮廓"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "title": "构图与节奏",
+      "body": "书案是近景中心，窗洞借入远景，疏密和遮露比对称装饰更重要。"
+    },
+    {
+      "title": "字体与信息",
+      "body": "题名可用宋体，正文保持清楚；书写意象适量使用，避免到处堆砌书法。"
+    },
+    {
+      "title": "材料与色彩",
+      "body": "木色、纸白与砚黑构成骨架，竹绿连接外部自然，器物数量保持克制。"
+    }
+  ],
+  "applications": [
+    "在阅读或文化类页面中用一个框景图连接主题，正文区域保持疏朗，少量木色分隔建立层次。"
+  ],
+  "related": ["ink-expression", "new-chinese"],
+  "order": 21,
+  "updatedAt": "2026-09-09",
+  "designHistory": {
+    "overview": "文人书斋不是一套固定装修。它与诗书画、文房器物、园林和自我修养相连；本档案选取宋元至明代及现代展示的线索。",
+    "timeline": [
+      {
+        "year": 1000,
+        "period": "宋元时期",
+        "title": "书斋与心中的山水",
+        "body": "文人通过诗书画表达修养，居所和园林也成为个人精神的延伸，山水并不只是对外景的再现。",
+        "sourceIds": ["landscape"]
+      },
+      {
+        "year": 1400,
+        "period": "明代",
+        "title": "园居、器物与雅集",
+        "body": "明代文人将书画、园林和日常器物联系起来；相关绘画常以雅集和园居表达文化身份。",
+        "sourceIds": ["ming"]
+      },
+      {
+        "year": 1981,
+        "period": "1981 年",
+        "title": "书斋与园林进入现代博物馆",
+        "body": "大都会博物馆的明轩庭院使明式空间和器物在新的展示语境中被观看，促进公众理解园居文化。",
+        "sourceIds": ["astor"]
+      }
+    ],
+    "interpretation": "画面用书案、砚台和竹影演绎园居关系，不复原某位文人的真实书房，也不把一组棕绿色代表全部中式传统。",
+    "sources": [
+      {
+        "id": "landscape",
+        "title": "Landscape Painting in Chinese Art",
+        "publisher": "The Metropolitan Museum of Art",
+        "url": "https://www.metmuseum.org/essays/landscape-painting-in-chinese-art"
+      },
+      {
+        "id": "ming",
+        "title": "Arts of the Ming Dynasty",
+        "publisher": "The Metropolitan Museum of Art",
+        "url": "https://www.metmuseum.org/exhibitions/listings/2009/arts-of-the-ming-dynasty"
+      },
+      {
+        "id": "astor",
+        "title": "The Astor Chinese Garden Court",
+        "publisher": "The Metropolitan Museum of Art",
+        "url": "https://www.metmuseum.org/art/collection/search/78870"
+      }
+    ]
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "id": "nordic-minimal",
+  "name": "当代北欧简约",
+  "englishName": "Contemporary Nordic Minimalism",
+  "aliases": ["Contemporary Nordic Minimalism", "北欧简约"],
+  "summary": "自然光、浅木与温润织物形成轻盈日常，细节围绕舒适和使用展开。",
+  "category": "modern-minimal",
+  "tags": ["calm", "warm", "wood", "textile", "muted", "cream", "green", "brand", "slides"],
+  "cover": "nordic-minimal-poster",
+  "images": [
+    {
+      "asset": "nordic-minimal-poster",
+      "caption": "当代北欧简约 · 风格演绎海报"
+    }
+  ],
+  "palettes": [
+    {
+      "id": "poster",
+      "name": "主题配色",
+      "description": "为本档案人工设定的视觉配色，海报色卡按相同 HEX 排版；不代表历史时期的标准色。",
+      "colors": [
+        {
+          "id": "color-1",
+          "name": "自然白",
+          "hex": "#F2EFE7",
+          "status": "manual",
+          "role": "背景"
+        },
+        {
+          "id": "color-2",
+          "name": "浅橡木",
+          "hex": "#C8AA82",
+          "status": "manual",
+          "role": "材料色"
+        },
+        {
+          "id": "color-3",
+          "name": "鼠尾草绿",
+          "hex": "#8B9B88",
+          "status": "manual",
+          "role": "局部点缀"
+        },
+        {
+          "id": "color-4",
+          "name": "炭灰",
+          "hex": "#3C403D",
+          "status": "manual",
+          "role": "正文与轮廓"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "title": "构图与节奏",
+      "body": "家具之间保留通道和留白，靠自然侧光建立层次，避免把空间填满。"
+    },
+    {
+      "title": "字体与信息",
+      "body": "简洁标题与舒展行距相配，轻量分隔线替代沉重边框。"
+    },
+    {
+      "title": "材料与色彩",
+      "body": "浅木与亚麻提供温度，绿色只作点缀，炭灰承载文字和结构。"
+    }
+  ],
+  "applications": ["以自然白为底、炭灰写正文，浅木色划分内容区，少量绿用于按钮或图表重点。"],
+  "related": ["organic-modern", "mid-century"],
+  "order": 15,
+  "updatedAt": "2026-09-09",
+  "designHistory": {
+    "overview": "当代北欧简约是跨地域的审美归纳，并非北欧设计的全部。这里以芬兰曲木和丹麦家具的历史为线索，说明轻盈、工艺与日常尺度的来源。",
+    "timeline": [
+      {
+        "year": 1932,
+        "period": "1930 年代",
+        "title": "曲木与人的尺度",
+        "body": "阿尔瓦·阿尔托的 Paimio 椅与 Stool 60 展现现代家具对木材成形和日常使用的探索。",
+        "sourceIds": ["aalto"]
+      },
+      {
+        "year": 1949,
+        "period": "1949—1960 年代",
+        "title": "家具与工艺的国际传播",
+        "body": "丹麦家具经工匠展览及北美巡展扩大影响，舒适、结构与制作质量成为被关注的特点。",
+        "sourceIds": ["danish"]
+      },
+      {
+        "year": 2024,
+        "period": "2024 年",
+        "title": "重新认识北欧设计的多样性",
+        "body": "丹麦设计博物馆的 Danish Modern 展同时呈现有机家具和彩色波普设计，提醒观众超越清一色浅木的印象。",
+        "sourceIds": ["danish"]
+      }
+    ],
+    "interpretation": "本图选择其中明亮、低饱和的一支作当代演绎；它与复古分类的中古现代相关，但不是同一份时代档案。",
+    "sources": [
+      {
+        "id": "aalto",
+        "title": "Alvar Aalto: furniture milestones",
+        "publisher": "Alvar Aalto Foundation",
+        "url": "https://www.alvaraalto.fi/wp-content/uploads/old_images/2014/09/alvar-aalto_pm_en2.pdf"
+      },
+      {
+        "id": "danish",
+        "title": "Danish Modern",
+        "publisher": "Designmuseum Danmark",
+        "url": "https://designmuseum.dk/en/pressroom_danish-modern/"
+      }
+    ]
+  }
+}

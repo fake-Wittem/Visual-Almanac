@@ -1,5 +1,10 @@
 import type { Tag } from './schema'
 export const tags: Tag[] = [
+  { id: 'rational', name: '理性', dimension: 'mood' },
+  { id: 'futuristic', name: '未来感', dimension: 'mood' },
+  { id: 'ink', name: '水墨', dimension: 'visual' },
+  { id: 'translucent', name: '通透', dimension: 'visual' },
+  { id: 'purple', name: '紫色', dimension: 'color', color: '#8478CF' },
   { id: 'calm', name: '沉静', dimension: 'mood' },
   { id: 'warm', name: '温暖', dimension: 'mood' },
   { id: 'elegant', name: '优雅', dimension: 'mood' },

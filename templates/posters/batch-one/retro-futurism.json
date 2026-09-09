@@ -1,0 +1,32 @@
+{
+  "styleId": "retro-futurism",
+  "title": "复古未来主义",
+  "accentLength": 4,
+  "colors": [
+    {
+      "name": "旧纸白",
+      "hex": "#E9DFC7",
+      "englishName": "Archive Cream"
+    },
+    {
+      "name": "日落橙",
+      "hex": "#D17D52",
+      "englishName": "Sunset Orange"
+    },
+    {
+      "name": "复古青",
+      "hex": "#648F96",
+      "englishName": "Vintage Teal"
+    },
+    {
+      "name": "轨道蓝",
+      "hex": "#3D5966",
+      "englishName": "Transit Blue"
+    }
+  ],
+  "sidebarCn": ["回看昨天的明天", "让城市沿轨道展开", "旧色彩承载新梦", "远方仍值得想象"],
+  "sidebarEn": ["A Way of Seeing.", "A Way of Living."],
+  "badges": ["流线", "怀旧", "想象"],
+  "sceneFile": "assets/poster-scenes/retro-futurism.png",
+  "scenePrompt": "Retro-futurism illustrated vision of tomorrow: sweeping streamlined cream monorail curves across foreground, elegant terracotta domed pavilion and retro rocket-like observation tower middle, pale turquoise sky and distant concentric ring city. Nostalgic optimistic midcentury gouache travel-illustration quality, original not copied. Palette #E9DFC7 #D17D52 #648F96 #3D5966. No captions."
+}

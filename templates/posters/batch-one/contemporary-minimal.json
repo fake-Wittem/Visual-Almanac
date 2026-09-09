@@ -1,0 +1,32 @@
+{
+  "styleId": "contemporary-minimal",
+  "title": "当代极简",
+  "accentLength": 2,
+  "colors": [
+    {
+      "name": "石膏白",
+      "hex": "#F4F1EA",
+      "englishName": "Plaster White"
+    },
+    {
+      "name": "石灰",
+      "hex": "#C7C4BD",
+      "englishName": "Limestone"
+    },
+    {
+      "name": "深炭",
+      "hex": "#363A3D",
+      "englishName": "Deep Charcoal"
+    },
+    {
+      "name": "雾蓝灰",
+      "hex": "#8F9CA3",
+      "englishName": "Mist Blue"
+    }
+  ],
+  "sidebarCn": ["让光成为主角", "让比例建立秩序", "删去多余装饰", "保留必要表达"],
+  "sidebarEn": ["A Way of Seeing.", "A Way of Living."],
+  "badges": ["留白", "比例", "静谧"],
+  "sceneFile": "assets/poster-scenes/contemporary-minimal.png",
+  "scenePrompt": "Contemporary minimalist architectural space. Vast off-white walls, one sculptural low charcoal bench, rectangular skylight throwing precise sun rectangle on polished grey stone, no decorations, profound negative space, straight on wide camera. Palette #F4F1EA #C7C4BD #363A3D #8F9CA3. Editorial architecture photography."
+}

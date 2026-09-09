@@ -1,0 +1,32 @@
+{
+  "styleId": "biophilic",
+  "title": "亲自然设计",
+  "accentLength": 2,
+  "colors": [
+    {
+      "name": "森林绿",
+      "hex": "#315C46",
+      "englishName": "Forest Green"
+    },
+    {
+      "name": "叶灰绿",
+      "hex": "#92A884",
+      "englishName": "Leaf Sage"
+    },
+    {
+      "name": "石米白",
+      "hex": "#DED8C8",
+      "englishName": "Stone Linen"
+    },
+    {
+      "name": "水灰蓝",
+      "hex": "#6B858C",
+      "englishName": "Water Grey"
+    }
+  ],
+  "sidebarCn": ["让自然走进空间", "让光影缓慢流动", "看见叶片层次", "感受空间呼吸"],
+  "sidebarEn": ["A Way of Seeing.", "A Way of Living."],
+  "badges": ["自然", "光影", "生长"],
+  "sceneFile": "assets/poster-scenes/biophilic.png",
+  "scenePrompt": "Luminous contemporary courtyard interior, living lush fern garden in center below open skylight, slender timber walkways and long calm shallow water channel, porous stone bench foreground. Nature deeply integrated with architecture, shifting foliage shadows. Palette #315C46 #92A884 #DED8C8 #6B858C. Editorial architecture photograph, no people."
+}

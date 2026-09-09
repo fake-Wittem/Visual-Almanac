@@ -1,0 +1,114 @@
+{
+  "id": "biophilic",
+  "name": "亲自然设计视觉",
+  "englishName": "Biophilic Design",
+  "aliases": ["Biophilic Design", "亲自然设计"],
+  "summary": "植物、自然光、水与空间连接，让自然成为构成的一部分。",
+  "category": "natural-organic",
+  "tags": ["calm", "organic", "wood", "green", "blue", "brand", "slides"],
+  "cover": "biophilic-poster",
+  "images": [
+    {
+      "asset": "biophilic-poster",
+      "caption": "亲自然设计视觉 · 风格演绎海报"
+    }
+  ],
+  "palettes": [
+    {
+      "id": "poster",
+      "name": "主题配色",
+      "description": "为本档案人工设定的视觉配色，海报色卡按相同 HEX 排版；不代表历史时期的标准色。",
+      "colors": [
+        {
+          "id": "color-1",
+          "name": "森林绿",
+          "hex": "#315C46",
+          "status": "manual",
+          "role": "主体植被"
+        },
+        {
+          "id": "color-2",
+          "name": "叶灰绿",
+          "hex": "#92A884",
+          "status": "manual",
+          "role": "辅助层次"
+        },
+        {
+          "id": "color-3",
+          "name": "石米白",
+          "hex": "#DED8C8",
+          "status": "manual",
+          "role": "背景与石材"
+        },
+        {
+          "id": "color-4",
+          "name": "水灰蓝",
+          "hex": "#6B858C",
+          "status": "manual",
+          "role": "水面点缀"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "title": "构图与节奏",
+      "body": "以庭院或自然光口组织空间，通道与植物形成连续关系，而非在空角随意摆盆栽。"
+    },
+    {
+      "title": "字体与信息",
+      "body": "文字保留干净底面，图文疏密呼应自然节奏，避免叶片纹理干扰阅读。"
+    },
+    {
+      "title": "材料与色彩",
+      "body": "深浅绿建立层次，水灰蓝用于平衡，石材和木构提供稳定边界。"
+    }
+  ],
+  "applications": [
+    "让自然图片承担主视觉，文字放在清楚的独立底面；使用有规律的疏密变化组织长内容。"
+  ],
+  "related": ["organic-modern", "mediterranean-natural"],
+  "order": 18,
+  "updatedAt": "2026-09-09",
+  "designHistory": {
+    "overview": "亲自然设计是一组关于人与自然联系的设计方法，视觉只是其中一部分。本档案梳理方法框架的发展，不以植物数量或绿色外观证明环境效果。",
+    "timeline": [
+      {
+        "year": 2008,
+        "period": "2008 年",
+        "title": "整理自然体验的要素",
+        "body": "Kellert、Heerwagen 与 Mador 的框架整理亲自然设计的要素和属性，将讨论带到不同尺度的设计问题。",
+        "sourceIds": ["biophilic-frameworks"]
+      },
+      {
+        "year": 2014,
+        "period": "2014 年",
+        "title": "形成便于讨论的模式",
+        "body": "Terrapin 发布十四种模式，以空间中的自然、自然类比及空间性质组织设计议题。",
+        "sourceIds": ["biophilic-patterns"]
+      },
+      {
+        "year": 2015,
+        "period": "2015 年及之后",
+        "title": "从形式清单走向体验",
+        "body": "Kellert 与 Calabrese 的框架强调人与自然、空间和地方的直接及间接体验，后续模式版本继续修订。",
+        "sourceIds": ["biophilic-frameworks", "biophilic-patterns"]
+      }
+    ],
+    "interpretation": "中央庭院演绎光、水与植物的空间联系。它是视觉参考，不代表真实建成地点或对健康、环保结果的承诺。",
+    "sources": [
+      {
+        "id": "biophilic-frameworks",
+        "title": "Biophilic Design Frameworks",
+        "publisher": "University of Minnesota",
+        "url": "https://biophilicdesign.umn.edu/frameworks"
+      },
+      {
+        "id": "biophilic-patterns",
+        "title": "14+ Patterns of Biophilic Design",
+        "publisher": "Terrapin Bright Green",
+        "url": "https://www.terrapinbrightgreen.com/report/14-patterns/"
+      }
+    ]
+  }
+}

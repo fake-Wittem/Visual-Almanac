@@ -71,11 +71,55 @@
       "body": "砖墙、金属与皮革纹理作为观察线索，避免降低正文可读性。"
     }
   ],
-  "applications": [
-    "浅灰作为阅读底色，炭黑负责标题，铁锈棕仅突出关键信息。 以上为整理建议，尚未作为实际项目验证。"
-  ],
-  "practice": [],
+  "applications": ["浅灰作为阅读底色，炭黑负责标题，铁锈棕仅突出关键信息。"],
   "related": [],
   "order": 10,
-  "updatedAt": "2026-09-08"
+  "updatedAt": "2026-09-09",
+  "designHistory": {
+    "overview": "工业阁楼审美首先来自空间用途的改变：原本服务生产和商业的建筑，被重新用作工作与居住场所。纽约 SoHo 提供了一条可追溯的典型线索，但并不代表所有地区的阁楼历史。",
+    "timeline": [
+      {
+        "year": 1850,
+        "period": "19 世纪中后期",
+        "title": "工业与商业建筑形成空间底层",
+        "body": "SoHo 的历史建筑群记录了当时的商业发展，铸铁建筑及多层经营空间构成后来改造的物质基础。",
+        "sourceIds": ["soho-buildings"]
+      },
+      {
+        "year": 1960,
+        "period": "1960 年代",
+        "title": "艺术家进入闲置生产空间",
+        "body": "部分工业迁出后的阁楼被艺术家用作创作与居住场所。大面积工作空间的需求，使原本的工业建筑获得了新的使用方式。",
+        "sourceIds": ["soho-policy"]
+      },
+      {
+        "year": 1970,
+        "period": "1970 年代初",
+        "title": "居住与创作的转换被制度化",
+        "body": "SoHo Artists Association 于 1970 年正式成立，艺术家争取居住权益；城市规划随后对艺术家工作居住空间作出专门安排。",
+        "sourceIds": ["soho-artists", "soho-policy"]
+      }
+    ],
+    "interpretation": "裸露材质和开敞感在这里来自对既有建筑的再使用。海报中的砖、铁、皮革与深色调是今日的审美提炼，工业阁楼并非天然都具有同样的材料组合。",
+    "sources": [
+      {
+        "id": "soho-buildings",
+        "title": "SoHo/NoHo Neighborhood Plan — Neighborhood Character",
+        "publisher": "纽约市城市规划局",
+        "url": "https://www.nyc.gov/assets/planning/download/pdf/applicants/env-review/soho-noho/19-feis.pdf"
+      },
+      {
+        "id": "soho-policy",
+        "title": "City Planning Commission report: SoHo and NoHo lofts",
+        "publisher": "纽约市城市规划委员会",
+        "url": "https://www.nyc.gov/assets/planning/download/pdf/about/cpc/800458.pdf"
+      },
+      {
+        "id": "soho-artists",
+        "title": "SoHo Artists Association records, 1968–1978: Historical Note",
+        "publisher": "Smithsonian Archives of American Art",
+        "url": "https://www.aaa.si.edu/collections/soho-artists-association-records-7891/historical-note"
+      }
+    ]
+  }
 }

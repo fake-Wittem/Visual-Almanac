@@ -1,0 +1,124 @@
+{
+  "id": "cyberpunk",
+  "name": "赛博朋克",
+  "englishName": "Cyberpunk",
+  "aliases": ["Cyberpunk", "赛博朋克"],
+  "summary": "高密度城市、霓虹与潮湿反光交织，让技术进步与人的处境同时可见。",
+  "category": "future-tech",
+  "tags": [
+    "mysterious",
+    "futuristic",
+    "neon",
+    "metal",
+    "contrast",
+    "blue",
+    "purple",
+    "poster",
+    "brand"
+  ],
+  "cover": "cyberpunk-poster",
+  "images": [
+    {
+      "asset": "cyberpunk-poster",
+      "caption": "赛博朋克 · 风格演绎海报"
+    }
+  ],
+  "palettes": [
+    {
+      "id": "poster",
+      "name": "主题配色",
+      "description": "为本档案人工设定的视觉配色，海报色卡按相同 HEX 排版；不代表历史时期的标准色。",
+      "colors": [
+        {
+          "id": "color-1",
+          "name": "夜幕蓝",
+          "hex": "#151F33",
+          "status": "manual",
+          "role": "暗部背景"
+        },
+        {
+          "id": "color-2",
+          "name": "电光青",
+          "hex": "#36B7BD",
+          "status": "manual",
+          "role": "主要光源"
+        },
+        {
+          "id": "color-3",
+          "name": "霓虹紫",
+          "hex": "#BD4C89",
+          "status": "manual",
+          "role": "次要光源"
+        },
+        {
+          "id": "color-4",
+          "name": "钢雾灰",
+          "hex": "#8995A8",
+          "status": "manual",
+          "role": "基础设施"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "title": "构图与节奏",
+      "body": "近处基础设施与远处高楼形成尺度冲突，信息层层叠加但保留明确焦点。"
+    },
+    {
+      "title": "字体与信息",
+      "body": "显示类字体只用于少量标题，正文保留清楚对比与稳定排版。"
+    },
+    {
+      "title": "材料与色彩",
+      "body": "暗蓝压住大面积背景，青与紫承担光源，灰色连接结构与雨雾。"
+    }
+  ],
+  "applications": [
+    "用深色底与两种强调光色建立氛围，发光仅用于焦点；正文区降低纹理和光晕，避免整页噪声。"
+  ],
+  "related": ["hong-kong-cinema", "digital-future"],
+  "order": 26,
+  "updatedAt": "2026-09-09",
+  "designHistory": {
+    "overview": "赛博朋克是与文学、电影和技术文化相连的类型。城市霓虹只是可见特征，权力、身体与技术之间的紧张关系才使其区别于一般未来城市。",
+    "timeline": [
+      {
+        "year": 1927,
+        "period": "1927 年",
+        "title": "反乌托邦城市的前史",
+        "body": "《大都会》以精英、劳动者和技术城市的对照，为后来的赛博朋克提供可回看的影像前史；它并非当时已经属于该类型。",
+        "sourceIds": ["cyberpunk"]
+      },
+      {
+        "year": 1982,
+        "period": "1982—1984 年",
+        "title": "影像与文学形成关键节点",
+        "body": "《银翼杀手》与 Gibson 的《神经漫游者》分别推动未来黑色城市及网络技术叙事的影响。",
+        "sourceIds": ["cyberpunk"]
+      },
+      {
+        "year": 1988,
+        "period": "1988—1990 年代",
+        "title": "动画与身体议题继续扩展",
+        "body": "《阿基拉》等作品拓展其城市影像；类型对人工智能、身体与社会控制的讨论持续进入银幕。",
+        "sourceIds": ["cyberpunk", "ai-film"]
+      }
+    ],
+    "interpretation": "本图是原创虚构街景，以尺度和光色表达技术都市；没有借用真实品牌，也不将香港城市文化直接等同赛博朋克。",
+    "sources": [
+      {
+        "id": "cyberpunk",
+        "title": "6 films you should watch before you see Ghost in the Shell",
+        "publisher": "British Film Institute",
+        "url": "https://www.bfi.org.uk/lists/six-films-ghost-shell-scarlett-johansson"
+      },
+      {
+        "id": "ai-film",
+        "title": "10 great films about artificial intelligence",
+        "publisher": "British Film Institute",
+        "url": "https://www.bfi.org.uk/lists/10-great-films-about-artificial-intelligence"
+      }
+    ]
+  }
+}

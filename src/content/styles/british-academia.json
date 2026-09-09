@@ -60,11 +60,55 @@
       "body": "深木色、织物格纹与黄铜适合小面积组合。"
     }
   ],
-  "applications": [
-    "以奶杏作为大面积底色，深蓝承载文字，酒红用作少量强调。 以上为整理建议，尚未作为实际项目验证。"
-  ],
-  "practice": [],
+  "applications": ["以奶杏作为大面积底色，深蓝承载文字，酒红用作少量强调。"],
   "related": [],
   "order": 1,
-  "updatedAt": "2026-09-08"
+  "updatedAt": "2026-09-09",
+  "designHistory": {
+    "overview": "“英伦学院复古”是本档案对图书馆、旧书与传统室内气质的归纳。它没有单一的创始年代，历史线索来自英国学术空间的积累，以及后来对中世纪工艺的重新发现。",
+    "timeline": [
+      {
+        "year": 1488,
+        "period": "1488 年",
+        "title": "学术空间的早期形态",
+        "body": "牛津的 Duke Humfrey’s Library 于 1488 年启用，后来成为博德利图书馆建筑群中最古老的部分。学院书房意象有真实的空间历史作为参照。",
+        "sourceIds": ["bodleian"]
+      },
+      {
+        "year": 1602,
+        "period": "1602 年",
+        "title": "藏书与阅读传统延续",
+        "body": "托马斯·博德利修复并重新组织旧馆，图书馆于 1602 年重新开放。此后的扩建让藏书、书架与阅读空间逐步形成延续数百年的学术环境。",
+        "sourceIds": ["bodleian"]
+      },
+      {
+        "year": 1800,
+        "period": "19 世纪",
+        "title": "历史工艺重新进入日常设计",
+        "body": "哥特复兴重新重视中世纪形式与彩色玻璃；世纪后期的工艺美术运动又强调材料和手工制作，为传统书房气质提供另一层设计背景。",
+        "sourceIds": ["gothic", "crafts"]
+      }
+    ],
+    "interpretation": "本档案把这些历史线索转译为深木色、旧纸感和有秩序的排版。格纹、黄铜与具体四色配色属于当代组合，并非某座学院或某个历史时期的统一标准。",
+    "sources": [
+      {
+        "id": "bodleian",
+        "title": "The Bodleian Library: A Brief History",
+        "publisher": "牛津大学博德利图书馆",
+        "url": "https://visit.bodleian.ox.ac.uk/files/historybodleianpdf"
+      },
+      {
+        "id": "gothic",
+        "title": "Stained glass: the Gothic Revival and beyond",
+        "publisher": "Victoria and Albert Museum",
+        "url": "https://www.vam.ac.uk/articles/stained-glass-gothic-revival-and-beyond"
+      },
+      {
+        "id": "crafts",
+        "title": "Arts and Crafts: an introduction",
+        "publisher": "Victoria and Albert Museum",
+        "url": "https://www.vam.ac.uk/articles/arts-and-crafts-an-introduction"
+      }
+    ]
+  }
 }

@@ -1,0 +1,114 @@
+{
+  "id": "natural-handcraft",
+  "name": "自然手作",
+  "englishName": "Natural Handcraft",
+  "aliases": ["Natural Handcraft", "自然手作"],
+  "summary": "泥土、纤维与手工痕迹留下不重复的细节，让器物显露制作的温度。",
+  "category": "natural-organic",
+  "tags": ["warm", "calm", "organic", "textile", "muted", "brown", "cream", "brand"],
+  "cover": "natural-handcraft-poster",
+  "images": [
+    {
+      "asset": "natural-handcraft-poster",
+      "caption": "自然手作 · 风格演绎海报"
+    }
+  ],
+  "palettes": [
+    {
+      "id": "poster",
+      "name": "主题配色",
+      "description": "为本档案人工设定的视觉配色，海报色卡按相同 HEX 排版；不代表历史时期的标准色。",
+      "colors": [
+        {
+          "id": "color-1",
+          "name": "赤陶",
+          "hex": "#BC7959",
+          "status": "manual",
+          "role": "主体陶器"
+        },
+        {
+          "id": "color-2",
+          "name": "麻布白",
+          "hex": "#E5D7BE",
+          "status": "manual",
+          "role": "背景与织物"
+        },
+        {
+          "id": "color-3",
+          "name": "沙土",
+          "hex": "#A9957B",
+          "status": "manual",
+          "role": "辅助材料"
+        },
+        {
+          "id": "color-4",
+          "name": "陶灰",
+          "hex": "#595047",
+          "status": "manual",
+          "role": "正文与轮廓"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "title": "构图与节奏",
+      "body": "以少量器物形成高低与前后关系，让不规则轮廓在空白背景上被看见。"
+    },
+    {
+      "title": "字体与信息",
+      "body": "文字使用克制的宋体或朴素无衬线，不用仿手写字体代替工艺内容。"
+    },
+    {
+      "title": "材料与色彩",
+      "body": "陶土、麻布与纸纤维互相衬托，保留自然差异而不过度做旧。"
+    }
+  ],
+  "applications": [
+    "在品牌介绍中突出一张材料特写，搭配清楚正文；纹理只用于边缘或大留白区，维持文字可读。"
+  ],
+  "related": ["wabi-sabi", "organic-modern"],
+  "order": 19,
+  "updatedAt": "2026-09-09",
+  "designHistory": {
+    "overview": "自然手作不是统一的历史流派。本档案以英国工艺美术与工作室陶艺的一条线索说明当代手作审美的来源，不将其代表全部地区的工艺传统。",
+    "timeline": [
+      {
+        "year": 1887,
+        "period": "19 世纪后期",
+        "title": "重新重视制作与材料",
+        "body": "工艺美术运动关注设计和制作的联系，1887 年成立的展览协会为工艺提供持续的公开展示空间。",
+        "sourceIds": ["crafts"]
+      },
+      {
+        "year": 1920,
+        "period": "1920 年",
+        "title": "工作室与跨文化交流",
+        "body": "Leach 与滨田庄司在圣艾夫斯建立陶坊，将个人制作、器用和东亚陶艺经验带入英国工作室陶艺。",
+        "sourceIds": ["pottery"]
+      },
+      {
+        "year": 1960,
+        "period": "1960 年代",
+        "title": "手作扩展为多样艺术语言",
+        "body": "工作室陶艺形成国际社群，从日常餐具延伸到雕塑性器形；手工并不意味着固定的乡村样式。",
+        "sourceIds": ["pottery"]
+      }
+    ],
+    "interpretation": "图中陶器和纤维只是材料关系的原创演绎，未冒充任何传统窑口作品；四种颜色由本档案设定。",
+    "sources": [
+      {
+        "id": "crafts",
+        "title": "Arts and Crafts: an introduction",
+        "publisher": "Victoria and Albert Museum",
+        "url": "https://www.vam.ac.uk/articles/arts-and-crafts-an-introduction"
+      },
+      {
+        "id": "pottery",
+        "title": "Studio Pottery: an introduction",
+        "publisher": "Victoria and Albert Museum",
+        "url": "https://www.vam.ac.uk/articles/studio-pottery-an-introduction"
+      }
+    ]
+  }
+}

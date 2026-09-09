@@ -1,0 +1,124 @@
+{
+  "id": "space-age",
+  "name": "太空时代 Space Age",
+  "englishName": "Space Age",
+  "aliases": ["Space Age", "太空时代"],
+  "summary": "圆舱、塑料曲面与明亮强色，凝结对太空生活的乐观想象。",
+  "category": "future-tech",
+  "tags": [
+    "lively",
+    "futuristic",
+    "geometry",
+    "metal",
+    "contrast",
+    "orange",
+    "blue",
+    "poster",
+    "brand"
+  ],
+  "cover": "space-age-poster",
+  "images": [
+    {
+      "asset": "space-age-poster",
+      "caption": "太空时代 Space Age · 风格演绎海报"
+    }
+  ],
+  "palettes": [
+    {
+      "id": "poster",
+      "name": "主题配色",
+      "description": "为本档案人工设定的视觉配色，海报色卡按相同 HEX 排版；不代表历史时期的标准色。",
+      "colors": [
+        {
+          "id": "color-1",
+          "name": "轨道白",
+          "hex": "#EDEFE9",
+          "status": "manual",
+          "role": "舱体背景"
+        },
+        {
+          "id": "color-2",
+          "name": "推进橙",
+          "hex": "#D96A35",
+          "status": "manual",
+          "role": "座椅焦点"
+        },
+        {
+          "id": "color-3",
+          "name": "舱体银",
+          "hex": "#9CAAB5",
+          "status": "manual",
+          "role": "金属辅助"
+        },
+        {
+          "id": "color-4",
+          "name": "深空蓝",
+          "hex": "#243B53",
+          "status": "manual",
+          "role": "远景与正文"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "title": "构图与节奏",
+      "body": "用圆窗与包裹性座椅建立主体，曲面空间和清楚几何共同塑造未来感。"
+    },
+    {
+      "title": "字体与信息",
+      "body": "标题可用几何无衬线，保持圆润与理性并存，不让字形牺牲辨识度。"
+    },
+    {
+      "title": "材料与色彩",
+      "body": "白色、银色与橙色点缀强调人工制造，深蓝提供远景和轮廓。"
+    }
+  ],
+  "applications": [
+    "在科技或展览视觉中以一个圆形主视觉组织页面，白色为底、橙色集中强调，控制金属光泽面积。"
+  ],
+  "related": ["retro-futurism", "digital-future"],
+  "order": 25,
+  "updatedAt": "2026-09-09",
+  "designHistory": {
+    "overview": "太空时代设计与 1950—1960 年代的航天竞赛、消费材料和大众文化相连。它既有乐观的未来想象，也受到冷战背景影响。",
+    "timeline": [
+      {
+        "year": 1957,
+        "period": "1957 年",
+        "title": "航天成为大众想象",
+        "body": "Sputnik 卫星升空让太空探索获得新的关注，未来居住和技术生活进入设计讨论。",
+        "sourceIds": ["space-chairs"]
+      },
+      {
+        "year": 1963,
+        "period": "1960 年代",
+        "title": "舱体造型走进器物和服饰",
+        "body": "Ball Chair 等座椅以包裹形态构造小空间，时装中的白银色和航天式配件也呼应未来主题。",
+        "sourceIds": ["space-chairs", "space-fashion"]
+      },
+      {
+        "year": 1969,
+        "period": "1969 年前后",
+        "title": "登月与未来生活的再思考",
+        "body": "阿波罗登月强化太空想象；与此同时，社会与冷战忧虑也使单纯乐观的未来叙事受到反思。",
+        "sourceIds": ["space-chairs"]
+      }
+    ],
+    "interpretation": "海报是虚构轨道休息室，将历史家具语言转化为科幻场景，并非真实航天设备或历史室内照片。",
+    "sources": [
+      {
+        "id": "space-chairs",
+        "title": "Space-Age chairs",
+        "publisher": "Victoria and Albert Museum",
+        "url": "https://www.vam.ac.uk/articles/space-age-chairs"
+      },
+      {
+        "id": "space-fashion",
+        "title": "An introduction to 1960s fashion",
+        "publisher": "Victoria and Albert Museum",
+        "url": "https://www.vam.ac.uk/articles/an-introduction-to-1960s-fashion"
+      }
+    ]
+  }
+}

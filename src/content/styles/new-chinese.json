@@ -1,0 +1,120 @@
+{
+  "id": "new-chinese",
+  "name": "当代新中式",
+  "englishName": "Contemporary Chinese Design",
+  "aliases": ["Contemporary Chinese Design", "当代新中式"],
+  "summary": "以现代尺度重新组织传统构成，让木、留白与器物进入当代生活。",
+  "category": "eastern-aesthetics",
+  "tags": ["calm", "elegant", "wood", "geometry", "muted", "green", "red", "brand"],
+  "cover": "new-chinese-poster",
+  "images": [
+    {
+      "asset": "new-chinese-poster",
+      "caption": "当代新中式 · 风格演绎海报"
+    }
+  ],
+  "palettes": [
+    {
+      "id": "poster",
+      "name": "主题配色",
+      "description": "为本档案人工设定的视觉配色，海报色卡按相同 HEX 排版；不代表历史时期的标准色。",
+      "colors": [
+        {
+          "id": "color-1",
+          "name": "绢白",
+          "hex": "#EAE3D5",
+          "status": "manual",
+          "role": "背景"
+        },
+        {
+          "id": "color-2",
+          "name": "玉灰绿",
+          "hex": "#64796D",
+          "status": "manual",
+          "role": "主体强调"
+        },
+        {
+          "id": "color-3",
+          "name": "陶朱",
+          "hex": "#925144",
+          "status": "manual",
+          "role": "局部点缀"
+        },
+        {
+          "id": "color-4",
+          "name": "墨青",
+          "hex": "#3C4542",
+          "status": "manual",
+          "role": "正文与结构"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "title": "构图与节奏",
+      "body": "屏风保留通透间距，现代家具与传统框景建立呼应，避免符号密集堆叠。"
+    },
+    {
+      "title": "字体与信息",
+      "body": "标题可借宋体气质，正文采用清楚的现代排版，文化表达与使用便利并行。"
+    },
+    {
+      "title": "材料与色彩",
+      "body": "绢白与玉灰绿构成基调，陶朱只突出一件器物，木材细节保持清晰。"
+    }
+  ],
+  "applications": [
+    "从比例、分隔和材料选择中提炼传统关系，用一个重点器物或框景图建立文化线索，不依赖龙纹、灯笼等符号。"
+  ],
+  "related": ["chinese-literati", "nordic-minimal"],
+  "order": 24,
+  "updatedAt": "2026-09-09",
+  "designHistory": {
+    "overview": "新中式是当代设计中的宽泛称呼，没有统一的成立年份。这里通过明式器物、现代博物馆展示与当代设计讨论，梳理传统被重新解释的一条路径。",
+    "timeline": [
+      {
+        "year": 1500,
+        "period": "明代",
+        "title": "结构与器用提供参照",
+        "body": "明代边桌以清楚的直线结构承载书籍、器物或古琴，日常用途和精细比例为后来的设计提供参照。",
+        "sourceIds": ["ming-table"]
+      },
+      {
+        "year": 1981,
+        "period": "1981 年",
+        "title": "传统空间获得新的观看语境",
+        "body": "明轩庭院进入大都会博物馆，传统构成在现代公共文化空间中被重新介绍。",
+        "sourceIds": ["astor"]
+      },
+      {
+        "year": 2020,
+        "period": "2020 年代",
+        "title": "传统与当代设计展开对话",
+        "body": "香港文化博物馆 East-West Design Reflections 将明式家具与现代椅子并置，讨论传统对当代设计的持续影响。",
+        "sourceIds": ["east-west"]
+      }
+    ],
+    "interpretation": "当前图像是现代居所的编辑演绎，关注屏风间距、材料和比例。它与文人书斋关联，但不复刻古代居室。",
+    "sources": [
+      {
+        "id": "ming-table",
+        "title": "Side Table, Ming dynasty",
+        "publisher": "The Metropolitan Museum of Art",
+        "url": "https://www.metmuseum.org/art/collection/search/42734"
+      },
+      {
+        "id": "astor",
+        "title": "The Astor Chinese Garden Court",
+        "publisher": "The Metropolitan Museum of Art",
+        "url": "https://www.metmuseum.org/art/collection/search/78870"
+      },
+      {
+        "id": "east-west",
+        "title": "East-West Design Reflections",
+        "publisher": "香港文化博物馆",
+        "url": "https://hk.heritage.museum/en/exhibitions/wow2_furniture.html"
+      }
+    ]
+  }
+}

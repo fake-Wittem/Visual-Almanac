@@ -11,6 +11,7 @@ import ReferenceGallery from '../components/media/ReferenceGallery.vue'
 import PalettePanel from '../components/palette/PalettePanel.vue'
 import StyleCard from '../components/catalog/StyleCard.vue'
 import NotFoundPage from './NotFoundPage.vue'
+import DesignHistory from '../components/history/DesignHistory.vue'
 const props = defineProps<{ id: string }>()
 const style = computed(() => catalog.get(props.id))
 const related = computed(() => (style.value ? relatedStyles(style.value, catalog.list()) : []))
@@ -69,19 +70,14 @@ watch(
       </div>
     </section>
     <section v-if="style.applications.length" class="application-notes">
-      <p class="eyebrow">IN PRACTICE</p>
+      <p class="eyebrow">DESIGN APPLICATION</p>
       <h2>如何带进你的设计</h2>
       <p v-for="(a, i) in style.applications" :key="i">{{ a }}</p>
     </section>
-    <section v-if="style.practice.length" class="application-notes">
-      <h2>实践记录</h2>
-      <p v-for="(p, i) in style.practice" :key="i">{{ p }}</p>
-    </section>
-    <section class="source-note">
-      <span class="eyebrow">REFERENCE</span>
+    <DesignHistory :history="style.designHistory">
       <p v-for="im in style.images" :key="im.asset">{{ assetById(im.asset).source }}</p>
       <span>档案更新于 {{ style.updatedAt }}</span>
-    </section>
+    </DesignHistory>
     <section v-if="related.length" class="related-section">
       <div class="section-heading">
         <div>

@@ -1,0 +1,112 @@
+{
+  "id": "bauhaus",
+  "name": "包豪斯",
+  "englishName": "Bauhaus",
+  "aliases": ["Bauhaus", "包豪斯风格"],
+  "summary": "用基本几何、清楚结构和鲜明原色，把艺术实验带入日常器物。",
+  "category": "modern-minimal",
+  "tags": ["rational", "lively", "geometry", "contrast", "red", "blue", "poster", "brand"],
+  "cover": "bauhaus-poster",
+  "images": [
+    {
+      "asset": "bauhaus-poster",
+      "caption": "包豪斯 · 风格演绎海报"
+    }
+  ],
+  "palettes": [
+    {
+      "id": "poster",
+      "name": "主题配色",
+      "description": "为本档案人工设定的视觉配色，海报色卡按相同 HEX 排版；不代表历史时期的标准色。",
+      "colors": [
+        {
+          "id": "color-1",
+          "name": "朱红",
+          "hex": "#C8392B",
+          "status": "manual",
+          "role": "主要强调"
+        },
+        {
+          "id": "color-2",
+          "name": "钴蓝",
+          "hex": "#2256A4",
+          "status": "manual",
+          "role": "辅助构成"
+        },
+        {
+          "id": "color-3",
+          "name": "明黄",
+          "hex": "#E7BA3C",
+          "status": "manual",
+          "role": "局部点缀"
+        },
+        {
+          "id": "color-4",
+          "name": "暖白",
+          "hex": "#EDE8DB",
+          "status": "manual",
+          "role": "背景留白"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "title": "构图与节奏",
+      "body": "圆、方、三角相互制衡，主次来自体量与空隙，不依赖装饰边角。"
+    },
+    {
+      "title": "字体与信息",
+      "body": "主题视觉适合无衬线与简明字号层级，保持内容和几何元素共用对齐线。"
+    },
+    {
+      "title": "材料与色彩",
+      "body": "钢管与光滑色面形成清楚轮廓，暖白为红蓝黄留出呼吸空间。"
+    }
+  ],
+  "applications": ["使用暖白背景与黑灰正文，选一种原色承担主要强调；几何图形围绕信息分组排布。"],
+  "related": ["swiss-international", "contemporary-minimal"],
+  "order": 13,
+  "updatedAt": "2026-09-09",
+  "designHistory": {
+    "overview": "包豪斯首先是一所设计学校及其不断变化的教育实践。基本形与原色只是可见的一面，工艺、材料、生产和社会用途同样重要。",
+    "timeline": [
+      {
+        "year": 1919,
+        "period": "1919 年",
+        "title": "艺术与工艺的共同课堂",
+        "body": "格罗皮乌斯在魏玛创办包豪斯，将材料、色彩和形式训练与专业工坊联系起来。",
+        "sourceIds": ["bauhaus"]
+      },
+      {
+        "year": 1923,
+        "period": "1923—1925 年",
+        "title": "从工坊转向工业生产",
+        "body": "学校加强对批量生产的关注，1925 年迁至德绍；家具、织物与排版共同参与现代生活的设计。",
+        "sourceIds": ["bauhaus"]
+      },
+      {
+        "year": 1933,
+        "period": "1933 年及之后",
+        "title": "学校关闭，思想继续传播",
+        "body": "包豪斯于 1933 年结束办学；部分师生赴海外教学，相关方法继续影响设计教育。",
+        "sourceIds": ["bauhaus-archive", "bauhaus"]
+      }
+    ],
+    "interpretation": "场景以原色几何与钢管椅提炼形式关系，并非特定教室的历史复原；也不意味着包豪斯作品只能使用三原色。",
+    "sources": [
+      {
+        "id": "bauhaus",
+        "title": "The Bauhaus, 1919–1933",
+        "publisher": "The Metropolitan Museum of Art",
+        "url": "https://www.metmuseum.org/essays/the-bauhaus-1919-1933"
+      },
+      {
+        "id": "bauhaus-archive",
+        "title": "Das Bauhaus",
+        "publisher": "Bauhaus-Archiv",
+        "url": "https://www.bauhaus.de/de/das_bauhaus/"
+      }
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "styleId": "natural-handcraft",
+  "title": "自然手作",
+  "accentLength": 2,
+  "colors": [
+    {
+      "name": "赤陶",
+      "hex": "#BC7959",
+      "englishName": "Terracotta"
+    },
+    {
+      "name": "麻布白",
+      "hex": "#E5D7BE",
+      "englishName": "Linen White"
+    },
+    {
+      "name": "沙土",
+      "hex": "#A9957B",
+      "englishName": "Sand Earth"
+    },
+    {
+      "name": "陶灰",
+      "hex": "#595047",
+      "englishName": "Clay Grey"
+    }
+  ],
+  "sidebarCn": ["看见泥土的颜色", "看见纤维的纹理", "器物各有轮廓", "细节留下温度"],
+  "sidebarEn": ["A Way of Seeing.", "A Way of Living."],
+  "badges": ["手作", "肌理", "温度"],
+  "sceneFile": "assets/poster-scenes/natural-handcraft.png",
+  "scenePrompt": "Close editorial still life of handcraft studio workbench: unglazed terracotta pitcher, irregular cream handmade ceramic bowls, folded raw linen and hand-torn paper, warm natural side light reveals clay marks and fibres. Simple three layered arrangement, not antique ornate decor. Palette #BC7959 #E5D7BE #A9957B #595047."
+}

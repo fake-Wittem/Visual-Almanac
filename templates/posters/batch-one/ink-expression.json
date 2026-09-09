@@ -1,0 +1,32 @@
+{
+  "styleId": "ink-expression",
+  "title": "水墨写意",
+  "accentLength": 2,
+  "colors": [
+    {
+      "name": "纸素白",
+      "hex": "#F0EBDD",
+      "englishName": "Paper Ivory"
+    },
+    {
+      "name": "松墨",
+      "hex": "#202A2B",
+      "englishName": "Pine Ink"
+    },
+    {
+      "name": "雾灰",
+      "hex": "#899692",
+      "englishName": "Mist Grey"
+    },
+    {
+      "name": "朱砂",
+      "hex": "#AB4F40",
+      "englishName": "Cinnabar"
+    }
+  ],
+  "sidebarCn": ["以浓墨定下重心", "以淡墨拉开远近", "空白也参与表达", "一笔留下余韵"],
+  "sidebarEn": ["A Way of Seeing.", "A Way of Living."],
+  "badges": ["笔墨", "虚实", "留白"],
+  "sceneFile": "assets/poster-scenes/ink-expression.png",
+  "scenePrompt": "Expressive Chinese ink landscape artwork on delicate ivory xuan paper, large breathing negative space with distant misty mountains upper left, bold wet ink pine branch foreground right and subtle grey wash lake. One tiny cinnabar accent mark that is abstract, not a seal or text. Palette #F0EBDD #202A2B #899692 #AB4F40. Masterful original brushwork, no copied artwork, no calligraphy."
+}

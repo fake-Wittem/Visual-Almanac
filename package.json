@@ -17,7 +17,8 @@
     "check": "npm run test && npm run build",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
-    "poster:prompt": "tsx scripts/poster-prompt.ts"
+    "poster:prompt": "tsx scripts/poster-prompt.ts",
+    "poster:render": "tsx scripts/render-posters.ts"
   },
   "dependencies": {
     "@lucide/vue": "^1.42.0",

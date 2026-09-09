@@ -1,0 +1,114 @@
+{
+  "id": "mediterranean-natural",
+  "name": "当代地中海自然居所",
+  "englishName": "Contemporary Mediterranean Living",
+  "aliases": ["Contemporary Mediterranean Living", "地中海自然"],
+  "summary": "石灰墙、树影与海风般的留白，将明亮的日常生活带到庭院中。",
+  "category": "natural-organic",
+  "tags": ["warm", "calm", "organic", "wood", "blue", "cream", "brand"],
+  "cover": "mediterranean-natural-poster",
+  "images": [
+    {
+      "asset": "mediterranean-natural-poster",
+      "caption": "当代地中海自然居所 · 风格演绎海报"
+    }
+  ],
+  "palettes": [
+    {
+      "id": "poster",
+      "name": "主题配色",
+      "description": "为本档案人工设定的视觉配色，海报色卡按相同 HEX 排版；不代表历史时期的标准色。",
+      "colors": [
+        {
+          "id": "color-1",
+          "name": "石灰白",
+          "hex": "#F2E8D8",
+          "status": "manual",
+          "role": "背景"
+        },
+        {
+          "id": "color-2",
+          "name": "陶瓦红",
+          "hex": "#C47C57",
+          "status": "manual",
+          "role": "陶器点缀"
+        },
+        {
+          "id": "color-3",
+          "name": "橄榄绿",
+          "hex": "#6D8270",
+          "status": "manual",
+          "role": "植被辅助"
+        },
+        {
+          "id": "color-4",
+          "name": "海湾蓝",
+          "hex": "#467B8A",
+          "status": "manual",
+          "role": "远景强调"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "title": "构图与节奏",
+      "body": "由一处向外的开口建立景深，树影与座位形成松弛的不对称平衡。"
+    },
+    {
+      "title": "字体与信息",
+      "body": "采用明朗的标题层级和适度行距，装饰来自空间与光而非航海图标。"
+    },
+    {
+      "title": "材料与色彩",
+      "body": "石灰白承担大面积背景，陶瓦、橄榄绿和海湾蓝少量呼应。"
+    }
+  ],
+  "applications": [
+    "以明亮底色承载长文，在主视觉保留树影与天空；减少蓝白条纹等刻板符号，用材质和尺度表达地域感。"
+  ],
+  "related": ["biophilic", "tropical"],
+  "order": 20,
+  "updatedAt": "2026-09-09",
+  "designHistory": {
+    "overview": "本档案是当代编辑主题，以法国里维埃拉 Cap Moderne 的现代居住探索为一条可追溯线索。地中海沿岸传统各异，这一取样不代表整个区域。",
+    "timeline": [
+      {
+        "year": 1926,
+        "period": "1926—1929 年",
+        "title": "海边生活与现代空间",
+        "body": "Eileen Gray 与 Jean Badovici 的 E-1027 探索海边居住及日常使用，展现现代建筑与滨海生活的联系。",
+        "sourceIds": ["cap-moderne"]
+      },
+      {
+        "year": 1951,
+        "period": "1951—1952 年",
+        "title": "小尺度度假居所",
+        "body": "Le Corbusier 的 Cabanon 将紧凑空间、木质室内与海岸地点联系起来，呈现另一种现代居住选择。",
+        "sourceIds": ["cabanon", "cap-moderne"]
+      },
+      {
+        "year": 2015,
+        "period": "2015—2021 年",
+        "title": "滨海现代遗产被重新认识",
+        "body": "Cap Moderne 逐步修复并开放，让这些历史居所重新进入公众视野，也为当代自然居住审美提供参照。",
+        "sourceIds": ["cap-moderne"]
+      }
+    ],
+    "interpretation": "画面的白墙、橄榄树和陶器是当代虚构庭院，没有复刻上述建筑。这里借用的是光与生活的关系，而非固定的“地中海标准装修”。",
+    "sources": [
+      {
+        "id": "cap-moderne",
+        "title": "E-1027 and Cap Moderne: restoration",
+        "publisher": "Cap Moderne",
+        "url": "https://capmoderne.com/media/2021/E-1027_Press_Release_17_June_2021.pdf"
+      },
+      {
+        "id": "cabanon",
+        "title": "Le Cabanon, Roquebrune-Cap-Martin",
+        "publisher": "Fondation Le Corbusier",
+        "url": "https://www.fondationlecorbusier.fr/en/work-architecture/achievements-le-cabanon-roquebrune-cap-martin-france-1951/"
+      }
+    ]
+  }
+}

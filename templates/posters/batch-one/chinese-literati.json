@@ -1,0 +1,32 @@
+{
+  "styleId": "chinese-literati",
+  "title": "文人书斋",
+  "accentLength": 2,
+  "colors": [
+    {
+      "name": "宣纸白",
+      "hex": "#E6DDC9",
+      "englishName": "Xuan Ivory"
+    },
+    {
+      "name": "木墨棕",
+      "hex": "#493B31",
+      "englishName": "Timber Brown"
+    },
+    {
+      "name": "竹灰绿",
+      "hex": "#74806A",
+      "englishName": "Bamboo Grey"
+    },
+    {
+      "name": "砚石黑",
+      "hex": "#363A39",
+      "englishName": "Inkstone"
+    }
+  ],
+  "sidebarCn": ["书案面对庭院", "竹影落在纸上", "器物安静相伴", "留一处读书空间"],
+  "sidebarEn": ["A Way of Seeing.", "A Way of Living."],
+  "badges": ["文房", "借景", "清雅"],
+  "sceneFile": "assets/poster-scenes/chinese-literati.png",
+  "scenePrompt": "Chinese literati scholar studio inspired by Ming furnishings. Refined uncarved dark wood writing table with inkstone, one brush and rolled BLANK paper in foreground, restrained wood chair and scholar rock middle, circular opening frames bamboo and white garden wall. Quiet misty morning light. No calligraphy or text. Palette #E6DDC9 #493B31 #74806A #363A39. Natural editorial photograph."
+}

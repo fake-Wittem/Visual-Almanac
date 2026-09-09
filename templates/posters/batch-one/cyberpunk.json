@@ -1,0 +1,32 @@
+{
+  "styleId": "cyberpunk",
+  "title": "赛博朋克",
+  "accentLength": 2,
+  "colors": [
+    {
+      "name": "夜幕蓝",
+      "hex": "#151F33",
+      "englishName": "Night Blue"
+    },
+    {
+      "name": "电光青",
+      "hex": "#36B7BD",
+      "englishName": "Electric Cyan"
+    },
+    {
+      "name": "霓虹紫",
+      "hex": "#BD4C89",
+      "englishName": "Neon Magenta"
+    },
+    {
+      "name": "钢雾灰",
+      "hex": "#8995A8",
+      "englishName": "Steel Mist"
+    }
+  ],
+  "sidebarCn": ["在光中看见城市", "在雨中看见层次", "技术改变生活", "人仍是故事中心"],
+  "sidebarEn": ["A Way of Seeing.", "A Way of Living."],
+  "badges": ["霓虹", "都市", "张力"],
+  "sceneFile": "assets/poster-scenes/cyberpunk.png",
+  "scenePrompt": "Cyberpunk urban night scene from a rain soaked elevated pedestrian walkway looking into dense layered futuristic city, dark infrastructure and glowing cyan light panels, small magenta accents, one anonymous distant pedestrian silhouette, strong depth and wet reflections, social scale contrasts. Light panels contain NO letters or logos. Palette #151F33 #36B7BD #BD4C89 #8995A8. Cinematic original concept art."
+}

@@ -60,11 +60,61 @@
       "body": "丝绒、雕花木作与古金色点缀构成丰富层次。"
     }
   ],
-  "applications": [
-    "深绿色作主体，象牙白提供阅读区域，古金用于分隔线。 以上为整理建议，尚未作为实际项目验证。"
-  ],
-  "practice": [],
+  "applications": ["深绿色作主体，象牙白提供阅读区域，古金用于分隔线。"],
   "related": [],
   "order": 2,
-  "updatedAt": "2026-09-08"
+  "updatedAt": "2026-09-09",
+  "designHistory": {
+    "overview": "维多利亚时代的设计并不只有繁复装饰：历史复兴、工业制造和设计改革同时存在。本档案选取的是其中重视雕饰、织物与浓厚室内氛围的一支。",
+    "timeline": [
+      {
+        "year": 1800,
+        "period": "19 世纪前期",
+        "title": "哥特复兴与历史趣味",
+        "body": "设计者重新研究中世纪建筑和装饰工艺，彩色玻璃也被重新制作。对历史形式的借用成为理解维多利亚装饰的一条重要线索。",
+        "sourceIds": ["gothic"]
+      },
+      {
+        "year": 1851,
+        "period": "1851 年",
+        "title": "工业制造进入全球展台",
+        "body": "伦敦万国工业博览会集中展示各地制造与工艺成果，使设计质量、工业生产和公众品味成为可被广泛讨论的问题。",
+        "sourceIds": ["exhibition"]
+      },
+      {
+        "year": 1860,
+        "period": "1860—1900 年",
+        "title": "从装饰堆叠转向审美与工艺改革",
+        "body": "唯美主义运动重新塑造英国家居观念；1887 年成立的工艺美术展览协会则为装饰艺术建立持续展示的平台，强调制作与材料的价值。",
+        "sourceIds": ["aesthetic", "crafts"]
+      }
+    ],
+    "interpretation": "深绿、酒红、丝绒与古金是这张海报的视觉取舍。理解这一风格时，应看到繁复室内背后的多种思想，而不能把整个维多利亚时代简化成一种配色。",
+    "sources": [
+      {
+        "id": "gothic",
+        "title": "Stained glass: the Gothic Revival and beyond",
+        "publisher": "Victoria and Albert Museum",
+        "url": "https://www.vam.ac.uk/articles/stained-glass-gothic-revival-and-beyond"
+      },
+      {
+        "id": "exhibition",
+        "title": "The Great Exhibition of 1851",
+        "publisher": "Victoria and Albert Museum",
+        "url": "https://www.vam.ac.uk/articles/the-great-exhibition-of-1851"
+      },
+      {
+        "id": "aesthetic",
+        "title": "An introduction to the Aesthetic Movement",
+        "publisher": "Victoria and Albert Museum",
+        "url": "https://www.vam.ac.uk/articles/an-introduction-to-the-aesthetic-movement"
+      },
+      {
+        "id": "crafts",
+        "title": "Arts and Crafts: an introduction",
+        "publisher": "Victoria and Albert Museum",
+        "url": "https://www.vam.ac.uk/articles/arts-and-crafts-an-introduction"
+      }
+    ]
+  }
 }

@@ -1,0 +1,32 @@
+{
+  "styleId": "wabi-sabi",
+  "title": "日式侘寂",
+  "accentLength": 2,
+  "colors": [
+    {
+      "name": "土壁白",
+      "hex": "#D9CFBE",
+      "englishName": "Earth Plaster"
+    },
+    {
+      "name": "亚麻褐",
+      "hex": "#9F8D76",
+      "englishName": "Linen Brown"
+    },
+    {
+      "name": "石灰褐",
+      "hex": "#665F52",
+      "englishName": "Stone Umber"
+    },
+    {
+      "name": "苔墨",
+      "hex": "#393E38",
+      "englishName": "Moss Ink"
+    }
+  ],
+  "sidebarCn": ["看见器物的差异", "看见材料的本色", "让光柔和停留", "让留白慢慢展开"],
+  "sidebarEn": ["A Way of Seeing.", "A Way of Living."],
+  "badges": ["质朴", "静谧", "时光"],
+  "sceneFile": "assets/poster-scenes/wabi-sabi.png",
+  "scenePrompt": "Japanese wabi sabi inspired quiet tea room close view: naturally irregular dark tea bowl on weathered low timber board, a single branch in handmade pale clay vase, worn earthen plaster wall and soft shoji light. Honest texture and subtle asymmetry, subdued warm shadows, no overt broken objects, no gold cracks, no decorative clutter. Palette #D9CFBE #9F8D76 #665F52 #393E38. Contemplative editorial photography."
+}
