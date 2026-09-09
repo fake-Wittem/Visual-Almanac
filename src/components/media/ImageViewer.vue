@@ -4,14 +4,22 @@ import { X, ZoomIn, ZoomOut, Maximize, ChevronLeft, ChevronRight } from '@lucide
 import ModalDialog from '../common/ModalDialog.vue'
 import ArchiveImage from './ArchiveImage.vue'
 import { imageUrl } from '../../repositories/catalog'
+import { useMotionNumber } from '../../composables/useMotionNumber'
 const props = defineProps<{ images: { asset: string; caption: string }[]; initial: number }>()
-const emit = defineEmits<{ close: [] }>()
+const open = defineModel<boolean>('open', { default: false })
+watch(open, (value) => {
+  if (value) {
+    index.value = props.initial
+    zoom.value = 1
+  }
+})
 const index = ref(props.initial),
   zoom = ref(1),
   stage = ref<HTMLElement>()
 const current = computed(() => props.images[index.value]!)
+const displayZoom = useMotionNumber(zoom)
 // 缩放围绕当前视口中心，避免放大后跳到画布边缘。
-watch(zoom, async (value, old) => {
+watch(displayZoom, async (value, old) => {
   if (!stage.value) return
   const x = ((stage.value.scrollLeft + stage.value.clientWidth / 2) * value) / old
   const y = ((stage.value.scrollTop + stage.value.clientHeight / 2) * value) / old
@@ -39,7 +47,7 @@ function move(e: PointerEvent) {
 }
 </script>
 <template>
-  <ModalDialog label="全屏参考图" kind="viewer-dialog" @close="emit('close')"
+  <ModalDialog v-model:open="open" label="全屏参考图" kind="viewer-dialog"
     ><div
       class="viewer-content"
       @keydown.left.prevent="change(-1)"
@@ -67,7 +75,7 @@ function move(e: PointerEvent) {
             <ZoomIn :size="20" /></button
           ><button class="icon-button" aria-label="重置适配" @click="zoom = 1">
             <Maximize :size="19" /></button
-          ><button class="icon-button" aria-label="关闭大图" @click="emit('close')">
+          ><button class="icon-button" aria-label="关闭大图" @click="open = false">
             <X :size="23" />
           </button>
         </div>
@@ -81,7 +89,10 @@ function move(e: PointerEvent) {
         @pointerup="drag = null"
         @pointercancel="drag = null"
       >
-        <div class="viewer-image" :style="{ width: zoom * 100 + '%', height: zoom * 100 + '%' }">
+        <div
+          class="viewer-image"
+          :style="{ width: displayZoom * 100 + '%', height: displayZoom * 100 + '%' }"
+        >
           <ArchiveImage
             :key="current.asset"
             :src="imageUrl(current.asset, 'original')"

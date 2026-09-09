@@ -1,6 +1,8 @@
 <script setup lang="ts">
 import { computed, reactive } from 'vue'
 import { ChevronDown } from '@lucide/vue'
+import MotionLayout from '../motion/MotionLayout.vue'
+import MotionList from '../motion/MotionList.vue'
 import { categories } from '../../content/categories'
 import { tags } from '../../content/tags'
 import { dimensions, dimensionNames, type Dimension, type Style } from '../../content/schema'
@@ -46,20 +48,22 @@ function toggle(d: Dimension, id: string) {
     </fieldset>
     <fieldset v-for="d in dimensions" :key="d" v-show="options(d).length">
       <legend>{{ dimensionNames[d] }}</legend>
-      <div :class="d === 'color' ? 'color-options' : 'tag-options'">
-        <button
-          v-for="tag in options(d).slice(0, expanded[d] ? undefined : 6)"
-          :key="tag.id"
-          type="button"
-          :class="{ selected: modelValue[d].includes(tag.id) }"
-          :aria-pressed="modelValue[d].includes(tag.id)"
-          @click="toggle(d, tag.id)"
-        >
-          <span v-if="tag.color" class="color-dot" :style="{ background: tag.color }" />{{
-            tag.name
-          }}
-        </button>
-      </div>
+      <MotionLayout
+        ><MotionList :class="d === 'color' ? 'color-options' : 'tag-options'">
+          <button
+            v-for="tag in options(d).slice(0, expanded[d] ? undefined : 6)"
+            :key="tag.id"
+            type="button"
+            :class="{ selected: modelValue[d].includes(tag.id) }"
+            :aria-pressed="modelValue[d].includes(tag.id)"
+            @click="toggle(d, tag.id)"
+          >
+            <span v-if="tag.color" class="color-dot" :style="{ background: tag.color }" />{{
+              tag.name
+            }}
+          </button>
+        </MotionList></MotionLayout
+      >
       <button
         v-if="options(d).length > 6"
         class="expand-filter"

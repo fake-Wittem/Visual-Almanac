@@ -11,13 +11,17 @@ async function toggle(event: MouseEvent) {
   const removing = has(props.id),
     old = saved.value[props.id]
   const button = event.currentTarget as HTMLElement
-  const buttons = [...document.querySelectorAll<HTMLElement>('.style-card .favorite-button')]
+  const buttons = [
+    ...document.querySelectorAll<HTMLElement>('.style-card:not([inert]) .favorite-button'),
+  ]
   const index = buttons.indexOf(button)
   set(props.id, removing ? null : Date.now())
   notify(removing ? '已取消收藏' : '已收藏', removing ? () => set(props.id, old!) : undefined)
   if (removing && route.path === '/favorites') {
     await nextTick()
-    const remaining = [...document.querySelectorAll<HTMLElement>('.style-card .favorite-button')]
+    const remaining = [
+      ...document.querySelectorAll<HTMLElement>('.style-card:not([inert]) .favorite-button'),
+    ]
     ;(
       remaining[Math.min(index, remaining.length - 1)] ||
       document.querySelector<HTMLElement>('.empty-state h2')

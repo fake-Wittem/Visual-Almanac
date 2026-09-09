@@ -5,6 +5,7 @@ import { assetById, imageUrl } from '../../repositories/catalog'
 import { usable } from '../../domain/palette'
 import FavoriteButton from '../common/FavoriteButton.vue'
 import ArchiveImage from '../media/ArchiveImage.vue'
+import ColorTooltip from '../common/ColorTooltip.vue'
 defineProps<{ style: Style; eager?: boolean; reason?: string }>()
 </script>
 <template>
@@ -32,11 +33,11 @@ defineProps<{ style: Style; eager?: boolean; reason?: string }>()
       class="card-palette"
       aria-label="参考配色"
     >
-      <span
+      <ColorTooltip
         v-for="c in usable(style.palettes[0].colors).slice(0, 5)"
         :key="c.id"
-        :style="{ background: c.hex! }"
-        :title="c.name"
+        :color="c.hex!"
+        :label="c.name"
       />
     </div>
     <div class="card-tags">

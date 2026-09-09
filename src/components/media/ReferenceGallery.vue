@@ -47,11 +47,6 @@ const selected = ref(
         <img :src="imageUrl(im.asset)" :alt="im.caption" />
       </button>
     </div>
-    <ImageViewer
-      v-if="expanded"
-      :images="style.images"
-      :initial="selected"
-      @close="expanded = false"
-    />
+    <ImageViewer v-model:open="expanded" :images="style.images" :initial="selected" />
   </section>
 </template>

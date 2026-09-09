@@ -12,6 +12,16 @@ import StyleCard from '../components/catalog/StyleCard.vue'
 import FilterPanel from '../components/catalog/FilterPanel.vue'
 import EmptyState from '../components/common/EmptyState.vue'
 import ModalDialog from '../components/common/ModalDialog.vue'
+import ArchiveSelect from '../components/common/ArchiveSelect.vue'
+import MotionList from '../components/motion/MotionList.vue'
+import MotionLayout from '../components/motion/MotionLayout.vue'
+import MotionTransition from '../components/motion/MotionTransition.vue'
+const sortOptions = computed(() => [
+  { value: 'order', label: '档案顺序' },
+  { value: 'updated', label: '最近更新' },
+  { value: 'name', label: '名称 A–Z' },
+  ...(favorites.value ? [{ value: 'saved', label: '最近收藏' }] : []),
+])
 const { favorites, filters, apply } = useCatalogQuery(),
   { has, saved } = useFavorites()
 const base = computed(() => catalog.list().filter((s) => !favorites.value || has(s.id)))
@@ -136,99 +146,111 @@ function applyDraft() {
             @input="submitSearch()"
             @compositionstart="composing = true"
             @compositionend="endComposition"
-          /><button
-            v-if="search"
-            type="button"
-            class="icon-button"
-            aria-label="清空搜索"
-            @click="clearSearch"
-          >
-            <X :size="16" /></button
+          /><MotionTransition
+            ><button
+              v-if="search"
+              type="button"
+              class="icon-button"
+              aria-label="清空搜索"
+              @click="clearSearch"
+            >
+              <X :size="16" /></button></MotionTransition
           ><kbd aria-hidden="true">⌕</kbd>
         </form>
         <button class="mobile-filter-button" @click="openFilters">
           <SlidersHorizontal :size="17" />筛选<span v-if="active.length">{{
             active.length
           }}</span></button
-        ><label class="sort-select"
-          ><span class="sr-only">排序</span
-          ><select
-            :value="filters.sort"
-            @change="
-              apply({ ...filters, sort: ($event.target as HTMLSelectElement).value, page: 1 })
-            "
-          >
-            <option value="order">档案顺序</option>
-            <option value="updated">最近更新</option>
-            <option value="name">名称 A–Z</option>
-            <option v-if="favorites" value="saved">最近收藏</option>
-          </select></label
-        >
+        ><ArchiveSelect
+          label="排序"
+          :model-value="filters.sort"
+          :options="sortOptions"
+          @update:model-value="apply({ ...filters, sort: $event, page: 1 })"
+        />
       </div>
-      <div v-if="active.length" class="active-filters">
-        <button v-for="a in active" :key="a.dimension + a.id" @click="remove(a.dimension, a.id)">
-          {{ a.name }}<X :size="12" /></button
-        ><button class="clear-filters" @click="clear">清除条件</button>
-      </div>
+      <MotionLayout
+        ><MotionList class="active-filters" :class="{ 'has-filters': active.length }">
+          <button v-for="a in active" :key="a.dimension + a.id" @click="remove(a.dimension, a.id)">
+            {{ a.name }}<X :size="12" /></button
+          ><button v-if="active.length" key="clear" class="clear-filters" @click="clear">
+            清除条件
+          </button>
+        </MotionList></MotionLayout
+      >
       <div class="result-heading">
         <span aria-live="polite"
           >{{ active.length ? '筛选结果' : '所有' + (favorites ? '收藏' : '风格') }}
-          <span class="result-number">{{ results.length }}</span></span
+          <MotionTransition mode="out-in"
+            ><span :key="results.length" class="result-number">{{
+              results.length
+            }}</span></MotionTransition
+          ></span
         ><span class="result-note"
           >{{ favorites ? '为下一次创作保留灵感' : '不同风格，同样值得细看'
           }}<ArrowUpRight :size="13"
         /></span>
       </div>
-      <div v-if="pagination.items.length" class="style-grid">
-        <StyleCard v-for="(s, i) in pagination.items" :key="s.id" :style="s" :eager="i < 3" />
-      </div>
-      <EmptyState
-        v-else
-        :title="
-          favorites && !base.length
-            ? '还没有收藏的风格'
-            : '没有符合条件的' + (favorites ? '收藏' : '风格')
-        "
-        :description="
-          favorites && !base.length
-            ? '遇到喜欢的风格，点击书签就能留在这里。'
-            : '试着减少筛选条件，给灵感多一点空间。'
-        "
-        ><RouterLink v-if="favorites && !base.length" class="primary-button" to="/"
-          >浏览全部档案 <ArrowUpRight :size="16" /></RouterLink
-        ><button v-else class="primary-button" @click="clear">清除条件</button></EmptyState
+      <MotionLayout
+        ><MotionList class="style-grid">
+          <StyleCard v-for="(s, i) in pagination.items" :key="s.id" :style="s" :eager="i < 3" />
+        </MotionList>
+        <MotionTransition
+          ><EmptyState
+            v-if="!pagination.items.length"
+            :title="
+              favorites && !base.length
+                ? '还没有收藏的风格'
+                : '没有符合条件的' + (favorites ? '收藏' : '风格')
+            "
+            :description="
+              favorites && !base.length
+                ? '遇到喜欢的风格，点击书签就能留在这里。'
+                : '试着减少筛选条件，给灵感多一点空间。'
+            "
+            ><RouterLink v-if="favorites && !base.length" class="primary-button" to="/"
+              >浏览全部档案 <ArrowUpRight :size="16" /></RouterLink
+            ><button v-else class="primary-button" @click="clear">清除条件</button></EmptyState
+          ></MotionTransition
+        ></MotionLayout
       >
-      <nav v-if="pagination.pages > 1" class="pagination" aria-label="结果分页">
-        <button
-          :disabled="pagination.page === 1"
-          aria-label="上一页"
-          @click="page(pagination.page - 1)"
+      <MotionTransition
+        ><nav v-if="pagination.pages > 1" class="pagination" aria-label="结果分页">
+          <button
+            :disabled="pagination.page === 1"
+            aria-label="上一页"
+            @click="page(pagination.page - 1)"
+          >
+            <ChevronLeft :size="18" /></button
+          ><button
+            v-for="p in pagination.pages"
+            :key="p"
+            :aria-current="p === pagination.page ? 'page' : undefined"
+            @click="page(p)"
+          >
+            {{ p }}</button
+          ><button
+            :disabled="pagination.page === pagination.pages"
+            aria-label="下一页"
+            @click="page(pagination.page + 1)"
+          >
+            <ChevronRight :size="18" />
+          </button></nav
+      ></MotionTransition>
+      <MotionTransition mode="out-in"
+        ><p
+          v-if="pagination.items.length"
+          :key="results.length === base.length ? 'all' : 'filtered'"
+          class="catalog-end"
         >
-          <ChevronLeft :size="18" /></button
-        ><button
-          v-for="p in pagination.pages"
-          :key="p"
-          :aria-current="p === pagination.page ? 'page' : undefined"
-          @click="page(p)"
-        >
-          {{ p }}</button
-        ><button
-          :disabled="pagination.page === pagination.pages"
-          aria-label="下一页"
-          @click="page(pagination.page + 1)"
-        >
-          <ChevronRight :size="18" />
-        </button>
-      </nav>
-      <p v-if="pagination.items.length" class="catalog-end">
-        {{
-          results.length === base.length
-            ? '每一种风格，都是观察世界的另一种方式。'
-            : '灵感不止于此，也可以试试其他筛选条件。'
-        }}
-      </p>
+          {{
+            results.length === base.length
+              ? '每一种风格，都是观察世界的另一种方式。'
+              : '灵感不止于此，也可以试试其他筛选条件。'
+          }}
+        </p></MotionTransition
+      >
     </section>
-    <ModalDialog v-if="drawer" label="筛选档案" kind="filter-dialog" @close="drawer = false"
+    <ModalDialog v-model:open="drawer" label="筛选档案" kind="filter-dialog"
       ><div class="drawer-header">
         <h2>筛选风格</h2>
         <button class="icon-button" aria-label="取消筛选" @click="drawer = false"><X /></button>

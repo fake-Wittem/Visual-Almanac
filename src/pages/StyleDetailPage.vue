@@ -1,6 +1,5 @@
 <script setup lang="ts">
 import { computed, watch } from 'vue'
-import { useRoute } from 'vue-router'
 import { ArrowLeft, ArrowUpRight } from '@lucide/vue'
 import { catalog, assetById } from '../repositories/catalog'
 import { categories } from '../content/categories'
@@ -12,8 +11,8 @@ import ReferenceGallery from '../components/media/ReferenceGallery.vue'
 import PalettePanel from '../components/palette/PalettePanel.vue'
 import StyleCard from '../components/catalog/StyleCard.vue'
 import NotFoundPage from './NotFoundPage.vue'
-const route = useRoute()
-const style = computed(() => catalog.get(String(route.params.id)))
+const props = defineProps<{ id: string }>()
+const style = computed(() => catalog.get(props.id))
 const related = computed(() => (style.value ? relatedStyles(style.value, catalog.list()) : []))
 watch(
   style,

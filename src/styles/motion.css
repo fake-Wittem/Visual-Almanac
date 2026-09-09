@@ -1,0 +1,154 @@
+/* 所有动效集中使用同一套节奏；不使用 transition: all。 */
+:root {
+  --motion-fast: 150ms;
+  --motion-duration: 220ms;
+  --motion-layout-duration: 280ms;
+  --motion-page-duration: 300ms;
+  --motion-ease: cubic-bezier(0.22, 1, 0.36, 1);
+  --motion-distance: 8px;
+}
+.motion-fade-enter-active,
+.motion-fade-leave-active,
+.motion-popup-enter-active,
+.motion-popup-leave-active,
+.motion-modal-enter-active,
+.motion-modal-leave-active,
+.motion-page-enter-active,
+.motion-page-leave-active {
+  transition:
+    opacity var(--motion-duration) var(--motion-ease),
+    translate var(--motion-duration) var(--motion-ease);
+}
+.motion-page-enter-active {
+  transition-duration: var(--motion-page-duration);
+}
+.motion-fade-leave-active,
+.motion-popup-leave-active,
+.motion-page-leave-active {
+  transition-duration: var(--motion-fast);
+}
+.motion-fade-enter-from,
+.motion-fade-leave-to,
+.motion-popup-enter-from,
+.motion-popup-leave-to,
+.motion-modal-enter-from,
+.motion-modal-leave-to,
+.motion-page-enter-from,
+.motion-page-leave-to {
+  opacity: 0;
+}
+.motion-page-enter-from,
+.motion-popup-enter-from,
+.motion-popup-leave-to,
+.motion-modal-enter-from,
+.motion-modal-leave-to {
+  translate: 0 var(--motion-distance);
+}
+.motion-page-leave-to {
+  translate: 0 -4px;
+}
+.motion-modal-enter-active::backdrop {
+  animation: motion-backdrop-in var(--motion-duration) ease both;
+}
+.motion-modal-leave-active::backdrop {
+  animation: motion-backdrop-out var(--motion-duration) ease both;
+}
+@keyframes motion-backdrop-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes motion-backdrop-out {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+.motion-list {
+  position: relative;
+}
+.motion-list-enter-active,
+.motion-list-leave-active {
+  transition:
+    opacity var(--motion-duration) var(--motion-ease),
+    transform var(--motion-layout-duration) var(--motion-ease);
+}
+.motion-list-move {
+  transition: transform var(--motion-layout-duration) var(--motion-ease);
+}
+.motion-list-enter-from,
+.motion-list-leave-to {
+  opacity: 0;
+  transform: translateY(var(--motion-distance));
+}
+.motion-list-leave-active {
+  position: absolute;
+  pointer-events: none;
+}
+.motion-layout-content {
+  display: flow-root;
+}
+.active-filters.has-filters {
+  padding-bottom: 20px;
+}
+.result-number {
+  display: inline-block;
+}
+.archive-image {
+  opacity: 0;
+  transition: opacity var(--motion-page-duration) var(--motion-ease);
+}
+.archive-image.is-loaded {
+  opacity: 1;
+}
+:where(button, a, .search-field, .palette-preview, .swatch-dot, .color-tooltip) {
+  transition:
+    color var(--motion-fast) ease,
+    background-color var(--motion-duration) ease,
+    border-color var(--motion-fast) ease,
+    box-shadow var(--motion-fast) ease;
+}
+.favorite-button svg {
+  transition:
+    fill var(--motion-duration) ease,
+    scale var(--motion-duration) var(--motion-ease);
+}
+.favorite-button.saved svg {
+  scale: 1.08;
+}
+.tooltip-content {
+  transition:
+    opacity var(--motion-fast) ease,
+    visibility var(--motion-fast) ease;
+}
+.select-trigger svg,
+.expand-filter svg {
+  transition: transform var(--motion-duration) var(--motion-ease);
+}
+@media (max-width: 767px) {
+  .filter-dialog.motion-modal-enter-from,
+  .filter-dialog.motion-modal-leave-to {
+    translate: 0 24px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --motion-fast: 0ms;
+    --motion-duration: 0ms;
+    --motion-layout-duration: 0ms;
+    --motion-page-duration: 0ms;
+  }
+  *,
+  *::before,
+  *::after,
+  dialog::backdrop {
+    animation: none !important;
+    transition: none !important;
+    scroll-behavior: auto !important;
+  }
+}
