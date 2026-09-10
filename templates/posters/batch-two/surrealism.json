@@ -1,0 +1,32 @@
+{
+  "styleId": "surrealism",
+  "title": "超现实主义",
+  "accentLength": 2,
+  "colors": [
+    {
+      "name": "深海蓝",
+      "hex": "#2A4164",
+      "englishName": "Midnight Blue"
+    },
+    {
+      "name": "暮玫瑰",
+      "hex": "#C99392",
+      "englishName": "Dusk Rose"
+    },
+    {
+      "name": "沙金",
+      "hex": "#E0C996",
+      "englishName": "Sand"
+    },
+    {
+      "name": "翠灰绿",
+      "hex": "#477A71",
+      "englishName": "Emerald Grey"
+    }
+  ],
+  "sidebarCn": ["让熟悉变得陌生", "让尺度离开常识", "让梦境保有细节", "让留白容纳想象"],
+  "sidebarEn": ["A Way of Seeing.", "A Way of Living."],
+  "badges": ["梦境", "错置", "潜意识"],
+  "sceneFile": "assets/poster-scenes/surrealism.png",
+  "scenePrompt": "Surrealist original dream landscape painted with luminous precise oil technique: a freestanding pale stone doorway opens onto a cloud-filled sea, enormous translucent pear floats above a tiny spiral stair growing from sand, elongated impossible shadows, rose dusk sky fading into ultramarine water. Calm uncanny atmosphere, unfamiliar object relationships, broad negative space. No melting clocks, no bowler hats, no replica of an artist's work. Palette midnight blue #2A4164 dusty rose #C99392 sand #E0C996 emerald #477A71."
+}

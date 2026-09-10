@@ -1,0 +1,32 @@
+{
+  "styleId": "pop-art",
+  "title": "波普艺术",
+  "accentLength": 2,
+  "colors": [
+    {
+      "name": "波普红",
+      "hex": "#D8443A",
+      "englishName": "Pop Red"
+    },
+    {
+      "name": "印刷蓝",
+      "hex": "#2965AC",
+      "englishName": "Print Blue"
+    },
+    {
+      "name": "明黄",
+      "hex": "#F0CD45",
+      "englishName": "Bright Yellow"
+    },
+    {
+      "name": "奶油白",
+      "hex": "#F4E9CB",
+      "englishName": "Cream"
+    }
+  ],
+  "sidebarCn": ["重新观看日常物", "让轮廓放大声音", "让网点留下媒介", "让色彩直接相遇"],
+  "sidebarEn": ["A Way of Seeing.", "A Way of Living."],
+  "badges": ["商品", "网点", "复制"],
+  "sceneFile": "assets/poster-scenes/pop-art.png",
+  "scenePrompt": "Original Pop Art screenprint-style illustration of one oversized orange soda bottle with a blank simple blue label and a large red cherry, against a yellow field of blue halftone dots, bold black contour, flat commercial print colors, slight authentic ink misregistration, dynamic diagonal crop, playful absurd scale, single composition not a four-panel collage. No brands, logos, readable text, or famous existing artworks. Palette red #D8443A blue #2965AC yellow #F0CD45 cream #F4E9CB."
+}

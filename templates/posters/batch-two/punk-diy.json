@@ -1,0 +1,32 @@
+{
+  "styleId": "punk-diy",
+  "title": "朋克自出版",
+  "accentLength": 3,
+  "colors": [
+    {
+      "name": "复印黑",
+      "hex": "#222222",
+      "englishName": "Xerox Black"
+    },
+    {
+      "name": "纸灰白",
+      "hex": "#E8E5D9",
+      "englishName": "Paper White"
+    },
+    {
+      "name": "信号红",
+      "hex": "#CD3838",
+      "englishName": "Signal Red"
+    },
+    {
+      "name": "酸黄",
+      "hex": "#D8DE47",
+      "englishName": "Acid Yellow"
+    }
+  ],
+  "sidebarCn": ["先表达再谈完美", "把剪贴留在纸上", "让复印传递声音", "让读者也成为作者"],
+  "sidebarEn": ["A Way of Seeing.", "A Way of Living."],
+  "badges": ["剪贴", "复印", "自主"],
+  "sceneFile": "assets/poster-scenes/punk-diy.png",
+  "scenePrompt": "Original punk DIY music zine spread, top-down flat photograph, stark photocopied black and white torn paper, a cut-out screaming microphone, scissor-cut letter fragments composing only 'NOISE', hand-drawn red underline, rough staples and transparent tape, electric acid yellow paper insert. Raw deliberately uneven type sizes, xerox grain, strong diagonal layout, lots of intentional white interruptions, no band names, no hateful symbols, no existing covers. Palette ink #222222 paper #E8E5D9 signal red #CD3838 acid yellow #D8DE47."
+}

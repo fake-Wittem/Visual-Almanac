@@ -1,0 +1,32 @@
+{
+  "styleId": "graffiti-lettering",
+  "title": "涂鸦字形",
+  "accentLength": 2,
+  "colors": [
+    {
+      "name": "喷绘蓝",
+      "hex": "#287DA8",
+      "englishName": "Aerosol Blue"
+    },
+    {
+      "name": "橘红",
+      "hex": "#E7783A",
+      "englishName": "Tangerine"
+    },
+    {
+      "name": "青柠",
+      "hex": "#C4CC55",
+      "englishName": "Lime"
+    },
+    {
+      "name": "炭灰",
+      "hex": "#30383C",
+      "englishName": "Charcoal"
+    }
+  ],
+  "sidebarCn": ["从名字形成风格", "让字母彼此穿插", "让轮廓保持力量", "记住书写者的声音"],
+  "sidebarEn": ["A Way of Seeing.", "A Way of Living."],
+  "badges": ["字形", "喷绘", "身份"],
+  "sceneFile": "assets/poster-scenes/graffiti-lettering.png",
+  "scenePrompt": "A fictional legal graffiti practice wall filling landscape frame, one highly developed aerosol lettering piece reading 'FLOW', interlocking inflated letter shapes in electric blue with tangerine interior highlights, lime outlines and charcoal deep extruded shadows, visible spray feathering and a few controlled drips, sunlit rough concrete, wall photographed straight on, no people, no other signatures or brands. Palette blue #287DA8 orange #E7783A lime #C4CC55 charcoal #30383C."
+}

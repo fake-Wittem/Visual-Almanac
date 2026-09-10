@@ -1,0 +1,112 @@
+{
+  "id": "art-nouveau",
+  "name": "新艺术运动",
+  "englishName": "Art Nouveau",
+  "aliases": ["Art Nouveau", "新艺术", "Jugendstil"],
+  "summary": "让植物般的线条连接结构与装饰，使玻璃、金属和图形呈现连贯的生命感。",
+  "category": "classical-decorative",
+  "tags": ["elegant", "organic", "translucent", "metal", "green", "purple", "poster"],
+  "cover": "art-nouveau-poster",
+  "images": [
+    {
+      "asset": "art-nouveau-poster",
+      "caption": "新艺术运动 · 风格演绎海报"
+    }
+  ],
+  "palettes": [
+    {
+      "id": "poster",
+      "name": "主题配色",
+      "description": "为本档案人工设定的视觉配色，海报色卡按相同 HEX 排版；不代表历史时期的标准色。",
+      "colors": [
+        {
+          "id": "color-1",
+          "name": "海绿",
+          "hex": "#648F83",
+          "status": "manual",
+          "role": "玻璃主调"
+        },
+        {
+          "id": "color-2",
+          "name": "琥珀",
+          "hex": "#C89B48",
+          "status": "manual",
+          "role": "透光强调"
+        },
+        {
+          "id": "color-3",
+          "name": "鸢尾紫",
+          "hex": "#6A4566",
+          "status": "manual",
+          "role": "花形点色"
+        },
+        {
+          "id": "color-4",
+          "name": "暖象牙",
+          "hex": "#EEE4CD",
+          "status": "manual",
+          "role": "背景留白"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "title": "线条与结构",
+      "body": "鞭线式弧线沿门框、花茎与金属接点连续展开，让装饰参与构造，而不是漂浮的边花。"
+    },
+    {
+      "title": "自然与抽象",
+      "body": "提炼茎叶生长、昆虫翅脉与花瓣轮廓，不必写实复制植物；不同地区也有更几何化的表达。"
+    },
+    {
+      "title": "媒介与边界",
+      "body": "建筑、玻璃、家具和印刷相互影响；新艺术的流动线条不能与 Art Deco 的几何秩序混写。"
+    }
+  ],
+  "applications": ["可用单条连续植物线串联标题和插图；正文区保持平静，避免复杂曲线影响信息阅读。"],
+  "related": ["arts-and-crafts", "art-deco", "rococo"],
+  "order": 32,
+  "updatedAt": "2026-09-10",
+  "designHistory": {
+    "overview": "新艺术运动在十九世纪末至二十世纪初跨国展开，试图摆脱历史样式的重复。自然形态、流动线条与结构装饰的一体化是重要方向，但各地名称与形式不同，并不都由弯曲花藤构成。",
+    "timeline": [
+      {
+        "year": 1880,
+        "period": "十九世纪末",
+        "title": "寻找新的装饰语言",
+        "body": "工艺美术与唯美主义等先行探索提供思想和形式资源，设计者从植物、材料与新的平面表现中寻找变化。",
+        "sourceIds": ["international"]
+      },
+      {
+        "year": 1900,
+        "period": "1900 年前后",
+        "title": "展览与多媒介传播",
+        "body": "巴黎世界博览会让玻璃、家具等作品获得广泛展示，曲线与有机母题通过不同工艺和城市传播。",
+        "sourceIds": ["international"]
+      },
+      {
+        "year": 1910,
+        "period": "1910 年前后及之后",
+        "title": "从风行到转变",
+        "body": "随着新的现代设计方向发展，新艺术逐渐失去主导地位；它对艺术与日常设计结合的探索仍具有后续意义。",
+        "sourceIds": ["met"]
+      }
+    ],
+    "interpretation": "虚构彩窗门以鸢尾、翅脉与金属弧线提炼其中一条自然主义路径，不代表全部地域支系，也不是历史建筑照片。",
+    "sources": [
+      {
+        "id": "international",
+        "title": "Art Nouveau – an international style",
+        "publisher": "Victoria and Albert Museum",
+        "url": "https://www.vam.ac.uk/articles/art-nouveau-an-international-style"
+      },
+      {
+        "id": "met",
+        "title": "Art Nouveau",
+        "publisher": "The Metropolitan Museum of Art",
+        "url": "https://www.metmuseum.org/essays/art-nouveau"
+      }
+    ]
+  }
+}

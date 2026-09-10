@@ -1,0 +1,32 @@
+{
+  "styleId": "op-art",
+  "title": "欧普艺术",
+  "accentLength": 2,
+  "colors": [
+    {
+      "name": "光学黑",
+      "hex": "#202126",
+      "englishName": "Optical Black"
+    },
+    {
+      "name": "纸白",
+      "hex": "#F0EFE8",
+      "englishName": "Paper White"
+    },
+    {
+      "name": "光学蓝",
+      "hex": "#365DAC",
+      "englishName": "Optical Blue"
+    },
+    {
+      "name": "冷灰",
+      "hex": "#9297A3",
+      "englishName": "Cool Grey"
+    }
+  ],
+  "sidebarCn": ["让间距成为变量", "让平面产生起伏", "让眼睛参与作品", "让秩序引出变化"],
+  "sidebarEn": ["A Way of Seeing.", "A Way of Living."],
+  "badges": ["视错觉", "重复", "知觉"],
+  "sceneFile": "assets/poster-scenes/op-art.png",
+  "scenePrompt": "Original Op Art flat fine-art print, full-bleed landscape image, dense but clean black and off-white repeated parallel curves gradually compressing and expanding to create an optical bulge, a second interleaving blue band subtly reverses depth at right, rigorous continuous thin curves, precise high contrast, no gradients, no objects, no letters, no mockup, no existing work reproduction. Palette black #202126 warm white #F0EFE8 cobalt #365DAC slate #9297A3."
+}

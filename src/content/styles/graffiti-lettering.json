@@ -1,0 +1,120 @@
+{
+  "id": "graffiti-lettering",
+  "name": "涂鸦字形",
+  "englishName": "Graffiti Lettering",
+  "aliases": ["Graffiti Lettering", "Style Writing", "Graffiti", "涂鸦字体"],
+  "summary": "从签名发展为字母之间的穿插、轮廓与立体阴影，让书写成为可辨认的个人表达。",
+  "category": "street-pop",
+  "tags": ["free", "lively", "contrast", "lettering", "blue", "orange", "poster"],
+  "cover": "graffiti-lettering-poster",
+  "images": [
+    {
+      "asset": "graffiti-lettering-poster",
+      "caption": "涂鸦字形 · 风格演绎海报"
+    }
+  ],
+  "palettes": [
+    {
+      "id": "poster",
+      "name": "主题配色",
+      "description": "为本档案人工设定的视觉配色，海报色卡按相同 HEX 排版；不代表历史时期的标准色。",
+      "colors": [
+        {
+          "id": "color-1",
+          "name": "喷绘蓝",
+          "hex": "#287DA8",
+          "status": "manual",
+          "role": "字面主色"
+        },
+        {
+          "id": "color-2",
+          "name": "橘红",
+          "hex": "#E7783A",
+          "status": "manual",
+          "role": "内部高亮"
+        },
+        {
+          "id": "color-3",
+          "name": "青柠",
+          "hex": "#C4CC55",
+          "status": "manual",
+          "role": "外轮廓"
+        },
+        {
+          "id": "color-4",
+          "name": "炭灰",
+          "hex": "#30383C",
+          "status": "manual",
+          "role": "投影与墙面"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "title": "字母与节奏",
+      "body": "先建立统一笔势和字母骨架，再加入连接与遮挡，保留整体词形的方向感。"
+    },
+    {
+      "title": "轮廓与喷漆",
+      "body": "填色、外描边与阴影分层处理；喷缘和滴痕应有材质依据，不能靠噪点代替字形设计。"
+    },
+    {
+      "title": "社群与范围",
+      "body": "此处聚焦纽约 style writing 的历史线索，强调写手身份和传播空间，不用它代表所有国家的街头艺术。"
+    }
+  ],
+  "applications": [
+    "委托原创字形适合活动标题或文化专题主图，正文采用清晰字体；场地与作品使用应获得对应授权。"
+  ],
+  "related": ["skate-culture", "punk-diy", "pop-art"],
+  "order": 38,
+  "updatedAt": "2026-09-10",
+  "designHistory": {
+    "overview": "本档案聚焦二十世纪七十年代起纽约的涂鸦书写文化：写手以名字和字母建立辨识度，城市墙面、列车、速写本与画布共同构成传播载体。它不同于模板喷绘，也不是所有公共空间图像的总称。",
+    "timeline": [
+      {
+        "year": 1970,
+        "period": "1970 年代初",
+        "title": "名字成为城市可见表达",
+        "body": "纽约写手在墙面与地铁等公共空间发展个人 tag 和字形，青年创作者逐渐形成各自的书写风格。",
+        "sourceIds": ["mural", "above"]
+      },
+      {
+        "year": 1980,
+        "period": "约 1980 年起",
+        "title": "从城市表面走向画布",
+        "body": "媒体与画廊兴趣增长，一些写手开始将作品转向画布；保存下来的绘画与黑本草图记录了不同媒介之间的变化。",
+        "sourceIds": ["release"]
+      },
+      {
+        "year": 1994,
+        "period": "1994 年及之后",
+        "title": "社群材料进入公共收藏",
+        "body": "马丁·黄的收藏在 1994 年捐入纽约市博物馆，使画布与纸上作品成为研究线索；博物馆材料只是活态书写文化的一部分。",
+        "sourceIds": ["above"]
+      }
+    ],
+    "interpretation": "海报中的 FLOW 是虚构练习墙上的原创字形，不冒用真实写手签名、不声称是历史街景；四色用于区分字面、边线与阴影。",
+    "sources": [
+      {
+        "id": "mural",
+        "title": "Graffiti Mural",
+        "publisher": "Museum of the City of New York",
+        "url": "https://www.mcny.org/event/graffiti-mural"
+      },
+      {
+        "id": "release",
+        "title": "City as Canvas — press release",
+        "publisher": "Museum of the City of New York",
+        "url": "https://www.mcny.org/sites/default/files/2021-05/Press_Release_City_As_Canvas_FINAL.pdf"
+      },
+      {
+        "id": "above",
+        "title": "Martin Wong’s papers: a deeper look at the graffiti art collector",
+        "publisher": "Museum of the City of New York",
+        "url": "https://blog.mcny.org/2014/12/23/martin-wongs-papers-a-deeper-look-at-the-graffiti-art-collector/"
+      }
+    ]
+  }
+}

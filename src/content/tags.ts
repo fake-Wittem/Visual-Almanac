@@ -1,5 +1,8 @@
 import type { Tag } from './schema'
 export const tags: Tag[] = [
+  { id: 'collage', name: '拼贴', dimension: 'visual' },
+  { id: 'lettering', name: '字形', dimension: 'visual' },
+  { id: 'halftone', name: '网点', dimension: 'visual' },
   { id: 'rational', name: '理性', dimension: 'mood' },
   { id: 'futuristic', name: '未来感', dimension: 'mood' },
   { id: 'ink', name: '水墨', dimension: 'visual' },

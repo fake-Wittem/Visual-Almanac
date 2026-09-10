@@ -1,0 +1,32 @@
+{
+  "styleId": "memphis",
+  "title": "孟菲斯设计",
+  "accentLength": 2,
+  "colors": [
+    {
+      "name": "珊瑚红",
+      "hex": "#DF635C",
+      "englishName": "Coral"
+    },
+    {
+      "name": "青绿",
+      "hex": "#379D9C",
+      "englishName": "Teal"
+    },
+    {
+      "name": "柠檬黄",
+      "hex": "#E8C84A",
+      "englishName": "Lemon"
+    },
+    {
+      "name": "墨紫",
+      "hex": "#29283C",
+      "englishName": "Ink Violet"
+    }
+  ],
+  "sidebarCn": ["让几何拥有幽默", "让图案走上表面", "让色块彼此碰撞", "让日常多一点趣味"],
+  "sidebarEn": ["A Way of Seeing.", "A Way of Living."],
+  "badges": ["几何", "戏谑", "撞色"],
+  "sceneFile": "assets/poster-scenes/memphis.png",
+  "scenePrompt": "Memphis design, playful original furniture still life on pink studio floor: an eccentric asymmetrical shelving sculpture of teal stepped planes, lemon yellow disc and coral red cylinders, black and ivory squiggle patterned laminate surfaces, striped slanted legs, small speckled sphere. Bold kitschy postmodern product photography, crisp shadows, not a replica of any iconic furniture. Palette coral #DF635C teal #379D9C yellow #E8C84A ink #29283C."
+}

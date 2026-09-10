@@ -1,0 +1,120 @@
+{
+  "id": "dada",
+  "name": "达达主义",
+  "englishName": "Dada",
+  "aliases": ["Dada", "达达", "Dadaism"],
+  "summary": "拆开图像、物件与文字的惯常关系，以偶然、错置和反常规组合质疑既定秩序。",
+  "category": "avant-garde",
+  "tags": ["free", "contrast", "collage", "black", "red", "poster"],
+  "cover": "dada-poster",
+  "images": [
+    {
+      "asset": "dada-poster",
+      "caption": "达达主义 · 风格演绎海报"
+    }
+  ],
+  "palettes": [
+    {
+      "id": "poster",
+      "name": "主题配色",
+      "description": "为本档案人工设定的视觉配色，海报色卡按相同 HEX 排版；不代表历史时期的标准色。",
+      "colors": [
+        {
+          "id": "color-1",
+          "name": "炭墨",
+          "hex": "#282724",
+          "status": "manual",
+          "role": "剪影与字形"
+        },
+        {
+          "id": "color-2",
+          "name": "旧纸",
+          "hex": "#E5D8BA",
+          "status": "manual",
+          "role": "拼贴底层"
+        },
+        {
+          "id": "color-3",
+          "name": "朱锈红",
+          "hex": "#AE3B31",
+          "status": "manual",
+          "role": "视觉打断"
+        },
+        {
+          "id": "color-4",
+          "name": "铅灰",
+          "hex": "#8E8B82",
+          "status": "manual",
+          "role": "机械与中间调"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "title": "图像与语义",
+      "body": "用比例突变、切断与错接制造新关系，碎片应形成提问，而不是只有怀旧质感。"
+    },
+    {
+      "title": "文字与材料",
+      "body": "字母可以成为图形，新闻纸与机械图像可相互干扰；保留剪边和叠层，让媒介痕迹可见。"
+    },
+    {
+      "title": "历史与应用边界",
+      "body": "达达涉及表演、现成物与反艺术立场；海报只提炼拼贴路径，不把运动简化成一套装饰模板。"
+    }
+  ],
+  "applications": [
+    "文化专题海报可用一处突兀尺度或图文错置制造停顿，同时为标题、时间与正文保留可识别的层级。"
+  ],
+  "related": ["surrealism", "punk-diy", "swiss-international"],
+  "order": 34,
+  "updatedAt": "2026-09-10",
+  "designHistory": {
+    "overview": "达达在第一次世界大战时期及其后，于苏黎世、柏林、纽约等城市发展。各地实践并不统一，现成物、拼贴、表演与偶然性共同挑战艺术惯例；其后又与超现实主义形成联系与分歧。",
+    "timeline": [
+      {
+        "year": 1916,
+        "period": "1916 年起",
+        "title": "多地展开反常规实验",
+        "body": "MoMA 将达达在苏黎世、柏林、汉诺威、科隆、纽约和巴黎的活跃发展置于 1916—1924 年间，提示它并非单一城市的一种画法。",
+        "sourceIds": ["dada"]
+      },
+      {
+        "year": 1919,
+        "period": "1919—1920 年",
+        "title": "机械、文字与拼贴交错",
+        "body": "皮卡比亚、施维特斯和恩斯特等人的作品把机械意象、日常碎片与非惯常组合带入画面，扩展图像与物件的关系。",
+        "sourceIds": ["works"]
+      },
+      {
+        "year": 1924,
+        "period": "1924 年前后",
+        "title": "运动分化与新方向",
+        "body": "达达的活跃阶段走向分化；1924 年的超现实主义宣言和刊物构成另一个思想节点，不能把两者视为完全相同的运动。",
+        "sourceIds": ["dada", "library"]
+      }
+    ],
+    "interpretation": "原创拼贴借用剪贴、尺度冲突与碎字方法，不是历史作品或报刊的复制；本档案也不声称数字生成等同达达的偶然创作过程。",
+    "sources": [
+      {
+        "id": "dada",
+        "title": "DADA at MoMA",
+        "publisher": "The Museum of Modern Art",
+        "url": "https://www.moma.org/interactives/exhibitions/2008/dadaatmoma/"
+      },
+      {
+        "id": "works",
+        "title": "Dada Highlights",
+        "publisher": "The Museum of Modern Art",
+        "url": "https://www.moma.org/collection/works/groups/dada"
+      },
+      {
+        "id": "library",
+        "title": "Surrealism: Library Highlights",
+        "publisher": "The Museum of Modern Art",
+        "url": "https://www.moma.org/research/library/library-highlights-surrealism"
+      }
+    ]
+  }
+}

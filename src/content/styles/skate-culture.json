@@ -1,0 +1,114 @@
+{
+  "id": "skate-culture",
+  "name": "滑板文化",
+  "englishName": "Skate Culture",
+  "aliases": ["Skate Culture", "Skateboarding", "Skateboard", "滑板视觉"],
+  "summary": "板面图形、磨损痕迹与城市曲面相互呼应，让器材成为运动方式和社群身份的载体。",
+  "category": "street-pop",
+  "tags": ["free", "lively", "wood", "contrast", "blue", "orange", "poster", "brand"],
+  "cover": "skate-culture-poster",
+  "images": [
+    {
+      "asset": "skate-culture-poster",
+      "caption": "滑板文化 · 风格演绎海报"
+    }
+  ],
+  "palettes": [
+    {
+      "id": "poster",
+      "name": "主题配色",
+      "description": "为本档案人工设定的视觉配色，海报色卡按相同 HEX 排版；不代表历史时期的标准色。",
+      "colors": [
+        {
+          "id": "color-1",
+          "name": "池水青",
+          "hex": "#519C9A",
+          "status": "manual",
+          "role": "板面辅助色"
+        },
+        {
+          "id": "color-2",
+          "name": "跃动橙",
+          "hex": "#D76F3C",
+          "status": "manual",
+          "role": "图形主角"
+        },
+        {
+          "id": "color-3",
+          "name": "水泥灰",
+          "hex": "#C5C1B7",
+          "status": "manual",
+          "role": "场地背景"
+        },
+        {
+          "id": "color-4",
+          "name": "沥青蓝",
+          "hex": "#303D49",
+          "status": "manual",
+          "role": "轮廓与阴影"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "title": "器材与图形",
+      "body": "图形顺应狭长板面和翘头形状，螺丝、桥架与轮组的位置也是构图条件。"
+    },
+    {
+      "title": "空间与视角",
+      "body": "低机位、碗池曲线和强烈透视传达移动路径；磨损来自接触区域，避免整面均匀做旧。"
+    },
+    {
+      "title": "文化与边界",
+      "body": "板型、动作、影像和出版共同形成文化；本档案以器材与城市空间为中心，不把所有街头贴纸都称作滑板文化。"
+    }
+  ],
+  "applications": [
+    "板面或运动专题可先确定器材轮廓，再安排主图与贴纸层次；保存原创图形，避免将真实品牌标志当通用素材。"
+  ],
+  "related": ["graffiti-lettering", "punk-diy", "pop-art"],
+  "order": 40,
+  "updatedAt": "2026-09-10",
+  "designHistory": {
+    "overview": "滑板文化与器材设计、身体动作和城市空间共同演变。本档案从加州自制滑板到轮子与板型变化，再看影像和板面视觉的传播；它是持续变化的社群文化，而不是固定的插画样式。",
+    "timeline": [
+      {
+        "year": 1950,
+        "period": "1950—1960 年代",
+        "title": "自制器材走向新的日常运动",
+        "body": "Design Museum 的历史梳理从加州早期自制滑板展开：简单的板、桥和轮逐渐成为独立的运动器材。",
+        "sourceIds": ["museum"]
+      },
+      {
+        "year": 1970,
+        "period": "1970 年代",
+        "title": "材料变化打开新地形",
+        "body": "聚氨酯轮等技术提升抓地与运动表现，滑手在泳池、坡道和滑板场探索新方式，器材与使用环境相互推动。",
+        "sourceIds": ["ucl", "museum"]
+      },
+      {
+        "year": 1980,
+        "period": "1980 年代以来",
+        "title": "板型、图形与影像共同演变",
+        "body": "专业板型、板面图形以及杂志和录像扩大了文化表达；展览将这些媒介与当代板型并置，呈现设计与社群的持续变化。",
+        "sourceIds": ["museum", "ucl"]
+      }
+    ],
+    "interpretation": "海报以虚构板面、真实感磨痕和空碗池提炼运动语境，不使用职业滑手签名板图形，也不是赛事或项目记录。",
+    "sources": [
+      {
+        "id": "museum",
+        "title": "SKATEBOARD",
+        "publisher": "Design Museum",
+        "url": "https://designmuseum.org/exhibitions/skateboard"
+      },
+      {
+        "id": "ucl",
+        "title": "Skateboard at the Design Museum celebrates 60 years of style, culture and cool",
+        "publisher": "University College London — Iain Borden",
+        "url": "https://www.ucl.ac.uk/news/2023/nov/opinion-skateboard-design-museum-celebrates-60-years-style-culture-and-cool"
+      }
+    ]
+  }
+}

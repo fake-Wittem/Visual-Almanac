@@ -1,0 +1,32 @@
+{
+  "styleId": "art-nouveau",
+  "title": "新艺术运动",
+  "accentLength": 2,
+  "colors": [
+    {
+      "name": "海绿",
+      "hex": "#648F83",
+      "englishName": "Sea Green"
+    },
+    {
+      "name": "琥珀",
+      "hex": "#C89B48",
+      "englishName": "Amber"
+    },
+    {
+      "name": "鸢尾紫",
+      "hex": "#6A4566",
+      "englishName": "Iris Purple"
+    },
+    {
+      "name": "暖象牙",
+      "hex": "#EEE4CD",
+      "englishName": "Warm Ivory"
+    }
+  ],
+  "sidebarCn": ["让线条顺势生长", "让结构接续装饰", "让光穿过玻璃", "让自然成为语言"],
+  "sidebarEn": ["A Way of Seeing.", "A Way of Living."],
+  "badges": ["植物", "流线", "工艺"],
+  "sceneFile": "assets/poster-scenes/art-nouveau.png",
+  "scenePrompt": "Art Nouveau. A luminous original stained-glass arched doorway with long sinuous iris stems, dragonfly wing glass details and whiplash wrought brass lines integrated into structure. Tight frontal architectural detail, asymmetrical flowering stems, translucent sea-green glass, amber luminous window panels, plum iris petals, elegant organic continuity. Palette sea green #648F83 amber #C89B48 plum #6A4566 ivory #EEE4CD. Not an existing building."
+}

@@ -1,0 +1,114 @@
+{
+  "id": "op-art",
+  "name": "欧普艺术 Op Art",
+  "englishName": "Op Art",
+  "aliases": ["Op Art", "欧普艺术", "光效应艺术", "Optical Art"],
+  "summary": "以重复线条、间距变化和色彩相互作用，让静止平面产生起伏与运动的知觉。",
+  "category": "avant-garde",
+  "tags": ["rational", "geometry", "contrast", "black", "blue", "poster"],
+  "cover": "op-art-poster",
+  "images": [
+    {
+      "asset": "op-art-poster",
+      "caption": "欧普艺术 Op Art · 风格演绎海报"
+    }
+  ],
+  "palettes": [
+    {
+      "id": "poster",
+      "name": "主题配色",
+      "description": "为本档案人工设定的视觉配色，海报色卡按相同 HEX 排版；不代表历史时期的标准色。",
+      "colors": [
+        {
+          "id": "color-1",
+          "name": "光学黑",
+          "hex": "#202126",
+          "status": "manual",
+          "role": "主要线条"
+        },
+        {
+          "id": "color-2",
+          "name": "纸白",
+          "hex": "#F0EFE8",
+          "status": "manual",
+          "role": "间隙与背景"
+        },
+        {
+          "id": "color-3",
+          "name": "光学蓝",
+          "hex": "#365DAC",
+          "status": "manual",
+          "role": "色彩干涉"
+        },
+        {
+          "id": "color-4",
+          "name": "冷灰",
+          "hex": "#9297A3",
+          "status": "manual",
+          "role": "辅助层次"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "title": "规则与变量",
+      "body": "固定一种线形，再逐步改变间距、方向或密度，让视觉效果由连续规则产生。"
+    },
+    {
+      "title": "颜色与知觉",
+      "body": "相邻颜色会改变观看感受，黑白不是唯一方案；图形边缘应清楚，避免无意的压缩噪点。"
+    },
+    {
+      "title": "阅读与负荷",
+      "body": "高密度图案适合独立观看区域，正文和交互控件使用低刺激背景，不在图案上叠小字。"
+    }
+  ],
+  "applications": [
+    "可将低频重复结构用于章节封面或局部展示，正文保持纯色底；不需要额外闪烁动画来制造光学效果。"
+  ],
+  "related": ["swiss-international", "bauhaus", "memphis"],
+  "order": 36,
+  "updatedAt": "2026-09-10",
+  "designHistory": {
+    "overview": "欧普艺术在二十世纪六十年代受到广泛关注，以几何、色彩和视觉知觉研究为基础。图案的目标是激活观看感受，而不只是装饰；不同艺术家在黑白结构与色彩关系上各有探索。",
+    "timeline": [
+      {
+        "year": 1960,
+        "period": "1960 年代前期",
+        "title": "视觉知觉成为创作中心",
+        "body": "以赖利、瓦萨雷里等人为代表的实践，通过几何重复与颜色关系制造视觉运动；阿尔伯斯的色彩相互作用研究构成重要背景。",
+        "sourceIds": ["eye"]
+      },
+      {
+        "year": 1965,
+        "period": "1965 年",
+        "title": "《反应的眼睛》集中呈现",
+        "body": "MoMA 的展览汇集大量几何、波动线条与色彩作品，使光学艺术获得广泛关注，也引出关于观看感受的争论。",
+        "sourceIds": ["eye"]
+      },
+      {
+        "year": 1967,
+        "period": "1967—1968 年",
+        "title": "色彩关系继续扩展",
+        "body": "赖利的《Late Morning》及其研究稿转向不使用黑色的抽象画面，以竖条之间的细微色彩变化探索整体知觉。",
+        "sourceIds": ["color"]
+      }
+    ],
+    "interpretation": "海报是原创曲线重复图形，并非赖利或瓦萨雷里作品复刻。蓝色是本次演绎选择，静态起伏来自线条关系。",
+    "sources": [
+      {
+        "id": "eye",
+        "title": "The Responsive Eye — MoMA through Time",
+        "publisher": "The Museum of Modern Art",
+        "url": "https://www.moma.org/interactives/moma_through_time/1960/the-responsive-eye/"
+      },
+      {
+        "id": "color",
+        "title": "009. Color — Bridget Riley",
+        "publisher": "The Morgan Library & Museum",
+        "url": "https://www.themorgan.org/exhibitions/online/color"
+      }
+    ]
+  }
+}

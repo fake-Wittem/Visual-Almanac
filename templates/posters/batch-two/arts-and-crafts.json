@@ -1,0 +1,32 @@
+{
+  "styleId": "arts-and-crafts",
+  "title": "工艺美术",
+  "accentLength": 2,
+  "colors": [
+    {
+      "name": "林绿",
+      "hex": "#344F3D",
+      "englishName": "Forest Green"
+    },
+    {
+      "name": "茜红",
+      "hex": "#923E39",
+      "englishName": "Madder Red"
+    },
+    {
+      "name": "赭金",
+      "hex": "#B68A45",
+      "englishName": "Ochre"
+    },
+    {
+      "name": "亚麻白",
+      "hex": "#E8D8B9",
+      "englishName": "Linen"
+    }
+  ],
+  "sidebarCn": ["看见制作的过程", "尊重材料的本性", "让纹样保持节奏", "把美带回日常"],
+  "sidebarEn": ["A Way of Seeing.", "A Way of Living."],
+  "badges": ["手工", "纹样", "材料"],
+  "sceneFile": "assets/poster-scenes/arts-and-crafts.png",
+  "scenePrompt": "Arts and Crafts. A handcrafted oak worktable in a quiet artisan workshop, a large freshly hand-block-printed textile with original interlocking repeating birds, pomegranate leaves and stems hanging vertically behind it, carved wooden printing blocks and a closed hand-bound book on table. Rich flat botanical pattern, visible natural grain and textile weave, warm diffuse daylight, no readable lettering. Palette forest #344F3D madder #923E39 ochre #B68A45 linen #E8D8B9."
+}

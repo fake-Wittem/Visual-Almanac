@@ -1,0 +1,114 @@
+{
+  "id": "surrealism",
+  "name": "超现实主义",
+  "englishName": "Surrealism",
+  "aliases": ["Surrealism", "超现实", "Surrealist"],
+  "summary": "让日常物件在梦境般的空间中失去惯常尺度，以清晰细节呈现不可能的关系。",
+  "category": "avant-garde",
+  "tags": ["mysterious", "free", "blue", "translucent", "poster"],
+  "cover": "surrealism-poster",
+  "images": [
+    {
+      "asset": "surrealism-poster",
+      "caption": "超现实主义 · 风格演绎海报"
+    }
+  ],
+  "palettes": [
+    {
+      "id": "poster",
+      "name": "主题配色",
+      "description": "为本档案人工设定的视觉配色，海报色卡按相同 HEX 排版；不代表历史时期的标准色。",
+      "colors": [
+        {
+          "id": "color-1",
+          "name": "深海蓝",
+          "hex": "#2A4164",
+          "status": "manual",
+          "role": "远景与深度"
+        },
+        {
+          "id": "color-2",
+          "name": "暮玫瑰",
+          "hex": "#C99392",
+          "status": "manual",
+          "role": "天空情绪"
+        },
+        {
+          "id": "color-3",
+          "name": "沙金",
+          "hex": "#E0C996",
+          "status": "manual",
+          "role": "地面亮部"
+        },
+        {
+          "id": "color-4",
+          "name": "翠灰绿",
+          "hex": "#477A71",
+          "status": "manual",
+          "role": "异物点缀"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "title": "对象与尺度",
+      "body": "保留物件可辨识的轮廓，再改变其位置、比例或材质；一个明确矛盾比无序堆物更有力量。"
+    },
+    {
+      "title": "空间与光线",
+      "body": "一致的光线能让不可能场景产生可信触感；空旷背景、长影与孤立对象形成心理距离。"
+    },
+    {
+      "title": "思想与媒介",
+      "body": "超现实主义也包括自动写作、文学、拼贴和政治诉求；梦幻写实只是本海报采用的一种路径。"
+    }
+  ],
+  "applications": [
+    "概念封面可以围绕一个不可能关系构图，用留白承载标题；应用建议须服务主题，避免把陌生感当作唯一目的。"
+  ],
+  "related": ["dada", "digital-future", "ink-expression"],
+  "order": 35,
+  "updatedAt": "2026-09-10",
+  "designHistory": {
+    "overview": "超现实主义是二十世纪的国际艺术与文学运动，围绕无意识、欲望与现实的重新理解展开。它包含多种图像和写作方法，不能等同于任何带有奇幻元素的画面。",
+    "timeline": [
+      {
+        "year": 1924,
+        "period": "1924 年",
+        "title": "宣言与出版形成共同讨论",
+        "body": "布勒东的超现实主义宣言与相关刊物标志着运动的重要节点，文学与实验写作位于其早期实践的中心。",
+        "sourceIds": ["library"]
+      },
+      {
+        "year": 1929,
+        "period": "1929—1930 年代",
+        "title": "影像与物件拓展语言",
+        "body": "达利与布努埃尔的电影合作、达利对非理性联想及超现实物件的讨论，扩展了运动的视觉与心理表达。",
+        "sourceIds": ["dali"]
+      },
+      {
+        "year": 1940,
+        "period": "1940 年代",
+        "title": "出版网络继续跨地域延展",
+        "body": "MoMA 图书馆保存的 View（1940—1947）与 VVV（1942—1944）等刊物，记录了相关思想在新的出版环境中的延续。",
+        "sourceIds": ["library"]
+      }
+    ],
+    "interpretation": "海报用漂浮果实、海上门框和异常尺度构造原创梦境，不复刻具体艺术家作品，也不将生成过程称为心理自动主义。",
+    "sources": [
+      {
+        "id": "library",
+        "title": "Surrealism: Library Highlights",
+        "publisher": "The Museum of Modern Art",
+        "url": "https://www.moma.org/research/library/library-highlights-surrealism"
+      },
+      {
+        "id": "dali",
+        "title": "Salvador Dalí",
+        "publisher": "The Museum of Modern Art",
+        "url": "https://www.moma.org/collection/artists/1364"
+      }
+    ]
+  }
+}

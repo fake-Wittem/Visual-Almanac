@@ -1,0 +1,32 @@
+{
+  "styleId": "dada",
+  "title": "达达主义",
+  "accentLength": 2,
+  "colors": [
+    {
+      "name": "炭墨",
+      "hex": "#282724",
+      "englishName": "Charcoal"
+    },
+    {
+      "name": "旧纸",
+      "hex": "#E5D8BA",
+      "englishName": "Aged Paper"
+    },
+    {
+      "name": "朱锈红",
+      "hex": "#AE3B31",
+      "englishName": "Rust Red"
+    },
+    {
+      "name": "铅灰",
+      "hex": "#8E8B82",
+      "englishName": "Lead Grey"
+    }
+  ],
+  "sidebarCn": ["拆开熟悉的关系", "让偶然进入构图", "让碎片发生碰撞", "向既定秩序发问"],
+  "sidebarEn": ["A Way of Seeing.", "A Way of Living."],
+  "badges": ["拼贴", "偶然", "反常规"],
+  "sceneFile": "assets/poster-scenes/dada.png",
+  "scenePrompt": "Dada-inspired original handmade photomontage, one flat landscape composition: dislocated antique engraved eye, machine gear, a gloved hand cutout, tiny ladder and newspaper-like blank line scraps with only fragmented isolated letters, overlapping torn paper at diagonal angles, vermilion rectangular interruption. Visible scissors edges and glue shadows, disruptive scale, archival cream paper and black ink. No existing artwork, no actual publication mastheads, no coherent slogans. Palette charcoal #282724 paper #E5D8BA red #AE3B31 grey #8E8B82."
+}

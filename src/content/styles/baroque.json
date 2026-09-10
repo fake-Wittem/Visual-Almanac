@@ -1,0 +1,114 @@
+{
+  "id": "baroque",
+  "name": "巴洛克",
+  "englishName": "Baroque",
+  "aliases": ["Baroque", "巴洛克装饰"],
+  "summary": "以回旋的空间、强烈明暗和雕塑般的装饰，将观看变成一场戏剧。",
+  "category": "classical-decorative",
+  "tags": ["luxurious", "mysterious", "metal", "contrast", "red", "gold", "poster"],
+  "cover": "baroque-poster",
+  "images": [
+    {
+      "asset": "baroque-poster",
+      "caption": "巴洛克 · 风格演绎海报"
+    }
+  ],
+  "palettes": [
+    {
+      "id": "poster",
+      "name": "主题配色",
+      "description": "为本档案人工设定的视觉配色，海报色卡按相同 HEX 排版；不代表历史时期的标准色。",
+      "colors": [
+        {
+          "id": "color-1",
+          "name": "酒红",
+          "hex": "#692C36",
+          "status": "manual",
+          "role": "织物主色"
+        },
+        {
+          "id": "color-2",
+          "name": "古金",
+          "hex": "#B18A49",
+          "status": "manual",
+          "role": "雕饰强调"
+        },
+        {
+          "id": "color-3",
+          "name": "石乳白",
+          "hex": "#E9DCC2",
+          "status": "manual",
+          "role": "光照与石材"
+        },
+        {
+          "id": "color-4",
+          "name": "深棕",
+          "hex": "#30251F",
+          "status": "manual",
+          "role": "暗部层次"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "title": "空间与动势",
+      "body": "用弧形台阶、斜线和前后遮挡建立观看路径，装饰沿结构生长，避免每个角落争夺焦点。"
+    },
+    {
+      "title": "明暗与材质",
+      "body": "深色织物吸收光线，浅石材与金属反光形成层次；明亮区域集中在一个视觉节点。"
+    },
+    {
+      "title": "语境与尺度",
+      "body": "本档案关注建筑、雕塑和装饰的整体编排；华丽形式曾服务宗教与宫廷权力，不能简化成昂贵材料清单。"
+    }
+  ],
+  "applications": [
+    "主题页可让一处大幅弧线主视觉承担戏剧感，正文保持清晰层级；金色适合窄边与局部强调。"
+  ],
+  "related": ["rococo", "victorian", "hollywood"],
+  "order": 29,
+  "updatedAt": "2026-09-10",
+  "designHistory": {
+    "overview": "巴洛克在十七世纪意大利及欧洲多地发展，将建筑、绘画和雕塑组织为情感鲜明的整体。这里以罗马空间与欧洲装饰传播为中心，并说明其跨地域变化，不能用一种宫廷室内代表全部巴洛克。",
+    "timeline": [
+      {
+        "year": 1600,
+        "period": "约 1600 年",
+        "title": "罗马的光与叙事",
+        "body": "卡拉瓦乔为礼拜堂绘制的圣马太题材绘画，使画中光线与实际空间照明相互呼应；观看环境成为叙事的一部分。",
+        "sourceIds": ["rome"]
+      },
+      {
+        "year": 1623,
+        "period": "1620—1660 年代",
+        "title": "建筑与雕塑共同组织空间",
+        "body": "教皇赞助下，贝尔尼尼、博罗米尼等改变罗马的教堂与广场。弯曲体量、雕塑和隐蔽光源共同强化观者的感受。",
+        "sourceIds": ["rome"]
+      },
+      {
+        "year": 1700,
+        "period": "十八世纪及跨地域传播",
+        "title": "装饰语言随流通而改变",
+        "body": "宫廷模仿、贸易、传教与殖民活动使巴洛克形式跨地域流通；材料与当地需求也改变了其面貌，不能理解为欧洲样式的原样复制。",
+        "sourceIds": ["baroque"]
+      }
+    ],
+    "interpretation": "海报以虚构阶梯厅、帷幔和斜射光提炼空间戏剧性，不是某座宫殿的复原；四色为编辑选色。",
+    "sources": [
+      {
+        "id": "rome",
+        "title": "Baroque Rome",
+        "publisher": "The Metropolitan Museum of Art",
+        "url": "https://www.metmuseum.org/essays/baroque-rome"
+      },
+      {
+        "id": "baroque",
+        "title": "The Baroque style",
+        "publisher": "Victoria and Albert Museum",
+        "url": "https://www.vam.ac.uk/articles/the-baroque-style"
+      }
+    ]
+  }
+}

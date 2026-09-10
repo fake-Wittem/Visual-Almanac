@@ -1,0 +1,32 @@
+{
+  "styleId": "baroque",
+  "title": "巴洛克风格",
+  "accentLength": 2,
+  "colors": [
+    {
+      "name": "酒红",
+      "hex": "#692C36",
+      "englishName": "Oxblood"
+    },
+    {
+      "name": "古金",
+      "hex": "#B18A49",
+      "englishName": "Antique Gold"
+    },
+    {
+      "name": "石乳白",
+      "hex": "#E9DCC2",
+      "englishName": "Marble Cream"
+    },
+    {
+      "name": "深棕",
+      "hex": "#30251F",
+      "englishName": "Espresso"
+    }
+  ],
+  "sidebarCn": ["让光照成为叙事", "让曲线引导视线", "让装饰进入空间", "让材质承接戏剧"],
+  "sidebarEn": ["A Way of Seeing.", "A Way of Living."],
+  "badges": ["戏剧", "回旋", "雕饰"],
+  "sceneFile": "assets/poster-scenes/baroque.png",
+  "scenePrompt": "Baroque. A fictional seventeenth-century ceremonial stair hall, sweeping dark red velvet drapery, grand spiralling carved gilded balustrade, polished deep brown marble, pale limestone steps, dramatic shaft of warm light through a high window. Strong diagonals, sculptural shadows, rich material close perspective, no people. Palette oxblood #692C36 antique gold #B18A49 marble cream #E9DCC2 espresso #30251F."
+}

@@ -1,0 +1,120 @@
+{
+  "id": "punk-diy",
+  "name": "朋克 DIY",
+  "englishName": "Punk DIY",
+  "aliases": ["Punk DIY", "朋克", "Punk", "Punk Zine", "朋克自出版"],
+  "summary": "用剪贴、复印、手写和自主发行，把直接的声音带入杂志与音乐视觉。",
+  "category": "street-pop",
+  "tags": ["free", "contrast", "collage", "lettering", "black", "red", "poster"],
+  "cover": "punk-diy-poster",
+  "images": [
+    {
+      "asset": "punk-diy-poster",
+      "caption": "朋克 DIY · 风格演绎海报"
+    }
+  ],
+  "palettes": [
+    {
+      "id": "poster",
+      "name": "主题配色",
+      "description": "为本档案人工设定的视觉配色，海报色卡按相同 HEX 排版；不代表历史时期的标准色。",
+      "colors": [
+        {
+          "id": "color-1",
+          "name": "复印黑",
+          "hex": "#222222",
+          "status": "manual",
+          "role": "图像与文字"
+        },
+        {
+          "id": "color-2",
+          "name": "纸灰白",
+          "hex": "#E8E5D9",
+          "status": "manual",
+          "role": "纸张底色"
+        },
+        {
+          "id": "color-3",
+          "name": "信号红",
+          "hex": "#CD3838",
+          "status": "manual",
+          "role": "划线强调"
+        },
+        {
+          "id": "color-4",
+          "name": "酸黄",
+          "hex": "#D8DE47",
+          "status": "manual",
+          "role": "插页冲突"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "title": "拼贴与语气",
+      "body": "大小不齐的字、手写删改和撕边建立直接语气；关键内容仍需要可读，不让噪声淹没立场。"
+    },
+    {
+      "title": "低成本媒介",
+      "body": "复印颗粒、订书钉和胶带来自具体制作条件，粗糙感应服务内容，而不是无理由损坏画面。"
+    },
+    {
+      "title": "与达达的区别",
+      "body": "视觉方法可能相似，朋克 DIY 的重点是音乐社群与自主出版网络；不把两者写成同一时代或单线继承。"
+    }
+  ],
+  "applications": [
+    "独立音乐或自出版专题可以用黑白为骨架、单色为强调，让手写批注承载真实语气，活动信息保持稳定字号。"
+  ],
+  "related": ["dada", "graffiti-lettering", "skate-culture"],
+  "order": 39,
+  "updatedAt": "2026-09-10",
+  "designHistory": {
+    "overview": "朋克 DIY 不是统一的设计流派，本档案以英国七十年代乐迷刊物和后来女性主义朋克自出版为线索。剪贴、复印与自主发行使参与者能够绕过既有出版门槛，视觉的直接性与社群表达相互联系。",
+    "timeline": [
+      {
+        "year": 1976,
+        "period": "1976 年",
+        "title": "乐迷开始自己制作刊物",
+        "body": "利物浦约翰摩尔大学图书馆保存的《Sniffin’ Glue》1976 年圣诞期以插画替代照片以节省印刷费用，反映制作条件如何影响视觉。",
+        "sourceIds": ["glue"]
+      },
+      {
+        "year": 1991,
+        "period": "1990 年代",
+        "title": "自出版承载更多议题",
+        "body": "Riot Grrrl 相关刊物通过复印、巡演与乐迷网络流通，将个人经历、性别与社群讨论带入出版。MoMA 所列《Bikini Kill》创刊号出版于 1991 年。",
+        "sourceIds": ["zines"]
+      },
+      {
+        "year": 2011,
+        "period": "2011 年及之后",
+        "title": "散页被保存为文化材料",
+        "body": "MoMA 展示和讨论相关 zine，史密森尼也将其纳入女性音乐史叙述；这些收藏让自出版的声音和传播方式持续可读。",
+        "sourceIds": ["zines", "herstory"]
+      }
+    ],
+    "interpretation": "海报是虚构 NOISE 刊物的剪贴演绎，不复制真实乐队封面；模拟复印的画面不等于实际手工出版记录。",
+    "sources": [
+      {
+        "id": "glue",
+        "title": "Photo Friday: Happy Christmas punk style",
+        "publisher": "Liverpool John Moores University Library",
+        "url": "https://ljmulibrary.wordpress.com/2013/12/13/photo-friday-happy-christmas-punk-style/"
+      },
+      {
+        "id": "zines",
+        "title": "Looking at Zines",
+        "publisher": "The Museum of Modern Art",
+        "url": "https://www.moma.org/explore/inside_out/2011/05/18/looking-at-zines/"
+      },
+      {
+        "id": "herstory",
+        "title": "Music HerStory: Changemakers",
+        "publisher": "Smithsonian Libraries and Archives",
+        "url": "https://library.si.edu/exhibition/music-herstory/changemakers"
+      }
+    ]
+  }
+}

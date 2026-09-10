@@ -10,6 +10,10 @@ const recipeSchema = z
     styleId: z.string().regex(/^[a-z][a-z0-9-]*$/),
     title: text.max(12),
     accentLength: z.number().int().positive(),
+    // 浅色主题可单独指定标题墨色，四色色卡仍以档案配色为准。
+    titleColors: z
+      .tuple([z.string().regex(/^#[0-9A-F]{6}$/), z.string().regex(/^#[0-9A-F]{6}$/)])
+      .optional(),
     colors: z
       .array(z.object({ name: text, hex: z.string().regex(/^#[0-9A-F]{6}$/), englishName: text }))
       .length(4),
@@ -55,8 +59,11 @@ for (const file of (await readdir(input)).filter((name) => name.endsWith('.json'
     throw new Error(`${recipe.styleId}: 海报色卡与档案配色不一致`)
   // 场景作为独立图像嵌入；文字、色卡和网格由 SVG 原生排版。
   const scene = (await readFile(recipe.sceneFile)).toString('base64')
-  const primary = [...recipe.colors].sort((a, b) => luminance(a.hex) - luminance(b.hex))[0]!.hex
+  const primary =
+    recipe.titleColors?.[0] ??
+    [...recipe.colors].sort((a, b) => luminance(a.hex) - luminance(b.hex))[0]!.hex
   const accent =
+    recipe.titleColors?.[1] ??
     recipe.colors.find((color) => color.hex !== primary && luminance(color.hex) < 0.28)?.hex ??
     primary
   const titleParts = Array.from(recipe.title)

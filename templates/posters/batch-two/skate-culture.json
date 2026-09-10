@@ -1,0 +1,32 @@
+{
+  "styleId": "skate-culture",
+  "title": "滑板文化",
+  "accentLength": 2,
+  "colors": [
+    {
+      "name": "池水青",
+      "hex": "#519C9A",
+      "englishName": "Pool Teal"
+    },
+    {
+      "name": "跃动橙",
+      "hex": "#D76F3C",
+      "englishName": "Motion Orange"
+    },
+    {
+      "name": "水泥灰",
+      "hex": "#C5C1B7",
+      "englishName": "Concrete"
+    },
+    {
+      "name": "沥青蓝",
+      "hex": "#303D49",
+      "englishName": "Asphalt Blue"
+    }
+  ],
+  "sidebarCn": ["从板面看见个性", "让磨痕记录运动", "让城市变成路径", "让图形跟随身体"],
+  "sidebarEn": ["A Way of Seeing.", "A Way of Living."],
+  "badges": ["板面", "运动", "社群"],
+  "sceneFile": "assets/poster-scenes/skate-culture.png",
+  "scenePrompt": "Contemporary skate culture editorial photograph: low wide angle of a worn original skateboard leaning at the lip of an empty sunlit concrete bowl, underside graphic is a bold orange abstract creature with turquoise wave and black outlines, scratched maple plywood layers and pale polyurethane wheels visible, afternoon cobalt sky, distant fence, a couple of original abstract geometric stickers without logos, no people. Strong curved bowl leading lines, authentic wear. Palette pool teal #519C9A orange #D76F3C concrete #C5C1B7 asphalt #303D49."
+}

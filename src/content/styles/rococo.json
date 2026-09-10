@@ -1,0 +1,114 @@
+{
+  "id": "rococo",
+  "name": "洛可可",
+  "englishName": "Rococo",
+  "aliases": ["Rococo", "洛可可装饰", "Rocaille"],
+  "summary": "贝壳、花叶和不对称卷曲贴近器物尺度，构成轻盈细密的装饰语言。",
+  "category": "classical-decorative",
+  "tags": ["elegant", "luxurious", "organic", "metal", "blue", "gold", "brand"],
+  "cover": "rococo-poster",
+  "images": [
+    {
+      "asset": "rococo-poster",
+      "caption": "洛可可 · 风格演绎海报"
+    }
+  ],
+  "palettes": [
+    {
+      "id": "poster",
+      "name": "主题配色",
+      "description": "为本档案人工设定的视觉配色，海报色卡按相同 HEX 排版；不代表历史时期的标准色。",
+      "colors": [
+        {
+          "id": "color-1",
+          "name": "粉蓝",
+          "hex": "#A9C6CE",
+          "status": "manual",
+          "role": "柔和铺底"
+        },
+        {
+          "id": "color-2",
+          "name": "灰玫瑰",
+          "hex": "#D6A4A6",
+          "status": "manual",
+          "role": "花饰点缀"
+        },
+        {
+          "id": "color-3",
+          "name": "象牙白",
+          "hex": "#F0E5CF",
+          "status": "manual",
+          "role": "瓷器与留白"
+        },
+        {
+          "id": "color-4",
+          "name": "柔金",
+          "hex": "#B79358",
+          "status": "manual",
+          "role": "曲线描边"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "title": "轮廓与不对称",
+      "body": "C 形与 S 形卷曲连接花叶和贝壳，左右不必镜像；用体量和空白保持平衡。"
+    },
+    {
+      "title": "器物与工艺",
+      "body": "瓷器浮雕、木雕与镀金各有材料逻辑，不把装饰当成统一贴图覆盖所有表面。"
+    },
+    {
+      "title": "与沙龙场景的区别",
+      "body": "此处研究装饰形式、家具工艺与图样传播；已有法式沙龙档案侧重生活空间与氛围。"
+    }
+  ],
+  "applications": [
+    "适合器物主题的包装与邀请卡：选一组不对称边饰，配柔和底色，保留完整清晰的正文区域。"
+  ],
+  "related": ["french-salon", "baroque", "art-nouveau"],
+  "order": 30,
+  "updatedAt": "2026-09-10",
+  "designHistory": {
+    "overview": "洛可可在十八世纪前半叶法国的工艺与装饰设计中兴起，尤其见于家具、银器与陶瓷。它既有曲线与贝壳纹样，也依赖工匠协作、图样书和跨国传播，不能只用粉色沙龙概括。",
+    "timeline": [
+      {
+        "year": 1720,
+        "period": "1720—1730 年代",
+        "title": "从工艺形成新趣味",
+        "body": "法国设计师与工匠发展出贝壳、花叶及不对称卷曲；这种装饰首先在器物与室内细部中展现活力。",
+        "sourceIds": ["rococo"]
+      },
+      {
+        "year": 1740,
+        "period": "1740—1750 年代",
+        "title": "图样推动英国传播",
+        "body": "装饰版画与图样书帮助工匠重新组合曲线。1754 年出版的齐彭代尔家具图样集同时面向制作者和顾客。",
+        "sourceIds": ["rococo"]
+      },
+      {
+        "year": 1760,
+        "period": "约 1760 年以后",
+        "title": "曲线与古典秩序交汇",
+        "body": "法国座椅逐渐吸收古代母题，出现将弯曲轮廓与更克制装饰并置的过渡形式；风格更替并非一夜完成。",
+        "sourceIds": ["seating"]
+      }
+    ],
+    "interpretation": "海报用虚构瓷器与小镜框呈现工艺尺度，区别于完整沙龙场景；不复制馆藏原件，也不把柔粉配色视为时代标准。",
+    "sources": [
+      {
+        "id": "rococo",
+        "title": "The Rococo style – an introduction",
+        "publisher": "Victoria and Albert Museum",
+        "url": "https://www.vam.ac.uk/articles/the-rococo-style-an-introduction"
+      },
+      {
+        "id": "seating",
+        "title": "French Furniture in the Eighteenth Century: Seat Furniture",
+        "publisher": "The Metropolitan Museum of Art",
+        "url": "https://www.metmuseum.org/essays/french-furniture-in-the-eighteenth-century-seat-furniture"
+      }
+    ]
+  }
+}

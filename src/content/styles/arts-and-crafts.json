@@ -1,0 +1,114 @@
+{
+  "id": "arts-and-crafts",
+  "name": "工艺美术运动",
+  "englishName": "Arts and Crafts",
+  "aliases": ["Arts and Crafts", "Arts & Crafts", "工艺美术"],
+  "summary": "让材料、手工与日常生活重新相连，用有秩序的自然纹样表达制作的价值。",
+  "category": "classical-decorative",
+  "tags": ["warm", "wood", "textile", "organic", "green", "brown", "brand"],
+  "cover": "arts-and-crafts-poster",
+  "images": [
+    {
+      "asset": "arts-and-crafts-poster",
+      "caption": "工艺美术运动 · 风格演绎海报"
+    }
+  ],
+  "palettes": [
+    {
+      "id": "poster",
+      "name": "主题配色",
+      "description": "为本档案人工设定的视觉配色，海报色卡按相同 HEX 排版；不代表历史时期的标准色。",
+      "colors": [
+        {
+          "id": "color-1",
+          "name": "林绿",
+          "hex": "#344F3D",
+          "status": "manual",
+          "role": "纹样主色"
+        },
+        {
+          "id": "color-2",
+          "name": "茜红",
+          "hex": "#923E39",
+          "status": "manual",
+          "role": "花果强调"
+        },
+        {
+          "id": "color-3",
+          "name": "赭金",
+          "hex": "#B68A45",
+          "status": "manual",
+          "role": "木材暖调"
+        },
+        {
+          "id": "color-4",
+          "name": "亚麻白",
+          "hex": "#E8D8B9",
+          "status": "manual",
+          "role": "纸布底色"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "title": "重复与变化",
+      "body": "枝叶顺着连续骨架交织，花果或鸟形作为节奏节点；重复单元应能衔接，避免随机堆满植物。"
+    },
+    {
+      "title": "材料与制作",
+      "body": "木纹、织纹、印色与装订痕迹应各有尺度，让使用者看见物件如何被制作。"
+    },
+    {
+      "title": "观念与形式",
+      "body": "运动讨论劳动、质量与生活的关系，不能仅作为花卉壁纸风格；自然手作档案则是跨时期的编辑主题。"
+    }
+  ],
+  "applications": [
+    "书籍、手作品牌与纸品可以使用一组自绘连续纹样，配合克制字级及自然底色，标明真实制作工艺。"
+  ],
+  "related": ["art-nouveau", "natural-handcraft", "british-academia"],
+  "order": 31,
+  "updatedAt": "2026-09-10",
+  "designHistory": {
+    "overview": "工艺美术运动是十九世纪后期英国围绕设计、劳动与生活展开的改革理想，并非规定统一外观的样式。它关注工业化条件下的制作质量与工匠地位，之后在不同地区形成各自回应。",
+    "timeline": [
+      {
+        "year": 1860,
+        "period": "1860—1870 年代",
+        "title": "重新评价手工与日用品",
+        "body": "受罗斯金等人的观念影响，莫里斯及同代设计者尝试改善建筑与日用品，将制作方式与生活质量联系起来。",
+        "sourceIds": ["intro"]
+      },
+      {
+        "year": 1887,
+        "period": "1887 年",
+        "title": "展览组织让运动具名",
+        "body": "伦敦成立工艺美术展览协会，沃尔特·克兰担任首任主席；展览为装饰艺术与工艺制作者提供共同平台。",
+        "sourceIds": ["intro"]
+      },
+      {
+        "year": 1900,
+        "period": "1900 年至 1920 年代",
+        "title": "理念在不同地区转化",
+        "body": "1900 年维也纳分离派展览提供国际交流平台；相关理想又在美国及日本民艺语境中被吸收，形成不同的材料与生产选择。",
+        "sourceIds": ["abroad"]
+      }
+    ],
+    "interpretation": "海报的原创鸟叶纹织物与印版表现手工和重复结构，不是莫里斯图案复刻；本档案配色为人工提炼。",
+    "sources": [
+      {
+        "id": "intro",
+        "title": "Arts and Crafts: an introduction",
+        "publisher": "Victoria and Albert Museum",
+        "url": "https://www.vam.ac.uk/articles/arts-and-crafts-an-introduction"
+      },
+      {
+        "id": "abroad",
+        "title": "Arts and Crafts: beyond the UK",
+        "publisher": "Victoria and Albert Museum",
+        "url": "https://www.vam.ac.uk/articles/arts-and-crafts-beyond-the-uk"
+      }
+    ]
+  }
+}

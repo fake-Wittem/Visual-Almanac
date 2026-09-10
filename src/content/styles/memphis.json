@@ -1,0 +1,120 @@
+{
+  "id": "memphis",
+  "name": "孟菲斯 Memphis",
+  "englishName": "Memphis",
+  "aliases": ["Memphis", "孟菲斯", "Memphis Milano"],
+  "summary": "以鲜亮色块、装饰层压板和出人意料的体量组合，重新讨论家具的趣味与规则。",
+  "category": "avant-garde",
+  "tags": ["lively", "free", "geometry", "contrast", "red", "blue", "poster", "brand"],
+  "cover": "memphis-poster",
+  "images": [
+    {
+      "asset": "memphis-poster",
+      "caption": "孟菲斯 Memphis · 风格演绎海报"
+    }
+  ],
+  "palettes": [
+    {
+      "id": "poster",
+      "name": "主题配色",
+      "description": "为本档案人工设定的视觉配色，海报色卡按相同 HEX 排版；不代表历史时期的标准色。",
+      "colors": [
+        {
+          "id": "color-1",
+          "name": "珊瑚红",
+          "hex": "#DF635C",
+          "status": "manual",
+          "role": "主要色块"
+        },
+        {
+          "id": "color-2",
+          "name": "青绿",
+          "hex": "#379D9C",
+          "status": "manual",
+          "role": "体块对照"
+        },
+        {
+          "id": "color-3",
+          "name": "柠檬黄",
+          "hex": "#E8C84A",
+          "status": "manual",
+          "role": "高亮点缀"
+        },
+        {
+          "id": "color-4",
+          "name": "墨紫",
+          "hex": "#29283C",
+          "status": "manual",
+          "role": "图案与轮廓"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "title": "体量与功能",
+      "body": "柱、台阶和斜面组成意外轮廓，仍应说明支撑和使用关系；不把任意几何堆叠等同设计。"
+    },
+    {
+      "title": "表面与价值",
+      "body": "层压板与鲜艳图案挑战贵重材料的等级观念，手工制作与商业定价之间也存在张力。"
+    },
+    {
+      "title": "与包豪斯的区别",
+      "body": "两者都可用基本形与原色，但孟菲斯强调装饰、符号与幽默，不沿用单一功能主义解释。"
+    }
+  ],
+  "applications": [
+    "活动主视觉可用两种主色组织大形，一种高亮色点缀；碎纹集中在局部，文字对齐保持稳定。"
+  ],
+  "related": ["bauhaus", "pop-art", "art-deco"],
+  "order": 33,
+  "updatedAt": "2026-09-10",
+  "designHistory": {
+    "overview": "孟菲斯是以索特萨斯为核心的国际设计团体，1981 年在米兰推出首批作品。它重新组合功能、表面、材料和色彩，挑战设计品味的等级；今天常见的碎纹背景只是其视觉遗产的一部分。",
+    "timeline": [
+      {
+        "year": 1960,
+        "period": "1960—1970 年代",
+        "title": "激进实验提供前史",
+        "body": "索特萨斯此前在器物与设计观念上的持续实验，为后来孟菲斯对传统形式和价值的挑战积累了基础。",
+        "sourceIds": ["sottsass"]
+      },
+      {
+        "year": 1981,
+        "period": "1981 年",
+        "title": "家具成为鲜明宣言",
+        "body": "首批作品在米兰亮相。Carlton 隔断用层压板、鲜明色彩与斜向构件重组家具形态，同时保留实际结构逻辑。",
+        "sourceIds": ["carlton", "sottsass"]
+      },
+      {
+        "year": 1985,
+        "period": "1985—1988 年",
+        "title": "团体转变，影响延续",
+        "body": "索特萨斯于 1985 年离开团体；Design Museum 的成员记录将集体活动的结束记至 1988 年。短暂实践通过展览、媒体与后续设计持续被讨论。",
+        "sourceIds": ["museum"]
+      }
+    ],
+    "interpretation": "海报是一件虚构层压板家具的视觉演绎，并非 Carlton 或其他成员作品复刻；配色用于区分体量和图案。",
+    "sources": [
+      {
+        "id": "sottsass",
+        "title": "Ettore Sottsass: Exhibition Galleries",
+        "publisher": "The Metropolitan Museum of Art",
+        "url": "https://www.metmuseum.org/exhibitions/listings/2017/ettore-sottsass/exhibition-galleries"
+      },
+      {
+        "id": "carlton",
+        "title": "“Carlton” Room Divider",
+        "publisher": "The Metropolitan Museum of Art",
+        "url": "https://www.metmuseum.org/art/collection/search/486989"
+      },
+      {
+        "id": "museum",
+        "title": "Memphis",
+        "publisher": "Design Museum",
+        "url": "https://designmuseum.org/memphis"
+      }
+    ]
+  }
+}
