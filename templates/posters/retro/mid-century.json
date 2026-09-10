@@ -1,0 +1,32 @@
+{
+  "styleId": "mid-century",
+  "title": "中世纪摩登",
+  "accentLength": 2,
+  "colors": [
+    {
+      "name": "牛油果绿",
+      "hex": "#6B6E3E",
+      "englishName": "Avocado Green"
+    },
+    {
+      "name": "芥末黄",
+      "hex": "#C08C34",
+      "englishName": "Mustard Yellow"
+    },
+    {
+      "name": "焦橙",
+      "hex": "#AD582E",
+      "englishName": "Burnt Orange"
+    },
+    {
+      "name": "胡桃木棕",
+      "hex": "#6B4636",
+      "englishName": "Walnut Brown"
+    }
+  ],
+  "sidebarCn": ["木色承接日光", "曲线回应功能", "绿与橙彼此呼应", "理性也能温暖日常"],
+  "sidebarEn": ["A Way of Seeing.", "A Way of Living."],
+  "badges": ["理性", "木作", "温暖"],
+  "sceneFile": "assets/poster-scenes/mid-century.png",
+  "scenePrompt": "Generate ONLY one landscape central scene for a Visual Almanac archive poster, aspect ratio about 1.46:1. Midcentury modern living room, walnut low coffee table and sculpted timber lounge chair foreground, avocado green sofa with mustard and burnt orange cushions middle, broad garden windows and low walnut sideboard background. Clean organic curves and tapered legs, warm natural editorial interior photograph. Palette echoes #6B6E3E, #C08C34, #AD582E, #6B4636. Detailed cohesive single scene, foreground middle and background, premium realistic materials, balanced exposure. No poster layout, no borders, no text, no swatches, no collage, no watermarks. The fixed archive layout will be applied separately by the existing renderer."
+}

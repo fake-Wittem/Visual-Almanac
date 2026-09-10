@@ -20,14 +20,14 @@
   "images": [
     {
       "asset": "hollywood-poster",
-      "caption": "好莱坞黄金时代复古 · 完整参考海报"
+      "caption": "好莱坞黄金时代复古 · 统一版式风格演绎海报"
     }
   ],
   "palettes": [
     {
       "id": "poster",
       "name": "海报配色",
-      "description": "从海报配色条内部区域取样的近似颜色，并非图中文字的精确转录。",
+      "description": "从海报配色条内部区域取样的近似颜色，并非图中文字的精确转录。 2026-09-10 重制海报沿用这组既有数值，色卡由固定排版直接填充。",
       "colors": [
         {
           "id": "color-1",
@@ -73,7 +73,7 @@
   "applications": ["以黑色建立舞台感，用象牙白保证阅读，金红集中在重点。"],
   "related": [],
   "order": 11,
-  "updatedAt": "2026-09-09",
+  "updatedAt": "2026-09-10",
   "designHistory": {
     "overview": "好莱坞黄金时代的华丽感，既来自银幕，也来自制片厂对明星形象的系统塑造。以下以明星宣传与 George Hurrell 的摄影为线索，理解这种视觉语言的形成和传播。",
     "timeline": [

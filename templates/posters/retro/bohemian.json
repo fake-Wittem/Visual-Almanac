@@ -1,0 +1,32 @@
+{
+  "styleId": "bohemian",
+  "title": "波西米亚复古",
+  "accentLength": 2,
+  "colors": [
+    {
+      "name": "赤陶橘",
+      "hex": "#B05D3E",
+      "englishName": "Terracotta"
+    },
+    {
+      "name": "橄榄绿",
+      "hex": "#776D46",
+      "englishName": "Olive Green"
+    },
+    {
+      "name": "赭黄",
+      "hex": "#BC8E50",
+      "englishName": "Ochre"
+    },
+    {
+      "name": "亚麻白",
+      "hex": "#E3D3C2",
+      "englishName": "Linen White"
+    }
+  ],
+  "sidebarCn": ["陶土收藏阳光", "织物叠起温度", "藤编留下手作痕迹", "让大地色自由生长"],
+  "sidebarEn": ["A Way of Seeing.", "A Way of Living."],
+  "badges": ["自由", "织物", "温暖"],
+  "sceneFile": "assets/poster-scenes/bohemian.png",
+  "scenePrompt": "Generate ONLY one landscape central scene for a Visual Almanac archive poster, aspect ratio about 1.46:1. Bohemian living room, terracotta ceramic vase and woven rug foreground, low olive upholstered sofa with ochre textile cushions, rattan chair, linen drapes and sunlit plaster wall in background. Tactile relaxed interior editorial photography. Palette echoes #B05D3E, #776D46, #BC8E50, #E3D3C2. Detailed cohesive single scene, foreground middle and background, premium realistic materials, balanced exposure. No poster layout, no borders, no text, no swatches, no collage, no watermarks. The fixed archive layout will be applied separately by the existing renderer."
+}

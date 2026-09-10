@@ -10,14 +10,14 @@
   "images": [
     {
       "asset": "victorian-poster",
-      "caption": "维多利亚古典 · 完整参考海报"
+      "caption": "维多利亚古典 · 统一版式风格演绎海报"
     }
   ],
   "palettes": [
     {
       "id": "poster",
       "name": "海报配色",
-      "description": "从海报配色条内部区域取样的近似颜色，并非图中文字的精确转录。",
+      "description": "从海报配色条内部区域取样的近似颜色，并非图中文字的精确转录。 2026-09-10 重制海报沿用这组既有数值，色卡由固定排版直接填充。",
       "colors": [
         {
           "id": "color-1",
@@ -63,7 +63,7 @@
   "applications": ["深绿色作主体，象牙白提供阅读区域，古金用于分隔线。"],
   "related": [],
   "order": 2,
-  "updatedAt": "2026-09-09",
+  "updatedAt": "2026-09-10",
   "designHistory": {
     "overview": "维多利亚时代的设计并不只有繁复装饰：历史复兴、工业制造和设计改革同时存在。本档案选取的是其中重视雕饰、织物与浓厚室内氛围的一支。",
     "timeline": [

@@ -1,0 +1,32 @@
+{
+  "styleId": "british-academia",
+  "title": "英伦学院复古",
+  "accentLength": 2,
+  "colors": [
+    {
+      "name": "普鲁士蓝",
+      "hex": "#1F3A5F",
+      "englishName": "Prussian Blue"
+    },
+    {
+      "name": "奶杏",
+      "hex": "#E8D8C3",
+      "englishName": "Apricot Cream"
+    },
+    {
+      "name": "酒红",
+      "hex": "#6E2131",
+      "englishName": "Burgundy"
+    },
+    {
+      "name": "焦糖棕",
+      "hex": "#8B5A3C",
+      "englishName": "Caramel Brown"
+    }
+  ],
+  "sidebarCn": ["旧书与时光相伴", "木作收藏安静", "格纹织入日常", "灯下重拾阅读秩序"],
+  "sidebarEn": ["A Way of Seeing.", "A Way of Living."],
+  "badges": ["沉稳", "学院", "复古"],
+  "sceneFile": "assets/poster-scenes/british-academia.png",
+  "scenePrompt": "Generate ONLY one landscape central scene for a Visual Almanac archive poster, aspect ratio about 1.46:1. British academic study, open unlettered aged book and brass reading lamp on caramel oak desk foreground, burgundy leather reading chair with Prussian blue plaid throw middle, tall bookcases and soft overcast leaded window behind. Rich warm photographic materials, quiet atmospheric editorial photograph. Palette echoes #1F3A5F, #E8D8C3, #6E2131, #8B5A3C. Detailed cohesive single scene, foreground middle and background, premium realistic materials, balanced exposure. No poster layout, no borders, no text, no swatches, no collage, no watermarks. The fixed archive layout will be applied separately by the existing renderer."
+}

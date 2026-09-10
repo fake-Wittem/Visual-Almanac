@@ -1,0 +1,32 @@
+{
+  "styleId": "french-salon",
+  "title": "法式沙龙复古",
+  "accentLength": 2,
+  "colors": [
+    {
+      "name": "雾蓝",
+      "hex": "#788C9A",
+      "englishName": "Mist Blue"
+    },
+    {
+      "name": "灰粉",
+      "hex": "#D3B3A5",
+      "englishName": "Dusty Pink"
+    },
+    {
+      "name": "亚麻米",
+      "hex": "#E3D4BD",
+      "englishName": "Linen Beige"
+    },
+    {
+      "name": "旧金色",
+      "hex": "#A48358",
+      "englishName": "Antique Gold"
+    }
+  ],
+  "sidebarCn": ["雾蓝接住自然光", "灰粉温柔地晕开", "曲线绕过旧金边", "优雅停在日常之间"],
+  "sidebarEn": ["A Way of Seeing.", "A Way of Living."],
+  "badges": ["优雅", "曲线", "柔光"],
+  "sceneFile": "assets/poster-scenes/french-salon.png",
+  "scenePrompt": "Generate ONLY one landscape central scene for a Visual Almanac archive poster, aspect ratio about 1.46:1. French salon with mist blue paneled walls, dusty pink curved upholstered settee, linen beige rug and marble table foreground, slim antique gold mirror and delicate carved molding background. Soft daylight, airy restrained rococo curves, elegant editorial interior photograph. Palette echoes #788C9A, #D3B3A5, #E3D4BD, #A48358. Detailed cohesive single scene, foreground middle and background, premium realistic materials, balanced exposure. No poster layout, no borders, no text, no swatches, no collage, no watermarks. The fixed archive layout will be applied separately by the existing renderer."
+}

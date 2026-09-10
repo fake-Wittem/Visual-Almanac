@@ -10,14 +10,14 @@
   "images": [
     {
       "asset": "hong-kong-cinema-poster",
-      "caption": "港风电影复古 · 完整参考海报"
+      "caption": "港风电影复古 · 统一版式风格演绎海报"
     }
   ],
   "palettes": [
     {
       "id": "poster",
       "name": "海报配色",
-      "description": "从海报配色条内部区域取样的近似颜色，并非图中文字的精确转录。",
+      "description": "从海报配色条内部区域取样的近似颜色，并非图中文字的精确转录。 2026-09-10 重制海报沿用这组既有数值，色卡由固定排版直接填充。",
       "colors": [
         {
           "id": "color-1",
@@ -63,7 +63,7 @@
   "applications": ["以煤灰黑压住背景，蓝色建立冷调，红橙只点亮视觉焦点。"],
   "related": [],
   "order": 6,
-  "updatedAt": "2026-09-09",
+  "updatedAt": "2026-09-10",
   "designHistory": {
     "overview": "“港风电影复古”是城市招牌文化与电影视觉的交汇，而非一套独立的建筑流派。这里从香港霓虹的街头背景，追踪到王家卫电影对都市情绪和历史记忆的表达。",
     "timeline": [

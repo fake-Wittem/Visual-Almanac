@@ -21,14 +21,14 @@
   "images": [
     {
       "asset": "american-diner-poster",
-      "caption": "美式餐厅50s复古 · 完整参考海报"
+      "caption": "美式餐厅50s复古 · 统一版式风格演绎海报"
     }
   ],
   "palettes": [
     {
       "id": "poster",
       "name": "海报配色",
-      "description": "从海报配色条内部区域取样的近似颜色，并非图中文字的精确转录。",
+      "description": "从海报配色条内部区域取样的近似颜色，并非图中文字的精确转录。 2026-09-10 重制海报沿用这组既有数值，色卡由固定排版直接填充。",
       "colors": [
         {
           "id": "color-1",
@@ -74,7 +74,7 @@
   "applications": ["用奶油黄作底色，薄荷绿作主色，樱桃红用于行动和重点。"],
   "related": [],
   "order": 8,
-  "updatedAt": "2026-09-09",
+  "updatedAt": "2026-09-10",
   "designHistory": {
     "overview": "美式 diner 的历史早于 1950 年代：它从服务城市劳动者的餐车，发展为可预制运输的餐馆，再成为战后道路生活的一部分。本档案聚焦其中明快、金属感强的中叶形象。",
     "timeline": [

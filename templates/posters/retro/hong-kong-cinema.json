@@ -1,0 +1,32 @@
+{
+  "styleId": "hong-kong-cinema",
+  "title": "港风电影复古",
+  "accentLength": 2,
+  "colors": [
+    {
+      "name": "孔雀蓝",
+      "hex": "#1E505D",
+      "englishName": "Peacock Blue"
+    },
+    {
+      "name": "复刻红",
+      "hex": "#762630",
+      "englishName": "Vintage Red"
+    },
+    {
+      "name": "暖橙棕",
+      "hex": "#AD622E",
+      "englishName": "Warm Orange Brown"
+    },
+    {
+      "name": "煤灰黑",
+      "hex": "#2B2828",
+      "englishName": "Coal Black"
+    }
+  ],
+  "sidebarCn": ["雨夜映着街灯", "霓虹穿过深巷", "冷暖在倒影相遇", "城市留下电影余韵"],
+  "sidebarEn": ["A Way of Seeing.", "A Way of Living."],
+  "badges": ["霓虹", "雨夜", "电影"],
+  "sceneFile": "assets/poster-scenes/hong-kong-cinema.png",
+  "scenePrompt": "Generate ONLY one landscape central scene for a Visual Almanac archive poster, aspect ratio about 1.46:1. Hong Kong cinema inspired narrow urban alley at rainy night, wet pavement reflecting peacock blue and burgundy neon foreground, old tiled storefront with warm orange interior glow middle, layered balconies receding into coal dark background. Analog cinematic photography, luminous abstract neon strips without words or legible signs, no people. Palette echoes #1E505D, #762630, #AD622E, #2B2828. Detailed cohesive single scene, foreground middle and background, premium realistic materials, balanced exposure. No poster layout, no borders, no text, no swatches, no collage, no watermarks. The fixed archive layout will be applied separately by the existing renderer."
+}

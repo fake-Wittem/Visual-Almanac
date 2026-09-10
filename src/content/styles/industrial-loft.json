@@ -21,14 +21,14 @@
   "images": [
     {
       "asset": "industrial-loft-poster",
-      "caption": "工业阁楼复古 · 完整参考海报"
+      "caption": "工业阁楼复古 · 统一版式风格演绎海报"
     }
   ],
   "palettes": [
     {
       "id": "poster",
       "name": "海报配色",
-      "description": "从海报配色条内部区域取样的近似颜色，并非图中文字的精确转录。",
+      "description": "从海报配色条内部区域取样的近似颜色，并非图中文字的精确转录。 2026-09-10 重制海报沿用这组既有数值，色卡由固定排版直接填充。",
       "colors": [
         {
           "id": "color-1",
@@ -74,7 +74,7 @@
   "applications": ["浅灰作为阅读底色，炭黑负责标题，铁锈棕仅突出关键信息。"],
   "related": [],
   "order": 10,
-  "updatedAt": "2026-09-09",
+  "updatedAt": "2026-09-10",
   "designHistory": {
     "overview": "工业阁楼审美首先来自空间用途的改变：原本服务生产和商业的建筑，被重新用作工作与居住场所。纽约 SoHo 提供了一条可追溯的典型线索，但并不代表所有地区的阁楼历史。",
     "timeline": [

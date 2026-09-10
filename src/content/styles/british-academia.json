@@ -10,14 +10,14 @@
   "images": [
     {
       "asset": "british-academia-poster",
-      "caption": "英伦学院复古 · 完整参考海报"
+      "caption": "英伦学院复古 · 统一版式风格演绎海报"
     }
   ],
   "palettes": [
     {
       "id": "poster",
       "name": "海报配色",
-      "description": "色值根据海报文字逐项核对。",
+      "description": "色值根据海报文字逐项核对。 2026-09-10 重制海报沿用这组既有数值，色卡由固定排版直接填充。",
       "colors": [
         {
           "id": "color-1",
@@ -63,7 +63,7 @@
   "applications": ["以奶杏作为大面积底色，深蓝承载文字，酒红用作少量强调。"],
   "related": [],
   "order": 1,
-  "updatedAt": "2026-09-09",
+  "updatedAt": "2026-09-10",
   "designHistory": {
     "overview": "“英伦学院复古”是本档案对图书馆、旧书与传统室内气质的归纳。它没有单一的创始年代，历史线索来自英国学术空间的积累，以及后来对中世纪工艺的重新发现。",
     "timeline": [

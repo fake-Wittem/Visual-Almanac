@@ -10,14 +10,14 @@
   "images": [
     {
       "asset": "mid-century-poster",
-      "caption": "中世纪摩登 · 完整参考海报"
+      "caption": "中世纪摩登 · 统一版式风格演绎海报"
     }
   ],
   "palettes": [
     {
       "id": "poster",
       "name": "海报配色",
-      "description": "从海报配色条内部区域取样的近似颜色，并非图中文字的精确转录。",
+      "description": "从海报配色条内部区域取样的近似颜色，并非图中文字的精确转录。 2026-09-10 重制海报沿用这组既有数值，色卡由固定排版直接填充。",
       "colors": [
         {
           "id": "color-1",
@@ -63,7 +63,7 @@
   "applications": ["用浅色底和木色建立基础，橄榄绿与焦橙分别担任主体和强调。"],
   "related": [],
   "order": 5,
-  "updatedAt": "2026-09-09",
+  "updatedAt": "2026-09-10",
   "designHistory": {
     "overview": "这里的 Mid-century Modern 指 20 世纪中叶现代设计，而不是欧洲中世纪。“中世纪摩登”保留海报原名；以下以 Eames 相关设计为线索，观察有机造型与量产材料的结合。",
     "timeline": [

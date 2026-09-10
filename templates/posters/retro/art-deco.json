@@ -1,0 +1,32 @@
+{
+  "styleId": "art-deco",
+  "title": "摩登装饰复古",
+  "accentLength": 2,
+  "colors": [
+    {
+      "name": "黑曜黑",
+      "hex": "#272320",
+      "englishName": "Obsidian Black"
+    },
+    {
+      "name": "香槟金",
+      "hex": "#BC9E70",
+      "englishName": "Champagne Gold"
+    },
+    {
+      "name": "孔雀绿",
+      "hex": "#26514F",
+      "englishName": "Peacock Green"
+    },
+    {
+      "name": "奶油白",
+      "hex": "#E5DAC7",
+      "englishName": "Cream White"
+    }
+  ],
+  "sidebarCn": ["几何排列出节奏", "黑金勾勒出轮廓", "孔雀绿沉入丝绒", "摩登华丽保持秩序"],
+  "sidebarEn": ["A Way of Seeing.", "A Way of Living."],
+  "badges": ["几何", "摩登", "华丽"],
+  "sceneFile": "assets/poster-scenes/art-deco.png",
+  "scenePrompt": "Generate ONLY one landscape central scene for a Visual Almanac archive poster, aspect ratio about 1.46:1. Art Deco hotel lounge, peacock green velvet curved armchair foreground, black lacquer and champagne brass geometric cocktail table, stepped fan-shaped wall panels and symmetrical vertical sconces behind, cream stone floor. Elegant dramatic architectural photography. Palette echoes #272320, #BC9E70, #26514F, #E5DAC7. Detailed cohesive single scene, foreground middle and background, premium realistic materials, balanced exposure. No poster layout, no borders, no text, no swatches, no collage, no watermarks. The fixed archive layout will be applied separately by the existing renderer."
+}

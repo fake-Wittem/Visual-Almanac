@@ -1,0 +1,32 @@
+{
+  "styleId": "tropical",
+  "title": "热带殖民复古",
+  "accentLength": 2,
+  "colors": [
+    {
+      "name": "棕榈绿",
+      "hex": "#3E4D3C",
+      "englishName": "Palm Green"
+    },
+    {
+      "name": "藤编棕",
+      "hex": "#976D48",
+      "englishName": "Rattan Brown"
+    },
+    {
+      "name": "象牙米",
+      "hex": "#E3D3BD",
+      "englishName": "Ivory Beige"
+    },
+    {
+      "name": "日落橘",
+      "hex": "#C26A3A",
+      "englishName": "Sunset Orange"
+    }
+  ],
+  "sidebarCn": ["棕榈筛下日光", "藤编接住微风", "象牙米舒展空间", "橘色点亮午后时光"],
+  "sidebarEn": ["A Way of Seeing.", "A Way of Living."],
+  "badges": ["舒展", "藤编", "绿意"],
+  "sceneFile": "assets/poster-scenes/tropical.png",
+  "scenePrompt": "Generate ONLY one landscape central scene for a Visual Almanac archive poster, aspect ratio about 1.46:1. Tropical historic bungalow veranda, brown rattan lounge chair with ivory linen cushion and sunset orange textile foreground, potted palm leaves framing the middle, cream shuttered wall and lush garden behind. Breezy layered natural daylight, relaxed tropical architectural photograph. Palette echoes #3E4D3C, #976D48, #E3D3BD, #C26A3A. Detailed cohesive single scene, foreground middle and background, premium realistic materials, balanced exposure. No poster layout, no borders, no text, no swatches, no collage, no watermarks. The fixed archive layout will be applied separately by the existing renderer."
+}

@@ -1,0 +1,32 @@
+{
+  "styleId": "industrial-loft",
+  "title": "工业阁楼复古",
+  "accentLength": 2,
+  "colors": [
+    {
+      "name": "铁锈棕",
+      "hex": "#7A4630",
+      "englishName": "Rust Brown"
+    },
+    {
+      "name": "炭黑",
+      "hex": "#393937",
+      "englishName": "Charcoal"
+    },
+    {
+      "name": "烟尘蓝",
+      "hex": "#475A68",
+      "englishName": "Dusty Blue"
+    },
+    {
+      "name": "皮革棕",
+      "hex": "#64402C",
+      "englishName": "Leather Brown"
+    }
+  ],
+  "sidebarCn": ["砖墙留下旧痕", "铁件勾勒结构", "皮革承接微光", "材料讲述空间故事"],
+  "sidebarEn": ["A Way of Seeing.", "A Way of Living."],
+  "badges": ["粗粝", "结构", "深色"],
+  "sceneFile": "assets/poster-scenes/industrial-loft.png",
+  "scenePrompt": "Generate ONLY one landscape central scene for a Visual Almanac archive poster, aspect ratio about 1.46:1. Industrial loft, worn brown leather sofa and steel coffee table foreground, aged rust brick wall and exposed iron beams middle, huge dusty blue steel framed windows casting soft daylight behind. Restrained warehouse interior photography, tactile honest materials. Palette echoes #7A4630, #393937, #475A68, #64402C. Detailed cohesive single scene, foreground middle and background, premium realistic materials, balanced exposure. No poster layout, no borders, no text, no swatches, no collage, no watermarks. The fixed archive layout will be applied separately by the existing renderer."
+}

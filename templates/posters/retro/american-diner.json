@@ -1,0 +1,33 @@
+{
+  "styleId": "american-diner",
+  "title": "美式餐厅50s复古",
+  "accentLength": 2,
+  "titleColors": ["#354B48", "#B44748"],
+  "colors": [
+    {
+      "name": "薄荷绿",
+      "hex": "#7BB3AB",
+      "englishName": "Mint Green"
+    },
+    {
+      "name": "樱桃红",
+      "hex": "#B44748",
+      "englishName": "Cherry Red"
+    },
+    {
+      "name": "奶油黄",
+      "hex": "#E8D5A1",
+      "englishName": "Cream Yellow"
+    },
+    {
+      "name": "雾银灰",
+      "hex": "#92989E",
+      "englishName": "Silver Gray"
+    }
+  ],
+  "sidebarCn": ["薄荷与樱桃相遇", "金属映着午后光", "棋盘格延伸日常", "轻快怀旧在此停留"],
+  "sidebarEn": ["A Way of Seeing.", "A Way of Living."],
+  "badges": ["轻快", "怀旧", "明亮"],
+  "sceneFile": "assets/poster-scenes/american-diner.png",
+  "scenePrompt": "Generate ONLY one landscape central scene for a Visual Almanac archive poster, aspect ratio about 1.46:1. 1950s American diner, mint green booth foreground with cherry red piping and cream milkshake on a chrome table, checkerboard floor leading toward streamlined counter and round stools, sunlit windows behind. Bright optimistic editorial interior photography, no people. Palette echoes #7BB3AB, #B44748, #E8D5A1, #92989E. Detailed cohesive single scene, foreground middle and background, premium realistic materials, balanced exposure. No poster layout, no borders, no text, no swatches, no collage, no watermarks. The fixed archive layout will be applied separately by the existing renderer."
+}

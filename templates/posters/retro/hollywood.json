@@ -1,0 +1,32 @@
+{
+  "styleId": "hollywood",
+  "title": "好莱坞黄金时代复古",
+  "accentLength": 2,
+  "colors": [
+    {
+      "name": "炭烧黑",
+      "hex": "#2E2A27",
+      "englishName": "Charcoal Black"
+    },
+    {
+      "name": "香槟金",
+      "hex": "#C6A372",
+      "englishName": "Champagne Gold"
+    },
+    {
+      "name": "红宝石",
+      "hex": "#601F24",
+      "englishName": "Ruby Red"
+    },
+    {
+      "name": "象牙白",
+      "hex": "#E5D5C2",
+      "englishName": "Ivory White"
+    }
+  ],
+  "sidebarCn": ["丝绒铺开暗红", "暖金照亮轮廓", "深影留住悬念", "银幕气质走入日常"],
+  "sidebarEn": ["A Way of Seeing.", "A Way of Living."],
+  "badges": ["戏剧", "丝绒", "光影"],
+  "sceneFile": "assets/poster-scenes/hollywood.png",
+  "scenePrompt": "Generate ONLY one landscape central scene for a Visual Almanac archive poster, aspect ratio about 1.46:1. Golden age Hollywood inspired glamorous lounge, ruby red velvet chair and ivory satin cushion foreground, black lacquer console with champagne gold lamp middle, sweeping curtain and soft theatrical spotlight behind. Cinematic elegant interior photograph, no actors, no lettering. Palette echoes #2E2A27, #C6A372, #601F24, #E5D5C2. Detailed cohesive single scene, foreground middle and background, premium realistic materials, balanced exposure. No poster layout, no borders, no text, no swatches, no collage, no watermarks. The fixed archive layout will be applied separately by the existing renderer."
+}

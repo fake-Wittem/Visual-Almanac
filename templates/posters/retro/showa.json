@@ -1,0 +1,32 @@
+{
+  "styleId": "showa",
+  "title": "昭和日式复古",
+  "accentLength": 2,
+  "colors": [
+    {
+      "name": "橄榄绿",
+      "hex": "#595E39",
+      "englishName": "Olive Green"
+    },
+    {
+      "name": "琥珀黄",
+      "hex": "#C29445",
+      "englishName": "Amber Yellow"
+    },
+    {
+      "name": "复古红",
+      "hex": "#A24432",
+      "englishName": "Vintage Red"
+    },
+    {
+      "name": "米白",
+      "hex": "#DACAB5",
+      "englishName": "Rice White"
+    }
+  ],
+  "sidebarCn": ["暖灯照着木纹", "旧物留住日常", "琥珀色缓缓晕开", "时间在此慢了下来"],
+  "sidebarEn": ["A Way of Seeing.", "A Way of Living."],
+  "badges": ["朴素", "怀旧", "暖灯"],
+  "sceneFile": "assets/poster-scenes/showa.png",
+  "scenePrompt": "Generate ONLY one landscape central scene for a Visual Almanac archive poster, aspect ratio about 1.46:1. Showa era inspired Japanese kissaten coffee room, amber glass cup on dark wooden table foreground, olive green vinyl booth with small vintage red cushion middle, rice white lace curtains and small unbranded analog radio in background. Warm pendant lamps, intimate slow everyday editorial photograph, no text. Palette echoes #595E39, #C29445, #A24432, #DACAB5. Detailed cohesive single scene, foreground middle and background, premium realistic materials, balanced exposure. No poster layout, no borders, no text, no swatches, no collage, no watermarks. The fixed archive layout will be applied separately by the existing renderer."
+}

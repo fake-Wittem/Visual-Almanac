@@ -105,7 +105,7 @@ for (const file of (await readdir(input)).filter((name) => name.endsWith('.json'
   ${['SOME', 'BEAUTY', 'LASTS LONGER.'].map((s, i) => label(1130, 1426 + i * 16, s, 10, 'text-anchor="end" letter-spacing="2"')).join('')}
   </g></svg>`
   await writeFile(resolve(svgOutput, `${recipe.styleId}.svg`), svg)
-  // 只输出配方指定的新档案海报；原有十二张不在配方中，不会被重新绘制。
+  // 仅重新绘制指定配方目录中的海报，其他分类不受影响。
   await sharp(Buffer.from(svg))
     .png()
     .toFile(resolve(output, `${recipe.styleId}-poster.png`))
