@@ -1,0 +1,120 @@
+{
+  "id": "dieselpunk",
+  "name": "柴油朋克 Dieselpunk",
+  "englishName": "Dieselpunk",
+  "aliases": ["Dieselpunk"],
+  "summary": "将两次世界大战之间的交通与工业形象转为架空未来，呈现铆钉、流线外壳和巨大机器的张力。",
+  "category": "future-tech",
+  "tags": ["futuristic", "metal", "brown", "contrast", "poster"],
+  "cover": "dieselpunk-poster",
+  "images": [
+    {
+      "asset": "dieselpunk-poster",
+      "caption": "柴油朋克 Dieselpunk · 风格演绎海报"
+    }
+  ],
+  "palettes": [
+    {
+      "id": "poster",
+      "name": "主题配色",
+      "description": "本档案人工设定的演绎配色，不代表历史标准色。",
+      "colors": [
+        {
+          "id": "color-1",
+          "name": "机油黑",
+          "hex": "#303633",
+          "status": "manual",
+          "role": "机器阴影"
+        },
+        {
+          "id": "color-2",
+          "name": "旧金属",
+          "hex": "#AAA994",
+          "status": "manual",
+          "role": "流线外壳"
+        },
+        {
+          "id": "color-3",
+          "name": "烟褐",
+          "hex": "#806C54",
+          "status": "manual",
+          "role": "厂房与烟雾"
+        },
+        {
+          "id": "color-4",
+          "name": "信号橙",
+          "hex": "#BF7442",
+          "status": "manual",
+          "role": "机器灯光"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "title": "年代是取材范围",
+      "body": "优先研究1930年代交通、工业及电影场景，再说明哪些部分属于架空放大，不能把虚构机器当作历史产品。"
+    },
+    {
+      "title": "结构替代齿轮堆砌",
+      "body": "用铆接板、通风格栅和有方向性的流线建立机器尺度；柴油朋克不等于给蒸汽朋克换一层灰色。"
+    },
+    {
+      "title": "保留工业矛盾",
+      "body": "巨大机器既可以宏伟也可以压迫。避免用军徽或政治标志代替叙事，关注劳动、城市与机器的关系。"
+    }
+  ],
+  "applications": [
+    "适合架空世界设定、游戏场景与主题展览；利用水平速度线连接交通设备与城市天际线。"
+  ],
+  "related": ["steampunk", "art-deco", "retro-futurism"],
+  "order": 107,
+  "updatedAt": "2026-09-14",
+  "designHistory": {
+    "overview": "Dieselpunk是后来的架空文化类型。本档案只把早期科幻电影及1930年代流线工业作为视觉前史，后世作品则作为回望参照；不将其写成真实历史设计流派。",
+    "timeline": [
+      {
+        "year": 1927,
+        "period": "1927年：视觉前史",
+        "title": "机器都市进入电影",
+        "body": "《大都会》以工业城市和机器社会展开科幻想象，是研究早期机械未来视觉的电影材料，而不是柴油朋克运动的成立事件。",
+        "sourceIds": ["s1"]
+      },
+      {
+        "year": 1935,
+        "period": "1935年：设计前史",
+        "title": "流线交通的真实设计",
+        "body": "Loewy的卧铺车厢方案使用舷窗、卷曲座椅及速度线，说明1930年代交通设计中可被后世借用的真实形式。",
+        "sourceIds": ["s2"]
+      },
+      {
+        "year": 2004,
+        "period": "2004年：后世回望参照",
+        "title": "旧式未来的电影再创作",
+        "body": "BFI记录Kerry Conran执导的《天空上尉与明日世界》于2004年推出。本档案将其列作旧式未来想象的后世参照，不据此断言类型命名年代。",
+        "sourceIds": ["s3"]
+      }
+    ],
+    "interpretation": "铆接飞艇、流线列车与雾中工厂组成架空工业城市；机器和地点均为原创想象，不是1930年代实际交通记录。 本场景由AI生成，四色为本档案人工设定的编辑配色。",
+    "sources": [
+      {
+        "id": "s1",
+        "title": "Metropolis at 90",
+        "publisher": "BFI",
+        "url": "https://www.bfi.org.uk/features/metropolis-fritz-lang-silent-sci-fi"
+      },
+      {
+        "id": "s2",
+        "title": "High Fashion Train Interior",
+        "publisher": "Cooper Hewitt",
+        "url": "https://www.cooperhewitt.org/2013/12/03/high-fashion-train-interior/"
+      },
+      {
+        "id": "s3",
+        "title": "Sky Captain and the World of Tomorrow (2004)",
+        "publisher": "BFI",
+        "url": "https://www.bfi.org.uk/film/f7977a6c-2423-5822-a14c-bd4724c54b89/sky-captain-and-the-world-of-tomorrow"
+      }
+    ]
+  }
+}

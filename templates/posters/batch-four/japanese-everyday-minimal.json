@@ -1,0 +1,33 @@
+{
+  "styleId": "japanese-everyday-minimal",
+  "title": "当代日式简约生活设计",
+  "accentLength": 2,
+  "titleColors": ["#4A4B45", "#75634E"],
+  "colors": [
+    {
+      "name": "粉白",
+      "hex": "#E8E4D9",
+      "englishName": "Chalk White"
+    },
+    {
+      "name": "浅木",
+      "hex": "#B9A17F",
+      "englishName": "Ash Wood"
+    },
+    {
+      "name": "亚麻灰",
+      "hex": "#AAA89B",
+      "englishName": "Linen Grey"
+    },
+    {
+      "name": "炭灰",
+      "hex": "#4A4B45",
+      "englishName": "Charcoal"
+    }
+  ],
+  "sidebarCn": ["让器物回到日常", "让收纳顺应动作", "让材料朴素可见", "让生活保有余地"],
+  "sidebarEn": ["A Way of Seeing.", "A Way of Living."],
+  "badges": ["日常", "收纳", "适度"],
+  "sceneFile": "assets/poster-scenes/japanese-everyday-minimal.png",
+  "scenePrompt": "Use case: photorealistic-natural. Asset type: original raster scene for Visual Almanac archive poster. Primary request: contemporary Japanese everyday minimal living design, a calm compact domestic storage and dining corner, ash wood table with one white ceramic bowl and clear glass, linen cloth, plain pale modular shelf holding two translucent storage boxes, a small white household appliance with no controls or lettering, clean practical construction, restrained rounded edges, subtle evidence of daily use. Landscape approximately 3:2, editorial interior photography at seated eye level, soft overcast daylight through a large plain window. Palette chalk white #E8E4D9, ash wood #B9A17F, linen grey #AAA89B, charcoal #4A4B45. Focus on ordinary usable objects and proportion, not luxury styling. No people, text, letters, numbers, logos, brands, watermark, decorative calligraphy, religious objects, bonsai, distress effects, poster border or swatches. One image."
+}

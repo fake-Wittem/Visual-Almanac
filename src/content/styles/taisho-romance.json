@@ -1,0 +1,114 @@
+{
+  "id": "taisho-romance",
+  "name": "大正浪漫",
+  "englishName": "Taisho Roman",
+  "aliases": ["Taisho Roman"],
+  "summary": "借和服纹样、近代书刊与和洋交汇的生活场景，呈现日本大正时期的抒情都市想象。",
+  "category": "retro",
+  "tags": ["nostalgic", "elegant", "textile", "muted", "purple", "poster"],
+  "cover": "taisho-romance-poster",
+  "images": [
+    {
+      "asset": "taisho-romance-poster",
+      "caption": "大正浪漫 · 风格演绎海报"
+    }
+  ],
+  "palettes": [
+    {
+      "id": "poster",
+      "name": "主题配色",
+      "description": "为本档案人工设定的视觉配色，海报色卡按相同 HEX 排版；不代表历史时期的标准色。",
+      "colors": [
+        {
+          "id": "color-1",
+          "name": "梅紫",
+          "hex": "#634F67",
+          "status": "manual",
+          "role": "和服纹样与主要衣饰"
+        },
+        {
+          "id": "color-2",
+          "name": "旧金",
+          "hex": "#B79954",
+          "status": "manual",
+          "role": "玻璃窗格和室内暖光"
+        },
+        {
+          "id": "color-3",
+          "name": "象牙白",
+          "hex": "#E7DCC6",
+          "status": "manual",
+          "role": "书页、杯具与浅色花瓣"
+        },
+        {
+          "id": "color-4",
+          "name": "叶灰绿",
+          "hex": "#5F7162",
+          "status": "manual",
+          "role": "瓶花叶片与背景细节"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "title": "衣饰与家具",
+      "body": "和服或袴与曲木椅、玻璃窗形成和洋并置；选择少量明确物件即可建立时期联想，避免把昭和后期家电混入场景。"
+    },
+    {
+      "title": "图案的平面性",
+      "body": "花纹可以沿衣袖和窗格形成节奏，人物轮廓保持连贯；柔和纸面色与局部深紫比满屏高饱和装饰更利于阅读。"
+    },
+    {
+      "title": "抒情与现实",
+      "body": "“大正浪漫”用于概括一种文化氛围，不等于 1912—1926 年全部日本生活；对女性和都市消费的浪漫图像应保留其媒介与观看语境。"
+    }
+  ],
+  "applications": [
+    "适合近代日本插画展的活动视觉：主图采用原创衣饰与室内组合，正文明确所讨论作者与作品年代，不以动漫角色或笼统的和风符号替代史料。"
+  ],
+  "related": ["showa", "ukiyo-e", "art-nouveau"],
+  "order": 83,
+  "updatedAt": "2026-09-14",
+  "designHistory": {
+    "overview": "本专题通过竹久梦二的画集和诗画出版观察“大正浪漫”的抒情一面，并兼顾其明治末期前史与大正末期的再版传播。梦二只是代表线索之一，不能代替大正日本的完整文化史。",
+    "timeline": [
+      {
+        "year": 1909,
+        "period": "1909 年",
+        "title": "诗画集建立个人语言",
+        "body": "国立国会图书馆记录梦二出版《梦二画集 春之卷》，此后持续发表画集与诗画集，独特的女性形象逐渐受到欢迎。",
+        "sourceIds": ["ndl"]
+      },
+      {
+        "year": 1919,
+        "period": "1919 年",
+        "title": "恋歌与插图共同叙事",
+        "body": "Japan Search 收录的《山へよする》出版于 1919 年，将写给笠井彦乃的恋歌与以她为模特的插图结合，体现文字和图像的抒情联系。",
+        "sourceIds": ["jp"]
+      },
+      {
+        "year": 1926,
+        "period": "1926 年",
+        "title": "再版更新视觉材料",
+        "body": "《露地のほそみち》在 1926 年以早期小唄集的修订版出版，收录 190 首恋歌并更新全部木版插图，显示书籍设计可以随再版继续变化。",
+        "sourceIds": ["jp"]
+      }
+    ],
+    "interpretation": "原创人物与咖啡馆场景只是和洋交汇的当代视觉提炼，不重绘梦二作品；所选梅紫与旧金也不是大正时期的标准色。",
+    "sources": [
+      {
+        "id": "ndl",
+        "title": "TAKEHISA Yumeji",
+        "publisher": "National Diet Library, Japan",
+        "url": "https://www.ndl.go.jp/portrait/e/datas/6346/"
+      },
+      {
+        "id": "jp",
+        "title": "Takehisa Yumeji",
+        "publisher": "Japan Search / National Diet Library",
+        "url": "https://jpsearch.go.jp/en/gallery/ndl-YkK1JgDkE9W"
+      }
+    ]
+  }
+}

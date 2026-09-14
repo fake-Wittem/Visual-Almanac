@@ -1,0 +1,114 @@
+{
+  "id": "grunge-visual",
+  "name": "Grunge 垃圾摇滚视觉",
+  "englishName": "Grunge Visual Culture",
+  "aliases": ["Grunge Visual Culture"],
+  "summary": "复印颗粒、磨损纸面与现场摄影承载西北美国音乐社群的传播痕迹，粗粝外观始终连接具体媒介。",
+  "category": "street-pop",
+  "tags": ["nostalgic", "collage", "contrast", "black", "poster"],
+  "cover": "grunge-visual-poster",
+  "images": [
+    {
+      "asset": "grunge-visual-poster",
+      "caption": "Grunge 垃圾摇滚视觉 · 风格演绎海报"
+    }
+  ],
+  "palettes": [
+    {
+      "id": "poster",
+      "name": "主题配色",
+      "description": "本档案人工设定的演绎配色，不代表历史标准色。",
+      "colors": [
+        {
+          "id": "color-1",
+          "name": "复印黑",
+          "hex": "#303331",
+          "status": "manual",
+          "role": "照片暗部"
+        },
+        {
+          "id": "color-2",
+          "name": "旧纸灰",
+          "hex": "#C9C4B6",
+          "status": "manual",
+          "role": "传单纸面"
+        },
+        {
+          "id": "color-3",
+          "name": "锈棕",
+          "hex": "#916B4F",
+          "status": "manual",
+          "role": "磨损与胶带"
+        },
+        {
+          "id": "color-4",
+          "name": "褪绿",
+          "hex": "#6F7868",
+          "status": "manual",
+          "role": "局部印刷色"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "title": "磨损来自使用",
+      "body": "折痕、胶带和复印颗粒应围绕传单或音乐杂志的物理过程，不能以均匀污渍替代历史语境。"
+    },
+    {
+      "title": "音乐现场是主体",
+      "body": "让放大器、排练空间或表演照片承担信息；法兰绒只是相关穿着之一，不能概括音乐文化。"
+    },
+    {
+      "title": "范围限于具体社群",
+      "body": "本档案以1980年代末至1990年代初西雅图及太平洋西北地区为线索，避免把所有破旧排版都叫Grunge。"
+    }
+  ],
+  "applications": [
+    "适合独立音乐档案、演出回顾与小型出版；用一张强主照片和少量断裂边缘保持可读层级。"
+  ],
+  "related": ["punk-diy", "post-punk-new-wave", "hip-hop-visual"],
+  "order": 116,
+  "updatedAt": "2026-09-14",
+  "designHistory": {
+    "overview": "本档案聚焦西雅图及美国太平洋西北地区在1980年代末至1990年代初的音乐传播，选择Nirvana与Sub Pop相关线索。粗粝视觉来自低成本出版和现场记录，也在后续流行化中被重新包装。",
+    "timeline": [
+      {
+        "year": 1988,
+        "period": "1988—1989年",
+        "title": "地方录音进入独立发行",
+        "body": "Nirvana的官方时间线记录1988年录制样带并与Sub Pop合作，1989年发行Bleach。地方厂牌和巡演构成音乐传播的基础。",
+        "sourceIds": ["s1"]
+      },
+      {
+        "year": 1991,
+        "period": "1991年",
+        "title": "地方场景获得全国关注",
+        "body": "MOPOP将1991年底Nirvana的突破视为西雅图音乐走向广泛公众的重要节点；此后地方影像与音乐身份被更大规模传播。",
+        "sourceIds": ["s2"]
+      },
+      {
+        "year": 2011,
+        "period": "2011年",
+        "title": "演出遗物进入博物馆叙事",
+        "body": "MOPOP开启Taking Punk to the Masses展览，以实物、口述历史和地方声音保存音乐场景，补充唱片封面之外的生活材料。",
+        "sourceIds": ["s2"]
+      }
+    ],
+    "interpretation": "排练用吉他和音箱被组织进撕纸、复印颗粒与胶带的传播场景；不是某场真实演出照片或乐队宣传品。 本场景由AI生成，四色为本档案人工设定的编辑配色。",
+    "sources": [
+      {
+        "id": "s1",
+        "title": "Timeline",
+        "publisher": "Nirvana",
+        "url": "https://www.nirvana.com/timelines/"
+      },
+      {
+        "id": "s2",
+        "title": "Nirvana: Taking Punk to the Masses",
+        "publisher": "Museum of Pop Culture",
+        "url": "https://www.mopop.org/exhibitions/nirvana-taking-punk-to-the-masses"
+      }
+    ]
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "id": "dunhuang-murals",
+  "name": "敦煌壁画色彩与构成",
+  "englishName": "Dunhuang Mural Color and Composition",
+  "aliases": ["Dunhuang Mural Color and Composition"],
+  "summary": "通过莫高窟285、320与61窟的具体样本，观察壁画如何将题材、边饰与建筑表面相接。",
+  "category": "eastern-aesthetics",
+  "tags": ["elegant", "geometry", "red", "green", "poster"],
+  "cover": "dunhuang-murals-poster",
+  "images": [
+    {
+      "asset": "dunhuang-murals-poster",
+      "caption": "敦煌壁画色彩与构成 · 原创风格演绎海报"
+    }
+  ],
+  "palettes": [
+    {
+      "id": "poster",
+      "name": "主题配色",
+      "description": "人工设定的视觉演绎配色，不是历史颜料检测或行业标准。",
+      "colors": [
+        {
+          "id": "color-1",
+          "name": "土红",
+          "hex": "#A65F4D",
+          "status": "manual",
+          "role": "装饰带底色"
+        },
+        {
+          "id": "color-2",
+          "name": "青绿",
+          "hex": "#66877C",
+          "status": "manual",
+          "role": "团花与叶瓣"
+        },
+        {
+          "id": "color-3",
+          "name": "沙金",
+          "hex": "#C5A469",
+          "status": "manual",
+          "role": "浅色花瓣层次"
+        },
+        {
+          "id": "color-4",
+          "name": "深褐",
+          "hex": "#55473E",
+          "status": "manual",
+          "role": "边线及壁面阴影"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "title": "先标明洞窟和部位",
+      "body": "同一洞窟的藻井、经变、供养人和后代重绘不应被混成一张通用纹样表。取样时记录洞窟号、墙面方位与资料标注的年代。"
+    },
+    {
+      "title": "中心与边带",
+      "body": "藻井可以由中心花、相套几何框和连续边饰形成层级；边带需要明确转角，不把完整主花反复缩小铺满整面。"
+    },
+    {
+      "title": "现状色不等于初绘色",
+      "body": "数字影像呈现的是记录时的表面状态，受材料老化、光照和采集影响。这里的色卡用于原创演绎，不推断所有壁画最初都具有相同配色。"
+    }
+  ],
+  "applications": [
+    "适合石窟艺术导览：先给出具体洞窟方位示意，再展示一个构图单元和相邻边饰；不可将原创图标注为文物原图或修复后效果。"
+  ],
+  "related": ["blue-green-landscape", "byzantine-decoration", "chinese-literati"],
+  "order": 96,
+  "updatedAt": "2026-09-14",
+  "designHistory": {
+    "overview": "敦煌壁画跨越多个时期与题材。本专题选择三个有具体洞窟资料的阶段，比较覆斗顶装饰、盛唐色彩组织与五代叙事布局，不设定一种包办整个敦煌的固定样式。",
+    "timeline": [
+      {
+        "year": 538,
+        "period": "西魏538—539年纪年线索",
+        "title": "第285窟的复合图像空间",
+        "body": "第285窟北壁保存538、539年纪年，覆斗顶四披容纳神话、护法及山居禅僧，中心藻井和周边画面形成不同观看层次。",
+        "sourceIds": ["c285"]
+      },
+      {
+        "year": 713,
+        "period": "盛唐713—766年",
+        "title": "第320窟的装饰层级",
+        "body": "第320窟藻井以牡丹、云纹和多重边饰组织中心；北壁观无量寿经变主要以青、绿、黑形成色彩关系。后世重绘部分需另行辨认。",
+        "sourceIds": ["c320"]
+      },
+      {
+        "year": 950,
+        "period": "十世纪中期",
+        "title": "第61窟把山川与叙事并置",
+        "body": "曹元忠夫妇营建的第61窟西壁绘五台山图，其他壁面配置经变、佛传及供养人。大型空间中的图像并非只有装饰功能，还承载信仰与叙事。",
+        "sourceIds": ["c61"]
+      }
+    ],
+    "interpretation": "海报只以团花、边带和壁面材质创作装饰场景，不复刻某一洞窟，不代替文物照片、色彩检测或修复方案。",
+    "sources": [
+      {
+        "id": "c285",
+        "title": "莫高窟第285窟",
+        "publisher": "敦煌研究院·数字敦煌",
+        "url": "https://www.e-dunhuang.com/cave/10.0001/0001.0001.0285"
+      },
+      {
+        "id": "c320",
+        "title": "莫高窟第320窟",
+        "publisher": "敦煌研究院·数字敦煌",
+        "url": "https://www.e-dunhuang.com/cave/10.0001/0001.0001.0320"
+      },
+      {
+        "id": "c61",
+        "title": "莫高窟第61窟",
+        "publisher": "敦煌研究院·数字敦煌",
+        "url": "https://www.e-dunhuang.com/cave/10.0001/0001.0001.0061"
+      }
+    ]
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "id": "tropical-modern",
+  "name": "当代热带现代",
+  "englishName": "Contemporary Tropical Modern",
+  "aliases": ["Contemporary Tropical Modern"],
+  "summary": "以深檐、通风屏与庭院连续面，让现代结构在热带光影和植物之间获得舒适尺度。",
+  "category": "natural-organic",
+  "tags": ["calm", "organic", "wood", "geometry", "green", "brown", "poster"],
+  "cover": "tropical-modern-poster",
+  "images": [
+    {
+      "asset": "tropical-modern-poster",
+      "caption": "当代热带现代 · 风格演绎海报"
+    }
+  ],
+  "palettes": [
+    {
+      "id": "poster",
+      "name": "主题配色",
+      "description": "为本档案人工设定的视觉配色，海报色卡按相同 HEX 排版；不代表历史时期的标准色。",
+      "colors": [
+        {
+          "id": "color-1",
+          "name": "叶绿",
+          "hex": "#49674E",
+          "status": "manual",
+          "role": "主体基调"
+        },
+        {
+          "id": "color-2",
+          "name": "石灰石",
+          "hex": "#D8CFB6",
+          "status": "manual",
+          "role": "空间与辅助面"
+        },
+        {
+          "id": "color-3",
+          "name": "木褐",
+          "hex": "#8C674D",
+          "status": "manual",
+          "role": "材料细节"
+        },
+        {
+          "id": "color-4",
+          "name": "荫绿",
+          "hex": "#273E39",
+          "status": "manual",
+          "role": "强调与阴影"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "title": "遮阳与层次",
+      "body": "把屋檐、柱廊和透空墙作为主要构图，明亮庭院与阴影回廊形成可读的前后关系，避免仅靠热带叶片表达主题。"
+    },
+    {
+      "title": "内外连续",
+      "body": "利用重复铺地、开敞边界和可见路径连接室内外，让植物进入空间关系；家具数量保持克制，突出通风和活动余地。"
+    },
+    {
+      "title": "历史与性能边界",
+      "body": "热带现代主义涉及殖民与独立后的复杂历史；当代借鉴应说明场地和气候条件，不能仅从深檐或绿植图像宣称节能效果。"
+    }
+  ],
+  "applications": [
+    "适合建筑展板与气候设计介绍：以遮阳回廊作主图，正文明确地点、朝向和实际策略；概念图与经过计算的性能结论应分别标示。"
+  ],
+  "related": ["tropical", "organic-architecture", "biophilic"],
+  "order": 75,
+  "updatedAt": "2026-09-14",
+  "designHistory": {
+    "overview": "“当代热带现代”是本站编辑主题，借鉴热带现代主义的气候响应与南亚庭院实践。历史上的 Tropical Modernism 同时涉及殖民建设、独立国家表达及地方设计者的贡献，不能简化为度假空间或植物装饰。",
+    "timeline": [
+      {
+        "year": 1948,
+        "period": "1940 年代末",
+        "title": "现代主义回应热湿气候",
+        "body": "V&A 将热带现代主义置于战后英属西非与反殖民斗争的背景，介绍 Jane Drew 与 Maxwell Fry 对热湿条件的回应。",
+        "sourceIds": ["vam"]
+      },
+      {
+        "year": 1962,
+        "period": "1962 年",
+        "title": "斯里兰卡庭院的现代转译",
+        "body": "Ena de Silva 委托 Geoffrey Bawa 设计科伦坡住宅，以内向庭院回应日益城市化的地块，将现代组织与当地建筑传统联系起来。",
+        "sourceIds": ["bawa"]
+      },
+      {
+        "year": 2024,
+        "period": "2024 年",
+        "title": "重新审视历史遗产",
+        "body": "V&A 的 Tropical Modernism: Architecture and Independence 展览通过建筑与档案重看殖民及独立后的转变，也提出其对气候变化时代的启发问题。",
+        "sourceIds": ["vam"]
+      }
+    ],
+    "interpretation": "画面是一处虚构的当代庭院，借深檐、透空屏和绿荫表达空间原则，不复刻历史建筑；配色与植物布置均为编辑演绎，不能据此推断实际建筑性能。",
+    "sources": [
+      {
+        "id": "vam",
+        "title": "About the Tropical Modernism exhibition",
+        "publisher": "Victoria and Albert Museum",
+        "url": "https://www.vam.ac.uk/articles/about-the-tropical-modernism-exhibition"
+      },
+      {
+        "id": "bawa",
+        "title": "Stay — No.05 Lunuganga",
+        "publisher": "Geoffrey Bawa Trust",
+        "url": "https://geoffreybawa.com/stay"
+      }
+    ]
+  }
+}

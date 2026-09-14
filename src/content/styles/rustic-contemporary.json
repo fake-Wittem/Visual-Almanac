@@ -1,0 +1,120 @@
+{
+  "id": "rustic-contemporary",
+  "name": "当代乡村质朴",
+  "englishName": "Contemporary Rustic",
+  "aliases": ["Contemporary Rustic"],
+  "summary": "以木石、清楚接缝与日用器皿构成朴素空间，让旧材料与当代使用方式相处。",
+  "category": "natural-organic",
+  "tags": ["calm", "warm", "wood", "organic", "brown", "cream", "brand"],
+  "cover": "rustic-contemporary-poster",
+  "images": [
+    {
+      "asset": "rustic-contemporary-poster",
+      "caption": "当代乡村质朴 · 风格演绎海报"
+    }
+  ],
+  "palettes": [
+    {
+      "id": "poster",
+      "name": "主题配色",
+      "description": "为本档案人工设定的视觉配色，海报色卡按相同 HEX 排版；不代表历史时期的标准色。",
+      "colors": [
+        {
+          "id": "color-1",
+          "name": "石灰",
+          "hex": "#9C9B8E",
+          "status": "manual",
+          "role": "粗石墙与窗边中间调"
+        },
+        {
+          "id": "color-2",
+          "name": "橡木褐",
+          "hex": "#886C50",
+          "status": "manual",
+          "role": "厚木桌与凳面"
+        },
+        {
+          "id": "color-3",
+          "name": "亚麻",
+          "hex": "#D8CDB6",
+          "status": "manual",
+          "role": "折叠织物与器皿亮部"
+        },
+        {
+          "id": "color-4",
+          "name": "炉炭",
+          "hex": "#454844",
+          "status": "manual",
+          "role": "缝隙、窗框与深处阴影"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "title": "质朴不是破旧",
+      "body": "可见木纹、石面与连接方式即可表达材料性；不必添加不合理裂缝、脏污或过度做旧，尤其接触食物的台面应保持明确整洁。"
+    },
+    {
+      "title": "使用与陈设",
+      "body": "桌、凳、容器和收纳应能说明生活动作；相比花卉、蕾丝和浪漫叙事，本主题把注意力放在物件用途与空间组织。"
+    },
+    {
+      "title": "新旧的接口",
+      "body": "平直的新窗框与不规则旧墙面可以形成清楚关系，连接处用克制的细节收束；旧材外观本身不能证明再利用或环境收益。"
+    }
+  ],
+  "applications": [
+    "适合乡村更新项目与日用器物目录：展示材料保留的位置、修补接缝和新增设施，记录原有构件与新施工的区别，让质朴外观对应实际做法。"
+  ],
+  "related": ["natural-handcraft", "warm-minimal", "arts-and-crafts"],
+  "order": 92,
+  "updatedAt": "2026-09-14",
+  "designHistory": {
+    "overview": "“当代乡村质朴”是编辑主题，以下用英国住宅与日用实践作比较，讨论实用、材料和手工的关系。历史案例是参照，不能被追认成今日装修标签；不同地区的乡村建造传统也应分别记录。",
+    "timeline": [
+      {
+        "year": 1859,
+        "period": "1859—1860 年",
+        "title": "实用与工艺进入住宅设计",
+        "body": "Morris 委托 Webb 设计 Red House，1860 年入住；National Trust 说明其空间、窗户和家具与用途和手工制造有关，同时保有鲜明的历史浪漫主义。",
+        "sourceIds": ["red"]
+      },
+      {
+        "year": 2013,
+        "period": "2013—2019 年",
+        "title": "农场住宅重新组织感官空间",
+        "body": "Pawson 的 Home Farm 项目强调删减后留下的光、材料和比例，为旧乡村场所与当代空间使用提供一个具体比较案例。",
+        "sourceIds": ["farm"]
+      },
+      {
+        "year": 2021,
+        "period": "2021 年",
+        "title": "饮食与季节补充居住叙事",
+        "body": "《Home Farm Cooking》按季节整理日常食谱，同时记录烹饪、进餐与聚会的生活方式，把住宅从材料图像延伸到实际使用。",
+        "sourceIds": ["cooking"]
+      }
+    ],
+    "interpretation": "虚构石屋厨房提炼木石接缝与日用品关系，不复刻 Red House 或 Home Farm；粗糙表面仅用于材料表达，不代表真实旧材年限。",
+    "sources": [
+      {
+        "id": "red",
+        "title": "The artistic history of Red House",
+        "publisher": "National Trust",
+        "url": "https://www.nationaltrust.org.uk/visit/london/red-house/the-history-of-red-house"
+      },
+      {
+        "id": "farm",
+        "title": "Home Farm",
+        "publisher": "John Pawson",
+        "url": "https://www.johnpawson.com/works/home-farm"
+      },
+      {
+        "id": "cooking",
+        "title": "Home Farm Cooking",
+        "publisher": "John Pawson",
+        "url": "https://www.johnpawson.com/journal/home-farm-cooking-i"
+      }
+    ]
+  }
+}

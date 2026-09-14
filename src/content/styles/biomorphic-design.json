@@ -1,0 +1,120 @@
+{
+  "id": "biomorphic-design",
+  "name": "生物形态设计",
+  "englishName": "Biomorphic Design",
+  "aliases": ["Biomorphic Design"],
+  "summary": "从柔软轮廓、空腔与不规则曲面中，提炼近似生命形态的物件语言。",
+  "category": "natural-organic",
+  "tags": ["calm", "organic", "translucent", "wood", "green", "brand"],
+  "cover": "biomorphic-design-poster",
+  "images": [
+    {
+      "asset": "biomorphic-design-poster",
+      "caption": "生物形态设计 · 风格演绎海报"
+    }
+  ],
+  "palettes": [
+    {
+      "id": "poster",
+      "name": "主题配色",
+      "description": "为本档案人工设定的视觉配色，海报色卡按相同 HEX 排版；不代表历史时期的标准色。",
+      "colors": [
+        {
+          "id": "color-1",
+          "name": "海玻璃绿",
+          "hex": "#8FB3AA",
+          "status": "manual",
+          "role": "透明容器的折射与轮廓"
+        },
+        {
+          "id": "color-2",
+          "name": "骨白",
+          "hex": "#DDD7C7",
+          "status": "manual",
+          "role": "浅陶器与石台受光面"
+        },
+        {
+          "id": "color-3",
+          "name": "蜜木",
+          "hex": "#A28360",
+          "status": "manual",
+          "role": "穿孔雕塑的木纹体积"
+        },
+        {
+          "id": "color-4",
+          "name": "深绿",
+          "hex": "#3C5C51",
+          "status": "manual",
+          "role": "器皿内壁与折射暗部"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "title": "轮廓的连续变化",
+      "body": "避免机械等半径的波浪，使用不等宽的收放与凹凸关系形成生长感；一个明确轮廓比大量黏连的团块更易辨认。"
+    },
+    {
+      "title": "空腔与实体",
+      "body": "孔洞、开口和容器内部同样构成形态；安排光线穿过或进入空腔，让观看者理解厚度，而不是只看到剪影。"
+    },
+    {
+      "title": "形似与功能",
+      "body": "生物形态强调类似生命的造型，不代表已经借用生物的功能机制；是否属于仿生工程需要另有机制、材料与测试证据。"
+    }
+  ],
+  "applications": [
+    "适合器物设计概念展示：用正面轮廓、侧面厚度和手持尺度分别解释形态，说明玻璃、木材或陶瓷如何影响边缘和触感。"
+  ],
+  "related": ["organic-modern", "scandinavian-organic", "surrealism"],
+  "order": 89,
+  "updatedAt": "2026-09-14",
+  "designHistory": {
+    "overview": "生物形态是一种跨艺术与设计的造型取向。本档案以 MoMA 归入 Biomorphic 的二十世纪作品为比较材料，关注有机轮廓与空腔，不把它等同于生物学复制或工程仿生。",
+    "timeline": [
+      {
+        "year": 1923,
+        "period": "1923 年",
+        "title": "抽象版画中的有机联想",
+        "body": "MoMA 的 Biomorphic 作品集合收录 Arp 的《Mustache Watch》版画，显示近似生命的抽象形态可以出现于平面图像。",
+        "sourceIds": ["term"]
+      },
+      {
+        "year": 1936,
+        "period": "1936 年",
+        "title": "器皿轮廓打破规则轴线",
+        "body": "Aalto 的 3031 型花瓶采用模吹玻璃，非规则轮廓进入日用器皿；基金会记录该系列来自 1936 年玻璃设计竞赛的草图。",
+        "sourceIds": ["vase", "foundation"]
+      },
+      {
+        "year": 1955,
+        "period": "1955—1956 年",
+        "title": "空腔成为雕塑的组成",
+        "body": "MoMA 将 Hepworth 的《Hollow Form (Penwith)》列入生物形态作品，空腔与实体的关系提供了另一种三维组织方式。",
+        "sourceIds": ["term"]
+      }
+    ],
+    "interpretation": "原创玻璃、木雕与陶皿静物提炼有机轮廓和空腔，未复制所引馆藏的具体造型；绿色只是材质演绎，不代表生物功能。",
+    "sources": [
+      {
+        "id": "term",
+        "title": "Biomorphic",
+        "publisher": "MoMA",
+        "url": "https://www.moma.org/collection/terms/biomorphic"
+      },
+      {
+        "id": "vase",
+        "title": "Alvar Aalto. Vase (model 3031). 1936",
+        "publisher": "MoMA",
+        "url": "https://www.moma.org/collection/works/84130"
+      },
+      {
+        "id": "foundation",
+        "title": "Aalto Vase",
+        "publisher": "Alvar Aalto Foundation",
+        "url": "https://www.alvaraalto.fi/en/work/aalto-vase/"
+      }
+    ]
+  }
+}

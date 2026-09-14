@@ -1,0 +1,33 @@
+{
+  "styleId": "grunge-visual",
+  "title": "垃圾摇滚视觉",
+  "accentLength": 2,
+  "titleColors": ["#302C25", "#384D5B"],
+  "colors": [
+    {
+      "name": "复印黑",
+      "hex": "#303331",
+      "englishName": "Copy Black"
+    },
+    {
+      "name": "旧纸灰",
+      "hex": "#C9C4B6",
+      "englishName": "Worn Paper"
+    },
+    {
+      "name": "锈棕",
+      "hex": "#916B4F",
+      "englishName": "Rust"
+    },
+    {
+      "name": "褪绿",
+      "hex": "#6F7868",
+      "englishName": "Faded Green"
+    }
+  ],
+  "sidebarCn": ["让磨损记录流通", "以复印保留颗粒", "把现场放回纸面", "读懂地方的声音"],
+  "sidebarEn": ["A Way of Seeing.", "A Way of Living."],
+  "badges": ["复印", "磨损", "现场"],
+  "sceneFile": "assets/poster-scenes/grunge-visual.png",
+  "scenePrompt": "Use case: stylized-concept. Asset type: original Visual Almanac archive scene. Create one original landscape 3:2 raster illustration, 1536x1024 preferred. An original grunge music archival collage, black-and-white grainy close-up photograph of an unbranded electric guitar leaning against a battered rehearsal amplifier, torn photocopy paper edges and a few strips of yellowed masking tape, deep shadows and faded olive-gray ink, restrained rust-brown stains. Early-1990s Pacific Northwest DIY music print atmosphere, no famous album imagery, no band logos, no lettering, flat scanned-paper composition. Full bleed scene, no frame, no title, no logo, no watermark, no labels, no swatches, no readable text. Do not reproduce any existing artwork or brand. Carefully composed, visibly specific to the described visual language."
+}

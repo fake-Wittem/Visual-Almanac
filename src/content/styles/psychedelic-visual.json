@@ -1,0 +1,114 @@
+{
+  "id": "psychedelic-visual",
+  "name": "迷幻视觉",
+  "englishName": "Psychedelic Visual Culture",
+  "aliases": ["Psychedelic Visual Culture"],
+  "summary": "密集曲线与振动色彩构成观看迷宫，把音乐现场的感官体验转为海报的图形节奏。",
+  "category": "avant-garde",
+  "tags": ["lively", "contrast", "purple", "orange", "poster"],
+  "cover": "psychedelic-visual-poster",
+  "images": [
+    {
+      "asset": "psychedelic-visual-poster",
+      "caption": "迷幻视觉 · 风格演绎海报"
+    }
+  ],
+  "palettes": [
+    {
+      "id": "poster",
+      "name": "主题配色",
+      "description": "本档案人工设定的演绎配色，不代表历史标准色。",
+      "colors": [
+        {
+          "id": "color-1",
+          "name": "迷幻紫",
+          "hex": "#6C4A86",
+          "status": "manual",
+          "role": "卷曲底形"
+        },
+        {
+          "id": "color-2",
+          "name": "热橙",
+          "hex": "#D98945",
+          "status": "manual",
+          "role": "花瓣主形"
+        },
+        {
+          "id": "color-3",
+          "name": "酸绿",
+          "hex": "#A7AE57",
+          "status": "manual",
+          "role": "互补色边缘"
+        },
+        {
+          "id": "color-4",
+          "name": "墨蓝",
+          "hex": "#293E58",
+          "status": "manual",
+          "role": "深层轮廓"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "title": "曲线连同字形",
+      "body": "历史海报常将字形挤入轮廓，使阅读需要停留；当代使用应为活动名称和日期另留清楚入口。"
+    },
+    {
+      "title": "振动来自相邻关系",
+      "body": "选择明度接近而色相反差大的局部边缘制造脉动感，避免全幅同等刺激而失去焦点。"
+    },
+    {
+      "title": "限定音乐社群",
+      "body": "此处聚焦1960年代后期美国西海岸音乐海报，不用任意彩色旋涡代表所有迷幻文化，也不将体验神化。"
+    }
+  ],
+  "applications": [
+    "适合音乐史专题、演出视觉与唱片包装；以一组连续曲线统合画面，高密图像和正文应分区。"
+  ],
+  "related": ["op-art", "art-nouveau", "rave-acid-house"],
+  "order": 113,
+  "updatedAt": "2026-09-14",
+  "designHistory": {
+    "overview": "本档案聚焦1960年代美国西海岸音乐海报的迷幻视觉，关注场馆委托、印刷传播与青年社群。维也纳分离派和新艺术形式被重新借用，但并不是同一历史风格。",
+    "timeline": [
+      {
+        "year": 1966,
+        "period": "1966年",
+        "title": "场馆委托推动海报创作",
+        "body": "Wes Wilson为Fillmore和Avalon等音乐场馆工作，1966年开始的一批海报以流动字形形成鲜明的现场传播语言。",
+        "sourceIds": ["s1"]
+      },
+      {
+        "year": 1967,
+        "period": "1967年",
+        "title": "图形语言扩展与分化",
+        "body": "Wilson的形式迅速被其他作者吸收；Bob Fried的The Charlatans海报把弯曲网格、旧式飞行器和扭曲文字组织在一起。",
+        "sourceIds": ["s1", "s2"]
+      },
+      {
+        "year": 1998,
+        "period": "1998年",
+        "title": "海报实践进入设计史整理",
+        "body": "史密森尼的Wes Wilson馆藏介绍引自1998年出版的Posters American Style，将场馆委托、字形来源和印刷经历放在作者生涯中整理。",
+        "sourceIds": ["s1"]
+      }
+    ],
+    "interpretation": "紫橙绿蓝曲线围绕留白形体形成密度和边缘振动；这是原创图形，不是历史音乐海报，也不模拟真实药物体验。 本场景由AI生成，四色为本档案人工设定的编辑配色。",
+    "sources": [
+      {
+        "id": "s1",
+        "title": "Wes Wilson",
+        "publisher": "Smithsonian American Art Museum",
+        "url": "https://americanart.si.edu/artist/wes-wilson-27389"
+      },
+      {
+        "id": "s2",
+        "title": "The Charlatans",
+        "publisher": "Poster House",
+        "url": "https://collection.posterhouse.org/poster/the-charlatans/"
+      }
+    ]
+  }
+}

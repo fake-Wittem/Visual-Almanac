@@ -1,0 +1,114 @@
+{
+  "id": "modular-information",
+  "name": "模块化信息设计",
+  "englishName": "Modular Information Design",
+  "aliases": ["Modular Information Design"],
+  "summary": "用重复单元、清楚间距和一致符号，把复杂信息组织成可比较的阅读结构。",
+  "category": "modern-minimal",
+  "tags": ["rational", "geometry", "contrast", "blue", "orange", "slides"],
+  "cover": "modular-information-poster",
+  "images": [
+    {
+      "asset": "modular-information-poster",
+      "caption": "模块化信息设计 · 风格演绎海报"
+    }
+  ],
+  "palettes": [
+    {
+      "id": "poster",
+      "name": "主题配色",
+      "description": "为本档案人工设定的视觉配色，海报色卡按相同 HEX 排版；不代表历史时期的标准色。",
+      "colors": [
+        {
+          "id": "color-1",
+          "name": "信息蓝",
+          "hex": "#2E4E67",
+          "status": "manual",
+          "role": "重点卡片和路径主线"
+        },
+        {
+          "id": "color-2",
+          "name": "卡纸白",
+          "hex": "#E6E1D5",
+          "status": "manual",
+          "role": "承载信息的基本单元"
+        },
+        {
+          "id": "color-3",
+          "name": "指示橙",
+          "hex": "#BC7546",
+          "status": "manual",
+          "role": "强调模块和视线入口"
+        },
+        {
+          "id": "color-4",
+          "name": "符号灰",
+          "hex": "#454A4D",
+          "status": "manual",
+          "role": "中性节点、细线和条形"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "title": "单元与内容",
+      "body": "卡片、图标和栏网格只是容器；需要先确认数据或文本之间是否具有可比较关系，才能决定重复单元的大小和组织方式。"
+    },
+    {
+      "title": "重复的语义",
+      "body": "同一个符号应保持同一种含义，大小或数量的变化也要有明确规则；装饰性圆点不能冒充量化信息。"
+    },
+    {
+      "title": "图式与现实",
+      "body": "地铁图等示意图可牺牲部分地理形状以突出连接，但必须说明阅读用途；在应用中应检查用户是否会把图式距离当成真实距离。"
+    }
+  ],
+  "applications": [
+    "适合课程导览与展览信息板：先给每个单元规定标题、摘要和图标位置，再用一致的间距组织层级；涉及数据时另附单位、时间和来源。"
+  ],
+  "related": ["swiss-international", "ulm-functionalism"],
+  "order": 88,
+  "updatedAt": "2026-09-14",
+  "designHistory": {
+    "overview": "这是比较信息组织方法的编辑主题，以 Isotype 的图像教育和纽约地铁示意图为具体案例。两者解决的问题不同，本档案不宣称存在从 Isotype 到所有现代图标系统的直接谱系。",
+    "timeline": [
+      {
+        "year": 1925,
+        "period": "1925—1934 年",
+        "title": "图像单元参与公共教育",
+        "body": "雷丁大学的研究资料记录维也纳社会经济博物馆时期的图表、出版物和象形图，重复图像服务于社会与经济知识的传播。",
+        "sourceIds": ["reading"]
+      },
+      {
+        "year": 1972,
+        "period": "1972 年",
+        "title": "交通网络采用图式组织",
+        "body": "纽约交通博物馆记录 1972 年推出的 Vignelli 地铁图，用图式呈现网络关系；其设计处于更大规模的信息交付整合过程中。",
+        "sourceIds": ["transit"]
+      },
+      {
+        "year": 2010,
+        "period": "2010 年",
+        "title": "档案研究重看系统范围",
+        "body": "雷丁大学与 V&A 的 Isotype 展览回顾其跨地区、跨媒介工作，提醒研究者把图像教育、出版和统计联系起来，而不是只看孤立图标。",
+        "sourceIds": ["reading"]
+      }
+    ],
+    "interpretation": "场景是原创模块纸卡静物，没有真实数据；圆点、线和柱形仅说明重复与分组，不能据此解读数量或路径。",
+    "sources": [
+      {
+        "id": "reading",
+        "title": "International picture language collection goes on show at the Victoria and Albert Museum",
+        "publisher": "University of Reading",
+        "url": "https://archive.reading.ac.uk/news-events/2010/December/pr337587.html"
+      },
+      {
+        "id": "transit",
+        "title": "Digital Exhibit – Vignelli",
+        "publisher": "New York Transit Museum",
+        "url": "https://www.nytransitmuseum.org/vignelli/"
+      }
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "styleId": "early-desktop-web",
+  "title": "桌面出版与早期网页",
+  "accentLength": 2,
+  "titleColors": ["#363B44", "#344F9E"],
+  "colors": [
+    {
+      "name": "机壳米灰",
+      "hex": "#D8D0B9",
+      "englishName": "Case Ivory"
+    },
+    {
+      "name": "链接蓝",
+      "hex": "#344F9E",
+      "englishName": "Link Blue"
+    },
+    {
+      "name": "石墨灰",
+      "hex": "#363B44",
+      "englishName": "Graphite"
+    },
+    {
+      "name": "浅青",
+      "hex": "#85BFC4",
+      "englishName": "Pale Cyan"
+    }
+  ],
+  "sidebarCn": ["让桌面成为工坊", "让窗格组织信息", "让链接串起页面", "让像素留下年代"],
+  "sidebarEn": ["A Way of Seeing.", "A Way of Living."],
+  "badges": ["窗格", "排版", "链接"],
+  "sceneFile": "assets/poster-scenes/early-desktop-web.png",
+  "scenePrompt": "Use case: historical-scene. Asset type: original raster scene for Visual Almanac archive poster. Primary request: a 1990s desktop publishing and early web home studio, viewed at a gentle three-quarter angle, one chunky unbranded beige CRT monitor showing only simple blue abstract window rectangles and blank white panes, beige keyboard with unmarked keys, wired mouse, two blank floppy disks, plain layout sheets containing geometric cyan and black blocks only, small desk lamp. Photoreal editorial still life with tactile fine print grain, carefully composed calm nostalgic design museum mood. Landscape approximately 3:2. Palette warm ivory #D8D0B9, link blue #344F9E, graphite #363B44, pale cyan #85BFC4. Soft side daylight, pale grey desk, believable late twentieth-century hardware. No readable letters, no numbers, no logos, no brands, no watermark, no poster framing, no color swatches, no modern flat screens, no neon cyberpunk. One image."
+}

@@ -1,0 +1,33 @@
+{
+  "styleId": "italian-rationalism",
+  "title": "意大利理性主义",
+  "accentLength": 2,
+  "titleColors": ["#373A37", "#685248"],
+  "colors": [
+    {
+      "name": "石灰白",
+      "hex": "#D9D4C6",
+      "englishName": "Limestone"
+    },
+    {
+      "name": "混凝土灰",
+      "hex": "#A7AAA5",
+      "englishName": "Concrete Grey"
+    },
+    {
+      "name": "板岩蓝",
+      "hex": "#445C6B",
+      "englishName": "Slate Blue"
+    },
+    {
+      "name": "结构黑",
+      "hex": "#333A3D",
+      "englishName": "Frame Black"
+    }
+  ],
+  "sidebarCn": ["让网格组织立面", "让体块回应场地", "让开口调节明暗", "让结构形成秩序"],
+  "sidebarEn": ["A Way of Seeing.", "A Way of Living."],
+  "badges": ["比例", "体块", "虚实"],
+  "sceneFile": "assets/poster-scenes/italian-rationalism.png",
+  "scenePrompt": "Use case: historical-scene. A fictional architectural study inspired by 1930s Italian Rationalism: compact pale limestone rectangular civic building, flat roof, asymmetrical grid of square recessed loggias, clear concrete frame, generous empty forecourt, strict proportions, soft blue sky and a single deep rectangular shadow. Eye-level architectural editorial photograph, no monumental triumphal motifs, no political symbols, no flags or emblems, no people. Limestone #D9D4C6, concrete #A7AAA5, slate #445C6B, charcoal #333A3D. Do not reproduce an actual building. Asset: original scene for a style archive. Landscape 3:2, single full-bleed image, no text, letters, numbers, labels, logos, watermark, outer poster border, color swatches or badges."
+}

@@ -1,0 +1,33 @@
+{
+  "styleId": "byzantine-decoration",
+  "title": "拜占庭装饰",
+  "accentLength": 2,
+  "titleColors": ["#334B68", "#793F45"],
+  "colors": [
+    {
+      "name": "镶金",
+      "hex": "#B79A52",
+      "englishName": "Mosaic Gold"
+    },
+    {
+      "name": "青金",
+      "hex": "#334B68",
+      "englishName": "Lapis"
+    },
+    {
+      "name": "绛红",
+      "hex": "#793F45",
+      "englishName": "Oxblood"
+    },
+    {
+      "name": "石白",
+      "hex": "#E6D9BC",
+      "englishName": "Marble"
+    }
+  ],
+  "sidebarCn": ["让金地接住微光", "以颗粒显露材质", "沿拱面铺陈纹样", "读懂装饰的语境"],
+  "sidebarEn": ["A Way of Seeing.", "A Way of Living."],
+  "badges": ["镶嵌", "金地", "拱顶"],
+  "sceneFile": "assets/poster-scenes/byzantine-decoration.png",
+  "scenePrompt": "Use case: historical-scene. Asset type: original landscape scene for Visual Almanac style archive. An imagined Byzantine-inspired apsidal interior architectural detail, a luminous gold glass tessera mosaic half-dome with stylized blue and oxblood vine and leaf ornament, shallow rhythmic arcades, finely veined ivory marble columns, marble dado and a small inset geometric mosaic floor in foreground. No human figures or sacred portraits. Gold is tiny irregular reflective mosaic cubes with dark joints, not solid metal; light rakes from the left and reveals material depth. Frontal but slightly oblique architectural composition, tactile museum-quality painterly illustration. Restrained palette antique gold #B79A52, deep lapis #334B68, oxblood #793F45, marble ivory #E6D9BC. Landscape 3:2, one coherent architectural scene, not a pattern sheet. Original interpretation, not a reconstruction of a particular monument. No text, letters, inscriptions, symbols that look like lettering, logos, signature, borders, color swatches or collage."
+}

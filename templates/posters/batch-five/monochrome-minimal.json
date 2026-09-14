@@ -1,0 +1,33 @@
+{
+  "styleId": "monochrome-minimal",
+  "title": "单色极简",
+  "accentLength": 2,
+  "titleColors": ["#373A37", "#685248"],
+  "colors": [
+    {
+      "name": "雾蓝白",
+      "hex": "#D0DADF",
+      "englishName": "Blue Mist"
+    },
+    {
+      "name": "浅蓝灰",
+      "hex": "#96ACB7",
+      "englishName": "Pale Blue Grey"
+    },
+    {
+      "name": "板岩蓝",
+      "hex": "#5A7585",
+      "englishName": "Slate Blue"
+    },
+    {
+      "name": "深蓝",
+      "hex": "#2F4858",
+      "englishName": "Deep Blue"
+    }
+  ],
+  "sidebarCn": ["让明度建立层级", "让肌理替代装饰", "让间距稳定重心", "让少色保有变化"],
+  "sidebarEn": ["A Way of Seeing.", "A Way of Living."],
+  "badges": ["单色", "明度", "材质"],
+  "sceneFile": "assets/poster-scenes/monochrome-minimal.png",
+  "scenePrompt": "Use case: stylized-concept. Original tonal single-hue still life: four simple sculptural objects in a restrained muted blue-grey family, matte ceramic cylinder, smooth low rectangular stone block, folded woven textile and small satin glass sphere, arranged with abundant negative space on matching blue-grey backdrop. Tonal hierarchy from pale mist to deep slate, elegant raking studio light reveals surface differences and measured proportions. Mist #D0DADF, blue grey #96ACB7, slate #5A7585, deep blue #2F4858. This is monochrome in one blue hue family, not black and white. Asset: original scene for a style archive. Landscape 3:2, single full-bleed image, no text, letters, numbers, labels, logos, watermark, outer poster border, color swatches or badges."
+}

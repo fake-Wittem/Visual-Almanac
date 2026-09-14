@@ -1,0 +1,120 @@
+{
+  "id": "glitch-art",
+  "name": "故障艺术 Glitch",
+  "englishName": "Glitch Art",
+  "aliases": ["Glitch Art"],
+  "summary": "从压缩块、错位和数据断裂中观看媒介，让原本隐藏的编码与传输限制进入图像。",
+  "category": "avant-garde",
+  "tags": ["contrast", "futuristic", "collage", "purple", "poster"],
+  "cover": "glitch-art-poster",
+  "images": [
+    {
+      "asset": "glitch-art-poster",
+      "caption": "故障艺术 Glitch · 风格演绎海报"
+    }
+  ],
+  "palettes": [
+    {
+      "id": "poster",
+      "name": "主题配色",
+      "description": "本档案人工设定的演绎配色，不代表历史标准色。",
+      "colors": [
+        {
+          "id": "color-1",
+          "name": "信号黑",
+          "hex": "#242C39",
+          "status": "manual",
+          "role": "暗背景"
+        },
+        {
+          "id": "color-2",
+          "name": "偏移青",
+          "hex": "#57ADB6",
+          "status": "manual",
+          "role": "通道错位"
+        },
+        {
+          "id": "color-3",
+          "name": "错误紫",
+          "hex": "#9665AD",
+          "status": "manual",
+          "role": "断裂区块"
+        },
+        {
+          "id": "color-4",
+          "name": "像素白",
+          "hex": "#DEE1D9",
+          "status": "manual",
+          "role": "残留亮块"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "title": "错误有媒介来源",
+      "body": "区分压缩块、通道错位、数据弯折和模拟信号噪声；选择一种主机制，避免堆积无关效果。"
+    },
+    {
+      "title": "偶发与设计化",
+      "body": "真实故障和人为模拟的故障外观不同。此档案图为生成式演绎，不声称文件本身损坏或可复现实验。"
+    },
+    {
+      "title": "保留正常区域",
+      "body": "让未受扰动的结构与断裂相邻，观看者才能识别媒介如何中断，而不是只看到抽象彩色噪点。"
+    }
+  ],
+  "applications": [
+    "适合数字媒介展、实验影像封面与技术批评出版；关键文字保持完整，勿用快速闪烁替代图形研究。"
+  ],
+  "related": ["analog-video", "generative-art", "digital-future"],
+  "order": 115,
+  "updatedAt": "2026-09-14",
+  "designHistory": {
+    "overview": "故障艺术关注信息流被打断时的表现与意义。本档案以2010年代Menkman的格式研究和参与式项目为线索；它并不等同录像带怀旧，也不把一切像素图都归为故障。",
+    "timeline": [
+      {
+        "year": 2010,
+        "period": "2010年",
+        "title": "文件格式成为视觉研究对象",
+        "body": "Menkman的A Vernacular of File Formats记录不同格式与故障图像的关系，把看似偶然的外观连接到媒介结构。",
+        "sourceIds": ["s1"]
+      },
+      {
+        "year": 2011,
+        "period": "2011年",
+        "title": "故障经验进入理论讨论",
+        "body": "Institute of Network Cultures出版The Glitch Moment(um)，并在GLI.TC/H活动中安排发布，使视觉实践与媒介批评相互连接。",
+        "sourceIds": ["s2"]
+      },
+      {
+        "year": 2013,
+        "period": "2013年",
+        "title": "参与式工具与影像汇集",
+        "body": "INC介绍Gaulon等人的参与式故障项目，说明2011年开放的上传渠道在2013年形成完整影片，扩展普通用户的实验入口。",
+        "sourceIds": ["s3"]
+      }
+    ],
+    "interpretation": "完整楼梯逐步进入矩形碎块和通道偏移，以对照提示媒介中断；该PNG本身是正常生成文件，并未进行真实数据破坏。 本场景由AI生成，四色为本档案人工设定的编辑配色。",
+    "sources": [
+      {
+        "id": "s1",
+        "title": "A Vernacular of File Formats",
+        "publisher": "Whitney Museum Library",
+        "url": "https://library.whitney.org/bib/72037"
+      },
+      {
+        "id": "s2",
+        "title": "The Glitch Moment(um) book launch",
+        "publisher": "Institute of Network Cultures",
+        "url": "https://networkcultures.org/events/boeklancering-the-glitch-momentum-by-rosa-menkman/"
+      },
+      {
+        "id": "s3",
+        "title": "Participatory Glitch Art projects",
+        "publisher": "Institute of Network Cultures",
+        "url": "https://networkcultures.org/culturevortex/2013/11/25/participatory-glicht-art-projects-by-benjamin-gaulon-martial-geoffre-rouland/"
+      }
+    ]
+  }
+}

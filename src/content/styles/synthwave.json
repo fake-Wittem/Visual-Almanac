@@ -1,0 +1,114 @@
+{
+  "id": "synthwave",
+  "name": "合成波 Synthwave",
+  "englishName": "Synthwave",
+  "aliases": ["Synthwave"],
+  "summary": "将1980年代电影、游戏与合成器记忆重新拼成夜行景观，用网格、霓虹和地平线塑造电子乡愁。",
+  "category": "future-tech",
+  "tags": ["nostalgic", "futuristic", "neon", "purple", "poster"],
+  "cover": "synthwave-poster",
+  "images": [
+    {
+      "asset": "synthwave-poster",
+      "caption": "合成波 Synthwave · 风格演绎海报"
+    }
+  ],
+  "palettes": [
+    {
+      "id": "poster",
+      "name": "主题配色",
+      "description": "本档案人工设定的演绎配色，不代表历史标准色。",
+      "colors": [
+        {
+          "id": "color-1",
+          "name": "夜靛",
+          "hex": "#232640",
+          "status": "manual",
+          "role": "天空与远景"
+        },
+        {
+          "id": "color-2",
+          "name": "霓虹粉",
+          "hex": "#CF5B9A",
+          "status": "manual",
+          "role": "太阳和反射"
+        },
+        {
+          "id": "color-3",
+          "name": "电光青",
+          "hex": "#58B8C0",
+          "status": "manual",
+          "role": "透视网格"
+        },
+        {
+          "id": "color-4",
+          "name": "落日橙",
+          "hex": "#D69155",
+          "status": "manual",
+          "role": "地平线辉光"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "title": "回忆经过重组",
+      "body": "合成波主要是后世对1980年代的重构，不能把所有80年代电子音乐直接改名为Synthwave。"
+    },
+    {
+      "title": "透视服务声音",
+      "body": "用低地平线、节拍式重复和缓慢渐层呼应持续音色；速度线应服从统一透视。"
+    },
+    {
+      "title": "与赛博朋克分界",
+      "body": "合成波可以浪漫而空旷，不必配置拥挤广告和社会失序；关键是音乐怀旧与夜行想象。"
+    }
+  ],
+  "applications": [
+    "适合电子音乐封面、演出视觉与回顾专题；用单一发光焦点组织图像，避免正文落在高亮霓虹上。"
+  ],
+  "related": ["retro-futurism", "cyberpunk", "y2k"],
+  "order": 109,
+  "updatedAt": "2026-09-14",
+  "designHistory": {
+    "overview": "Synthwave是当代音乐文化及相关视觉的回望性表达。本档案以研究文献说明其2000年代发展、2011年电影传播和后续图像身份，不将它写成1980年代直接成立的运动。",
+    "timeline": [
+      {
+        "year": 2005,
+        "period": "2000年代中期",
+        "title": "电子怀旧形成社群",
+        "body": "音乐研究将现代Synthwave的出现置于2000年代中期，其素材来自更早的电影、游戏与合成器声音。",
+        "sourceIds": ["s1"]
+      },
+      {
+        "year": 2011,
+        "period": "2011年",
+        "title": "《Drive》扩大传播",
+        "body": "《Drive》配乐及Kavinsky的Nightcall帮助此类电子乡愁获得更广泛关注，研究将该片视为传播中的重要节点。",
+        "sourceIds": ["s1", "s2"]
+      },
+      {
+        "year": 2013,
+        "period": "2013年",
+        "title": "Outrun强化视觉关联",
+        "body": "研究指出Outrun既是Kavinsky的2013年专辑名，也成为与Synthwave视觉风格相关的称呼，音乐和图像分类继续交织。",
+        "sourceIds": ["s2"]
+      }
+    ],
+    "interpretation": "霓虹公路、分层落日和网格海面重组电子音乐的回望性意象；不是1980年代现场影像或某张唱片封面的复制。 本场景由AI生成，四色为本档案人工设定的编辑配色。",
+    "sources": [
+      {
+        "id": "s1",
+        "title": "More 1980s than the 1980s",
+        "publisher": "Sound Stage Screen / Università degli Studi di Milano",
+        "url": "https://riviste.unimi.it/index.php/sss/article/download/14136/19996?inline=1"
+      },
+      {
+        "id": "s2",
+        "title": "Reconstructed Nostalgia",
+        "publisher": "Journal of Popular Music Studies",
+        "url": "https://online.ucpress.edu/jpms/article/33/1/70/116330/Reconstructed-NostalgiaAesthetic-Commonalities-and"
+      }
+    ]
+  }
+}

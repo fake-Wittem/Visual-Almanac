@@ -1,0 +1,114 @@
+{
+  "id": "renaissance",
+  "name": "文艺复兴",
+  "englishName": "Renaissance",
+  "aliases": ["Renaissance"],
+  "summary": "以意大利十五至十六世纪建筑及画框为入口，阅读古典母题、重复尺度和空间秩序。",
+  "category": "classical-decorative",
+  "tags": ["rational", "elegant", "geometry", "cream", "brown", "slides"],
+  "cover": "renaissance-poster",
+  "images": [
+    {
+      "asset": "renaissance-poster",
+      "caption": "文艺复兴 · 原创风格演绎海报"
+    }
+  ],
+  "palettes": [
+    {
+      "id": "poster",
+      "name": "主题配色",
+      "description": "人工设定的视觉演绎配色，不是历史颜料检测或行业标准。",
+      "colors": [
+        {
+          "id": "color-1",
+          "name": "灰石",
+          "hex": "#69747A",
+          "status": "manual",
+          "role": "柱拱框架"
+        },
+        {
+          "id": "color-2",
+          "name": "灰泥白",
+          "hex": "#E4DBC8",
+          "status": "manual",
+          "role": "墙面"
+        },
+        {
+          "id": "color-3",
+          "name": "陶褐",
+          "hex": "#B58768",
+          "status": "manual",
+          "role": "地面"
+        },
+        {
+          "id": "color-4",
+          "name": "橄榄",
+          "hex": "#80826A",
+          "status": "manual",
+          "role": "庭院远景"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "title": "模数贯穿空间",
+      "body": "拱跨、柱距与走廊深度应形成可辨认的重复关系。设计时先确定一跨如何组成，再扩展成序列，不以装饰堆叠代替比例。"
+    },
+    {
+      "title": "古典复兴会转译",
+      "body": "壁柱、山花与檐部能从建筑进入画框，但画框还承担支撑与保护画板的任务。不要把所有金色雕花框都称为文艺复兴。"
+    },
+    {
+      "title": "地域与时期不可抹平",
+      "body": "本档案以佛罗伦萨与威尼托为样本，强调建筑线索。它不能概括北欧绘画、所有意大利城市或整个文艺复兴时期的单一样貌。"
+    }
+  ],
+  "applications": [
+    "适合建筑与绘画关系的展览章节页：以一跨拱廊建立版面节奏，再用画框剖面解释构件转译。人文主题页面可借比例秩序，无需复制整套古典饰件。"
+  ],
+  "related": ["greco-roman", "neoclassicism", "baroque"],
+  "order": 102,
+  "updatedAt": "2026-09-14",
+  "designHistory": {
+    "overview": "文艺复兴是跨地区的文化与艺术变化，本档案只取意大利建筑和框饰的一条线索：十五世纪的模数实践、古典框饰，以及十六世纪建筑图书传播。",
+    "timeline": [
+      {
+        "year": 1419,
+        "period": "1419年",
+        "title": "佛罗伦萨的模数空间",
+        "body": "布鲁内莱斯基的育婴堂以重复的基本尺度协调柱高、柱距与开间深度，说明看似简洁的立面背后有系统的空间关系。",
+        "sourceIds": ["architecture"]
+      },
+      {
+        "year": 1425,
+        "period": "1425年前后",
+        "title": "古典语言进入壁龛与画框",
+        "body": "多纳泰罗和米开罗佐在奥尔圣米凯莱的壁龛采用古典建筑母题；稍后的祭坛画框进一步把柱式和檐部转为图像边界。",
+        "sourceIds": ["frames"]
+      },
+      {
+        "year": 1570,
+        "period": "1570年",
+        "title": "帕拉第奥以图书传播建筑方法",
+        "body": "《建筑四书》将建筑思想和图示结合。帕拉第奥在威尼托的别墅强调对称、轴线与清晰组织，显示古典参照也能回应住宅需求。",
+        "sourceIds": ["architecture"]
+      }
+    ],
+    "interpretation": "海报为原创意大利文艺复兴启发的拱廊，不复刻育婴堂或帕拉第奥建筑，也不提供历史测绘比例。",
+    "sources": [
+      {
+        "id": "architecture",
+        "title": "Architecture in Renaissance Italy",
+        "publisher": "The Metropolitan Museum of Art",
+        "url": "https://www.metmuseum.org/essays/architecture-in-renaissance-italy"
+      },
+      {
+        "id": "frames",
+        "title": "Italian Renaissance Frames",
+        "publisher": "The Metropolitan Museum of Art",
+        "url": "https://www.metmuseum.org/essays/italian-renaissance-frames"
+      }
+    ]
+  }
+}

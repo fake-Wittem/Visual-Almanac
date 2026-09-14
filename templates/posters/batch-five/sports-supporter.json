@@ -1,0 +1,33 @@
+{
+  "styleId": "sports-supporter",
+  "title": "运动街头与球迷文化",
+  "accentLength": 2,
+  "titleColors": ["#302C25", "#384D5B"],
+  "colors": [
+    {
+      "name": "看台红",
+      "hex": "#B44B43",
+      "englishName": "Terrace Red"
+    },
+    {
+      "name": "球衣白",
+      "hex": "#E6E0D1",
+      "englishName": "Jersey White"
+    },
+    {
+      "name": "队色蓝",
+      "hex": "#37576F",
+      "englishName": "Team Blue"
+    },
+    {
+      "name": "草场绿",
+      "hex": "#6C866A",
+      "englishName": "Pitch Green"
+    }
+  ],
+  "sidebarCn": ["让队色连接看台", "把球衣穿进日常", "以围巾表达归属", "记住社群的声音"],
+  "sidebarEn": ["A Way of Seeing.", "A Way of Living."],
+  "badges": ["队色", "球衣", "归属"],
+  "sceneFile": "assets/poster-scenes/sports-supporter.png",
+  "scenePrompt": "Use case: stylized-concept. Asset type: original Visual Almanac archive scene. Create one original landscape 3:2 raster illustration, 1536x1024 preferred. Original football-supporter culture editorial still life, a simple cream unbranded football jersey with navy collar and red geometric chest band draped over a stadium seat, a thick knitted red-and-blue striped scarf with plain ends, worn leather football at the foot, softly blurred green pitch beyond. Rich textile detail, clean geometric color identity, warm diffused stadium daylight, no club crest, no letters, no numbers, no sponsor logos, no replicas of a famous kit. Full bleed scene, no frame, no title, no logo, no watermark, no labels, no swatches, no readable text. Do not reproduce any existing artwork or brand. Carefully composed, visibly specific to the described visual language."
+}

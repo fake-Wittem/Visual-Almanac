@@ -1,0 +1,112 @@
+{
+  "id": "deconstructed-typography",
+  "name": "解构式实验排版",
+  "englishName": "Deconstructed Experimental Typography",
+  "aliases": ["Deconstructed Experimental Typography"],
+  "summary": "将字形拆分、叠压和错位，重新安排阅读路线，让文字同时成为图像与意义的载体。",
+  "category": "avant-garde",
+  "tags": ["lettering", "collage", "contrast", "black", "poster"],
+  "cover": "deconstructed-typography-poster",
+  "images": [
+    {
+      "asset": "deconstructed-typography-poster",
+      "caption": "解构式实验排版 · 风格演绎海报"
+    }
+  ],
+  "palettes": [
+    {
+      "id": "poster",
+      "name": "主题配色",
+      "description": "本档案人工设定的演绎配色，不代表历史标准色。",
+      "colors": [
+        {
+          "id": "color-1",
+          "name": "字形黑",
+          "hex": "#303132",
+          "status": "manual",
+          "role": "大字残片"
+        },
+        {
+          "id": "color-2",
+          "name": "纸白",
+          "hex": "#E5DECE",
+          "status": "manual",
+          "role": "版面留白"
+        },
+        {
+          "id": "color-3",
+          "name": "覆印红",
+          "hex": "#B75146",
+          "status": "manual",
+          "role": "透明叠印"
+        },
+        {
+          "id": "color-4",
+          "name": "扫描灰",
+          "hex": "#95988F",
+          "status": "manual",
+          "role": "网点纹理"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "title": "先建立可读层",
+      "body": "保留标题或导读的稳定入口，再让次要字形切割、旋转和叠压；解构不是把全部文字变得不可辨认。"
+    },
+    {
+      "title": "字形与底形交换",
+      "body": "关注字腔、笔画和留白形成的次级图案，用裁切和尺度变化建立阅读张力。"
+    },
+    {
+      "title": "方法不等于哲学标签",
+      "body": "本档案以Weingart和Greiman的视觉实验为线索，不把每种错位排版都断言为某个理论流派的直接实践。"
+    }
+  ],
+  "applications": ["适合实验出版、艺术展海报与音乐视觉；正文仍需清楚的字号、行距与阅读顺序。"],
+  "related": ["swiss-international", "punk-diy", "post-punk-new-wave"],
+  "order": 112,
+  "updatedAt": "2026-09-14",
+  "designHistory": {
+    "overview": "解构式实验排版是对一组媒介方法的归纳。本档案沿1970年代字形实验和1980至1990年代数字拼贴观察阅读秩序如何改变，不把软件出现前的实验遗漏。",
+    "timeline": [
+      {
+        "year": 1970,
+        "period": "1970年代",
+        "title": "字形成为可重组结构",
+        "body": "Weingart的实验让字母在图与底之间转换，通过聚集和拆分形成更大的视觉形体。",
+        "sourceIds": ["s1"]
+      },
+      {
+        "year": 1984,
+        "period": "1984年起",
+        "title": "数字工具拓展叠层",
+        "body": "Greiman开始使用Macintosh，将像素字形、录像静帧和图形符号组合，发展交叠形体与斜向空间关系。",
+        "sourceIds": ["s2"]
+      },
+      {
+        "year": 1993,
+        "period": "1993年",
+        "title": "复合信息组织成熟",
+        "body": "Greiman为AIGA Communication Graphics制作的海报将身体、象征和数字图形叠合，体现多个信息层并置的组织方法。",
+        "sourceIds": ["s2"]
+      }
+    ],
+    "interpretation": "字腔残片、斜线、网点和红色叠印展示图底交换；图像只使用抽象字形片段，不是可实际阅读的完整出版物。 本场景由AI生成，四色为本档案人工设定的编辑配色。",
+    "sources": [
+      {
+        "id": "s1",
+        "title": "Experimenting with Type",
+        "publisher": "Cooper Hewitt",
+        "url": "https://www.cooperhewitt.org/2015/05/18/wolfgang-weingart-experimental-type/"
+      },
+      {
+        "id": "s2",
+        "title": "Mind and Body",
+        "publisher": "Cooper Hewitt",
+        "url": "https://www.cooperhewitt.org/2016/03/31/mind-and-body/"
+      }
+    ]
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "id": "sports-supporter",
+  "name": "运动街头与球迷文化",
+  "englishName": "Sports Streetwear & Supporter Culture",
+  "aliases": ["Sports Streetwear & Supporter Culture"],
+  "summary": "球衣、围巾和看台色带将竞技身份带入日常街头，连接支持者的归属、收藏与设计传播。",
+  "category": "street-pop",
+  "tags": ["lively", "textile", "geometry", "red", "brand"],
+  "cover": "sports-supporter-poster",
+  "images": [
+    {
+      "asset": "sports-supporter-poster",
+      "caption": "运动街头与球迷文化 · 风格演绎海报"
+    }
+  ],
+  "palettes": [
+    {
+      "id": "poster",
+      "name": "主题配色",
+      "description": "本档案人工设定的演绎配色，不代表历史标准色。",
+      "colors": [
+        {
+          "id": "color-1",
+          "name": "看台红",
+          "hex": "#B44B43",
+          "status": "manual",
+          "role": "围巾条带"
+        },
+        {
+          "id": "color-2",
+          "name": "球衣白",
+          "hex": "#E6E0D1",
+          "status": "manual",
+          "role": "球衣主体"
+        },
+        {
+          "id": "color-3",
+          "name": "队色蓝",
+          "hex": "#37576F",
+          "status": "manual",
+          "role": "衣领及色块"
+        },
+        {
+          "id": "color-4",
+          "name": "草场绿",
+          "hex": "#6C866A",
+          "status": "manual",
+          "role": "远处场地"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "title": "身份来自稳定符号",
+      "body": "队色、徽记位置和球衣比例形成辨识；原创演绎应避免伪造真实球队或赞助商标识。"
+    },
+    {
+      "title": "从装备走向日常",
+      "body": "关注复制球衣、针织围巾及穿着习惯，而不是只用速度线代表所有运动街头文化。"
+    },
+    {
+      "title": "范围需要继续拆分",
+      "body": "本档案主要以英国足球传播为线索，并列一个欧洲球衣设计样本；不替代篮球、棒球或不同地区球迷社群的历史。"
+    }
+  ],
+  "applications": [
+    "适合足球设计展、支持者文化出版与原创运动服饰概念；先建立配色和徽记规则，再安排数字与赞助信息。"
+  ],
+  "related": ["skate-culture", "hip-hop-visual", "pop-art"],
+  "order": 120,
+  "updatedAt": "2026-09-14",
+  "designHistory": {
+    "overview": "本档案聚焦足球球衣与支持者身份在英国传播中的联系，并以欧洲球衣作为设计比较。商业复制、收藏和街头穿着彼此关联，也不应掩盖基层社群自己的表达。",
+    "timeline": [
+      {
+        "year": 1973,
+        "period": "1973—1974年",
+        "title": "复制球衣进入支持者市场",
+        "body": "National Football Museum记录Admiral在1973至1974赛季向球迷销售复制球衣，推动比赛装备的视觉身份进入日常穿着。",
+        "sourceIds": ["s1"]
+      },
+      {
+        "year": 1988,
+        "period": "1988—1990年",
+        "title": "球衣作为具体设计样本",
+        "body": "该馆STRIP展览介绍Ina Franzmann设计的西德队球衣。此处将其作为欧洲足球服装设计的样本，而非英国球迷文化的统一转折点。",
+        "sourceIds": ["s2"]
+      },
+      {
+        "year": 2022,
+        "period": "2022年",
+        "title": "足球视觉进入设计展览",
+        "body": "Design Museum的Football: Designing the Beautiful Game将球衣、队徽和海报等放在俱乐部身份中讨论，同时关注基层足球与商业发展的关系。",
+        "sourceIds": ["s3"]
+      }
+    ],
+    "interpretation": "无品牌球衣、条纹围巾和看台座椅表达支持者身份；没有复制真实队徽或球衣，场景也不是特定比赛记录。 本场景由AI生成，四色为本档案人工设定的编辑配色。",
+    "sources": [
+      {
+        "id": "s1",
+        "title": "Admiral: 50 years",
+        "publisher": "National Football Museum",
+        "url": "https://nationalfootballmuseum.com/news/admiral-50-years/"
+      },
+      {
+        "id": "s2",
+        "title": "STRIP: How Football Got Shirty",
+        "publisher": "National Football Museum",
+        "url": "https://nationalfootballmuseum.com/news/strip-football-got-shirty-new-exhibition/"
+      },
+      {
+        "id": "s3",
+        "title": "Football: Designing the Beautiful Game",
+        "publisher": "Design Museum",
+        "url": "https://designmuseum.org/exhibitions/football-designing-the-beautiful-game"
+      }
+    ]
+  }
+}

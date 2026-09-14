@@ -1,0 +1,33 @@
+{
+  "styleId": "warm-minimal",
+  "title": "温暖极简",
+  "accentLength": 2,
+  "titleColors": ["#373A37", "#685248"],
+  "colors": [
+    {
+      "name": "暖粉白",
+      "hex": "#E8DFCD",
+      "englishName": "Warm Chalk"
+    },
+    {
+      "name": "橡木",
+      "hex": "#B29572",
+      "englishName": "Oak"
+    },
+    {
+      "name": "陶土",
+      "hex": "#B8846C",
+      "englishName": "Clay"
+    },
+    {
+      "name": "暖炭",
+      "hex": "#554D43",
+      "englishName": "Warm Charcoal"
+    }
+  ],
+  "sidebarCn": ["让留白容纳生活", "让触感接近身体", "让日光显出材料", "让尺度带来安静"],
+  "sidebarEn": ["A Way of Seeing.", "A Way of Living."],
+  "badges": ["留白", "触感", "温润"],
+  "sceneFile": "assets/poster-scenes/warm-minimal.png",
+  "scenePrompt": "Use case: photorealistic-natural. Original warm minimal contemporary interior: low cream linen sofa, single thick pale oak bench, matte lime plaster walls, large recessed window, one softly curved earthenware vessel, very few objects. Strong spatial proportions and breathing room, warm sidelight revealing wood grain and woven fabric without clutter. Architectural editorial photograph, calm lived-in scale, no luxury brand objects. Chalk #E8DFCD, oak #B29572, clay #B8846C, warm charcoal #554D43. Asset: original scene for a style archive. Landscape 3:2, single full-bleed image, no text, letters, numbers, labels, logos, watermark, outer poster border, color swatches or badges."
+}

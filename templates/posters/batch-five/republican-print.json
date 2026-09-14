@@ -1,0 +1,33 @@
+{
+  "styleId": "republican-print",
+  "title": "民国书刊与印刷",
+  "accentLength": 2,
+  "titleColors": ["#373A37", "#685248"],
+  "colors": [
+    {
+      "name": "墨灰",
+      "hex": "#343532",
+      "englishName": "Ink Grey"
+    },
+    {
+      "name": "朱红",
+      "hex": "#A44739",
+      "englishName": "Vermilion"
+    },
+    {
+      "name": "纸黄",
+      "hex": "#D6C7A7",
+      "englishName": "Paper Ochre"
+    },
+    {
+      "name": "靛灰",
+      "hex": "#586A78",
+      "englishName": "Indigo Grey"
+    }
+  ],
+  "sidebarCn": ["让书脊保留手感", "让黑白组织页幅", "让图像进入阅读", "让纸页连接时代"],
+  "sidebarEn": ["A Way of Seeing.", "A Way of Living."],
+  "badges": ["书刊", "版画", "纸页"],
+  "sceneFile": "assets/poster-scenes/republican-print.png",
+  "scenePrompt": "Use case: historical-scene. Asset: landscape original scene for a style archive. Original editorial still life representing 1920s–1930s Chinese book and magazine printing: close view of a printing workshop table with blank stitched book, small folded magazine mockups bearing only black rectangular page blocks and a vermilion abstract geometric illustration, a metal composing stick holding rows of tiny type blocks viewed from the unlettered backs, ink roller and plain paper proofs. Charcoal #343532, vermilion #A44739, paper #D6C7A7, muted indigo #586A78. Tactile photoreal craftsmanship, daylight, modest workbench, avoid European decorative quills. Landscape approximately 3:2, full bleed single coherent image. No lettering, text, numbers, logos, watermark, poster frame, color swatches or badges. One image."
+}

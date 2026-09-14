@@ -1,0 +1,114 @@
+{
+  "id": "japanese-tea-room",
+  "name": "日本茶室与茶道器物",
+  "englishName": "Japanese Tea Rooms and Utensils",
+  "aliases": ["Japanese Tea Rooms and Utensils"],
+  "summary": "以茶席中的器物组合、席面尺度和材料触感，理解茶室中的观看与使用关系。",
+  "category": "eastern-aesthetics",
+  "tags": ["calm", "wood", "organic", "brown", "cream"],
+  "cover": "japanese-tea-room-poster",
+  "images": [
+    {
+      "asset": "japanese-tea-room-poster",
+      "caption": "日本茶室与茶道器物 · 原创风格演绎海报"
+    }
+  ],
+  "palettes": [
+    {
+      "id": "poster",
+      "name": "主题配色",
+      "description": "人工设定的视觉演绎配色，不是历史颜料检测或行业标准。",
+      "colors": [
+        {
+          "id": "color-1",
+          "name": "草席",
+          "hex": "#B2A278",
+          "status": "manual",
+          "role": "席面纤维"
+        },
+        {
+          "id": "color-2",
+          "name": "陶褐",
+          "hex": "#765D46",
+          "status": "manual",
+          "role": "水指陶胎"
+        },
+        {
+          "id": "color-3",
+          "name": "炭黑",
+          "hex": "#373B34",
+          "status": "manual",
+          "role": "茶碗与铁釜"
+        },
+        {
+          "id": "color-4",
+          "name": "障子白",
+          "hex": "#E4DCC5",
+          "status": "manual",
+          "role": "透光纸面"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "title": "先辨认器物用途",
+      "body": "茶碗、水指、茶入和釜承担不同任务，摆放不能只按形状好看。水指为釜补水，不是插花瓶或茶壶。"
+    },
+    {
+      "title": "组合比统一更重要",
+      "body": "茶席可以并置不同窑口、年代与表面质感的器物。不能为追求统一，把所有陶器都添加同一种裂纹或做旧层。"
+    },
+    {
+      "title": "空间与礼仪相连",
+      "body": "低视点、席面分割与入口尺度影响主客互动。此档案讨论视觉关系，不提供某一流派的点前步骤，也不以侘寂概括全部茶文化。"
+    }
+  ],
+  "applications": [
+    "适合茶器展览页面：先标器名与功能，再用侧面光展示口沿、器腹和釉层。茶空间概念图需由实际流派实践者复核动线及器物配置。"
+  ],
+  "related": ["wabi-sabi", "song-ceramics", "karesansui"],
+  "order": 98,
+  "updatedAt": "2026-09-14",
+  "designHistory": {
+    "overview": "日本茶室审美来自社交、礼仪和器物选择的共同作用。此处从十六世纪器物价值变化，经过约1600年的水指实例，再到十七世纪陶瓷创新，说明茶器趣味并不恒定。",
+    "timeline": [
+      {
+        "year": 1500,
+        "period": "十六世纪",
+        "title": "茶会与器物鉴赏相结合",
+        "body": "茶会成为统治者、武士与富商的交流场合。十六世纪中期茶人开始重视朝鲜及日本某些朴素陶器，改变原先偏重中国古陶瓷的选择。",
+        "sourceIds": ["tea"]
+      },
+      {
+        "year": 1600,
+        "period": "约1600年",
+        "title": "水指体现使用与表面变化",
+        "body": "大都会博物馆藏伊贺水指“布袋”保留手工痕迹、烧成变形和自然灰釉；其为釜补水的用途与茶席中的显著位置同样重要。",
+        "sourceIds": ["jar"]
+      },
+      {
+        "year": 1600,
+        "period": "十七世纪",
+        "title": "新窑业语言扩大茶器选择",
+        "body": "烧制技术提高控制力，乐、志野、织部等茶器形成不同形态与釉色。野野村仁清的鲜明装饰又表明，华丽器物同样可以进入茶席。",
+        "sourceIds": ["tea"]
+      }
+    ],
+    "interpretation": "海报为原创茶室器物演绎，非特定茶室复原，也不是茶道操作示范；编辑配色不证明窑口或时代。",
+    "sources": [
+      {
+        "id": "tea",
+        "title": "The Japanese Tea Ceremony",
+        "publisher": "The Metropolitan Museum of Art",
+        "url": "https://www.metmuseum.org/essays/the-japanese-tea-ceremony"
+      },
+      {
+        "id": "jar",
+        "title": "Freshwater Jar (Mizusashi), Named Hotei",
+        "publisher": "The Metropolitan Museum of Art",
+        "url": "https://www.metmuseum.org/art/collection/search/828493"
+      }
+    ]
+  }
+}

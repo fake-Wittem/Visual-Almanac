@@ -1,0 +1,114 @@
+{
+  "id": "byzantine-decoration",
+  "name": "拜占庭装饰",
+  "englishName": "Byzantine Decoration",
+  "aliases": ["Byzantine Decoration"],
+  "summary": "从金地镶嵌、拱顶曲面与精细工艺，观察拜占庭装饰如何组织光与仪式空间。",
+  "category": "classical-decorative",
+  "tags": ["luxurious", "mysterious", "geometry", "gold", "blue", "poster"],
+  "cover": "byzantine-decoration-poster",
+  "images": [
+    {
+      "asset": "byzantine-decoration-poster",
+      "caption": "拜占庭装饰 · 原创风格演绎海报"
+    }
+  ],
+  "palettes": [
+    {
+      "id": "poster",
+      "name": "主题配色",
+      "description": "为本档案人工设定的视觉配色，海报色卡按相同 HEX 排版；不代表历史时期或行业的标准色。",
+      "colors": [
+        {
+          "id": "color-1",
+          "name": "镶金",
+          "hex": "#B79A52",
+          "status": "manual",
+          "role": "金地镶嵌"
+        },
+        {
+          "id": "color-2",
+          "name": "青金",
+          "hex": "#334B68",
+          "status": "manual",
+          "role": "纹样与深影"
+        },
+        {
+          "id": "color-3",
+          "name": "绛红",
+          "hex": "#793F45",
+          "status": "manual",
+          "role": "卷叶局部"
+        },
+        {
+          "id": "color-4",
+          "name": "石白",
+          "hex": "#E6D9BC",
+          "status": "manual",
+          "role": "柱体及石材"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "title": "金地不是金属平面",
+      "body": "以细小、不完全齐平的镶嵌颗粒及接缝组织反光，保留金地的颗粒尺度。整片镜面金属会抹去镶嵌材料的特征。"
+    },
+    {
+      "title": "装饰顺应建筑",
+      "body": "拱券、半穹顶与墙面有不同观看角度，纹样应沿边界和曲面展开。不要仅给现代平面添加金边，便称为拜占庭空间。"
+    },
+    {
+      "title": "宗教图像的语境",
+      "body": "圣像、礼仪器物与非宗教装饰具有不同功能。此海报只演绎建筑与植物纹样；引用具体圣像时应注明人物、年代、材料和原有用途。"
+    }
+  ],
+  "applications": [
+    "适合建筑史展览的章节页：以拱顶轮廓建立层级，再配独立的镶嵌颗粒近照。正文保持单色高对比，避免在连续金色纹样上排小字。"
+  ],
+  "related": ["gothic", "baroque", "art-nouveau"],
+  "order": 77,
+  "updatedAt": "2026-09-14",
+  "designHistory": {
+    "overview": "拜占庭装饰横跨长时段与多种媒介，本档案以建筑曲面、镶嵌及精细工艺为观察线索。宗教图像的恢复、材料与委托环境的变化，使其不能被概括为一种恒定的金色图案。",
+    "timeline": [
+      {
+        "year": 330,
+        "period": "四至七世纪",
+        "title": "古典传统与基督教建筑并存",
+        "body": "早期拜占庭延续罗马文化，浮雕、绘画和镶嵌在宗教与世俗艺术中广泛使用；穹顶教堂也逐渐成为重要建筑类型。",
+        "sourceIds": ["byzantium"]
+      },
+      {
+        "year": 843,
+        "period": "843年以后",
+        "title": "圣像恢复与中期工艺发展",
+        "body": "圣像破坏争论结束后，图像重新进入宗教生活。中期拜占庭的珐琅、雕刻和手抄本制作繁荣，建筑中的镶嵌与壁画利用曲面组织观看关系。",
+        "sourceIds": ["icons", "byzantium"]
+      },
+      {
+        "year": 1261,
+        "period": "1261年以后至十五世纪",
+        "title": "修复赞助与微型镶嵌",
+        "body": "晚期仍有建筑修复及装饰委托，小型镶嵌圣像也受到青睐。明亮表面可以由玻璃、彩石等材料形成，不应把视觉华丽等同于全部使用黄金。",
+        "sourceIds": ["byzantium"]
+      }
+    ],
+    "interpretation": "海报是以拜占庭镶嵌与建筑构成启发的原创场景，不对应特定遗址，也不构成宗教图像复原。配色为人工设定，不是历史材料鉴定标准。",
+    "sources": [
+      {
+        "id": "byzantium",
+        "title": "Byzantium (ca. 330–1453)",
+        "publisher": "The Metropolitan Museum of Art",
+        "url": "https://www.metmuseum.org/essays/byzantium-ca-330-1453"
+      },
+      {
+        "id": "icons",
+        "title": "Icons and Iconoclasm in Byzantium",
+        "publisher": "The Metropolitan Museum of Art",
+        "url": "https://www.metmuseum.org/essays/icons-and-iconoclasm-in-byzantium"
+      }
+    ]
+  }
+}

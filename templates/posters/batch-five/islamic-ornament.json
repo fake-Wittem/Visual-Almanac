@@ -1,0 +1,33 @@
+{
+  "styleId": "islamic-ornament",
+  "title": "伊斯兰纹饰",
+  "accentLength": 2,
+  "titleColors": ["#365C74", "#8B493D"],
+  "colors": [
+    {
+      "name": "钴蓝",
+      "hex": "#3F6482",
+      "englishName": "Cobalt"
+    },
+    {
+      "name": "釉白",
+      "hex": "#E5DCC4",
+      "englishName": "Glaze White"
+    },
+    {
+      "name": "铁红",
+      "hex": "#AE6453",
+      "englishName": "Iron Red"
+    },
+    {
+      "name": "松绿",
+      "hex": "#5B7D6A",
+      "englishName": "Pine Green"
+    }
+  ],
+  "sidebarCn": ["以重复组织节奏", "让曲叶沿器展开", "按媒介辨认线条", "从地域理解差异"],
+  "sidebarEn": ["A Way of Seeing.", "A Way of Living."],
+  "badges": ["曲叶", "重复", "器面"],
+  "sceneFile": "assets/poster-scenes/islamic-ornament.png",
+  "scenePrompt": "Original Ottoman Anatolian decorative arts still life: a shallow ivory-glazed ceramic dish viewed at an oblique angle, coherent radial arrangement of cobalt blue serrated leaves and modest iron-red blossoms, resting partly on a woven textile with restrained star-shaped geometric repeat. Distinct glazed ceramic shine and wool weave texture, refined but not excessive ornament, one calm tabletop composition. Inspired by sixteenth-century Iznik and Ushak visual traditions without copying any museum object. Landscape 3:2, painterly editorial rendering, soft side daylight, palette #3F6482 #E5DCC4 #AE6453 #5B7D6A. No text, pseudo-Arabic, calligraphy, letters, characters, seals, signatures, logos, outer border, swatches or collage."
+}

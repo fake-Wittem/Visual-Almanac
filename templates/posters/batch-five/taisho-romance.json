@@ -1,0 +1,33 @@
+{
+  "styleId": "taisho-romance",
+  "title": "大正浪漫",
+  "accentLength": 2,
+  "titleColors": ["#373A37", "#685248"],
+  "colors": [
+    {
+      "name": "梅紫",
+      "hex": "#634F67",
+      "englishName": "Plum"
+    },
+    {
+      "name": "旧金",
+      "hex": "#B79954",
+      "englishName": "Old Gold"
+    },
+    {
+      "name": "象牙白",
+      "hex": "#E7DCC6",
+      "englishName": "Ivory"
+    },
+    {
+      "name": "叶灰绿",
+      "hex": "#5F7162",
+      "englishName": "Grey Green"
+    }
+  ],
+  "sidebarCn": ["让花纹流过衣袖", "让书页连接心绪", "让窗光照见新旧", "让日常带着诗意"],
+  "sidebarEn": ["A Way of Seeing.", "A Way of Living."],
+  "badges": ["和洋", "抒情", "书刊"],
+  "sceneFile": "assets/poster-scenes/taisho-romance.png",
+  "scenePrompt": "Use case: historical-scene. Asset: landscape original scene for a style archive. Original fictional scene inspired by Japan's Taisho-period 1912–1926 everyday visual culture: young adult woman in dark plum patterned kimono and plain burgundy hakama, sitting sideways on a bentwood chair beside a simple round cafe table, small ceramic cup and closed blank book, tall frosted glass window, restrained geometric floral pattern, warm wood floor. Lyrical hand-painted illustration with flat ink contours and delicate textured color, not reproducing a known painting or character. Plum #634F67, ochre #B79954, ivory #E7DCC6, leaf green #5F7162. Landscape approximately 3:2, full bleed single coherent image. No lettering, text, numbers, logos, watermark, poster frame, color swatches or badges. One image."
+}

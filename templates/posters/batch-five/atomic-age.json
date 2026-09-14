@@ -1,0 +1,33 @@
+{
+  "styleId": "atomic-age",
+  "title": "原子时代",
+  "accentLength": 2,
+  "titleColors": ["#302C25", "#384D5B"],
+  "colors": [
+    {
+      "name": "轨道蓝",
+      "hex": "#375D72",
+      "englishName": "Orbit Blue"
+    },
+    {
+      "name": "纸米白",
+      "hex": "#E9DFC7",
+      "englishName": "Paper"
+    },
+    {
+      "name": "珊瑚橙",
+      "hex": "#C97953",
+      "englishName": "Coral"
+    },
+    {
+      "name": "墨黑",
+      "hex": "#303D40",
+      "englishName": "Ink"
+    }
+  ],
+  "sidebarCn": ["让轨道连接球点", "以星芒组织节奏", "把科学转为图形", "读懂战后的想象"],
+  "sidebarEn": ["A Way of Seeing.", "A Way of Living."],
+  "badges": ["轨道", "球点", "星芒"],
+  "sceneFile": "assets/poster-scenes/atomic-age.png",
+  "scenePrompt": "Use case: stylized-concept. Asset type: original Visual Almanac archive scene. Create one original landscape 3:2 raster illustration, 1536x1024 preferred. An original mid-century science-exhibition still life: a sculptural mobile of thin dark elliptical orbit wires carrying matte coral and dusty blue spheres above a cream plinth, asymmetric starburst forms and small screenprinted boomerang shapes in the backdrop. Flat illustrated gouache and screenprint texture, elegant 1950s atomic-age design rhythm, warm ivory paper, restrained blue orange charcoal. Clearly decorative not a scientific diagram, no atomium replica, no rockets. Full bleed scene, no frame, no title, no logo, no watermark, no labels, no swatches, no readable text. Do not reproduce any existing artwork or brand. Carefully composed, visibly specific to the described visual language."
+}

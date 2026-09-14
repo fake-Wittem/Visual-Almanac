@@ -1,0 +1,33 @@
+{
+  "styleId": "rustic-contemporary",
+  "title": "当代乡村质朴",
+  "accentLength": 2,
+  "titleColors": ["#373A37", "#685248"],
+  "colors": [
+    {
+      "name": "石灰",
+      "hex": "#9C9B8E",
+      "englishName": "Stone Grey"
+    },
+    {
+      "name": "橡木褐",
+      "hex": "#886C50",
+      "englishName": "Oak Brown"
+    },
+    {
+      "name": "亚麻",
+      "hex": "#D8CDB6",
+      "englishName": "Linen"
+    },
+    {
+      "name": "炉炭",
+      "hex": "#454844",
+      "englishName": "Hearth Charcoal"
+    }
+  ],
+  "sidebarCn": ["让木石保留触感", "让接缝说明构造", "让器物服务日常", "让新旧自然相处"],
+  "sidebarEn": ["A Way of Seeing.", "A Way of Living."],
+  "badges": ["木石", "接缝", "日用"],
+  "sceneFile": "assets/poster-scenes/rustic-contemporary.png",
+  "scenePrompt": "Use case: photorealistic-natural. Original contemporary rustic rural interior, simple functional kitchen and dining corner in a fictional northern European stone cottage: rough grey limestone wall, carefully finished thick oak worktable, plain earthenware jug, woven basket holding folded linen, one well-used wooden stool, discreet contemporary window and clean uncluttered circulation. Honest visible joints, muted natural light, material detail without artificial distressing, no floral romantic props. Stone grey #9C9B8E, oak brown #886C50, linen #D8CDB6, hearth charcoal #454844. Asset: original scene for a style archive. Landscape 3:2, single full-bleed image. No lettering, text, numbers, labels, logos, watermark, poster frame, color swatches or badges."
+}

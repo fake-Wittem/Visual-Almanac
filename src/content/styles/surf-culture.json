@@ -1,0 +1,120 @@
+{
+  "id": "surf-culture",
+  "name": "冲浪文化",
+  "englishName": "Surf Culture",
+  "aliases": ["Surf Culture"],
+  "summary": "从板型、海浪和摄影传播理解海岸社群的视觉身份，让运动实践与夏威夷文化根基保持联系。",
+  "category": "street-pop",
+  "tags": ["free", "blue", "warm", "poster", "brand"],
+  "cover": "surf-culture-poster",
+  "images": [
+    {
+      "asset": "surf-culture-poster",
+      "caption": "冲浪文化 · 风格演绎海报"
+    }
+  ],
+  "palettes": [
+    {
+      "id": "poster",
+      "name": "主题配色",
+      "description": "本档案人工设定的演绎配色，不代表历史标准色。",
+      "colors": [
+        {
+          "id": "color-1",
+          "name": "浪蓝",
+          "hex": "#427C91",
+          "status": "manual",
+          "role": "海浪层次"
+        },
+        {
+          "id": "color-2",
+          "name": "板面米白",
+          "hex": "#E7DDC2",
+          "status": "manual",
+          "role": "板面与纸底"
+        },
+        {
+          "id": "color-3",
+          "name": "日光橙",
+          "hex": "#C78252",
+          "status": "manual",
+          "role": "板面条带"
+        },
+        {
+          "id": "color-4",
+          "name": "海岸褐",
+          "hex": "#766B54",
+          "status": "manual",
+          "role": "木板与沙岸"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "title": "先看板型与使用",
+      "body": "长板、短板及鳍的变化影响动作和图像轮廓；不要混成任意椭圆装饰板。"
+    },
+    {
+      "title": "承认文化根基",
+      "body": "区分夏威夷的海洋知识与后来的商业海滩想象，避免用泛热带符号替代具体社群。"
+    },
+    {
+      "title": "摄影组织运动节奏",
+      "body": "波峰、人物尺度与板面方向形成叙事，海岸摄影和杂志传播比单纯棕榈树更能表达冲浪文化。"
+    }
+  ],
+  "applications": [
+    "适合运动文化展、海岸社群出版与板面视觉；选择明确板型和浪况，文字保留独立高对比区域。"
+  ],
+  "related": ["skate-culture", "tropical", "roadside-motel"],
+  "order": 117,
+  "updatedAt": "2026-09-14",
+  "designHistory": {
+    "overview": "冲浪的文化根基早于现代休闲产业。本档案以夏威夷文化及二十世纪传播为起点，再观察器材变化和南加州摄影出版，不用一种配色代表全球冲浪社群。",
+    "timeline": [
+      {
+        "year": 1900,
+        "period": "二十世纪初",
+        "title": "夏威夷海洋文化向外传播",
+        "body": "Bishop Museum以Duke Kahanamoku的冲浪板和历史材料说明本土watermen与访客的联系；现代传播应放回更早的夏威夷传统理解。",
+        "sourceIds": ["s1"]
+      },
+      {
+        "year": 1956,
+        "period": "1956年",
+        "title": "板型与材料促进跨海交流",
+        "body": "澳大利亚国家海事博物馆记录加州救生员将Malibu板带到澳大利亚，以及轻木、泡沫和玻璃纤维推动的器材变化。",
+        "sourceIds": ["s2"]
+      },
+      {
+        "year": 1960,
+        "period": "1960年起",
+        "title": "海浪照片进入专业杂志",
+        "body": "LeRoy Grannis在Hermosa Beach开始拍摄冲浪，作品进入Surfer、Reef和Surfing Illustrated等刊物，运动动作成为持续传播的视觉材料。",
+        "sourceIds": ["s3"]
+      }
+    ],
+    "interpretation": "长板、海浪和无字照片接触印样连接器材与摄影传播；不复制品牌板面，也不以这幅概念图替代夏威夷历史材料。 本场景由AI生成，四色为本档案人工设定的编辑配色。",
+    "sources": [
+      {
+        "id": "s1",
+        "title": "Duke Kahanamoku's Surfboard",
+        "publisher": "Bishop Museum",
+        "url": "https://www.hawaiialive.org/resource/duke-kahanamokus-surfboard"
+      },
+      {
+        "id": "s2",
+        "title": "A brief history of surfboards",
+        "publisher": "Australian National Maritime Museum",
+        "url": "https://www.sea.museum/en/society-and-water/a-brief-history-of-surfboards"
+      },
+      {
+        "id": "s3",
+        "title": "Surfing History",
+        "publisher": "Hermosa Beach Museum",
+        "url": "https://www.hermosabeachhistoricalsociety.org/surfing-history"
+      }
+    ]
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "id": "neo-expressionism",
+  "name": "新表现主义视觉",
+  "englishName": "Neo-Expressionist Visual Language",
+  "aliases": ["Neo-Expressionist Visual Language"],
+  "summary": "粗粝笔触与不稳定形象保留创作的身体痕迹，让绘画以情绪、叙事和材料厚度重新发声。",
+  "category": "avant-garde",
+  "tags": ["free", "contrast", "red", "black", "poster"],
+  "cover": "neo-expressionism-poster",
+  "images": [
+    {
+      "asset": "neo-expressionism-poster",
+      "caption": "新表现主义视觉 · 风格演绎海报"
+    }
+  ],
+  "palettes": [
+    {
+      "id": "poster",
+      "name": "主题配色",
+      "description": "本档案人工设定的演绎配色，不代表历史标准色。",
+      "colors": [
+        {
+          "id": "color-1",
+          "name": "情绪红",
+          "hex": "#AF4B40",
+          "status": "manual",
+          "role": "主要笔触"
+        },
+        {
+          "id": "color-2",
+          "name": "画布米白",
+          "hex": "#DDD2B9",
+          "status": "manual",
+          "role": "暴露画布"
+        },
+        {
+          "id": "color-3",
+          "name": "炭黑",
+          "hex": "#333335",
+          "status": "manual",
+          "role": "形象轮廓"
+        },
+        {
+          "id": "color-4",
+          "name": "泥黄",
+          "hex": "#B39147",
+          "status": "manual",
+          "role": "厚涂层"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "title": "形象仍然承担意义",
+      "body": "不把激烈笔触等同新表现主义；应有可辨认但不稳定的人物、物件或叙事关系。"
+    },
+    {
+      "title": "材料留下时间",
+      "body": "通过厚薄交替、覆盖和刮除呈现反复修改，避免只加统一噪点滤镜模拟绘画力度。"
+    },
+    {
+      "title": "避免合并不同作者",
+      "body": "本档案以美国绘画的部分馆藏为线索，承认德国、意大利等语境各有问题意识，不把所有粗线绘画视为同一运动。"
+    }
+  ],
+  "applications": [
+    "适合绘画展、文学出版与情绪叙事视觉；保留主形和背景的重量差，说明文字用克制的排版承接。"
+  ],
+  "related": ["ink-expression", "surrealism", "pop-art"],
+  "order": 114,
+  "updatedAt": "2026-09-14",
+  "designHistory": {
+    "overview": "新表现主义相关创作在具象、身体性与绘画材料方面各有探索。本档案选择Guston的晚期转向和1980年代美国绘画作为有限线索，不以单一笔触配方代表国际范围内的全部实践。",
+    "timeline": [
+      {
+        "year": 1968,
+        "period": "1968年起：前史",
+        "title": "从抽象回到形象",
+        "body": "Whitney页面所载Getty记录指出，Guston在1968年回到具象绘画，并于1970年公开展示；漫画意味的形象挑战当时艺术界对抽象绘画的期待。",
+        "sourceIds": ["s1"]
+      },
+      {
+        "year": 1980,
+        "period": "1980年代",
+        "title": "绘画重新获得关注",
+        "body": "纽约画廊和艺术家空间扩展，部分作者重新拥抱绘画的物质性，并在具象、历史叙事和政治议题之间实验。",
+        "sourceIds": ["s2"]
+      },
+      {
+        "year": 2017,
+        "period": "2017年",
+        "title": "回顾展重看十年的差异",
+        "body": "Whitney的Fast Forward汇集1980年代馆藏绘画，呈现Basquiat、Salle、Schnabel及其他作者，提醒观看者这一时期并非单一面貌。",
+        "sourceIds": ["s2"]
+      }
+    ],
+    "interpretation": "椅子、斜置桌面和模糊人物通过厚涂与刮痕保持不稳定关系；图像演绎绘画的身体性，不复制某位艺术家的作品。 本场景由AI生成，四色为本档案人工设定的编辑配色。",
+    "sources": [
+      {
+        "id": "s1",
+        "title": "Philip Guston",
+        "publisher": "Whitney Museum of American Art",
+        "url": "https://whitney.org/artists/545"
+      },
+      {
+        "id": "s2",
+        "title": "Fast Forward: Painting from the 1980s",
+        "publisher": "Whitney Museum of American Art",
+        "url": "https://whitney.org/exhibitions/fast-forward"
+      }
+    ]
+  }
+}

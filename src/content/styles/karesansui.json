@@ -1,0 +1,114 @@
+{
+  "id": "karesansui",
+  "name": "日本枯山水庭园",
+  "englishName": "Japanese Dry Landscape Gardens",
+  "aliases": ["Japanese Dry Landscape Gardens"],
+  "summary": "以京都龙安寺为参照，观察石组、白砾与方丈观看位置之间的关系。",
+  "category": "eastern-aesthetics",
+  "tags": ["calm", "muted", "organic", "black", "cream"],
+  "cover": "karesansui-poster",
+  "images": [
+    {
+      "asset": "karesansui-poster",
+      "caption": "日本枯山水庭园 · 原创风格演绎海报"
+    }
+  ],
+  "palettes": [
+    {
+      "id": "poster",
+      "name": "主题配色",
+      "description": "人工设定的视觉演绎配色，不是历史颜料检测或行业标准。",
+      "colors": [
+        {
+          "id": "color-1",
+          "name": "砾白",
+          "hex": "#D7D2BF",
+          "status": "manual",
+          "role": "砾石铺地"
+        },
+        {
+          "id": "color-2",
+          "name": "石灰",
+          "hex": "#62675B",
+          "status": "manual",
+          "role": "石组主面"
+        },
+        {
+          "id": "color-3",
+          "name": "苔绿",
+          "hex": "#748064",
+          "status": "manual",
+          "role": "石根局部"
+        },
+        {
+          "id": "color-4",
+          "name": "土墙",
+          "hex": "#A99C80",
+          "status": "manual",
+          "role": "庭园围墙"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "title": "观看位置决定构图",
+      "body": "从木缘或方丈内观看，石组会前后遮挡。应先确立观察高度，再安排石块，而不是从俯视图简单复制到任意镜头。"
+    },
+    {
+      "title": "砾纹与石根",
+      "body": "耙纹能组织平面方向，石根的苔面和阴影则建立重量。避免把砾石画成液态白水，或让岩石漂浮在均匀平面上。"
+    },
+    {
+      "title": "解释保留不确定性",
+      "body": "龙安寺庭园的营建年代和作者存在讨论。寺院1450年建立不能直接等同现存石庭设计完成；石组寓意也不宜写成唯一标准答案。"
+    }
+  ],
+  "applications": [
+    "适合庭园导览或空间章节页：以一个固定视点展示石组遮挡，再配平面位置示意。实际造园应另行处理排水、材料与维护，不把耙纹当成完整设计。"
+  ],
+  "related": ["japanese-tea-room", "wabi-sabi", "chinese-classical-garden"],
+  "order": 99,
+  "updatedAt": "2026-09-14",
+  "designHistory": {
+    "overview": "本专题以京都龙安寺的石与白砾空间为具体参照，不代表全部日本庭园。时间线区分寺院建立、建筑变迁和现代遗产认可，避免给石庭安上缺乏定论的创作者故事。",
+    "timeline": [
+      {
+        "year": 1450,
+        "period": "1450年",
+        "title": "龙安寺作为禅寺建立",
+        "body": "京都市资料记载，原贵族别业在1450年转为禅寺。其方丈南侧石庭以石组和白砾压缩自然意象，石庭确切营建史仍须与寺院建立分开讨论。",
+        "sourceIds": ["kyoto"]
+      },
+      {
+        "year": 1797,
+        "period": "1797年火灾之后",
+        "title": "方丈建筑影响观看场所",
+        "body": "寺内建筑毁于火灾后，1606年建造的西源院方丈被移建，成为现存方丈。今天观看庭园的建筑框架因此包含后来的变迁。",
+        "sourceIds": ["kyoto"]
+      },
+      {
+        "year": 1994,
+        "period": "1994年",
+        "title": "古都京都遗产获得国际认可",
+        "body": "龙安寺作为古都京都文化遗产的一部分列入世界遗产。该认可将庭园放回建筑和城市文化背景，属于现代保护史。",
+        "sourceIds": ["unesco"]
+      }
+    ],
+    "interpretation": "海报是原创枯山水构图，不复制龙安寺十五石的位置；不提供宗教修习说明或实际造园施工方案。",
+    "sources": [
+      {
+        "id": "kyoto",
+        "title": "O. Ryoan-ji",
+        "publisher": "City of Kyoto",
+        "url": "https://www2.city.kyoto.lg.jp/bunshi/bunkazai/isan-o-e.htm"
+      },
+      {
+        "id": "unesco",
+        "title": "Historic Monuments of Ancient Kyoto (Kyoto, Uji and Otsu Cities)",
+        "publisher": "UNESCO World Heritage Centre",
+        "url": "https://whc.unesco.org/en/list/688/"
+      }
+    ]
+  }
+}

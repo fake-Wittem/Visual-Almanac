@@ -1,0 +1,120 @@
+{
+  "id": "warm-minimal",
+  "name": "温暖极简",
+  "englishName": "Warm Minimalism",
+  "aliases": ["Warm Minimalism"],
+  "summary": "以克制数量和温润触感组织空间，让光、织物与木材承接日常生活。",
+  "category": "modern-minimal",
+  "tags": ["calm", "warm", "wood", "textile", "cream", "brown", "brand"],
+  "cover": "warm-minimal-poster",
+  "images": [
+    {
+      "asset": "warm-minimal-poster",
+      "caption": "温暖极简 · 风格演绎海报"
+    }
+  ],
+  "palettes": [
+    {
+      "id": "poster",
+      "name": "主题配色",
+      "description": "为本档案人工设定的视觉配色，海报色卡按相同 HEX 排版；不代表历史时期的标准色。",
+      "colors": [
+        {
+          "id": "color-1",
+          "name": "暖粉白",
+          "hex": "#E8DFCD",
+          "status": "manual",
+          "role": "墙面与亚麻沙发受光面"
+        },
+        {
+          "id": "color-2",
+          "name": "橡木",
+          "hex": "#B29572",
+          "status": "manual",
+          "role": "长凳与木质触摸面"
+        },
+        {
+          "id": "color-3",
+          "name": "陶土",
+          "hex": "#B8846C",
+          "status": "manual",
+          "role": "单件陶器的暖色重心"
+        },
+        {
+          "id": "color-4",
+          "name": "暖炭",
+          "hex": "#554D43",
+          "status": "manual",
+          "role": "门洞阴影与织物褶皱"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "title": "少量与足够",
+      "body": "控制物件数量，但保留坐卧、放置和行走所需的空间；留白由功能决定，不是为了拍摄而取消真实生活。"
+    },
+    {
+      "title": "温暖来自表面",
+      "body": "亚麻织纹、木材毛孔和抹灰的微小起伏在侧光下形成差异；即使使用中性色，也可避免所有表面变成同样光滑。"
+    },
+    {
+      "title": "比例优先",
+      "body": "长凳厚度、沙发高度和窗洞进深共同建立安静感；只添加木饰面或暖灯光，并不会自动形成极简的组织逻辑。"
+    }
+  ],
+  "applications": [
+    "适合家具目录和安静型居住空间的概念展示：用一处清楚的坐卧场景说明尺度，标明材料和触感，图像中留出真实通道与放物位置。"
+  ],
+  "related": ["contemporary-minimal", "japanese-everyday-minimal", "nordic-minimal"],
+  "order": 85,
+  "updatedAt": "2026-09-14",
+  "designHistory": {
+    "overview": "“温暖极简”是当代编辑归纳，并无统一创立年份。本档案以 John Pawson 对简化、材料和光的讨论，以及 Norm Architects 的感官设计出版为具体参照，不宣称这些实践属于一个正式流派。",
+    "timeline": [
+      {
+        "year": 1996,
+        "period": "1996 年",
+        "title": "以视觉随笔讨论简化",
+        "body": "Pawson 的《Minimum》从建筑、艺术和设计图像中讨论体量、光、秩序和重复，把简约视为跨材料与空间的研究问题。",
+        "sourceIds": ["minimum"]
+      },
+      {
+        "year": 2013,
+        "period": "2013—2019 年",
+        "title": "住宅强调光与材料",
+        "body": "牛津郡 Home Farm 项目将删减后的空间、材料与比例作为核心体验，为本主题提供一个具体住宅实践，而非一种通用装修公式。",
+        "sourceIds": ["farm"]
+      },
+      {
+        "year": 2022,
+        "period": "2022 年",
+        "title": "感官取向形成作品集",
+        "body": "Norm Architects 的《Soft Minimal》通过文字和触觉感图像整理其以人为中心的设计原则，让简约与身体感受的关系得到明确讨论。",
+        "sourceIds": ["norm"]
+      }
+    ],
+    "interpretation": "原创室内将留白、亚麻、木材与柔和日光并置，不复刻任何事务所项目；暖色配方是本站选择，并非这些设计者的统一规范。",
+    "sources": [
+      {
+        "id": "minimum",
+        "title": "Minimum",
+        "publisher": "John Pawson",
+        "url": "https://www.johnpawson.com/works/minimum"
+      },
+      {
+        "id": "farm",
+        "title": "Home Farm",
+        "publisher": "John Pawson",
+        "url": "https://www.johnpawson.com/works/home-farm"
+      },
+      {
+        "id": "norm",
+        "title": "Soft Minimal",
+        "publisher": "gestalten",
+        "url": "https://us.gestalten.com/products/soft-minimal-norm-architects"
+      }
+    ]
+  }
+}

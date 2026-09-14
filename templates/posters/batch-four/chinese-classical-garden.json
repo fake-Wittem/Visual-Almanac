@@ -1,0 +1,33 @@
+{
+  "styleId": "chinese-classical-garden",
+  "title": "古典园林意境",
+  "accentLength": 2,
+  "titleColors": ["#444940", "#66735A"],
+  "colors": [
+    {
+      "name": "苔绿",
+      "hex": "#66735A",
+      "englishName": "Moss"
+    },
+    {
+      "name": "粉墙",
+      "hex": "#E5E0D2",
+      "englishName": "Plaster"
+    },
+    {
+      "name": "瓦灰",
+      "hex": "#444940",
+      "englishName": "Tile"
+    },
+    {
+      "name": "水灰",
+      "hex": "#A2ABA0",
+      "englishName": "Water"
+    }
+  ],
+  "sidebarCn": ["以门洞收取远景", "让山石落在庭中", "沿游廊层层展开", "于城市安放山水"],
+  "sidebarEn": ["A Way of Seeing.", "A Way of Living."],
+  "badges": ["框景", "水石", "游廊"],
+  "sceneFile": "assets/poster-scenes/chinese-classical-garden.png",
+  "scenePrompt": "Use case: historical-scene. Asset type: original landscape scene for Visual Almanac style archive. A thoughtfully composed imagined Suzhou scholar garden inspired by the spatial traditions of the Master of the Nets Garden, not a documentary reconstruction: look diagonally through a white plaster moon gate toward a small still pond, weathered perforated limestone rock, restrained bamboo and a low dark tiled covered corridor. Eye-level intimate architectural view, layers of foreground frame, middle water and distant wall, empty of people. Painterly architectural illustration with delicate stone grain, soft overcast morning light, quiet restrained atmosphere. Palette moss green #66735A, plaster ivory #E5E0D2, tile charcoal #444940, water grey #A2ABA0. Landscape 3:2 composition. No text, calligraphy, plaques, letters, logo, signature, border, color swatches or collage. Single coherent scene; avoid Japanese torii, pagoda spectacle, red lanterns and fantasy mountains."
+}

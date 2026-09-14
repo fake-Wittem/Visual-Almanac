@@ -1,0 +1,33 @@
+{
+  "styleId": "sci-fi-hud",
+  "title": "科幻界面视觉",
+  "accentLength": 2,
+  "titleColors": ["#365D66", "#142B3B"],
+  "colors": [
+    {
+      "name": "深空",
+      "hex": "#142B3B",
+      "englishName": "Deep Space"
+    },
+    {
+      "name": "冰青",
+      "hex": "#83D8DD",
+      "englishName": "Ice Cyan"
+    },
+    {
+      "name": "琥珀",
+      "hex": "#D6AA59",
+      "englishName": "Amber"
+    },
+    {
+      "name": "银灰",
+      "hex": "#B6C5CA",
+      "englishName": "Silver"
+    }
+  ],
+  "sidebarCn": ["以细线组织层级", "让透明保留空间", "用微光聚焦状态", "区分叙事与操作"],
+  "sidebarEn": ["A Way of Seeing.", "A Way of Living."],
+  "badges": ["叠层", "细线", "扫描"],
+  "sceneFile": "assets/poster-scenes/sci-fi-hud.png",
+  "scenePrompt": "Use case: stylized-concept. Asset type: original landscape illustration for Visual Almanac science fiction interface archive. Imagined research spacecraft observation console in a dark navy interior, viewed close and obliquely toward one transparent glass display and a quiet distant moon horizon. Carefully restrained fictional HUD graphics on the glass: a cyan segmented circular scan surrounding an unlabelled small three-dimensional wireframe object, two aligned narrow waveform strips and a few amber rectangular status marks. Clearly a cinematic concept, no actual operational information. Sparse orderly graphic hierarchy and generous negative space, physical glass edges and faint reflections, illustrated cinematic lighting, controlled glow never neon clutter. Palette midnight navy #142B3B, pale cyan #83D8DD, amber #D6AA59 and silver grey #B6C5CA. Landscape 3:2 composition. No text of any kind, letters, numerals, pseudotext, logos, signature, border, swatches or collage. No weapons, gunsight or targeting people. Original design, no reproduction of a film interface."
+}

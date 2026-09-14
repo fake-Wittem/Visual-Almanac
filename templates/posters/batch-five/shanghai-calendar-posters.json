@@ -1,0 +1,33 @@
+{
+  "styleId": "shanghai-calendar-posters",
+  "title": "旧上海装饰与月份牌",
+  "accentLength": 2,
+  "titleColors": ["#373A37", "#685248"],
+  "colors": [
+    {
+      "name": "玉绿",
+      "hex": "#4F786D",
+      "englishName": "Jade Green"
+    },
+    {
+      "name": "褪玫红",
+      "hex": "#B66E71",
+      "englishName": "Faded Rose"
+    },
+    {
+      "name": "纸米",
+      "hex": "#E7D5B4",
+      "englishName": "Paper Cream"
+    },
+    {
+      "name": "深褐",
+      "hex": "#5C483A",
+      "englishName": "Dark Brown"
+    }
+  ],
+  "sidebarCn": ["让花影围绕人物", "让纸面承载时尚", "让窗景连接城市", "让年月留下印痕"],
+  "sidebarEn": ["A Way of Seeing.", "A Way of Living."],
+  "badges": ["月份牌", "都市", "印刷"],
+  "sceneFile": "assets/poster-scenes/shanghai-calendar-posters.png",
+  "scenePrompt": "Use case: historical-scene. Asset: landscape original scene for a style archive. Original period-inspired painted editorial illustration of a fictional 1930s Shanghai woman wearing a modest jade-green qipao seated near an arched interior window and a vase of pink peonies, bobbed hair, graceful composed expression, softly modelled face, watercolor over charcoal rubbing with fine lithographic print texture. Background restrained geometric amber window glass and urban garden. Carefully researched period mood, no imitation of any specific artist or existing advertisement. Jade #4F786D, faded rose #B66E71, paper cream #E7D5B4, brown #5C483A. Landscape approximately 3:2, full bleed single coherent image. No lettering, text, numbers, logos, watermark, poster frame, color swatches or badges. One image."
+}

@@ -1,0 +1,33 @@
+{
+  "styleId": "street-comic",
+  "title": "街头漫画与波普插画",
+  "accentLength": 2,
+  "titleColors": ["#302C25", "#384D5B"],
+  "colors": [
+    {
+      "name": "轮廓黑",
+      "hex": "#2E3138",
+      "englishName": "Outline"
+    },
+    {
+      "name": "纸黄",
+      "hex": "#E0CD88",
+      "englishName": "Paper Yellow"
+    },
+    {
+      "name": "动作红",
+      "hex": "#C25B4B",
+      "englishName": "Action Red"
+    },
+    {
+      "name": "天蓝",
+      "hex": "#5C92AA",
+      "englishName": "Sky Blue"
+    }
+  ],
+  "sidebarCn": ["以轮廓建立角色", "让动作连接画面", "把故事带到街上", "用重复形成记忆"],
+  "sidebarEn": ["A Way of Seeing.", "A Way of Living."],
+  "badges": ["轮廓", "动作", "网点"],
+  "sceneFile": "assets/poster-scenes/street-comic.png",
+  "scenePrompt": "Use case: stylized-concept. Asset type: original Visual Almanac archive scene. Create one original landscape 3:2 raster illustration, 1536x1024 preferred. Original street-comic pop illustration across three loose interlocking image zones: an anthropomorphic small blue paper bag character with expressive shoes discovers a red bouncing ball, chases it and leaps across a stylized curb. Bold uneven black contours, warm yellow ground, muted red and blue flat colors, selective halftone dots and motion marks, playful everyday urban narrative. No Haring figures, no famous cartoon characters, no speech bubble words, no lettering. Full bleed scene, no frame, no title, no logo, no watermark, no labels, no swatches, no readable text. Do not reproduce any existing artwork or brand. Carefully composed, visibly specific to the described visual language."
+}

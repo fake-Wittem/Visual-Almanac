@@ -1,0 +1,114 @@
+{
+  "id": "chinese-classical-garden",
+  "name": "中国古典园林意境",
+  "englishName": "Chinese Classical Garden",
+  "aliases": ["Chinese Classical Garden"],
+  "summary": "以苏州园林为切口，阅读门洞、山石、水面与游廊如何组织有限空间中的山水。",
+  "category": "eastern-aesthetics",
+  "tags": ["calm", "elegant", "organic", "green", "cream", "poster"],
+  "cover": "chinese-classical-garden-poster",
+  "images": [
+    {
+      "asset": "chinese-classical-garden-poster",
+      "caption": "中国古典园林意境 · 原创风格演绎海报"
+    }
+  ],
+  "palettes": [
+    {
+      "id": "poster",
+      "name": "主题配色",
+      "description": "为本档案人工设定的视觉配色，海报色卡按相同 HEX 排版；不代表历史时期或行业的标准色。",
+      "colors": [
+        {
+          "id": "color-1",
+          "name": "苔绿",
+          "hex": "#66735A",
+          "status": "manual",
+          "role": "植物及湿石"
+        },
+        {
+          "id": "color-2",
+          "name": "粉墙",
+          "hex": "#E5E0D2",
+          "status": "manual",
+          "role": "墙面与光"
+        },
+        {
+          "id": "color-3",
+          "name": "瓦灰",
+          "hex": "#444940",
+          "status": "manual",
+          "role": "屋瓦及廊柱"
+        },
+        {
+          "id": "color-4",
+          "name": "水灰",
+          "hex": "#A2ABA0",
+          "status": "manual",
+          "role": "池面倒影"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "title": "景框与行走",
+      "body": "以门洞、窗与廊柱形成前景框，让观看者先看到局部，再沿路径逐步展开。景框不是独立图标，需要与后方水石形成视线关系。"
+    },
+    {
+      "title": "石、水、建筑的尺度",
+      "body": "将山石置于可理解的庭院尺度中，用水面留出呼吸。山石应有孔隙、重量和落脚点，避免把园林画成缩小的仙山景观。"
+    },
+    {
+      "title": "地域与遗存",
+      "body": "本专题主要讨论江苏苏州私家园林，以沧浪亭、网师园等为参照；它不能代表皇家园林或中国所有地区，现存形态也不能直接视为始建时原貌。"
+    }
+  ],
+  "applications": [
+    "适合园林展览或文化空间导览：先用平面图标注实际路径，再配同一节点的框景与远景照片；海报可借鉴层次关系，导览图仍须忠实于真实空间。"
+  ],
+  "related": ["chinese-literati", "new-chinese", "song-ceramics"],
+  "order": 76,
+  "updatedAt": "2026-09-14",
+  "designHistory": {
+    "overview": "这是围绕苏州园林空间经验建立的编辑专题，不是古代统一命名的艺术流派。历史线索从十一世纪园林遗存，延伸至明代园居文化和二十世纪的博物馆转译。",
+    "timeline": [
+      {
+        "year": 1000,
+        "period": "十一世纪初",
+        "title": "沧浪亭提供早期线索",
+        "body": "联合国教科文组织将沧浪亭列为苏州九处代表园林中年代最早者，建于更早的废园旧址。此处以有限场地容纳山水的思路为线索，不把现存建筑都断代为宋代。",
+        "sourceIds": ["unesco"]
+      },
+      {
+        "year": 1368,
+        "period": "明代（1368—1644）的参照",
+        "title": "网师园院落与园居文化",
+        "body": "大都会博物馆明轩采用苏州网师园一处院落为原型，并将其置于明代园林文化兴盛的背景中。庭院、室内陈设和绘画意趣在这里相互关联。",
+        "sourceIds": ["garden-court"]
+      },
+      {
+        "year": 1981,
+        "period": "1981年",
+        "title": "明轩成为跨文化展示空间",
+        "body": "纽约大都会博物馆开放明轩和明式家具展室，将苏州园林院落转译为博物馆中的体验空间。这是现代展示实践，不属于古代园林新阶段。",
+        "sourceIds": ["garden-court"]
+      }
+    ],
+    "interpretation": "海报为原创苏州园林意境演绎，并非网师园或沧浪亭的实景复原。配色为编辑设定；空间建议不替代古建测绘、遗产保护要求或施工设计。",
+    "sources": [
+      {
+        "id": "unesco",
+        "title": "Classical Gardens of Suzhou",
+        "publisher": "UNESCO World Heritage Centre",
+        "url": "https://whc.unesco.org/en/list/813"
+      },
+      {
+        "id": "garden-court",
+        "title": "A Chinese Garden Court: The Astor Court at The Metropolitan Museum of Art",
+        "publisher": "The Metropolitan Museum of Art",
+        "url": "https://resources.metmuseum.org/resources/metpublications/pdf/A_Chinese_Garden_Court.pdf"
+      }
+    ]
+  }
+}

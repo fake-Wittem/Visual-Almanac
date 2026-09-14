@@ -1,0 +1,33 @@
+{
+  "styleId": "papercut-new-year",
+  "title": "剪纸与年画",
+  "accentLength": 2,
+  "titleColors": ["#8E342F", "#3E5147"],
+  "colors": [
+    {
+      "name": "朱红",
+      "hex": "#B8493D",
+      "englishName": "Vermilion"
+    },
+    {
+      "name": "墨黑",
+      "hex": "#343832",
+      "englishName": "Ink"
+    },
+    {
+      "name": "暖白",
+      "hex": "#EADBBB",
+      "englishName": "Warm Paper"
+    },
+    {
+      "name": "草绿",
+      "hex": "#5C8065",
+      "englishName": "Leaf Green"
+    }
+  ],
+  "sidebarCn": ["剪去空处留下线", "印出轮廓再设色", "按产地辨认工艺", "以用途理解祝愿"],
+  "sidebarEn": ["A Way of Seeing.", "A Way of Living."],
+  "badges": ["镂空", "版印", "节令"],
+  "sceneFile": "assets/poster-scenes/papercut-new-year.png",
+  "scenePrompt": "Original editorial still life about Chinese folk paper crafts on a warm cream worktable: left a single coherent vermilion papercut of interlinked flowers and two small birds, clear negative spaces and physically connected paper bridges, a small pair of scissors nearby; right a separate small woodblock folk print of an original leafy flower arrangement with black ink outlines and green and red painted fills, a carved wooden printing block behind it. Clearly two different techniques, not a collage or poster. Close oblique tabletop view, tactile paper fibers, warm daylight, landscape 3:2. Palette #B8493D #343832 #EADBBB #5C8065. No text, writing, letters, characters, seals, numbers, logos, watermarks, outer borders or swatches."
+}

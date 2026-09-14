@@ -1,0 +1,114 @@
+{
+  "id": "harajuku-mix",
+  "name": "原宿街头混搭",
+  "englishName": "Harajuku Street Mix",
+  "aliases": ["Harajuku Street Mix"],
+  "summary": "以个人组合而非统一制服形成街头身份，观察1990年代后期原宿服装、配件和摄影的相互塑造。",
+  "category": "street-pop",
+  "tags": ["lively", "textile", "collage", "purple", "brand"],
+  "cover": "harajuku-mix-poster",
+  "images": [
+    {
+      "asset": "harajuku-mix-poster",
+      "caption": "原宿街头混搭 · 风格演绎海报"
+    }
+  ],
+  "palettes": [
+    {
+      "id": "poster",
+      "name": "主题配色",
+      "description": "本档案人工设定的演绎配色，不代表历史标准色。",
+      "colors": [
+        {
+          "id": "color-1",
+          "name": "叠穿紫",
+          "hex": "#83658F",
+          "status": "manual",
+          "role": "针织与外套"
+        },
+        {
+          "id": "color-2",
+          "name": "衬底白",
+          "hex": "#E8E0D2",
+          "status": "manual",
+          "role": "衬衣及留白"
+        },
+        {
+          "id": "color-3",
+          "name": "配件红",
+          "hex": "#BF6960",
+          "status": "manual",
+          "role": "发夹与提包"
+        },
+        {
+          "id": "color-4",
+          "name": "靛蓝",
+          "hex": "#425B71",
+          "status": "manual",
+          "role": "牛仔与轮廓"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "title": "先限定时期和支系",
+      "body": "本图演绎1990年代后期个人混搭，不代表Lolita、Decora、Visual Kei或原宿全部人群。"
+    },
+    {
+      "title": "层次要能被穿着",
+      "body": "以衬衣、针织、外套和配件的真实叠穿关系构图，避免把服装变成无法解释的彩色块。"
+    },
+    {
+      "title": "街拍保留自主性",
+      "body": "将穿着者看作主动创造者而非猎奇对象；不把街头时装等同角色扮演，也不以单一品牌定义社群。"
+    }
+  ],
+  "applications": [
+    "适合街头时装档案、搭配专题与摄影出版；明确记录年代和具体支系，以服装层次支撑图像叙事。"
+  ],
+  "related": ["goth-subculture", "punk-diy", "y2k"],
+  "order": 119,
+  "updatedAt": "2026-09-14",
+  "designHistory": {
+    "overview": "原宿包含多种不断变化的街头时装。本档案聚焦1990年代后期个人混搭及其摄影传播，以Aoki的一手回顾和V&A对Lolita支系的说明提示多样性；不设定一套覆盖全部原宿的标准装束。",
+    "timeline": [
+      {
+        "year": 1990,
+        "period": "1990年代",
+        "title": "多种支系并存",
+        "body": "V&A将Lolita放在1990年代日本街头时装的发展中，并说明甜美、朋克和哥特等分支；这只是原宿相关文化的一部分。",
+        "sourceIds": ["s1"]
+      },
+      {
+        "year": 1996,
+        "period": "1996年：摄影者回忆",
+        "title": "个人搭配成为观察重点",
+        "body": "Aoki在访谈中回忆1996年原宿年轻人主动组合自己的穿着，这种观察促使他集中拍摄当地街头。",
+        "sourceIds": ["s2"]
+      },
+      {
+        "year": 2017,
+        "period": "2017年",
+        "title": "摄影出版重新思考记录方式",
+        "body": "Aoki讨论FRUiTS停止月刊后按照片积累情况出版的计划，反映街头现场和媒介生产都会改变，而不是宣告整个原宿文化消失。",
+        "sourceIds": ["s2"]
+      }
+    ],
+    "interpretation": "两名成年人物以针织、衬衣、牛仔及配件组织个人叠穿；是1990年代后期混搭主题的原创演绎，不代表原宿所有支系。 本场景由AI生成，四色为本档案人工设定的编辑配色。",
+    "sources": [
+      {
+        "id": "s1",
+        "title": "Lolita fashion: Japanese street style",
+        "publisher": "V&A",
+        "url": "https://www.vam.ac.uk/articles/lolita-fashion-japanese-street-style"
+      },
+      {
+        "id": "s2",
+        "title": "The editor of FRUiTS on the rise and fall of Harajuku",
+        "publisher": "i-D / Shoichi Aoki interview",
+        "url": "https://i-d.co/article/the-editor-of-fruits-magazine-on-the-rise-and-fall-of-harajuku/"
+      }
+    ]
+  }
+}

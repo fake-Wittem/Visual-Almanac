@@ -1,0 +1,120 @@
+{
+  "id": "street-stencil",
+  "name": "街头模板喷绘",
+  "englishName": "Street Stencil",
+  "aliases": ["Stencil Art", "Stencil Graffiti", "街头模板艺术", "模板喷绘"],
+  "summary": "通过镂空模板、硬边轮廓与有限套色，把可重复的图像带入城市表面和公共观看。",
+  "category": "street-pop",
+  "tags": ["free", "contrast", "black", "red", "poster"],
+  "cover": "street-stencil-poster",
+  "images": [
+    {
+      "asset": "street-stencil-poster",
+      "caption": "街头模板喷绘 · 风格演绎海报"
+    }
+  ],
+  "palettes": [
+    {
+      "id": "poster",
+      "name": "主题配色",
+      "description": "为本档案人工设定的视觉配色，海报色卡按相同 HEX 排版；不代表历史标准色。",
+      "colors": [
+        {
+          "id": "color-1",
+          "name": "喷绘炭黑",
+          "hex": "#292A29",
+          "status": "manual",
+          "role": "主要剪影"
+        },
+        {
+          "id": "color-2",
+          "name": "墙面米白",
+          "hex": "#DED8C9",
+          "status": "manual",
+          "role": "城市底色"
+        },
+        {
+          "id": "color-3",
+          "name": "标记朱红",
+          "hex": "#BC503C",
+          "status": "manual",
+          "role": "视觉焦点"
+        },
+        {
+          "id": "color-4",
+          "name": "风化灰",
+          "hex": "#96978D",
+          "status": "manual",
+          "role": "次层套色"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "title": "模板决定轮廓",
+      "body": "从可镂空的正负形思考图像，保留桥接结构和少量套色；硬边、轻微溢喷与墙面肌理共同提示制作方式。"
+    },
+    {
+      "title": "与涂鸦字形区分",
+      "body": "本档案聚焦模板复制的图像、剪影与城市语境；涂鸦字形更关注名字、字母结构及手势，两者可交叉却不应混同。"
+    },
+    {
+      "title": "地点参与叙事",
+      "body": "考虑图像与墙面、日常物件及行人视线的关系。转用于出版时保留原本的空间语境，不把所有墙面纹理都当作街头表达。"
+    }
+  ],
+  "applications": [
+    "适合城市文化活动、独立出版与展览传播：使用清晰剪影和少量色层建立远距离识别，再用独立信息区承载正文。"
+  ],
+  "related": ["graffiti-lettering", "punk-diy", "hip-hop-visual"],
+  "order": 80,
+  "updatedAt": "2026-09-14",
+  "designHistory": {
+    "overview": "街头模板喷绘沿用镂空模板的复制方法，在城市空间中发展出便于重复、识别鲜明的图像表达。这里以巴黎实践及澳大利亚的创作与收藏为线索，并不把模板技术本身的起源归于单一现代艺术家。",
+    "timeline": [
+      {
+        "year": 1981,
+        "period": "1981年",
+        "title": "巴黎街头的模板实践",
+        "body": "Blek le Rat在官方自述中回忆，1981年开始在巴黎街头创作，并在当年年底使用模板；这提供了早期法国街头模板实践的一手记录。",
+        "sourceIds": ["blek"]
+      },
+      {
+        "year": 2003,
+        "period": "2003—2004年",
+        "title": "澳大利亚图像型模板兴盛",
+        "body": "NGA将2003至2004年视为澳大利亚街头模板创作的重要高峰，说明当地视觉表达从手势与文字进一步转向流行文化图像和模板。",
+        "sourceIds": ["neo-pop"]
+      },
+      {
+        "year": 2010,
+        "period": "2010—2011年",
+        "title": "短暂街头图像进入展览研究",
+        "body": "NGA的《Space Invaders》于2010年10月至2011年2月展出，集合四十余位艺术家的街头作品，并通过馆藏保存模板、海报与其他传播媒介。",
+        "sourceIds": ["exhibition"]
+      }
+    ],
+    "interpretation": "海报为AI生成的原创模板墙面演绎，以长出树苗的折叠椅和重复剪影表达图像复制关系；不是实际街头地点记录，也未复制某位艺术家的标志作品。四色为本次编辑选择。",
+    "sources": [
+      {
+        "id": "blek",
+        "title": "Manifesto",
+        "publisher": "Blek le Rat",
+        "url": "https://blekleratoriginal.com/en/manifesto"
+      },
+      {
+        "id": "neo-pop",
+        "title": "Space Invaders — Neo-Pop",
+        "publisher": "National Gallery of Australia",
+        "url": "https://digital.nga.gov.au/archive/exhibition/spaceinvaders/default.cfm%3Fmnuid%3D3%26galid%3D2.html"
+      },
+      {
+        "id": "exhibition",
+        "title": "Space Invaders",
+        "publisher": "National Gallery of Australia",
+        "url": "https://nga.gov.au/exhibitions/space-invaders/"
+      }
+    ]
+  }
+}

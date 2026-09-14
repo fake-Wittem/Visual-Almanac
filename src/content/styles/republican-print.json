@@ -1,0 +1,120 @@
+{
+  "id": "republican-print",
+  "name": "民国书刊与印刷",
+  "englishName": "Republican-Era Chinese Print Culture",
+  "aliases": ["Republican-Era Chinese Print Culture"],
+  "summary": "从书刊页幅、黑白版画与装订痕迹中，辨认民国时期不同出版实践的材料秩序。",
+  "category": "retro",
+  "tags": ["nostalgic", "rational", "ink", "contrast", "red", "poster"],
+  "cover": "republican-print-poster",
+  "images": [
+    {
+      "asset": "republican-print-poster",
+      "caption": "民国书刊与印刷 · 风格演绎海报"
+    }
+  ],
+  "palettes": [
+    {
+      "id": "poster",
+      "name": "主题配色",
+      "description": "为本档案人工设定的视觉配色，海报色卡按相同 HEX 排版；不代表历史时期的标准色。",
+      "colors": [
+        {
+          "id": "color-1",
+          "name": "墨灰",
+          "hex": "#343532",
+          "status": "manual",
+          "role": "油墨、辊面和版面重块"
+        },
+        {
+          "id": "color-2",
+          "name": "朱红",
+          "hex": "#A44739",
+          "status": "manual",
+          "role": "封面插图中的强调色块"
+        },
+        {
+          "id": "color-3",
+          "name": "纸黄",
+          "hex": "#D6C7A7",
+          "status": "manual",
+          "role": "书页切口与空白页"
+        },
+        {
+          "id": "color-4",
+          "name": "靛灰",
+          "hex": "#586A78",
+          "status": "manual",
+          "role": "布面或纸面封套"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "title": "页幅与装订",
+      "body": "袖珍杂志、线装画谱与普通平装书的阅读动作不同；设计时先选定一种开本逻辑，再决定栏宽和图像跨页方式。"
+    },
+    {
+      "title": "黑白与红色",
+      "body": "密集正文形成灰度面，木刻以大黑块和刻线形成另一种节奏；少量红色可作为当代导读标记，不应宣称所有原刊都使用同一色制。"
+    },
+    {
+      "title": "工艺不混同",
+      "body": "铅印、木刻、水印和摄影复制在时期内并存；画面展示媒介线索，不能据一本书的装订或纸色反推出其全部印刷工艺。"
+    }
+  ],
+  "applications": [
+    "适合近代书刊专题展的小册子：把封面、内页和装订细节分开展示，标清开本与印法，用现代注释解释原件的文字方向和阅读次序。"
+  ],
+  "related": ["shanghai-calendar-posters", "constructivism"],
+  "order": 82,
+  "updatedAt": "2026-09-14",
+  "designHistory": {
+    "overview": "这是限定于中国民国时期若干书刊与印刷案例的媒介专题，以上海杂志、现代木刻传播和北京传统笺谱为对照。它不把不同地域、政治立场或工艺压成一种统一的“民国风”。",
+    "timeline": [
+      {
+        "year": 1930,
+        "period": "1930 年",
+        "title": "版画展览扩大视觉参照",
+        "body": "澳大利亚国家美术馆记录鲁迅于 1930 年 10 月展出个人收藏的七十件木刻和蚀刻作品，欧洲版画成为中国创作者可接触的参照。",
+        "sourceIds": ["nga"]
+      },
+      {
+        "year": 1931,
+        "period": "1931—1937 年",
+        "title": "袖珍杂志记录都市阅读",
+        "body": "哥伦比亚大学保存的《玲珑》馆藏按 1931 至 1937 年编排，可用于比较同一刊物在连续出版中的封面、摄影和版面变化。",
+        "sourceIds": ["linglong"]
+      },
+      {
+        "year": 1933,
+        "period": "1933 年",
+        "title": "传统笺纸进入编纂保存",
+        "body": "《北平笺谱》由鲁迅、郑振铎编集，收录 310 幅传统多色木版印画，以六册线装和函套保存，展示现代出版活动中对旧工艺的整理。",
+        "sourceIds": ["jianpu"]
+      }
+    ],
+    "interpretation": "工作台是原创媒介静物，书页以抽象图块代替可读原刊，不复原某一家印刷所；材料颜色仅为视觉提炼，不用于鉴定纸张年代。",
+    "sources": [
+      {
+        "id": "nga",
+        "title": "Chinese Woodcuts of the Thirties and Forties",
+        "publisher": "National Gallery of Australia",
+        "url": "https://nga.gov.au/exhibitions/chinese-woodcuts-of-the-thirties-and-forties/"
+      },
+      {
+        "id": "linglong",
+        "title": "Ling long Women's Magazine: Collection Index",
+        "publisher": "Columbia University Libraries",
+        "url": "https://exhibitions.library.columbia.edu/exhibits/show/linglong/collection/index"
+      },
+      {
+        "id": "jianpu",
+        "title": "Beiping Jian Pu (北平箋譜)",
+        "publisher": "Vanderbilt University Libraries",
+        "url": "https://exhibitions.library.vanderbilt.edu/book-as-art/item/beiping-jian-pu%EF%BC%88%E5%8C%97%E5%B9%B3%E7%AE%8B%E8%AD%9C%EF%BC%89/"
+      }
+    ]
+  }
+}

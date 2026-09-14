@@ -1,0 +1,33 @@
+{
+  "styleId": "generative-art",
+  "title": "生成艺术与算法图形",
+  "accentLength": 2,
+  "titleColors": ["#302C25", "#448C88"],
+  "colors": [
+    {
+      "name": "算法靛蓝",
+      "hex": "#253B62",
+      "englishName": "Indigo"
+    },
+    {
+      "name": "纸本象牙",
+      "hex": "#EAE5D8",
+      "englishName": "Ivory"
+    },
+    {
+      "name": "流场青绿",
+      "hex": "#448C88",
+      "englishName": "Teal"
+    },
+    {
+      "name": "节点珊瑚",
+      "hex": "#C06A52",
+      "englishName": "Coral"
+    }
+  ],
+  "sidebarCn": ["让规则形成图像", "在参数之间变化", "以重复观察差异", "让过程参与创作"],
+  "sidebarEn": ["A Way of Seeing.", "A Way of Living."],
+  "badges": ["规则", "参数", "迭代"],
+  "sceneFile": "assets/poster-scenes/generative-art.png",
+  "scenePrompt": "Use case: stylized-concept. Asset type: original Visual Almanac archive scene. Create a landscape 3:2 image, 1536x1024 preferred, of generative algorithmic art expressed as an original pen-plotter-like abstract composition on warm ivory paper. Hundreds of precise thin indigo paths follow a shared flow field: an ordered grid at the left gradually bends into a sweeping oval vortex in the center, then disperses into controlled irregular short marks at the right. Use subtle teal paths and occasional muted coral nodes as a second system; maintain visible consistent rules, gradual parameter variation and ample paper between lines. Flat front-on artwork, sharply resolved ink, delicate paper grain, restrained dark ink #253B62, ivory #EAE5D8, teal #448C88 and coral #C06A52. No real artwork reproduction. No computer or screen, no AI brain or glowing neural-network cliches, no 3D sculpture. No words, letters, numbers, labels, signature, logo, border, title, swatches or watermark. This is an illustrative scene evocative of algorithmic art, not a claim to be actual executed program output."
+}

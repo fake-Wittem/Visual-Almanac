@@ -1,0 +1,126 @@
+{
+  "id": "blue-green-landscape",
+  "name": "青绿山水与设色",
+  "englishName": "Blue-Green Landscape Painting",
+  "aliases": ["Blue-Green Landscape Painting"],
+  "summary": "以设色山体、勾线和水面留白组织远近层次，阅读青绿山水内部的多种取向。",
+  "category": "eastern-aesthetics",
+  "tags": ["elegant", "green", "blue", "organic", "poster"],
+  "cover": "blue-green-landscape-poster",
+  "images": [
+    {
+      "asset": "blue-green-landscape-poster",
+      "caption": "青绿山水与设色 · 原创风格演绎海报"
+    }
+  ],
+  "palettes": [
+    {
+      "id": "poster",
+      "name": "主题配色",
+      "description": "人工设定的视觉演绎配色，不是历史颜料检测或行业标准。",
+      "colors": [
+        {
+          "id": "color-1",
+          "name": "石青",
+          "hex": "#3E7288",
+          "status": "manual",
+          "role": "远山与山脊"
+        },
+        {
+          "id": "color-2",
+          "name": "石绿",
+          "hex": "#5E927B",
+          "status": "manual",
+          "role": "近山层叠"
+        },
+        {
+          "id": "color-3",
+          "name": "赭石",
+          "hex": "#A77B4F",
+          "status": "manual",
+          "role": "坡脚与小径"
+        },
+        {
+          "id": "color-4",
+          "name": "绢白",
+          "hex": "#E3D7B6",
+          "status": "manual",
+          "role": "水面及天际留白"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "title": "色块仍需骨架",
+      "body": "先安排山体转折和勾线，再以青绿覆盖部分山面。不要把整片山体涂成同样明亮的色块，水面和云气应帮助区分层次。"
+    },
+    {
+      "title": "重彩与浅设色",
+      "body": "矿物色厚敷与淡青绿是不同视觉选择；比较作品时记录绢或纸、色层与墨线关系，不把饱和度高低写成水平优劣。"
+    },
+    {
+      "title": "临古与断代",
+      "body": "画面上的古人署名、后人题跋和博物馆断代可能不一致。RISD所藏青绿山水即提示题跋存在疑点，因此不能凭归款认定创作年代。"
+    }
+  ],
+  "applications": [
+    "适合山水展览专题页：用整体构图配山脊局部，说明墨线、设色与留白各自作用；数字海报选少量主色，避免用统一青绿色滤镜覆盖实景照片。"
+  ],
+  "related": ["ink-expression", "chinese-literati", "dunhuang-murals"],
+  "order": 95,
+  "updatedAt": "2026-09-14",
+  "designHistory": {
+    "overview": "本档案以青绿设色作为媒介线索，连接北宋作品、明代文人对前代画法的重释与现代展览研究。它不是与水墨完全隔绝的单一流派。",
+    "timeline": [
+      {
+        "year": 1113,
+        "period": "1113年前后",
+        "title": "《千里江山图》的青绿样本",
+        "body": "故宫藏王希孟长卷以层叠山水组织广阔景象，石青与石绿构成主要设色线索。蔡京题跋记录1113年获赐此卷；这里以该作品为样本，不将它视作全部青绿山水的标准。",
+        "sourceIds": ["wang"]
+      },
+      {
+        "year": 1548,
+        "period": "1548年",
+        "title": "文徵明以淡青绿重释前代",
+        "body": "台北故宫藏文徵明《仿赵伯骕后赤壁图》为1548年作品，以淡青绿结合山石、树木的个人笔法，显示设色传统可以进入文人临古与诗文题材。",
+        "sourceIds": ["wen"]
+      },
+      {
+        "year": 2017,
+        "period": "2017年",
+        "title": "展览梳理跨时代的设色传统",
+        "body": "故宫举办历代青绿山水画特展，分期展示86件套作品。这属于研究与接受史，不能反向说明历史上存在统一的青绿团体。现代馆藏研究也要求区分归款与断代：另以RISD所藏青绿山水为例，馆方将作品定为晚明，并指出题跋可能不实；该例用于对照研究方法，不表示它参加过此次展览。",
+        "sourceIds": ["exhibition", "risd"]
+      }
+    ],
+    "interpretation": "海报为原创设色山水，非《千里江山图》局部复刻。色卡是视觉提案，不对应颜料成分分析。",
+    "sources": [
+      {
+        "id": "risd",
+        "title": "Blue-Green Landscape（晚明，归款与题跋存疑）",
+        "publisher": "RISD Museum",
+        "url": "https://risdmuseum.org/art-design/collection/blue-green-landscape-20311"
+      },
+      {
+        "id": "wang",
+        "title": "王希孟千里江山图卷",
+        "publisher": "故宫博物院",
+        "url": "https://www.dpm.org.cn/collection/paint/228354.html"
+      },
+      {
+        "id": "wen",
+        "title": "明文徵明仿赵伯骕后赤壁图 卷",
+        "publisher": "国立故宫博物院",
+        "url": "https://digitalarchive.npm.gov.tw/Collection/Detail/3688?dep=P"
+      },
+      {
+        "id": "exhibition",
+        "title": "故宫博物院千里江山特展9月24日起实行发号分时参观",
+        "publisher": "故宫博物院",
+        "url": "https://www.dpm.org.cn/classify_detail/246060.html"
+      }
+    ]
+  }
+}

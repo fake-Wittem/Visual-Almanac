@@ -1,0 +1,33 @@
+{
+  "styleId": "empire-style",
+  "title": "帝政风格",
+  "accentLength": 2,
+  "titleColors": ["#493C35", "#80483F"],
+  "colors": [
+    {
+      "name": "桃花心木",
+      "hex": "#704B39",
+      "englishName": "Mahogany"
+    },
+    {
+      "name": "古金",
+      "hex": "#BB995C",
+      "englishName": "Gilt"
+    },
+    {
+      "name": "深红",
+      "hex": "#834B45",
+      "englishName": "Velvet"
+    },
+    {
+      "name": "石白",
+      "hex": "#DED1B8",
+      "englishName": "Marble"
+    }
+  ],
+  "sidebarCn": ["以直线支撑华饰", "让金属标明节点", "从陈设辨认权力", "把图样放回时代"],
+  "sidebarEn": ["A Way of Seeing.", "A Way of Living."],
+  "badges": ["鎏金", "直线", "陈设"],
+  "sceneFile": "assets/poster-scenes/empire-style.png",
+  "scenePrompt": "Original French Empire-style furniture vignette circa early nineteenth century inspiration: a strict rectangular mahogany console with pale marble top, restrained gilt bronze palmette mounts and small classical column supports, beside an elegant straight-framed mahogany chair with dark oxblood upholstery and subtle gilt details. Clear geometric mass, rich but austere material contrast, pale wall, warm oblique daylight, no Rococo scroll overload. Editorial interior illustration landscape 3:2. Palette #704B39 #BB995C #834B45 #DED1B8. No monograms, eagles, crowns, text, lettering, labels, numbers, logos, borders or swatches. Original design not a museum replica."
+}

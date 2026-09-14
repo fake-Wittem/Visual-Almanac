@@ -1,0 +1,120 @@
+{
+  "id": "iberian-maghrebi-tiles",
+  "name": "伊比利亚与北非瓷砖装饰",
+  "englishName": "Iberian and Maghrebi Tile Decoration",
+  "aliases": ["Iberian and Maghrebi Tile Decoration"],
+  "summary": "围绕摩洛哥、格拉纳达与辛特拉的具体资料，区分拼嵌、刻釉和整砖装饰的材料逻辑。",
+  "category": "classical-decorative",
+  "tags": ["geometry", "elegant", "green", "blue", "cream", "poster"],
+  "cover": "iberian-maghrebi-tiles-poster",
+  "images": [
+    {
+      "asset": "iberian-maghrebi-tiles-poster",
+      "caption": "伊比利亚与北非瓷砖装饰 · 原创风格演绎海报"
+    }
+  ],
+  "palettes": [
+    {
+      "id": "poster",
+      "name": "主题配色",
+      "description": "人工设定的视觉演绎配色，不是历史颜料检测或行业标准。",
+      "colors": [
+        {
+          "id": "color-1",
+          "name": "釉绿",
+          "hex": "#4E7C70",
+          "status": "manual",
+          "role": "星形拼片"
+        },
+        {
+          "id": "color-2",
+          "name": "钴蓝",
+          "hex": "#385A77",
+          "status": "manual",
+          "role": "交接几何单元"
+        },
+        {
+          "id": "color-3",
+          "name": "陶金",
+          "hex": "#B59658",
+          "status": "manual",
+          "role": "小型连接片"
+        },
+        {
+          "id": "color-4",
+          "name": "釉白",
+          "hex": "#E2DAC5",
+          "status": "manual",
+          "role": "背景拼片与灰泥"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "title": "接缝说明制作方法",
+      "body": "切割釉砖再拼成几何纹样的alicatado，与在完整砖面印模或绘画不同。先观察接缝走向，再判断纹样单元，不把所有瓷砖都叫马赛克。"
+    },
+    {
+      "title": "同一墙面容纳多种工艺",
+      "body": "摩洛哥馆藏刻釉文字砖原处于拼砖墙裙与雕刻灰泥之间。刻去釉层、拼接色片、雕灰泥是三种不同操作，应分别标明。"
+    },
+    {
+      "title": "地理名称不等于单一风格",
+      "body": "本篇的北非样本限定摩洛哥，伊比利亚样本为格拉纳达和葡萄牙辛特拉。三地资料用来比较交流与应用，不据此认定所有图案来自同一作坊。"
+    }
+  ],
+  "applications": [
+    "适合陶瓷与建筑材料展页：配接缝近照和墙裙剖面，明确现存拼接与现代重组部分。设计延展应标注原创重复纹样，实际铺贴仍需按材料尺寸核验收口。"
+  ],
+  "related": ["islamic-ornament", "mediterranean-natural", "byzantine-decoration"],
+  "order": 105,
+  "updatedAt": "2026-09-14",
+  "designHistory": {
+    "overview": "该专题沿西地中海的具体建筑陶瓷样本展开，重点是墙面分区与制作方法。它与奥斯曼器物专题分开，不把不同地区合并为一个无年代的异域图案库。",
+    "timeline": [
+      {
+        "year": 1300,
+        "period": "十四至十五世纪初",
+        "title": "摩洛哥刻釉砖连接墙面层次",
+        "body": "大都会博物馆藏四块文字砖先施深色釉，再刻去部分釉层。馆方说明其所在条带通常位于拼嵌墙裙和上方雕刻灰泥之间，体现多工艺协同。",
+        "sourceIds": ["morocco"]
+      },
+      {
+        "year": 1300,
+        "period": "十四世纪？（馆方断代存疑）",
+        "title": "格拉纳达拼嵌板保留重组痕迹",
+        "body": "阿尔罕布拉博物馆介绍的alicatado板为重组展品，纹样按水平带展开，年代标有问号。研究时应同时保留断代不确定性与重组状态。",
+        "sourceIds": ["granada"]
+      },
+      {
+        "year": 1507,
+        "period": "1507—1510年",
+        "title": "辛特拉宫大量订购装饰砖",
+        "body": "曼努埃尔一世时期，辛特拉宫订购数千块西班牙—摩尔式装饰砖，成为宫殿的重要特征。这说明装饰语汇进入葡萄牙王室建筑的具体使用语境。",
+        "sourceIds": ["sintra"]
+      }
+    ],
+    "interpretation": "海报为原创切砖拼嵌墙裙意象，不混入伪书法，不复刻某处宫殿；色卡不代表遗址原始釉色或材料检测。",
+    "sources": [
+      {
+        "id": "morocco",
+        "title": "Panel of Four Calligraphic Tiles",
+        "publisher": "The Metropolitan Museum of Art",
+        "url": "https://www.metmuseum.org/art/collection/search/453659"
+      },
+      {
+        "id": "granada",
+        "title": "Panel de alicatado",
+        "publisher": "Patronato de la Alhambra y Generalife",
+        "url": "https://www.alhambra-patronato.es/panel-de-alicatado-2"
+      },
+      {
+        "id": "sintra",
+        "title": "Construção do Paço Manuelino e Sala dos Brasões (1498–1520)",
+        "publisher": "Parques de Sintra",
+        "url": "https://www.parquesdesintra.pt/pt/parques-monumentos/palacio-nacional-sintra/acontecimentos/construcao-do-paco-manuelino-e-sala-dos-brasoes-1498-1520/"
+      }
+    ]
+  }
+}

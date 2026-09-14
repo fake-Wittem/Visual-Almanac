@@ -1,0 +1,33 @@
+{
+  "styleId": "biomimetic-design",
+  "title": "仿生设计视觉",
+  "accentLength": 2,
+  "titleColors": ["#373A37", "#685248"],
+  "colors": [
+    {
+      "name": "膜白",
+      "hex": "#D9E4DC",
+      "englishName": "Membrane White"
+    },
+    {
+      "name": "纤维绿",
+      "hex": "#42695D",
+      "englishName": "Fiber Green"
+    },
+    {
+      "name": "结构灰",
+      "hex": "#3E4A48",
+      "englishName": "Structure Grey"
+    },
+    {
+      "name": "草纤色",
+      "hex": "#B7AD87",
+      "englishName": "Straw Fiber"
+    }
+  ],
+  "sidebarCn": ["让观察指向机制", "让结构解释形态", "让样本连接方法", "让验证支持结论"],
+  "sidebarEn": ["A Way of Seeing.", "A Way of Living."],
+  "badges": ["机制", "转译", "结构"],
+  "sceneFile": "assets/poster-scenes/biomimetic-design.png",
+  "scenePrompt": "Use case: stylized-concept. Original architectural research tabletop: one small pale translucent thin-shell pavilion study with visible fine dark branching fiber reinforcement on the inner shell, a separate small microscopic-inspired layered porous material sample beside it, white lab table, restrained scientific design presentation. The visual emphasizes differentiated load paths and fabrication sequence, not just decorative animal shape. Fictional nonfunctional conceptual model, no biological specimen identification, no real performance claims. Mist #D9E4DC, fiber green #42695D, charcoal #3E4A48, straw #B7AD87. Asset: original scene for a style archive. Landscape 3:2, single full-bleed image. No lettering, text, numbers, labels, logos, watermark, poster frame, color swatches or badges."
+}

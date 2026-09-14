@@ -1,0 +1,33 @@
+{
+  "styleId": "deconstructed-typography",
+  "title": "解构式实验排版",
+  "accentLength": 2,
+  "titleColors": ["#302C25", "#384D5B"],
+  "colors": [
+    {
+      "name": "字形黑",
+      "hex": "#303132",
+      "englishName": "Type Black"
+    },
+    {
+      "name": "纸白",
+      "hex": "#E5DECE",
+      "englishName": "Paper"
+    },
+    {
+      "name": "覆印红",
+      "hex": "#B75146",
+      "englishName": "Overprint"
+    },
+    {
+      "name": "扫描灰",
+      "hex": "#95988F",
+      "englishName": "Scan"
+    }
+  ],
+  "sidebarCn": ["从字腔重新观看", "让叠压改变次序", "在碎片之间留白", "为阅读保留入口"],
+  "sidebarEn": ["A Way of Seeing.", "A Way of Living."],
+  "badges": ["拆分", "叠压", "错位"],
+  "sceneFile": "assets/poster-scenes/deconstructed-typography.png",
+  "scenePrompt": "Use case: stylized-concept. Asset type: original Visual Almanac archive scene. Create one original landscape 3:2 raster illustration, 1536x1024 preferred. Original experimental typographic collage on off-white paper, huge cropped black abstract letter-stem and counterform fragments that do not spell any words, offset red transparent overprint rectangles, a sparse gray halftone patch, diagonal baseline fragments and torn thin paper strips. A bold asymmetrical composition with deliberate open space, tactile 1980s phototypesetting and early digital collage sensibility. Only incomplete abstract glyph pieces, no strings of nonsense text. Full bleed scene, no frame, no title, no logo, no watermark, no labels, no swatches, no readable text. Do not reproduce any existing artwork or brand. Carefully composed, visibly specific to the described visual language."
+}

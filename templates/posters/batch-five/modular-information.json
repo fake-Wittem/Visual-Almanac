@@ -1,0 +1,33 @@
+{
+  "styleId": "modular-information",
+  "title": "模块化信息设计",
+  "accentLength": 2,
+  "titleColors": ["#373A37", "#685248"],
+  "colors": [
+    {
+      "name": "信息蓝",
+      "hex": "#2E4E67",
+      "englishName": "Information Blue"
+    },
+    {
+      "name": "卡纸白",
+      "hex": "#E6E1D5",
+      "englishName": "Card White"
+    },
+    {
+      "name": "指示橙",
+      "hex": "#BC7546",
+      "englishName": "Signal Orange"
+    },
+    {
+      "name": "符号灰",
+      "hex": "#454A4D",
+      "englishName": "Symbol Grey"
+    }
+  ],
+  "sidebarCn": ["让单元保持一致", "让间距区分群组", "让符号便于比较", "让结构帮助理解"],
+  "sidebarEn": ["A Way of Seeing.", "A Way of Living."],
+  "badges": ["模块", "符号", "关系"],
+  "sceneFile": "assets/poster-scenes/modular-information.png",
+  "scenePrompt": "Use case: stylized-concept. Original physical information-design study, overhead view: nine square ivory cards on a precise three-column modular grid, each card bearing only a small simple circle or straight connected line or neutral abstract bar grouping, two deep blue panels, one restrained orange panel, consistent spacing, a clear meaningful rhythm from repeated basic units, no lettering or number symbols, no actual data claims, beautifully photographed paper-and-cardboard construction with gentle shallow shadows. Navy #2E4E67, cream #E6E1D5, orange #BC7546, graphite #454A4D. Asset: original scene for a style archive. Landscape 3:2, single full-bleed image, no text, letters, numbers, labels, logos, watermark, outer poster border, color swatches or badges."
+}

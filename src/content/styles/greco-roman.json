@@ -1,0 +1,114 @@
+{
+  "id": "greco-roman",
+  "name": "古希腊与古罗马古典语言",
+  "englishName": "Greek and Roman Classical Vocabulary",
+  "aliases": ["Greek and Roman Classical Vocabulary"],
+  "summary": "从希腊柱式的构件关系到罗马室内的绘画性建筑，区分古典语言在不同场合的作用。",
+  "category": "classical-decorative",
+  "tags": ["rational", "elegant", "geometry", "cream", "blue", "slides"],
+  "cover": "greco-roman-poster",
+  "images": [
+    {
+      "asset": "greco-roman-poster",
+      "caption": "古希腊与古罗马古典语言 · 原创风格演绎海报"
+    }
+  ],
+  "palettes": [
+    {
+      "id": "poster",
+      "name": "主题配色",
+      "description": "人工设定的视觉演绎配色，不是历史颜料检测或行业标准。",
+      "colors": [
+        {
+          "id": "color-1",
+          "name": "石白",
+          "hex": "#DDD4BD",
+          "status": "manual",
+          "role": "柱身与铺地"
+        },
+        {
+          "id": "color-2",
+          "name": "陶红",
+          "hex": "#A96950",
+          "status": "manual",
+          "role": "构件设色细节"
+        },
+        {
+          "id": "color-3",
+          "name": "海灰",
+          "hex": "#788C8C",
+          "status": "manual",
+          "role": "远景天空"
+        },
+        {
+          "id": "color-4",
+          "name": "深褐",
+          "hex": "#645345",
+          "status": "manual",
+          "role": "凹槽与檐部阴影"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "title": "柱式是关系而非柱头图标",
+      "body": "柱础、柱身、柱头和檐部相互配合。多立克与爱奥尼在柱础、涡卷和饰带上存在差别，不能把三种柱头随意装在同一排柱上。"
+    },
+    {
+      "title": "雕刻和颜色并存",
+      "body": "古希腊建筑并不天然等于纯白石材；建筑与雕刻曾有彩绘。原创配色应标为设定，不能用它推断一处遗址原有颜料。"
+    },
+    {
+      "title": "实建与画中建筑",
+      "body": "罗马壁画的纤细支柱可能服务于画面幻象，而不是可建造结构。研究真实柱廊比例与研究室内壁画时应采用不同的判断标准。"
+    }
+  ],
+  "applications": [
+    "适合古典建筑入门页面：一次比较一种柱式的完整构件链，另用壁画局部说明图像如何借用建筑语言；不要把虚构场景用作考古复原图。"
+  ],
+  "related": ["neoclassicism", "renaissance", "empire-style"],
+  "order": 101,
+  "updatedAt": "2026-09-14",
+  "designHistory": {
+    "overview": "本专题限定希腊古风与古典时期的柱式，以及意大利罗马早期帝国壁画的建筑母题。跨地域并置用于比较，不意味着两种文化的建筑实践完全相同。",
+    "timeline": [
+      {
+        "year": -600,
+        "period": "公元前六世纪",
+        "title": "希腊柱式构成体系",
+        "body": "多立克与爱奥尼柱式以不同构件关系组织立面，规则涉及柱与檐部整体，并不只是一种柱头装饰。",
+        "sourceIds": ["greece"]
+      },
+      {
+        "year": -447,
+        "period": "公元前447—432年",
+        "title": "雅典工程展现材料与协作",
+        "body": "帕特农神庙属于伯里克利时期的雅典建设工程。石料开采、搬运、雕刻及彩绘共同构成建筑生产，古典比例依靠实际工艺实现。",
+        "sourceIds": ["greece"]
+      },
+      {
+        "year": -10,
+        "period": "公元前一世纪最后十年",
+        "title": "罗马壁画转译建筑母题",
+        "body": "博斯科特雷卡塞别墅的黑地壁画以纤细白柱和浅色亭架组织表面，形成第三风格的装饰性建筑幻象，与希腊实体石柱的承重逻辑不同。",
+        "sourceIds": ["rome"]
+      }
+    ],
+    "interpretation": "海报为原创爱奥尼柱廊意象，不是某座希腊或罗马遗址的考古复原；色彩、尺寸和雕饰均不作为历史测绘依据。",
+    "sources": [
+      {
+        "id": "greece",
+        "title": "Architecture in Ancient Greece",
+        "publisher": "The Metropolitan Museum of Art",
+        "url": "https://www.metmuseum.org/essays/architecture-in-ancient-greece"
+      },
+      {
+        "id": "rome",
+        "title": "Wall painting on black ground: pair of supports, from the imperial villa at Boscotrecase",
+        "publisher": "The Metropolitan Museum of Art",
+        "url": "https://www.metmuseum.org/art/collection/search/250936"
+      }
+    ]
+  }
+}

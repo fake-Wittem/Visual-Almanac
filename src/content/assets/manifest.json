@@ -574,5 +574,389 @@
     "width": 1200,
     "height": 1500,
     "source": "图像来源：内置 imagegen 生成的原创风格演绎场景，配合固定档案版式排版；不是历史影像、馆藏复制或真实项目记录。设计史依据档案参考资料整理。"
+  },
+  {
+    "id": "byzantine-decoration-poster",
+    "file": "images/originals/byzantine-decoration-poster.png",
+    "originalName": "byzantine-decoration-poster.png",
+    "width": 1200,
+    "height": 1500,
+    "source": "图像来源：内置 imagegen 生成的原创风格演绎场景，配合固定档案版式排版；不是历史影像、馆藏复制或真实项目记录。设计史依据档案参考资料整理。"
+  },
+  {
+    "id": "chinese-classical-garden-poster",
+    "file": "images/originals/chinese-classical-garden-poster.png",
+    "originalName": "chinese-classical-garden-poster.png",
+    "width": 1200,
+    "height": 1500,
+    "source": "图像来源：内置 imagegen 生成的原创风格演绎场景，配合固定档案版式排版；不是历史影像、馆藏复制或真实项目记录。设计史依据档案参考资料整理。"
+  },
+  {
+    "id": "early-desktop-web-poster",
+    "file": "images/originals/early-desktop-web-poster.png",
+    "originalName": "early-desktop-web-poster.png",
+    "width": 1200,
+    "height": 1500,
+    "source": "图像来源：内置 imagegen 生成的原创风格演绎场景，配合固定档案版式排版；不是历史影像、馆藏复制或真实项目记录。设计史依据档案参考资料整理。"
+  },
+  {
+    "id": "generative-art-poster",
+    "file": "images/originals/generative-art-poster.png",
+    "originalName": "generative-art-poster.png",
+    "width": 1200,
+    "height": 1500,
+    "source": "图像来源：内置 imagegen 生成的原创风格演绎场景，配合固定档案版式排版；不是历史影像、馆藏复制或真实项目记录。设计史依据档案参考资料整理。"
+  },
+  {
+    "id": "japanese-everyday-minimal-poster",
+    "file": "images/originals/japanese-everyday-minimal-poster.png",
+    "originalName": "japanese-everyday-minimal-poster.png",
+    "width": 1200,
+    "height": 1500,
+    "source": "图像来源：内置 imagegen 生成的原创风格演绎场景，配合固定档案版式排版；不是历史影像、馆藏复制或真实项目记录。设计史依据档案参考资料整理。"
+  },
+  {
+    "id": "sci-fi-hud-poster",
+    "file": "images/originals/sci-fi-hud-poster.png",
+    "originalName": "sci-fi-hud-poster.png",
+    "width": 1200,
+    "height": 1500,
+    "source": "图像来源：内置 imagegen 生成的原创风格演绎场景，配合固定档案版式排版；不是历史影像、馆藏复制或真实项目记录。设计史依据档案参考资料整理。"
+  },
+  {
+    "id": "street-stencil-poster",
+    "file": "images/originals/street-stencil-poster.png",
+    "originalName": "street-stencil-poster.png",
+    "width": 1200,
+    "height": 1500,
+    "source": "图像来源：内置 imagegen 生成的原创风格演绎场景，配合固定档案版式排版；不是历史影像、馆藏复制或真实项目记录。设计史依据档案参考资料整理。"
+  },
+  {
+    "id": "tropical-modern-poster",
+    "file": "images/originals/tropical-modern-poster.png",
+    "originalName": "tropical-modern-poster.png",
+    "width": 1200,
+    "height": 1500,
+    "source": "图像来源：内置 imagegen 生成的原创风格演绎场景，配合固定档案版式排版；不是历史影像、馆藏复制或真实项目记录。设计史依据档案参考资料整理。"
+  },
+  {
+    "id": "shanghai-calendar-posters-poster",
+    "file": "images/originals/shanghai-calendar-posters-poster.png",
+    "originalName": "shanghai-calendar-posters-poster.png",
+    "width": 1200,
+    "height": 1500,
+    "source": "图像来源：内置 imagegen 生成的原创风格演绎场景，配合固定档案版式排版；不是历史影像、馆藏复制或真实项目记录。设计史依据档案参考资料整理。"
+  },
+  {
+    "id": "republican-print-poster",
+    "file": "images/originals/republican-print-poster.png",
+    "originalName": "republican-print-poster.png",
+    "width": 1200,
+    "height": 1500,
+    "source": "图像来源：内置 imagegen 生成的原创风格演绎场景，配合固定档案版式排版；不是历史影像、馆藏复制或真实项目记录。设计史依据档案参考资料整理。"
+  },
+  {
+    "id": "taisho-romance-poster",
+    "file": "images/originals/taisho-romance-poster.png",
+    "originalName": "taisho-romance-poster.png",
+    "width": 1200,
+    "height": 1500,
+    "source": "图像来源：内置 imagegen 生成的原创风格演绎场景，配合固定档案版式排版；不是历史影像、馆藏复制或真实项目记录。设计史依据档案参考资料整理。"
+  },
+  {
+    "id": "italian-rationalism-poster",
+    "file": "images/originals/italian-rationalism-poster.png",
+    "originalName": "italian-rationalism-poster.png",
+    "width": 1200,
+    "height": 1500,
+    "source": "图像来源：内置 imagegen 生成的原创风格演绎场景，配合固定档案版式排版；不是历史影像、馆藏复制或真实项目记录。设计史依据档案参考资料整理。"
+  },
+  {
+    "id": "warm-minimal-poster",
+    "file": "images/originals/warm-minimal-poster.png",
+    "originalName": "warm-minimal-poster.png",
+    "width": 1200,
+    "height": 1500,
+    "source": "图像来源：内置 imagegen 生成的原创风格演绎场景，配合固定档案版式排版；不是历史影像、馆藏复制或真实项目记录。设计史依据档案参考资料整理。"
+  },
+  {
+    "id": "editorial-typography-poster",
+    "file": "images/originals/editorial-typography-poster.png",
+    "originalName": "editorial-typography-poster.png",
+    "width": 1200,
+    "height": 1500,
+    "source": "图像来源：内置 imagegen 生成的原创风格演绎场景，配合固定档案版式排版；不是历史影像、馆藏复制或真实项目记录。设计史依据档案参考资料整理。"
+  },
+  {
+    "id": "monochrome-minimal-poster",
+    "file": "images/originals/monochrome-minimal-poster.png",
+    "originalName": "monochrome-minimal-poster.png",
+    "width": 1200,
+    "height": 1500,
+    "source": "图像来源：内置 imagegen 生成的原创风格演绎场景，配合固定档案版式排版；不是历史影像、馆藏复制或真实项目记录。设计史依据档案参考资料整理。"
+  },
+  {
+    "id": "modular-information-poster",
+    "file": "images/originals/modular-information-poster.png",
+    "originalName": "modular-information-poster.png",
+    "width": 1200,
+    "height": 1500,
+    "source": "图像来源：内置 imagegen 生成的原创风格演绎场景，配合固定档案版式排版；不是历史影像、馆藏复制或真实项目记录。设计史依据档案参考资料整理。"
+  },
+  {
+    "id": "biomorphic-design-poster",
+    "file": "images/originals/biomorphic-design-poster.png",
+    "originalName": "biomorphic-design-poster.png",
+    "width": 1200,
+    "height": 1500,
+    "source": "图像来源：内置 imagegen 生成的原创风格演绎场景，配合固定档案版式排版；不是历史影像、馆藏复制或真实项目记录。设计史依据档案参考资料整理。"
+  },
+  {
+    "id": "biomimetic-design-poster",
+    "file": "images/originals/biomimetic-design-poster.png",
+    "originalName": "biomimetic-design-poster.png",
+    "width": 1200,
+    "height": 1500,
+    "source": "图像来源：内置 imagegen 生成的原创风格演绎场景，配合固定档案版式排版；不是历史影像、馆藏复制或真实项目记录。设计史依据档案参考资料整理。"
+  },
+  {
+    "id": "cottagecore-poster",
+    "file": "images/originals/cottagecore-poster.png",
+    "originalName": "cottagecore-poster.png",
+    "width": 1200,
+    "height": 1500,
+    "source": "图像来源：内置 imagegen 生成的原创风格演绎场景，配合固定档案版式排版；不是历史影像、馆藏复制或真实项目记录。设计史依据档案参考资料整理。"
+  },
+  {
+    "id": "rustic-contemporary-poster",
+    "file": "images/originals/rustic-contemporary-poster.png",
+    "originalName": "rustic-contemporary-poster.png",
+    "width": 1200,
+    "height": 1500,
+    "source": "图像来源：内置 imagegen 生成的原创风格演绎场景，配合固定档案版式排版；不是历史影像、馆藏复制或真实项目记录。设计史依据档案参考资料整理。"
+  },
+  {
+    "id": "rammed-earth-poster",
+    "file": "images/originals/rammed-earth-poster.png",
+    "originalName": "rammed-earth-poster.png",
+    "width": 1200,
+    "height": 1500,
+    "source": "图像来源：内置 imagegen 生成的原创风格演绎场景，配合固定档案版式排版；不是历史影像、馆藏复制或真实项目记录。设计史依据档案参考资料整理。"
+  },
+  {
+    "id": "ming-furniture-poster",
+    "file": "images/originals/ming-furniture-poster.png",
+    "originalName": "ming-furniture-poster.png",
+    "width": 1200,
+    "height": 1500,
+    "source": "图像来源：内置 imagegen 生成的原创风格演绎场景，配合固定档案版式排版；不是历史影像、馆藏复制或真实项目记录。设计史依据档案参考资料整理。"
+  },
+  {
+    "id": "blue-green-landscape-poster",
+    "file": "images/originals/blue-green-landscape-poster.png",
+    "originalName": "blue-green-landscape-poster.png",
+    "width": 1200,
+    "height": 1500,
+    "source": "图像来源：内置 imagegen 生成的原创风格演绎场景，配合固定档案版式排版；不是历史影像、馆藏复制或真实项目记录。设计史依据档案参考资料整理。"
+  },
+  {
+    "id": "dunhuang-murals-poster",
+    "file": "images/originals/dunhuang-murals-poster.png",
+    "originalName": "dunhuang-murals-poster.png",
+    "width": 1200,
+    "height": 1500,
+    "source": "图像来源：内置 imagegen 生成的原创风格演绎场景，配合固定档案版式排版；不是历史影像、馆藏复制或真实项目记录。设计史依据档案参考资料整理。"
+  },
+  {
+    "id": "papercut-new-year-poster",
+    "file": "images/originals/papercut-new-year-poster.png",
+    "originalName": "papercut-new-year-poster.png",
+    "width": 1200,
+    "height": 1500,
+    "source": "图像来源：内置 imagegen 生成的原创风格演绎场景，配合固定档案版式排版；不是历史影像、馆藏复制或真实项目记录。设计史依据档案参考资料整理。"
+  },
+  {
+    "id": "japanese-tea-room-poster",
+    "file": "images/originals/japanese-tea-room-poster.png",
+    "originalName": "japanese-tea-room-poster.png",
+    "width": 1200,
+    "height": 1500,
+    "source": "图像来源：内置 imagegen 生成的原创风格演绎场景，配合固定档案版式排版；不是历史影像、馆藏复制或真实项目记录。设计史依据档案参考资料整理。"
+  },
+  {
+    "id": "karesansui-poster",
+    "file": "images/originals/karesansui-poster.png",
+    "originalName": "karesansui-poster.png",
+    "width": 1200,
+    "height": 1500,
+    "source": "图像来源：内置 imagegen 生成的原创风格演绎场景，配合固定档案版式排版；不是历史影像、馆藏复制或真实项目记录。设计史依据档案参考资料整理。"
+  },
+  {
+    "id": "korean-minhwa-poster",
+    "file": "images/originals/korean-minhwa-poster.png",
+    "originalName": "korean-minhwa-poster.png",
+    "width": 1200,
+    "height": 1500,
+    "source": "图像来源：内置 imagegen 生成的原创风格演绎场景，配合固定档案版式排版；不是历史影像、馆藏复制或真实项目记录。设计史依据档案参考资料整理。"
+  },
+  {
+    "id": "greco-roman-poster",
+    "file": "images/originals/greco-roman-poster.png",
+    "originalName": "greco-roman-poster.png",
+    "width": 1200,
+    "height": 1500,
+    "source": "图像来源：内置 imagegen 生成的原创风格演绎场景，配合固定档案版式排版；不是历史影像、馆藏复制或真实项目记录。设计史依据档案参考资料整理。"
+  },
+  {
+    "id": "renaissance-poster",
+    "file": "images/originals/renaissance-poster.png",
+    "originalName": "renaissance-poster.png",
+    "width": 1200,
+    "height": 1500,
+    "source": "图像来源：内置 imagegen 生成的原创风格演绎场景，配合固定档案版式排版；不是历史影像、馆藏复制或真实项目记录。设计史依据档案参考资料整理。"
+  },
+  {
+    "id": "empire-style-poster",
+    "file": "images/originals/empire-style-poster.png",
+    "originalName": "empire-style-poster.png",
+    "width": 1200,
+    "height": 1500,
+    "source": "图像来源：内置 imagegen 生成的原创风格演绎场景，配合固定档案版式排版；不是历史影像、馆藏复制或真实项目记录。设计史依据档案参考资料整理。"
+  },
+  {
+    "id": "islamic-ornament-poster",
+    "file": "images/originals/islamic-ornament-poster.png",
+    "originalName": "islamic-ornament-poster.png",
+    "width": 1200,
+    "height": 1500,
+    "source": "图像来源：内置 imagegen 生成的原创风格演绎场景，配合固定档案版式排版；不是历史影像、馆藏复制或真实项目记录。设计史依据档案参考资料整理。"
+  },
+  {
+    "id": "iberian-maghrebi-tiles-poster",
+    "file": "images/originals/iberian-maghrebi-tiles-poster.png",
+    "originalName": "iberian-maghrebi-tiles-poster.png",
+    "width": 1200,
+    "height": 1500,
+    "source": "图像来源：内置 imagegen 生成的原创风格演绎场景，配合固定档案版式排版；不是历史影像、馆藏复制或真实项目记录。设计史依据档案参考资料整理。"
+  },
+  {
+    "id": "frutiger-aero-poster",
+    "file": "images/originals/frutiger-aero-poster.png",
+    "originalName": "frutiger-aero-poster.png",
+    "width": 1200,
+    "height": 1500,
+    "source": "图像来源：内置 imagegen 生成的原创风格演绎场景，配合固定档案版式排版；不是历史影像、馆藏复制或真实项目记录。设计史依据档案参考资料整理。"
+  },
+  {
+    "id": "dieselpunk-poster",
+    "file": "images/originals/dieselpunk-poster.png",
+    "originalName": "dieselpunk-poster.png",
+    "width": 1200,
+    "height": 1500,
+    "source": "图像来源：内置 imagegen 生成的原创风格演绎场景，配合固定档案版式排版；不是历史影像、馆藏复制或真实项目记录。设计史依据档案参考资料整理。"
+  },
+  {
+    "id": "atomic-age-poster",
+    "file": "images/originals/atomic-age-poster.png",
+    "originalName": "atomic-age-poster.png",
+    "width": 1200,
+    "height": 1500,
+    "source": "图像来源：内置 imagegen 生成的原创风格演绎场景，配合固定档案版式排版；不是历史影像、馆藏复制或真实项目记录。设计史依据档案参考资料整理。"
+  },
+  {
+    "id": "synthwave-poster",
+    "file": "images/originals/synthwave-poster.png",
+    "originalName": "synthwave-poster.png",
+    "width": 1200,
+    "height": 1500,
+    "source": "图像来源：内置 imagegen 生成的原创风格演绎场景，配合固定档案版式排版；不是历史影像、馆藏复制或真实项目记录。设计史依据档案参考资料整理。"
+  },
+  {
+    "id": "biotech-future-poster",
+    "file": "images/originals/biotech-future-poster.png",
+    "originalName": "biotech-future-poster.png",
+    "width": 1200,
+    "height": 1500,
+    "source": "图像来源：内置 imagegen 生成的原创风格演绎场景，配合固定档案版式排版；不是历史影像、馆藏复制或真实项目记录。设计史依据档案参考资料整理。"
+  },
+  {
+    "id": "italian-radical-poster",
+    "file": "images/originals/italian-radical-poster.png",
+    "originalName": "italian-radical-poster.png",
+    "width": 1200,
+    "height": 1500,
+    "source": "图像来源：内置 imagegen 生成的原创风格演绎场景，配合固定档案版式排版；不是历史影像、馆藏复制或真实项目记录。设计史依据档案参考资料整理。"
+  },
+  {
+    "id": "deconstructed-typography-poster",
+    "file": "images/originals/deconstructed-typography-poster.png",
+    "originalName": "deconstructed-typography-poster.png",
+    "width": 1200,
+    "height": 1500,
+    "source": "图像来源：内置 imagegen 生成的原创风格演绎场景，配合固定档案版式排版；不是历史影像、馆藏复制或真实项目记录。设计史依据档案参考资料整理。"
+  },
+  {
+    "id": "psychedelic-visual-poster",
+    "file": "images/originals/psychedelic-visual-poster.png",
+    "originalName": "psychedelic-visual-poster.png",
+    "width": 1200,
+    "height": 1500,
+    "source": "图像来源：内置 imagegen 生成的原创风格演绎场景，配合固定档案版式排版；不是历史影像、馆藏复制或真实项目记录。设计史依据档案参考资料整理。"
+  },
+  {
+    "id": "neo-expressionism-poster",
+    "file": "images/originals/neo-expressionism-poster.png",
+    "originalName": "neo-expressionism-poster.png",
+    "width": 1200,
+    "height": 1500,
+    "source": "图像来源：内置 imagegen 生成的原创风格演绎场景，配合固定档案版式排版；不是历史影像、馆藏复制或真实项目记录。设计史依据档案参考资料整理。"
+  },
+  {
+    "id": "glitch-art-poster",
+    "file": "images/originals/glitch-art-poster.png",
+    "originalName": "glitch-art-poster.png",
+    "width": 1200,
+    "height": 1500,
+    "source": "图像来源：内置 imagegen 生成的原创风格演绎场景，配合固定档案版式排版；不是历史影像、馆藏复制或真实项目记录。设计史依据档案参考资料整理。"
+  },
+  {
+    "id": "grunge-visual-poster",
+    "file": "images/originals/grunge-visual-poster.png",
+    "originalName": "grunge-visual-poster.png",
+    "width": 1200,
+    "height": 1500,
+    "source": "图像来源：内置 imagegen 生成的原创风格演绎场景，配合固定档案版式排版；不是历史影像、馆藏复制或真实项目记录。设计史依据档案参考资料整理。"
+  },
+  {
+    "id": "surf-culture-poster",
+    "file": "images/originals/surf-culture-poster.png",
+    "originalName": "surf-culture-poster.png",
+    "width": 1200,
+    "height": 1500,
+    "source": "图像来源：内置 imagegen 生成的原创风格演绎场景，配合固定档案版式排版；不是历史影像、馆藏复制或真实项目记录。设计史依据档案参考资料整理。"
+  },
+  {
+    "id": "street-comic-poster",
+    "file": "images/originals/street-comic-poster.png",
+    "originalName": "street-comic-poster.png",
+    "width": 1200,
+    "height": 1500,
+    "source": "图像来源：内置 imagegen 生成的原创风格演绎场景，配合固定档案版式排版；不是历史影像、馆藏复制或真实项目记录。设计史依据档案参考资料整理。"
+  },
+  {
+    "id": "harajuku-mix-poster",
+    "file": "images/originals/harajuku-mix-poster.png",
+    "originalName": "harajuku-mix-poster.png",
+    "width": 1200,
+    "height": 1500,
+    "source": "图像来源：内置 imagegen 生成的原创风格演绎场景，配合固定档案版式排版；不是历史影像、馆藏复制或真实项目记录。设计史依据档案参考资料整理。"
+  },
+  {
+    "id": "sports-supporter-poster",
+    "file": "images/originals/sports-supporter-poster.png",
+    "originalName": "sports-supporter-poster.png",
+    "width": 1200,
+    "height": 1500,
+    "source": "图像来源：内置 imagegen 生成的原创风格演绎场景，配合固定档案版式排版；不是历史影像、馆藏复制或真实项目记录。设计史依据档案参考资料整理。"
   }
 ]

@@ -1,0 +1,33 @@
+{
+  "styleId": "tropical-modern",
+  "title": "当代热带现代",
+  "accentLength": 2,
+  "titleColors": ["#273E39", "#8C674D"],
+  "colors": [
+    {
+      "name": "叶绿",
+      "hex": "#49674E",
+      "englishName": "Leaf Green"
+    },
+    {
+      "name": "石灰石",
+      "hex": "#D8CFB6",
+      "englishName": "Limestone"
+    },
+    {
+      "name": "木褐",
+      "hex": "#8C674D",
+      "englishName": "Timber Brown"
+    },
+    {
+      "name": "荫绿",
+      "hex": "#273E39",
+      "englishName": "Shade Green"
+    }
+  ],
+  "sidebarCn": ["让深檐收住阳光", "让风穿过空隙", "让庭院连接内外", "让结构回应气候"],
+  "sidebarEn": ["A Way of Seeing.", "A Way of Living."],
+  "badges": ["深檐", "通风", "庭院"],
+  "sceneFile": "assets/poster-scenes/tropical-modern.png",
+  "scenePrompt": "Use case: photorealistic-natural. Asset type: original raster architectural scene for Visual Almanac archive poster. Primary request: a fictional contemporary tropical modern courtyard veranda, deep concrete roof overhang, slender structural columns, ventilating patterned breeze-block screen, warm timber shutter, simple cane chair, pale stone floor opening directly into a lush green courtyard with a small tree. Show shade, air circulation and continuity between shelter and garden through clear architectural composition. Architectural editorial photograph, landscape approximately 3:2, eye-level wide view, natural midday sunlight producing precise deep shadows beneath eaves, slight warm atmospheric grain. Palette leaf green #49674E, limestone #D8CFB6, timber brown #8C674D, shadow green #273E39. Spatial structure is the subject, restrained vegetation, no resort pool, no hotel branding, no people, text, letters, numbers, watermark, poster framing or swatches. Do not reproduce a particular existing building. One image."
+}

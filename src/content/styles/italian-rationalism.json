@@ -1,0 +1,114 @@
+{
+  "id": "italian-rationalism",
+  "name": "意大利理性主义",
+  "englishName": "Italian Rationalism",
+  "aliases": ["Italian Rationalism"],
+  "summary": "用清晰体块、结构网格与虚实关系，观察意大利两战之间的现代建筑实验。",
+  "category": "modern-minimal",
+  "tags": ["rational", "calm", "geometry", "contrast", "cream", "slides"],
+  "cover": "italian-rationalism-poster",
+  "images": [
+    {
+      "asset": "italian-rationalism-poster",
+      "caption": "意大利理性主义 · 风格演绎海报"
+    }
+  ],
+  "palettes": [
+    {
+      "id": "poster",
+      "name": "主题配色",
+      "description": "为本档案人工设定的视觉配色，海报色卡按相同 HEX 排版；不代表历史时期的标准色。",
+      "colors": [
+        {
+          "id": "color-1",
+          "name": "石灰白",
+          "hex": "#D9D4C6",
+          "status": "manual",
+          "role": "石材立面与受光平台"
+        },
+        {
+          "id": "color-2",
+          "name": "混凝土灰",
+          "hex": "#A7AAA5",
+          "status": "manual",
+          "role": "柱梁及侧墙中间调"
+        },
+        {
+          "id": "color-3",
+          "name": "板岩蓝",
+          "hex": "#445C6B",
+          "status": "manual",
+          "role": "玻璃与天空反射"
+        },
+        {
+          "id": "color-4",
+          "name": "结构黑",
+          "hex": "#333A3D",
+          "status": "manual",
+          "role": "栏杆、窗框和深洞口"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "title": "比例与自由",
+      "body": "矩形框架提供基准，开口和实墙可在基准内作不同安排；理性主义不是把每一面都画成完全对称的棋盘。"
+    },
+    {
+      "title": "空间可见性",
+      "body": "连续窗面、深廊和中庭把结构与内部组织带到立面；在视觉转译中用阴影说明深度，避免只留下平面网格。"
+    },
+    {
+      "title": "政治语境",
+      "body": "科莫的代表建筑与法西斯政权的委托和宣传相关；研究形式时应保留这一历史条件，不把政治透明性的宣传等同于实际开放。"
+    }
+  ],
+  "applications": [
+    "适合现代建筑史展板：用体块轴测、立面和空间剖面相互说明比例，史料文字明确建筑用途和委托背景，避免只凭白色立面进行风格判定。"
+  ],
+  "related": ["international-style", "bauhaus"],
+  "order": 84,
+  "updatedAt": "2026-09-14",
+  "designHistory": {
+    "overview": "本档案以 Giuseppe Terragni 在科莫的实践为代表线索，观察意大利两战之间的理性主义建筑。它兼具现代结构、城市关系和古典比例讨论，也深嵌法西斯时期的制度背景，不能被描述为脱离政治的纯形式运动。",
+    "timeline": [
+      {
+        "year": 1928,
+        "period": "1928 年",
+        "title": "初始委托与方案转变",
+        "body": "MAARC 记录 Terragni 在 1928 年开始科莫法西斯之家设计；早期折衷方案后来转为 1932 年的几何体块方案，说明设计并非一开始就固定。",
+        "sourceIds": ["casa"]
+      },
+      {
+        "year": 1932,
+        "period": "1932—1936 年",
+        "title": "体块、结构与立面整合",
+        "body": "法西斯之家采用近方形平面和不同虚实组合的立面，1933 年获批开工、1936 年完成；大理石覆面与混凝土框架共同构成其外观。",
+        "sourceIds": ["casa"]
+      },
+      {
+        "year": 1936,
+        "period": "1936—1937 年",
+        "title": "教育空间的开放组织",
+        "body": "Sant’Elia 幼儿园建于 1936—1937 年，来自此前的方案研究；MAARC 将其视为 Terragni 更自由的构成实践，重视儿童活动与集体空间。",
+        "sourceIds": ["asilo"]
+      }
+    ],
+    "interpretation": "原创虚构建筑提炼矩形体块、深开口和结构秩序，不复刻具体纪念性建筑或政治标志；色卡仅为本档案的当代设定。",
+    "sources": [
+      {
+        "id": "casa",
+        "title": "Casa del Fascio",
+        "publisher": "MAARC",
+        "url": "https://maarc.it/opera/casa-del-fascio/"
+      },
+      {
+        "id": "asilo",
+        "title": "Asilo Infantile Antonio Sant’Elia",
+        "publisher": "MAARC",
+        "url": "https://maarc.it/opera/asilo-infantile-antonio-santelia/"
+      }
+    ]
+  }
+}

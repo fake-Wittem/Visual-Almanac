@@ -1,0 +1,33 @@
+{
+  "styleId": "japanese-tea-room",
+  "title": "茶室与茶道器物",
+  "accentLength": 2,
+  "titleColors": ["#4A4438", "#6B513D"],
+  "colors": [
+    {
+      "name": "草席",
+      "hex": "#B2A278",
+      "englishName": "Tatami"
+    },
+    {
+      "name": "陶褐",
+      "hex": "#765D46",
+      "englishName": "Clay"
+    },
+    {
+      "name": "炭黑",
+      "hex": "#373B34",
+      "englishName": "Charcoal"
+    },
+    {
+      "name": "障子白",
+      "hex": "#E4DCC5",
+      "englishName": "Shoji"
+    }
+  ],
+  "sidebarCn": ["以器名理解用途", "让席面安排距离", "在组合中体会差异", "由材料感受温度"],
+  "sidebarEn": ["A Way of Seeing.", "A Way of Living."],
+  "badges": ["茶器", "席面", "组合"],
+  "sceneFile": "assets/poster-scenes/japanese-tea-room.png",
+  "scenePrompt": "An original intimate Japanese tea-room material study, low seated viewpoint across restrained tatami mats to a small black hand-shaped tea bowl, a bamboo tea whisk and a squat brown Iga-inspired freshwater jar with a lid on the floor, with an iron kettle visible at the edge. Soft shoji-window light, simple clay plaster wall and wood post, no low dining table. Clearly imagined non-instructional arrangement, not a reconstruction or ceremony demonstration. Tactile architectural illustration, landscape 3:2, palette #B2A278 #765D46 #373B34 #E4DCC5. No people, calligraphy scrolls, text, writing, characters, letters, seals, logos, borders or swatches."
+}

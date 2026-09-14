@@ -1,0 +1,114 @@
+{
+  "id": "biomimetic-design",
+  "name": "仿生设计视觉",
+  "englishName": "Biomimetic Design Visuals",
+  "aliases": ["Biomimetic Design Visuals"],
+  "summary": "从生物的组织和建造机制提炼结构线索，让视觉表达能够说明方法而非只模仿外形。",
+  "category": "natural-organic",
+  "tags": ["rational", "organic", "translucent", "green", "cream", "slides"],
+  "cover": "biomimetic-design-poster",
+  "images": [
+    {
+      "asset": "biomimetic-design-poster",
+      "caption": "仿生设计视觉 · 风格演绎海报"
+    }
+  ],
+  "palettes": [
+    {
+      "id": "poster",
+      "name": "主题配色",
+      "description": "为本档案人工设定的视觉配色，海报色卡按相同 HEX 排版；不代表历史时期的标准色。",
+      "colors": [
+        {
+          "id": "color-1",
+          "name": "膜白",
+          "hex": "#D9E4DC",
+          "status": "manual",
+          "role": "透光薄壳与实验台背景"
+        },
+        {
+          "id": "color-2",
+          "name": "纤维绿",
+          "hex": "#42695D",
+          "status": "manual",
+          "role": "分叉增强路径"
+        },
+        {
+          "id": "color-3",
+          "name": "结构灰",
+          "hex": "#3E4A48",
+          "status": "manual",
+          "role": "模型节点与纤维阴影"
+        },
+        {
+          "id": "color-4",
+          "name": "草纤色",
+          "hex": "#B7AD87",
+          "status": "manual",
+          "role": "多孔材料截面的浅层"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "title": "机制先于外形",
+      "body": "先说明生物解决什么问题，再提炼层级、纤维方向或孔隙分布；一片叶子的轮廓本身不足以证明仿生方法。"
+    },
+    {
+      "title": "展示转译步骤",
+      "body": "用生物观察、抽象规则、材料试样三个尺度组织展板，可帮助区分来源与设计结果；不要直接把概念渲染标成实验成功。"
+    },
+    {
+      "title": "视觉与验证",
+      "body": "分叉线、薄壳和孔隙可表达受力与材料分配的思考，但实际性能需由对应材料和边界条件下的测试或计算支持。"
+    }
+  ],
+  "applications": [
+    "适合仿生设计课程和原型研究展板：把观察对象、提炼规则与模型照片依次呈现，单独列出已完成的测试，避免把装饰纹理当成功能结论。"
+  ],
+  "related": ["biomorphic-design", "biotech-future", "organic-architecture"],
+  "order": 90,
+  "updatedAt": "2026-09-14",
+  "designHistory": {
+    "overview": "本专题限定为仿生方法的视觉解释，以 Biomimicry 3.8 的专业教育历程和斯图加特大学研究亭为案例。仿生不同于单纯的生物形态造型，需要识别机制并把它转译到新的材料与制造条件。",
+    "timeline": [
+      {
+        "year": 1997,
+        "period": "1997 年",
+        "title": "自然策略进入广泛设计讨论",
+        "body": "Janine Benyus 的《Biomimicry: Innovation Inspired by Nature》推动这一术语传播；Biomimicry 3.8 的机构史以此作为其后续工作的背景。",
+        "sourceIds": ["history"]
+      },
+      {
+        "year": 2003,
+        "period": "2003 年",
+        "title": "方法通过工作坊传递",
+        "body": "机构史记录 2003 年举办多日 Biomimicry and Design 工作坊，随后开展把生物学带入设计过程的训练，显示方法开始被整理为专业实践。",
+        "sourceIds": ["history"]
+      },
+      {
+        "year": 2014,
+        "period": "2014—2015 年",
+        "title": "生物建造过程转为原型",
+        "body": "斯图加特研究亭研究水蜘蛛强化气泡巢的过程，把从内部逐步布置纤维的规则转译为机器人对充气模板的增强，形成纤维复合薄壳。",
+        "sourceIds": ["icd"]
+      }
+    ],
+    "interpretation": "原创桌面模型借分叉纤维和多孔试样表现机制转译，不是大学研究亭复原，也不是可施工或经过测试的结构；颜色只用于区分模型材料。",
+    "sources": [
+      {
+        "id": "history",
+        "title": "The History of Biomimicry 3.8",
+        "publisher": "Biomimicry 3.8",
+        "url": "https://www.biomimicry.net/history/"
+      },
+      {
+        "id": "icd",
+        "title": "ICD/ITKE Research Pavilion 2014-15",
+        "publisher": "University of Stuttgart",
+        "url": "https://www.icd.uni-stuttgart.de/projects/icditke-research-pavilion-2014-15/"
+      }
+    ]
+  }
+}

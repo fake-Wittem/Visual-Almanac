@@ -1,0 +1,120 @@
+{
+  "id": "sci-fi-hud",
+  "name": "科幻界面与HUD",
+  "englishName": "Science Fiction Interfaces and HUD",
+  "aliases": ["Science Fiction Interfaces and HUD"],
+  "summary": "在透明叠层、细线数据与受控发光之间，区分科幻叙事界面与真实抬头显示。",
+  "category": "future-tech",
+  "tags": ["futuristic", "rational", "translucent", "geometry", "blue", "slides"],
+  "cover": "sci-fi-hud-poster",
+  "images": [
+    {
+      "asset": "sci-fi-hud-poster",
+      "caption": "科幻界面与HUD · 原创风格演绎海报"
+    }
+  ],
+  "palettes": [
+    {
+      "id": "poster",
+      "name": "主题配色",
+      "description": "为本档案人工设定的视觉配色，海报色卡按相同 HEX 排版；不代表历史时期或行业的标准色。",
+      "colors": [
+        {
+          "id": "color-1",
+          "name": "深空",
+          "hex": "#142B3B",
+          "status": "manual",
+          "role": "暗背景"
+        },
+        {
+          "id": "color-2",
+          "name": "冰青",
+          "hex": "#83D8DD",
+          "status": "manual",
+          "role": "主要图形"
+        },
+        {
+          "id": "color-3",
+          "name": "琥珀",
+          "hex": "#D6AA59",
+          "status": "manual",
+          "role": "强调状态"
+        },
+        {
+          "id": "color-4",
+          "name": "银灰",
+          "hex": "#B6C5CA",
+          "status": "manual",
+          "role": "玻璃与辅助线"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "title": "先安排信息层级",
+      "body": "以一个主扫描图形、少量辅助波形和状态标记构成层级。装饰线不要与关键轮廓使用相同亮度，否则视觉焦点会消失。"
+    },
+    {
+      "title": "叠层与透明度",
+      "body": "让界面平面、玻璃边缘和背景保有清楚的空间关系。适度反射有助于表现透明媒介，过量发光会让线条变成模糊光团。"
+    },
+    {
+      "title": "叙事与真实操作分开",
+      "body": "电影图形服务镜头、角色行动和观众理解；真实HUD涉及视认、注意分配和任务表现。本专题的装饰图形不提供可用于车辆或航空设备的操作规范。"
+    }
+  ],
+  "applications": [
+    "适合科幻短片概念板或技术主题演示封面：用稀疏发光线框围绕一个主对象，并给正文保留实色底。真实监控产品需另行定义信息优先级、单位、异常状态及可访问性。"
+  ],
+  "related": ["digital-future", "cyberpunk", "high-tech"],
+  "order": 78,
+  "updatedAt": "2026-09-14",
+  "designHistory": {
+    "overview": "这是跨越真实显示技术、电影屏幕图形与科学传播的视觉专题，并非具有统一宣言的设计运动。HUD通常指抬头显示；电影中带有扫描环和透明数据的画面，则不必具备真实HUD的工程功能。",
+    "timeline": [
+      {
+        "year": 1971,
+        "period": "1971年",
+        "title": "民用航空适用性进入研究",
+        "body": "NASA收录的研究报告讨论抬头显示用于商业及通用航空的收益和问题。这是工程研究线索，不是对电影式发光界面的审美背书。",
+        "sourceIds": ["nasa-hud"]
+      },
+      {
+        "year": 2010,
+        "period": "二十一世纪一〇年代",
+        "title": "电影屏幕图形构建世界观",
+        "body": "Territory Studio为《普罗米修斯》制作导航、数据控制台、医学扫描及HUD概念。团队说明其研究技术资料，同时从艺术、舞蹈、音乐及自然中建立画面语言。",
+        "sourceIds": ["prometheus"]
+      },
+      {
+        "year": 2014,
+        "period": "2014年",
+        "title": "科学传播借用HUD视觉形式",
+        "body": "NASA的Earth Science Heads-up Display动画模拟从国际空间站观看地球，并叠加相互关联的数据。该作品是科学可视化动画，不是实际在轨操作界面的证明。",
+        "sourceIds": ["nasa-visual"]
+      }
+    ],
+    "interpretation": "海报为原创虚构科研舱界面，无真实数据和操作意义，不复刻电影画面。四种颜色为编辑配色，不代表航空、医疗或工业控制中的状态色标准。",
+    "sources": [
+      {
+        "id": "nasa-hud",
+        "title": "Head-up displays - A study of their applicability in civil aviation",
+        "publisher": "NASA Technical Reports Server",
+        "url": "https://ntrs.nasa.gov/citations/19710010277"
+      },
+      {
+        "id": "prometheus",
+        "title": "Prometheus",
+        "publisher": "Territory Studio",
+        "url": "https://territorystudio.com/project/prometheus/"
+      },
+      {
+        "id": "nasa-visual",
+        "title": "Earth Science Heads-up Display",
+        "publisher": "NASA Scientific Visualization Studio",
+        "url": "https://svs.gsfc.nasa.gov/4205/"
+      }
+    ]
+  }
+}

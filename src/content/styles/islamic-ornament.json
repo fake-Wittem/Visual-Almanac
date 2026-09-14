@@ -1,0 +1,120 @@
+{
+  "id": "islamic-ornament",
+  "name": "伊斯兰几何与植物纹饰",
+  "englishName": "Islamic Geometric and Vegetal Ornament",
+  "aliases": ["Islamic Geometric and Vegetal Ornament"],
+  "summary": "限定奥斯曼安纳托利亚的织毯、纸上绘画与陶器，比较星形组织和曲叶母题如何随媒介变化。",
+  "category": "classical-decorative",
+  "tags": ["geometry", "elegant", "blue", "red", "textile", "poster"],
+  "cover": "islamic-ornament-poster",
+  "images": [
+    {
+      "asset": "islamic-ornament-poster",
+      "caption": "伊斯兰几何与植物纹饰 · 原创风格演绎海报"
+    }
+  ],
+  "palettes": [
+    {
+      "id": "poster",
+      "name": "主题配色",
+      "description": "人工设定的视觉演绎配色，不是历史颜料检测或行业标准。",
+      "colors": [
+        {
+          "id": "color-1",
+          "name": "钴蓝",
+          "hex": "#3F6482",
+          "status": "manual",
+          "role": "花叶主线"
+        },
+        {
+          "id": "color-2",
+          "name": "釉白",
+          "hex": "#E5DCC4",
+          "status": "manual",
+          "role": "盘面底色"
+        },
+        {
+          "id": "color-3",
+          "name": "铁红",
+          "hex": "#AE6453",
+          "status": "manual",
+          "role": "花瓣强调"
+        },
+        {
+          "id": "color-4",
+          "name": "松绿",
+          "hex": "#5B7D6A",
+          "status": "manual",
+          "role": "叶片与织物"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "title": "几何组织与植物形态分开看",
+      "body": "星形、旋转和重复建立组织框架，锯齿叶、花枝则提供曲线运动。两者可共存，但植物纹并不是所有几何格子的填充物。"
+    },
+    {
+      "title": "媒介决定线条",
+      "body": "打结地毯的边缘受经纬限制，墨绘叶片可有锐利转折，釉下彩又需考虑器面弧度。不能把同一细线图无差别贴到三种材料上。"
+    },
+    {
+      "title": "限定样本避免泛化",
+      "body": "本篇仅比较十五至十六世纪奥斯曼安纳托利亚的三个样本，不代表伊朗、南亚、北非的全部装饰传统；书法也有语言含义，不能以伪文字替代。"
+    }
+  ],
+  "applications": [
+    "适合装饰艺术比较页：按织毯、绘画、陶器分列局部，标明生产地区和媒介。原创图案可从一个重复单元开始，图形推演不应冒充历史作坊的方法复原。"
+  ],
+  "related": ["iberian-maghrebi-tiles", "byzantine-decoration", "arts-and-crafts"],
+  "order": 104,
+  "updatedAt": "2026-09-14",
+  "designHistory": {
+    "overview": "伊斯兰艺术涵盖广阔地域，本档案主动缩小到奥斯曼安纳托利亚。通过十五世纪星形乌沙克毯、十六世纪萨兹叶绘画与伊兹尼克盘，观察非建筑装饰的变化，区别于伊比利亚及北非瓷砖专题。",
+    "timeline": [
+      {
+        "year": 1400,
+        "period": "十五世纪（样本为世纪末）",
+        "title": "乌沙克毯组织星形纹样",
+        "body": "大都会博物馆藏星形乌沙克毯产于今土耳其西部乌沙克地区，兼供本地使用和欧洲贸易。纹样需在羊毛打结工艺中实现，不能只按平面图案理解。",
+        "sourceIds": ["carpet"]
+      },
+      {
+        "year": 1550,
+        "period": "约1550—1570年",
+        "title": "萨兹叶跨越绘画与装饰",
+        "body": "《龙缠萨兹叶》以墨线表现锯齿叶及盘绕的龙。馆藏说明将其联系到十六世纪后半叶流行的萨兹构图及其他媒介中的相关设计。",
+        "sourceIds": ["saz"]
+      },
+      {
+        "year": 1580,
+        "period": "约1580—1585年",
+        "title": "陶器将纹样收束于圆面",
+        "body": "伊兹尼克万花筒纹盘将釉下彩纹样组织于圆形器面，提供与织毯连续铺陈、纸上曲叶不同的构成样本。三者是并行媒介线索，而非相互替代。",
+        "sourceIds": ["dish"]
+      }
+    ],
+    "interpretation": "海报为原创奥斯曼植物装饰启发的盘与织物静物，不复刻三件藏品，不提供宗教象征的统一解释。",
+    "sources": [
+      {
+        "id": "carpet",
+        "title": "Star Ushak Carpet",
+        "publisher": "The Metropolitan Museum of Art",
+        "url": "https://www.metmuseum.org/art/collection/search/451471"
+      },
+      {
+        "id": "saz",
+        "title": "Dragon Wrapped around Saz Leaves",
+        "publisher": "The Metropolitan Museum of Art",
+        "url": "https://www.metmuseum.org/art/collection/search/454015"
+      },
+      {
+        "id": "dish",
+        "title": "Dish with Kaleidoscope Design",
+        "publisher": "The Metropolitan Museum of Art",
+        "url": "https://www.metmuseum.org/art/collection/search/453324"
+      }
+    ]
+  }
+}

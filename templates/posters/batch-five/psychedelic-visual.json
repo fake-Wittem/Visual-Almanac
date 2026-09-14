@@ -1,0 +1,33 @@
+{
+  "styleId": "psychedelic-visual",
+  "title": "迷幻视觉",
+  "accentLength": 2,
+  "titleColors": ["#302C25", "#384D5B"],
+  "colors": [
+    {
+      "name": "迷幻紫",
+      "hex": "#6C4A86",
+      "englishName": "Violet"
+    },
+    {
+      "name": "热橙",
+      "hex": "#D98945",
+      "englishName": "Orange"
+    },
+    {
+      "name": "酸绿",
+      "hex": "#A7AE57",
+      "englishName": "Acid Green"
+    },
+    {
+      "name": "墨蓝",
+      "hex": "#293E58",
+      "englishName": "Ink Blue"
+    }
+  ],
+  "sidebarCn": ["让曲线彼此缠绕", "以对色激活边缘", "把节拍转成密度", "在观看中慢慢阅读"],
+  "sidebarEn": ["A Way of Seeing.", "A Way of Living."],
+  "badges": ["卷曲", "对色", "脉动"],
+  "sceneFile": "assets/poster-scenes/psychedelic-visual.png",
+  "scenePrompt": "Use case: stylized-concept. Asset type: original Visual Almanac archive scene. Create one original landscape 3:2 raster illustration, 1536x1024 preferred. An original late-1960s West Coast psychedelic visual illustration: enormous interlocking flower-like organic curves radiate around a central eye-shaped empty oval, undulating violet orange acid-green and dark blue bands, intricate hand-drawn vibrating contour rhythm, slight offset-print grain, rich yet disciplined composition. No actual eye, no drugs, no mushrooms, no readable lettering, no existing concert poster reproduction. Full bleed scene, no frame, no title, no logo, no watermark, no labels, no swatches, no readable text. Do not reproduce any existing artwork or brand. Carefully composed, visibly specific to the described visual language."
+}

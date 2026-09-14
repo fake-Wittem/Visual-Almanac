@@ -1,0 +1,120 @@
+{
+  "id": "cottagecore",
+  "name": "乡野田园 Cottagecore",
+  "englishName": "Cottagecore",
+  "aliases": ["Cottagecore"],
+  "summary": "用花园、烘焙与手工细节编织慢生活想象，呈现当代网络田园审美的亲近感。",
+  "category": "natural-organic",
+  "tags": ["warm", "free", "textile", "organic", "green", "cream", "brand"],
+  "cover": "cottagecore-poster",
+  "images": [
+    {
+      "asset": "cottagecore-poster",
+      "caption": "乡野田园 Cottagecore · 风格演绎海报"
+    }
+  ],
+  "palettes": [
+    {
+      "id": "poster",
+      "name": "主题配色",
+      "description": "为本档案人工设定的视觉配色，海报色卡按相同 HEX 排版；不代表历史时期的标准色。",
+      "colors": [
+        {
+          "id": "color-1",
+          "name": "鼠尾草",
+          "hex": "#8A9A73",
+          "status": "manual",
+          "role": "桌布格纹和花园叶片"
+        },
+        {
+          "id": "color-2",
+          "name": "草莓红",
+          "hex": "#A55C59",
+          "status": "manual",
+          "role": "果实与小花的暖色焦点"
+        },
+        {
+          "id": "color-3",
+          "name": "奶油白",
+          "hex": "#E8DCC4",
+          "status": "manual",
+          "role": "亚麻底色与陶碗"
+        },
+        {
+          "id": "color-4",
+          "name": "麦穗金",
+          "hex": "#BB955F",
+          "status": "manual",
+          "role": "面包、草帽与木桌亮部"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "title": "亲近的细节",
+      "body": "桌布格纹、手绣花朵与面包切口可以带来日常尺度；选一组正在进行的活动，比把所有乡村符号堆在一起更有叙事。"
+    },
+    {
+      "title": "繁茂与焦点",
+      "body": "植物可以在边缘形成包围感，桌面仍应留出一块清楚的动作区域；主图焦点与花园背景的清晰度应有所区别。"
+    },
+    {
+      "title": "想象的边界",
+      "body": "网络审美选择性呈现乡野生活，常省略劳动、土地条件与资源差异；使用时不把浪漫图像当成历史农家生活，也不预设固定性别角色。"
+    }
+  ],
+  "applications": [
+    "适合园艺手作活动与烘焙工作坊视觉：用真实活动工具和一处花园细节说明体验，清晰列出参与内容，避免以闲适画面掩盖实际劳动要求。"
+  ],
+  "related": ["natural-handcraft", "botanical-illustration", "rustic-contemporary"],
+  "order": 91,
+  "updatedAt": "2026-09-14",
+  "designHistory": {
+    "overview": "Cottagecore 是当代网络文化中的田园生活想象，本档案聚焦英语网络语境下的花园、烘焙与手工意象。它可以借用更早的乡村图像，但不等同于某一时期或地区真实的乡村传统。",
+    "timeline": [
+      {
+        "year": 2020,
+        "period": "2020 年",
+        "title": "田园图像进入大众文化报道",
+        "body": "RTÉ 的 2020 年报道以创作者的服饰和乡村生活图像讨论 Cottagecore，显示它已成为被媒体识别的审美名称，而不是在这一年突然建立的正式流派。",
+        "sourceIds": ["rte"]
+      },
+      {
+        "year": 2021,
+        "period": "2021 年",
+        "title": "乡村想象进入互动娱乐",
+        "body": "EA 于 7 月 22 日发布《The Sims 4 Cottage Living》，把种植、动物照料和十字绣组织成游戏中的村庄生活；这是相邻文化表达，不是对真实农业的模拟证明。",
+        "sourceIds": ["ea"]
+      },
+      {
+        "year": 2025,
+        "period": "2025 年",
+        "title": "社群重叠成为研究对象",
+        "body": "一项针对 Tumblr 的研究分析 Cottagecore 与 Tradwife 标签的交集，未发现明确的激进化证据，同时指出部分重叠内容的变化；审美相近不能据此等同社群立场。",
+        "sourceIds": ["paper"]
+      }
+    ],
+    "interpretation": "花园桌面是原创的当代田园想象，刺绣、烘焙与采摘被并置为活动线索，不声称复原历史生活或表达任何社群的统一价值观。",
+    "sources": [
+      {
+        "id": "rte",
+        "title": "Cottagecore: The trend that defined Taylor Swift's new album",
+        "publisher": "RTÉ",
+        "url": "https://www.rte.ie/lifestyle/fashion/2020/1216/1158978-cottagecore-the-trend-that-defined-taylor-swifts-new-album/"
+      },
+      {
+        "id": "ea",
+        "title": "Live Your Best Village Life With The Sims 4 Cottage Living Expansion Pack",
+        "publisher": "Electronic Arts",
+        "url": "https://news.ea.com/press-releases/press-releases-details/2021/Live-Your-Best-Village-Life-With-the-Sims-4-Cottage-Living-Expansion-Pack/default.aspx"
+      },
+      {
+        "id": "paper",
+        "title": "From Flowers to Fascism? The Cottagecore to Tradwife Pipeline on Tumblr",
+        "publisher": "Oliver Mel Allen et al. / arXiv",
+        "url": "https://arxiv.org/abs/2505.04561"
+      }
+    ]
+  }
+}

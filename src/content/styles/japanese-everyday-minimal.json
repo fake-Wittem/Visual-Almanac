@@ -1,0 +1,114 @@
+{
+  "id": "japanese-everyday-minimal",
+  "name": "当代日式简约生活设计",
+  "englishName": "Japanese Everyday Minimal Design",
+  "aliases": ["Japanese Everyday Minimal Design"],
+  "summary": "以适度尺寸、清楚收纳与朴素材料，把日常器物组织成安静而实用的生活秩序。",
+  "category": "modern-minimal",
+  "tags": ["calm", "rational", "wood", "muted", "cream", "brand"],
+  "cover": "japanese-everyday-minimal-poster",
+  "images": [
+    {
+      "asset": "japanese-everyday-minimal-poster",
+      "caption": "当代日式简约生活设计 · 风格演绎海报"
+    }
+  ],
+  "palettes": [
+    {
+      "id": "poster",
+      "name": "主题配色",
+      "description": "为本档案人工设定的视觉配色，海报色卡按相同 HEX 排版；不代表历史时期的标准色。",
+      "colors": [
+        {
+          "id": "color-1",
+          "name": "粉白",
+          "hex": "#E8E4D9",
+          "status": "manual",
+          "role": "主体基调"
+        },
+        {
+          "id": "color-2",
+          "name": "浅木",
+          "hex": "#B9A17F",
+          "status": "manual",
+          "role": "空间与辅助面"
+        },
+        {
+          "id": "color-3",
+          "name": "亚麻灰",
+          "hex": "#AAA89B",
+          "status": "manual",
+          "role": "材料细节"
+        },
+        {
+          "id": "color-4",
+          "name": "炭灰",
+          "hex": "#4A4B45",
+          "status": "manual",
+          "role": "强调与阴影"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "title": "适度与重复",
+      "body": "用统一高度、少量形状和易辨认的容器组织日常物品，视觉安静来自使用逻辑，而不只来自把所有东西藏起来。"
+    },
+    {
+      "title": "材料与触感",
+      "body": "浅木、棉麻、白色陶器和半透明收纳构成可亲近的触觉层次；不必把天然材料与工业材料放在对立面。"
+    },
+    {
+      "title": "主题边界",
+      "body": "本档案聚焦当代生活用品和空间的编辑表达，不将日本设计概括为米白色，也不把简约直接等同于侘寂或宗教观念。"
+    }
+  ],
+  "applications": [
+    "适合生活用品目录与收纳指南：按使用场景安排少量物件，用统一拍摄距离和宽松留白展示尺寸、清洁方式与组合关系。"
+  ],
+  "related": ["contemporary-minimal", "nordic-minimal", "wabi-sabi"],
+  "order": 74,
+  "updatedAt": "2026-09-14",
+  "designHistory": {
+    "overview": "这是当代生活设计的编辑主题，以无印良品的发展和深泽直人的日用产品为具体线索，而不是对全部日本设计的定义。简化包装、日常动作与产品尺度比单一装饰色更能解释这类实践。",
+    "timeline": [
+      {
+        "year": 1980,
+        "period": "1980 年",
+        "title": "朴素商品原则形成",
+        "body": "无印良品以 40 件商品起步，其材料选择、工序检视和包装简化原则，把减少不必要处理带入日常商品开发。",
+        "sourceIds": ["muji"]
+      },
+      {
+        "year": 1999,
+        "period": "1999 年",
+        "title": "家用器物进入设计收藏",
+        "body": "深泽直人为无印良品设计壁挂式 CD 播放器；MoMA 馆藏记录其 ABS 塑料与电子组件，提供了日用电子产品设计的具体案例。",
+        "sourceIds": ["moma"]
+      },
+      {
+        "year": 2024,
+        "period": "2024 年",
+        "title": "回看商品背后的理由",
+        "body": "ATELIER MUJI 的 MUJI IS – Behind the 'Wa-Ke’ 展览回顾品牌原则与商品的形成理由，让日常物品的设计决策成为可被讨论的内容。",
+        "sourceIds": ["muji"]
+      }
+    ],
+    "interpretation": "原创生活角落强调普通器物、收纳和材质关系，不复制品牌产品或将其作为推荐；米白木色配方为本站编辑设定。",
+    "sources": [
+      {
+        "id": "muji",
+        "title": "MUJI IS – Behind the 'Wa-Ke’",
+        "publisher": "ATELIER MUJI",
+        "url": "https://atelier.muji.com/jp-en/exhibition/240516_usa/"
+      },
+      {
+        "id": "moma",
+        "title": "Naoto Fukasawa. Wall-mounted Compact Disc Player. 1999",
+        "publisher": "MoMA",
+        "url": "https://www.moma.org/collection/works/94351"
+      }
+    ]
+  }
+}

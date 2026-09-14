@@ -1,0 +1,33 @@
+{
+  "styleId": "rammed-earth",
+  "title": "夯土与土质建筑视觉",
+  "accentLength": 2,
+  "titleColors": ["#373A37", "#685248"],
+  "colors": [
+    {
+      "name": "土黄",
+      "hex": "#B4936C",
+      "englishName": "Earth Ochre"
+    },
+    {
+      "name": "黏土褐",
+      "hex": "#896B50",
+      "englishName": "Clay Brown"
+    },
+    {
+      "name": "浅砂",
+      "hex": "#D6C6AA",
+      "englishName": "Pale Sand"
+    },
+    {
+      "name": "土影",
+      "hex": "#574C40",
+      "englishName": "Earth Shadow"
+    }
+  ],
+  "sidebarCn": ["让层理记录夯筑", "让厚墙容纳光影", "让开口显出深度", "让材料回应地点"],
+  "sidebarEn": ["A Way of Seeing.", "A Way of Living."],
+  "badges": ["层理", "厚墙", "土质"],
+  "sceneFile": "assets/poster-scenes/rammed-earth.png",
+  "scenePrompt": "Use case: photorealistic-natural. Original material-led architecture scene inspired by contemporary central European rammed-earth practice: close perspective along a thick load-bearing earthen wall with distinct compressed horizontal strata and fine gravel aggregate, one deeply recessed rectangular window, simple timber sill and smooth compacted-earth floor, cool landscape glimpsed beyond. Dry sheltered condition, realistic tiny irregularities, controlled geometric architecture rather than an ancient desert fantasy. Raking daylight reveals layers, architectural editorial photography. Earth ochre #B4936C, clay brown #896B50, pale sand #D6C6AA, shadow brown #574C40. Fictional building, no copy of existing project. Asset: original scene for a style archive. Landscape 3:2, single full-bleed image. No lettering, text, numbers, labels, logos, watermark, poster frame, color swatches or badges."
+}

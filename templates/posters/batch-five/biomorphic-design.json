@@ -1,0 +1,33 @@
+{
+  "styleId": "biomorphic-design",
+  "title": "生物形态设计",
+  "accentLength": 2,
+  "titleColors": ["#373A37", "#685248"],
+  "colors": [
+    {
+      "name": "海玻璃绿",
+      "hex": "#8FB3AA",
+      "englishName": "Sea Glass"
+    },
+    {
+      "name": "骨白",
+      "hex": "#DDD7C7",
+      "englishName": "Bone White"
+    },
+    {
+      "name": "蜜木",
+      "hex": "#A28360",
+      "englishName": "Honey Wood"
+    },
+    {
+      "name": "深绿",
+      "hex": "#3C5C51",
+      "englishName": "Deep Green"
+    }
+  ],
+  "sidebarCn": ["让轮廓保持流动", "让空腔参与造型", "让曲面回应触觉", "让材料显出生命感"],
+  "sidebarEn": ["A Way of Seeing.", "A Way of Living."],
+  "badges": ["曲面", "空腔", "有机"],
+  "sceneFile": "assets/poster-scenes/biomorphic-design.png",
+  "scenePrompt": "Use case: stylized-concept. Original biomorphic design still life in a quiet gallery: a softly lobed translucent sea-green glass vessel with an original irregular outline, a smooth pale carved wood sculpture with one oval opening, and a small asymmetric pebble-shaped ceramic dish, spacious composition showing rounded living-like contours and concave/convex surfaces. Not a copy of any Aalto vase or Hepworth sculpture. Soft side light, tactile editorial photography. Sea glass #8FB3AA, bone white #DDD7C7, honey wood #A28360, deep green #3C5C51. Asset: original scene for a style archive. Landscape 3:2, single full-bleed image. No lettering, text, numbers, labels, logos, watermark, poster frame, color swatches or badges."
+}

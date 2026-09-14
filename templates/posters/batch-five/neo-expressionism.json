@@ -1,0 +1,33 @@
+{
+  "styleId": "neo-expressionism",
+  "title": "新表现主义视觉",
+  "accentLength": 2,
+  "titleColors": ["#302C25", "#384D5B"],
+  "colors": [
+    {
+      "name": "情绪红",
+      "hex": "#AF4B40",
+      "englishName": "Red"
+    },
+    {
+      "name": "画布米白",
+      "hex": "#DDD2B9",
+      "englishName": "Canvas"
+    },
+    {
+      "name": "炭黑",
+      "hex": "#333335",
+      "englishName": "Charcoal"
+    },
+    {
+      "name": "泥黄",
+      "hex": "#B39147",
+      "englishName": "Ochre"
+    }
+  ],
+  "sidebarCn": ["以笔触保留力量", "让形象承受情绪", "把覆盖留下痕迹", "从材料重新叙事"],
+  "sidebarEn": ["A Way of Seeing.", "A Way of Living."],
+  "badges": ["厚涂", "形象", "情绪"],
+  "sceneFile": "assets/poster-scenes/neo-expressionism.png",
+  "scenePrompt": "Use case: stylized-concept. Asset type: original Visual Almanac archive scene. Create one original landscape 3:2 raster illustration, 1536x1024 preferred. Original expressive figurative painting of an empty studio chair beside a tilted table and a roughly suggested human silhouette in the far background, forceful uneven red charcoal and ochre brushstrokes on exposed warm canvas, heavy impasto, scraped revisions, raw emotional tension, flattened uncertain space. Specific objects remain partially legible. No skull, no crown, no graffiti text, no direct imitation of a named artist. Full bleed scene, no frame, no title, no logo, no watermark, no labels, no swatches, no readable text. Do not reproduce any existing artwork or brand. Carefully composed, visibly specific to the described visual language."
+}

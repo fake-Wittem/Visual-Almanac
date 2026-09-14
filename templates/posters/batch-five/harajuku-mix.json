@@ -1,0 +1,33 @@
+{
+  "styleId": "harajuku-mix",
+  "title": "原宿街头混搭",
+  "accentLength": 2,
+  "titleColors": ["#302C25", "#384D5B"],
+  "colors": [
+    {
+      "name": "叠穿紫",
+      "hex": "#83658F",
+      "englishName": "Layer Purple"
+    },
+    {
+      "name": "衬底白",
+      "hex": "#E8E0D2",
+      "englishName": "Off White"
+    },
+    {
+      "name": "配件红",
+      "hex": "#BF6960",
+      "englishName": "Accessory"
+    },
+    {
+      "name": "靛蓝",
+      "hex": "#425B71",
+      "englishName": "Indigo"
+    }
+  ],
+  "sidebarCn": ["让叠穿表达自己", "以配件改变比例", "从街拍观察差异", "保留支系与年代"],
+  "sidebarEn": ["A Way of Seeing.", "A Way of Living."],
+  "badges": ["叠穿", "配件", "自主"],
+  "sceneFile": "assets/poster-scenes/harajuku-mix.png",
+  "scenePrompt": "Use case: stylized-concept. Asset type: original Visual Almanac archive scene. Create one original landscape 3:2 raster illustration, 1536x1024 preferred. Original editorial street-fashion illustration of two adult friends in a quiet Tokyo side street, late-1990s individual eclectic styling: one wears oversized muted-purple knit over a cream button shirt with a pleated navy skirt, chunky shoes and handmade red bag; the other wears a layered patchwork jacket over cropped denim with small playful hair clips. Full figures, authentic fabric overlaps and proportions, independent personal style, warm overcast daylight, no store text, no brands, no anime cosplay, no fetish styling, no exaggerated costume pile. Full bleed scene, no frame, no title, no logo, no watermark, no labels, no swatches, no readable text. Do not reproduce any existing artwork or brand. Carefully composed, visibly specific to the described visual language."
+}

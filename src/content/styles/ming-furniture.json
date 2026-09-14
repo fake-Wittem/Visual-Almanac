@@ -1,0 +1,120 @@
+{
+  "id": "ming-furniture",
+  "name": "明式家具与空间",
+  "englishName": "Ming-style Furniture and Space",
+  "aliases": ["Ming-style Furniture and Space"],
+  "summary": "从官帽椅的搭脑曲线、桌凳的框架与使用尺度，理解明式家具的结构美感。",
+  "category": "eastern-aesthetics",
+  "tags": ["calm", "wood", "elegant", "brown", "cream", "brand"],
+  "cover": "ming-furniture-poster",
+  "images": [
+    {
+      "asset": "ming-furniture-poster",
+      "caption": "明式家具与空间 · 原创风格演绎海报"
+    }
+  ],
+  "palettes": [
+    {
+      "id": "poster",
+      "name": "主题配色",
+      "description": "人工设定的视觉演绎配色，不是历史颜料检测或行业标准。",
+      "colors": [
+        {
+          "id": "color-1",
+          "name": "木褐",
+          "hex": "#8C6241",
+          "status": "manual",
+          "role": "椅桌主材"
+        },
+        {
+          "id": "color-2",
+          "name": "纸白",
+          "hex": "#E4D9C4",
+          "status": "manual",
+          "role": "灰泥墙面"
+        },
+        {
+          "id": "color-3",
+          "name": "深棕",
+          "hex": "#473B30",
+          "status": "manual",
+          "role": "构件阴影"
+        },
+        {
+          "id": "color-4",
+          "name": "灰绿",
+          "hex": "#858D79",
+          "status": "manual",
+          "role": "背景灰绿点缀"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "title": "线条由构件形成",
+      "body": "观察搭脑、扶手和靠背板的弯曲方式，再看腿足与横枨的连接。轮廓简洁并不意味着各处都是相同粗细的圆杆。"
+    },
+    {
+      "title": "功能决定尺度",
+      "body": "椅面、脚踏横枨和桌面高度共同影响身体姿态。并置家具时保留比例差异，不把柜、凳、椅压缩成同一尺度的装饰轮廓。"
+    },
+    {
+      "title": "明式不等于明代",
+      "body": "本档案以晚明至清初传世家具为样本。形制沿用与制作年代是两回事，木纹或外观不能独自证明断代和木材种类。"
+    }
+  ],
+  "applications": [
+    "适合家具展览说明页：以侧视轮廓和节点近照配对，注明每件家具的实际尺寸与收藏机构断代；空间演绎则为家具留出可见的落脚与活动距离。"
+  ],
+  "related": ["chinese-literati", "chinese-classical-garden", "song-ceramics"],
+  "order": 94,
+  "updatedAt": "2026-09-14",
+  "designHistory": {
+    "overview": "本档案围绕传世家具的结构与空间组织建立线索，先比较十七至十八世纪椅凳样本，再观察二十世纪的博物馆展示。后者属于现代接受史，不是古代造型阶段。",
+    "timeline": [
+      {
+        "year": 1600,
+        "period": "十七世纪",
+        "title": "官帽椅的框架样本",
+        "body": "大都会博物馆藏黄花梨官帽椅定为十七世纪、晚明至清初。搭脑、扶手和靠背形成有区别的曲线，可作为观察立体框架的具体对象。",
+        "sourceIds": ["chair"]
+      },
+      {
+        "year": 1600,
+        "period": "十七至十八世纪",
+        "title": "凳具连接日常与出行",
+        "body": "同馆鸡翅木凳的记录说明，它既用于家中，也可固定于抬运平台；腿部钻孔和底层横枨与这种用途有关。日常功能应与外观一同阅读。",
+        "sourceIds": ["stool"]
+      },
+      {
+        "year": 1981,
+        "period": "1981年",
+        "title": "明式空间进入博物馆",
+        "body": "苏州工匠在大都会博物馆安装明轩，以砖、瓦、木柱构成明式院落。空间重建为观看传统材料提供语境，但应与古代原件区分。",
+        "sourceIds": ["court"]
+      }
+    ],
+    "interpretation": "原创场景聚焦家具结构，非藏品复刻；配色不用于木材识别，图像不提供榫卯加工尺寸。",
+    "sources": [
+      {
+        "id": "chair",
+        "title": "Yokeback armchair",
+        "publisher": "The Metropolitan Museum of Art",
+        "url": "https://www.metmuseum.org/art/collection/search/39493"
+      },
+      {
+        "id": "stool",
+        "title": "Stool",
+        "publisher": "The Metropolitan Museum of Art",
+        "url": "https://www.metmuseum.org/art/collection/search/60714"
+      },
+      {
+        "id": "court",
+        "title": "Sounds of the Astor Chinese Garden Court, 1981",
+        "publisher": "The Metropolitan Museum of Art",
+        "url": "https://www.metmuseum.org/perspectives/astor-court-asmr"
+      }
+    ]
+  }
+}

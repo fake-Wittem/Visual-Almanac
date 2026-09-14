@@ -1,0 +1,33 @@
+{
+  "styleId": "cottagecore",
+  "title": "乡野田园",
+  "accentLength": 2,
+  "titleColors": ["#373A37", "#685248"],
+  "colors": [
+    {
+      "name": "鼠尾草",
+      "hex": "#8A9A73",
+      "englishName": "Sage"
+    },
+    {
+      "name": "草莓红",
+      "hex": "#A55C59",
+      "englishName": "Strawberry"
+    },
+    {
+      "name": "奶油白",
+      "hex": "#E8DCC4",
+      "englishName": "Cream"
+    },
+    {
+      "name": "麦穗金",
+      "hex": "#BB955F",
+      "englishName": "Wheat"
+    }
+  ],
+  "sidebarCn": ["让花园进入日常", "让烘焙带来香气", "让针线留下时间", "让想象保持柔软"],
+  "sidebarEn": ["A Way of Seeing.", "A Way of Living."],
+  "badges": ["田园", "手工", "慢生活"],
+  "sceneFile": "assets/poster-scenes/cottagecore.png",
+  "scenePrompt": "Use case: photorealistic-natural. Original contemporary cottagecore daydream, close garden table in an imagined English-inspired cottage garden: gingham linen cloth, freshly baked round loaf, bowl of strawberries, hand embroidery hoop with only a simple floral pattern, small wildflower bouquet, old low wooden garden chair and flowering border beyond, intimate informal abundance, warm late-spring light, modest rather than luxury. Not a historical reconstruction and no people. Sage #8A9A73, strawberry #A55C59, cream #E8DCC4, wheat #BB955F. Asset: original scene for a style archive. Landscape 3:2, single full-bleed image. No lettering, text, numbers, labels, logos, watermark, poster frame, color swatches or badges."
+}

@@ -1,0 +1,114 @@
+{
+  "id": "korean-minhwa",
+  "name": "韩国民画装饰",
+  "englishName": "Korean Minhwa Decoration",
+  "aliases": ["Korean Minhwa Decoration"],
+  "summary": "以册巨里书物画为切口，观察书籍、器物与吉祥果实如何从宫廷趣味进入大众装饰。",
+  "category": "eastern-aesthetics",
+  "tags": ["lively", "elegant", "geometry", "red", "blue", "poster"],
+  "cover": "korean-minhwa-poster",
+  "images": [
+    {
+      "asset": "korean-minhwa-poster",
+      "caption": "韩国民画装饰 · 原创风格演绎海报"
+    }
+  ],
+  "palettes": [
+    {
+      "id": "poster",
+      "name": "主题配色",
+      "description": "人工设定的视觉演绎配色，不是历史颜料检测或行业标准。",
+      "colors": [
+        {
+          "id": "color-1",
+          "name": "靛蓝",
+          "hex": "#4D697D",
+          "status": "manual",
+          "role": "书册与器物"
+        },
+        {
+          "id": "color-2",
+          "name": "朱赭",
+          "hex": "#B36E58",
+          "status": "manual",
+          "role": "果实及书封"
+        },
+        {
+          "id": "color-3",
+          "name": "纸黄",
+          "hex": "#DDC699",
+          "status": "manual",
+          "role": "画面底色"
+        },
+        {
+          "id": "color-4",
+          "name": "叶绿",
+          "hex": "#698466",
+          "status": "manual",
+          "role": "花枝与点缀"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "title": "书架不是普通静物背景",
+      "body": "册架图把书物分置格间，斜线和局部明暗制造空间错觉。可以有意调整视角，但必须让每一格的边界清楚。"
+    },
+    {
+      "title": "宫廷与民间有交流",
+      "body": "册巨里的早期赞助与宫廷有关，十九世纪末流行类型更突出果实和吉祥物。不能把所有色彩鲜明的韩国绘画都定义为匿名民画。"
+    },
+    {
+      "title": "题材比民族标签具体",
+      "body": "本篇聚焦书物画，虎鹊、花鸟与文字图另有图像传统；字形与伦理意涵也不能仅作为无意义的图案挪用。"
+    }
+  ],
+  "applications": [
+    "适合韩国装饰绘画展的介绍页：按格间拆解书、陶器和果实的关系，区分藏品画面与当代重组；书封无需添加伪造汉字或印章。"
+  ],
+  "related": ["joseon-white-porcelain", "chinese-literati", "rinpa"],
+  "order": 100,
+  "updatedAt": "2026-09-14",
+  "designHistory": {
+    "overview": "本档案以册巨里及其大众化为民画装饰的一个入口，不企图覆盖所有韩国民间绘画。宫廷册架图与民间书物图具有交叉，需结合作者、委托人与题材判断。",
+    "timeline": [
+      {
+        "year": 1776,
+        "period": "正祖在位时期1776—1800",
+        "title": "书物图与王室的知识形象",
+        "body": "克利夫兰艺术博物馆研究将正祖视为册巨里的早期赞助者。书架与书籍不仅装饰空间，也表达知识和社会身份。",
+        "sourceIds": ["essay"]
+      },
+      {
+        "year": 1800,
+        "period": "十九世纪",
+        "title": "果实和吉祥物扩大画面重心",
+        "body": "十九世纪末新兴富裕阶层成为重要赞助者，大众类型书物画更加鲜明活泼，果实和花卉可以取得比书籍更显著的位置。",
+        "sourceIds": ["essay"]
+      },
+      {
+        "year": 1900,
+        "period": "二十世纪初",
+        "title": "文字与书物图结合",
+        "body": "该馆藏二十世纪初文字册巨里屏风把伦理字形与书物构图结合，说明民间画师可以重组既有图像类别，而非机械重复固定样式。",
+        "sourceIds": ["screen"]
+      }
+    ],
+    "interpretation": "海报为原创无字书物画，借鉴格间与器物的构成关系，不复制特定屏风，也不代表所有韩国民画。",
+    "sources": [
+      {
+        "id": "essay",
+        "title": "Chaekgeori",
+        "publisher": "Cleveland Museum of Art",
+        "url": "https://www.clevelandart.org/articles/chaekgeori"
+      },
+      {
+        "id": "screen",
+        "title": "Munja-Chaekgeori Screen (Character-Books Screen)",
+        "publisher": "Cleveland Museum of Art",
+        "url": "https://www.clevelandart.org/art/2017.6"
+      }
+    ]
+  }
+}

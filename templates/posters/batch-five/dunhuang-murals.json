@@ -1,0 +1,33 @@
+{
+  "styleId": "dunhuang-murals",
+  "title": "敦煌壁画构成",
+  "accentLength": 2,
+  "titleColors": ["#55473E", "#884B3D"],
+  "colors": [
+    {
+      "name": "土红",
+      "hex": "#A65F4D",
+      "englishName": "Earth Red"
+    },
+    {
+      "name": "青绿",
+      "hex": "#66877C",
+      "englishName": "Mineral Green"
+    },
+    {
+      "name": "沙金",
+      "hex": "#C5A469",
+      "englishName": "Sand Gold"
+    },
+    {
+      "name": "深褐",
+      "hex": "#55473E",
+      "englishName": "Dark Umber"
+    }
+  ],
+  "sidebarCn": ["按洞窟辨认时代", "由中心展开边饰", "让色层依附墙面", "以题材理解构成"],
+  "sidebarEn": ["A Way of Seeing.", "A Way of Living."],
+  "badges": ["藻井", "边饰", "壁面"],
+  "sceneFile": "assets/poster-scenes/dunhuang-murals.png",
+  "scenePrompt": "Original imagined painted earthen grotto ceiling detail inspired by decorative compositional principles at Dunhuang, not a replica of any cave. Oblique upward view into a shallow truncated pyramidal ceiling corner: one central stylized peony medallion, nested square framing bands with small lozenges and soft cloud curls, generous separated ornament levels. Pigment on matte plaster, subtle worn texture but no artificial ruin spectacle. Earth red #A65F4D, muted mineral green #66877C, sand gold #C5A469, umber #55473E. Landscape 3:2 architectural illustration, warm raking ambient light. No religious figures, no invented narrative, no text, calligraphy, seals, letters, logos, borders, color swatches or collage."
+}

@@ -1,0 +1,114 @@
+{
+  "id": "shanghai-calendar-posters",
+  "name": "旧上海装饰与月份牌",
+  "englishName": "Shanghai Calendar Posters",
+  "aliases": ["Shanghai Calendar Posters"],
+  "summary": "以柔和人物、花卉与商业印刷的层次，观察二十世纪前期上海的都市生活想象。",
+  "category": "retro",
+  "tags": ["nostalgic", "elegant", "muted", "green", "red", "poster"],
+  "cover": "shanghai-calendar-posters-poster",
+  "images": [
+    {
+      "asset": "shanghai-calendar-posters-poster",
+      "caption": "旧上海装饰与月份牌 · 风格演绎海报"
+    }
+  ],
+  "palettes": [
+    {
+      "id": "poster",
+      "name": "主题配色",
+      "description": "为本档案人工设定的视觉配色，海报色卡按相同 HEX 排版；不代表历史时期的标准色。",
+      "colors": [
+        {
+          "id": "color-1",
+          "name": "玉绿",
+          "hex": "#4F786D",
+          "status": "manual",
+          "role": "旗袍与花叶的主体色"
+        },
+        {
+          "id": "color-2",
+          "name": "褪玫红",
+          "hex": "#B66E71",
+          "status": "manual",
+          "role": "花瓣与面部暖色呼应"
+        },
+        {
+          "id": "color-3",
+          "name": "纸米",
+          "hex": "#E7D5B4",
+          "status": "manual",
+          "role": "印刷纸面与窗外亮部"
+        },
+        {
+          "id": "color-4",
+          "name": "深褐",
+          "hex": "#5C483A",
+          "status": "manual",
+          "role": "发丝、家具和轮廓阴影"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "title": "人物与环境",
+      "body": "人物常占据视觉主位，花卉、家具或远景补充生活叙事；先建立脸部和衣饰层级，再加入有限装饰，不必填满边角。"
+    },
+    {
+      "title": "印刷与绘画",
+      "body": "擦笔水彩的柔和明暗与机械复制的纸面颗粒属于不同环节；当代演绎可保留这两层质感，但不把噪点当成技法证据。"
+    },
+    {
+      "title": "商业语境",
+      "body": "月份牌承担广告和日历功能，城市女性形象也受到商业观看方式影响；本场景不复用烟草广告，更不把广告图像当作所有上海人的生活记录。"
+    }
+  ],
+  "applications": [
+    "适合上海商业美术展览的导览封面：以人物和一组花卉建立焦点，说明原件作者、产品类别和印刷年代，现代活动信息采用另设的清晰文字区。"
+  ],
+  "related": ["art-deco", "hong-kong-cinema"],
+  "order": 81,
+  "updatedAt": "2026-09-14",
+  "designHistory": {
+    "overview": "本档案限定二十世纪前期上海的月份牌商业图像，以胡伯翔和擦笔水彩技法资料为线索。月份牌、年画和都市装饰存在交流，但不是同一媒介，也不能用女性广告形象概括整个民国社会。",
+    "timeline": [
+      {
+        "year": 1914,
+        "period": "1914 年",
+        "title": "擦笔水彩进入月份牌",
+        "body": "上海博物馆所刊资料将郑曼陀的《晚妆图》列为擦笔水彩月份牌的重要早期实践，炭笔明暗上罩薄水彩，形成柔和的人物肌肤与衣饰效果。",
+        "sourceIds": ["shm"]
+      },
+      {
+        "year": 1917,
+        "period": "1917 年",
+        "title": "商业委托形成稳定生产",
+        "body": "大英博物馆记录胡伯翔从 1917 年开始为英美烟公司设计月份牌，说明画家创作与商业广告生产之间的联系。",
+        "sourceIds": ["bm"]
+      },
+      {
+        "year": 1930,
+        "period": "1930 年",
+        "title": "摄影感与彩色复制结合",
+        "body": "馆藏胡伯翔 1930 年月份牌以人物和花木组成画面，采用纸本照相石印；其光影效果也与画家的摄影兴趣相联系。",
+        "sourceIds": ["bm"]
+      }
+    ],
+    "interpretation": "画面为虚构人物与上海都市意象的原创组合，无日历或广告文字，不是历史月份牌复制品；场景配色与统一海报外框均属本站编辑设计。",
+    "sources": [
+      {
+        "id": "shm",
+        "title": "月份牌——老上海的“新”年画（邵文菁，上海文博）",
+        "publisher": "上海博物馆",
+        "url": "https://www.shanghaimuseum.net/mu/asset1/20150521/9fb3700a-9333-4ea7-ae1f-e7daa25ed9f5.pdf#page=39"
+      },
+      {
+        "id": "bm",
+        "title": "Calendar Poster; 月份牌; Yuefenpai, 1930",
+        "publisher": "British Museum",
+        "url": "https://www.britishmuseum.org/collection/object/A_1993-0813-0-1"
+      }
+    ]
+  }
+}

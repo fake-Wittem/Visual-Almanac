@@ -1,0 +1,114 @@
+{
+  "id": "generative-art",
+  "name": "生成艺术与算法图形",
+  "englishName": "Generative Art & Algorithmic Graphics",
+  "aliases": ["Generative Art", "Algorithmic Art", "算法艺术", "生成艺术"],
+  "summary": "以规则、参数与受控变化组织图形，使创作从单幅描绘转向可持续产生差异的系统。",
+  "category": "avant-garde",
+  "tags": ["rational", "geometry", "blue", "cream", "poster", "brand"],
+  "cover": "generative-art-poster",
+  "images": [
+    {
+      "asset": "generative-art-poster",
+      "caption": "生成艺术与算法图形 · 风格演绎海报"
+    }
+  ],
+  "palettes": [
+    {
+      "id": "poster",
+      "name": "主题配色",
+      "description": "为本档案人工设定的视觉配色，海报色卡按相同 HEX 排版；不代表历史标准色。",
+      "colors": [
+        {
+          "id": "color-1",
+          "name": "算法靛蓝",
+          "hex": "#253B62",
+          "status": "manual",
+          "role": "主要路径"
+        },
+        {
+          "id": "color-2",
+          "name": "纸本象牙",
+          "hex": "#EAE5D8",
+          "status": "manual",
+          "role": "留白背景"
+        },
+        {
+          "id": "color-3",
+          "name": "流场青绿",
+          "hex": "#448C88",
+          "status": "manual",
+          "role": "第二组路径"
+        },
+        {
+          "id": "color-4",
+          "name": "节点珊瑚",
+          "hex": "#C06A52",
+          "status": "manual",
+          "role": "局部变量"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "title": "先定义系统",
+      "body": "明确单元、排列规则和可变参数，再观察系统如何产生结果；视觉密度应服务于规则的可读性。"
+    },
+    {
+      "title": "随机不等于随意",
+      "body": "用限定范围的扰动、概率或连续变化保持家族相似性；系列应用应记录参数，便于重现和比较。"
+    },
+    {
+      "title": "与生成式AI的边界",
+      "body": "生成艺术关注规则与系统的参与，不必使用机器学习。本档案场景由AI生成，用于演绎线条关系，不是实际算法运行结果，也不作为程序准确性的证据。"
+    }
+  ],
+  "applications": [
+    "适合展览视觉、系列封面和动态品牌：先约定固定网格与变量范围，再让不同内容获得可识别的变化；正文区域保持低密度。"
+  ],
+  "related": ["op-art", "swiss-international", "bauhaus"],
+  "order": 79,
+  "updatedAt": "2026-09-14",
+  "designHistory": {
+    "overview": "生成艺术可通过计算机或其他规则系统展开；本档案聚焦计算机算法图形这一支，从早期绘图仪实践、展览传播到面向艺术家的创意编程工具。它是一种组织生成过程的方法，不能与当代文生图工具划等号。",
+    "timeline": [
+      {
+        "year": 1960,
+        "period": "1960年代",
+        "title": "计算过程进入图形创作",
+        "body": "V&A的计算机艺术馆藏覆盖1960年代以来的作品，展现以计算过程探索形式、机会与控制的早期实践。",
+        "sourceIds": ["vam"]
+      },
+      {
+        "year": 1968,
+        "period": "1968—1969年",
+        "title": "展览与收藏建立公共可见性",
+        "body": "1968年伦敦ICA举办《Cybernetic Serendipity》；V&A于1969年购入与该展相关的版画，开始收藏计算机艺术。",
+        "sourceIds": ["vam"]
+      },
+      {
+        "year": 2001,
+        "period": "2001年",
+        "title": "Processing降低创意编程门槛",
+        "body": "Processing于2001年8月9日诞生，面向艺术家与设计师建立创作工具，使代码更容易进入视觉实验与设计教育。",
+        "sourceIds": ["processing"]
+      }
+    ],
+    "interpretation": "海报以网格向涡旋及离散短线的过渡演绎规则与变量，采用AI生成的原创图像，不是实际执行算法的可验证输出，也不是历史绘图仪作品复制。四色为本档案的编辑选择。",
+    "sources": [
+      {
+        "id": "vam",
+        "title": "Collection Selection Boxes – Computer Art: Processes & Techniques",
+        "publisher": "Victoria and Albert Museum",
+        "url": "https://www.vam.ac.uk/info/collection-selection-boxes-computer-art-processes-techniques"
+      },
+      {
+        "id": "processing",
+        "title": "History",
+        "publisher": "Processing Foundation",
+        "url": "https://processingfoundation.org/about/history/"
+      }
+    ]
+  }
+}

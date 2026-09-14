@@ -1,0 +1,33 @@
+{
+  "styleId": "synthwave",
+  "title": "合成波",
+  "accentLength": 2,
+  "titleColors": ["#302C25", "#384D5B"],
+  "colors": [
+    {
+      "name": "夜靛",
+      "hex": "#232640",
+      "englishName": "Night"
+    },
+    {
+      "name": "霓虹粉",
+      "hex": "#CF5B9A",
+      "englishName": "Neon Pink"
+    },
+    {
+      "name": "电光青",
+      "hex": "#58B8C0",
+      "englishName": "Cyan"
+    },
+    {
+      "name": "落日橙",
+      "hex": "#D69155",
+      "englishName": "Sunset"
+    }
+  ],
+  "sidebarCn": ["让网格通向远方", "以霓虹回应节拍", "把落日留在夜里", "重组八十年代记忆"],
+  "sidebarEn": ["A Way of Seeing.", "A Way of Living."],
+  "badges": ["霓虹", "网格", "回望"],
+  "sceneFile": "assets/poster-scenes/synthwave.png",
+  "scenePrompt": "Use case: stylized-concept. Asset type: original Visual Almanac archive scene. Create one original landscape 3:2 raster illustration, 1536x1024 preferred. An empty neon-lit coastal highway at night dissolving into a precise cyan perspective grid, enormous banded coral-pink sunset disk at the horizon, deep indigo sky and distant violet mountains. A tiny unbranded angular sports coupe seen from behind, delicate pink reflections. 1980s-inspired contemporary synthwave album-art mood, painted airbrush gradient, cinematic and spacious. No city advertising, no text, no recognizable car design. Full bleed scene, no frame, no title, no logo, no watermark, no labels, no swatches, no readable text. Do not reproduce any existing artwork or brand. Carefully composed, visibly specific to the described visual language."
+}

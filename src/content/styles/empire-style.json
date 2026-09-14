@@ -1,0 +1,114 @@
+{
+  "id": "empire-style",
+  "name": "帝政风格",
+  "englishName": "Empire Style",
+  "aliases": ["Empire Style"],
+  "summary": "以法国十九世纪初家具为样本，观察严整木作、鎏金饰件与权力象征之间的关系。",
+  "category": "classical-decorative",
+  "tags": ["luxurious", "geometry", "wood", "gold", "red", "brand"],
+  "cover": "empire-style-poster",
+  "images": [
+    {
+      "asset": "empire-style-poster",
+      "caption": "帝政风格 · 原创风格演绎海报"
+    }
+  ],
+  "palettes": [
+    {
+      "id": "poster",
+      "name": "主题配色",
+      "description": "人工设定的视觉演绎配色，不是历史颜料检测或行业标准。",
+      "colors": [
+        {
+          "id": "color-1",
+          "name": "桃花心木",
+          "hex": "#704B39",
+          "status": "manual",
+          "role": "柜体主材"
+        },
+        {
+          "id": "color-2",
+          "name": "古金",
+          "hex": "#BB995C",
+          "status": "manual",
+          "role": "饰件与足部"
+        },
+        {
+          "id": "color-3",
+          "name": "深红",
+          "hex": "#834B45",
+          "status": "manual",
+          "role": "软包"
+        },
+        {
+          "id": "color-4",
+          "name": "石白",
+          "hex": "#DED1B8",
+          "status": "manual",
+          "role": "台面和墙面"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "title": "几何体块承托饰件",
+      "body": "先保留柜体和座椅的直线轮廓，再配置柱状支撑、棕榈叶或月桂纹饰。饰件有明确落点，不把整个表面铺成洛可可卷曲。"
+    },
+    {
+      "title": "象征带有政治用途",
+      "body": "鹰、蜂、月桂等在拿破仑宫廷中具有特定语境。它们不是纯粹的通用奢华标签；当代应用可以提炼比例和材质，而非无说明复制权力符号。"
+    },
+    {
+      "title": "现存家具可能改变",
+      "body": "政权更替后，家具徽记可能被移除或替换。研究时应比较原始图样与现状，不能把后配软包或后加饰件当作1800年代原貌。"
+    }
+  ],
+  "applications": [
+    "适合装饰艺术展的章节页：以柜体完整轮廓配鎏金节点细节，注明设计、制作和后期改动。品牌场景可借深木与金属对比，避免伪造历史徽章。"
+  ],
+  "related": ["neoclassicism", "greco-roman", "victorian"],
+  "order": 103,
+  "updatedAt": "2026-09-14",
+  "designHistory": {
+    "overview": "帝政风格在拿破仑统治前后形成，延续新古典主义又加入帝国形象建构。本档案聚焦法国约1800—1815年的家具、图样传播及陈设语境。",
+    "timeline": [
+      {
+        "year": 1802,
+        "period": "1802年",
+        "title": "埃及图像经出版传播",
+        "body": "德农出版埃及旅行图录，将考察中的图像带入法国设计语汇。埃及趣味在此之前已经存在，不能把它完全归因于拿破仑时期。",
+        "sourceIds": ["empire"]
+      },
+      {
+        "year": 1805,
+        "period": "1805年",
+        "title": "宝座成为权力陈设",
+        "body": "为立法团制作的拿破仑宝座以大尺度镀金木作和深红织物构成庄严形象；设计综合古代宝座与当时宫廷方案，后来又经历徽记修改。",
+        "sourceIds": ["throne"]
+      },
+      {
+        "year": 1812,
+        "period": "1812年",
+        "title": "室内装饰图集整理语汇",
+        "body": "佩西耶与方丹的室内装饰图集成为帝政装饰的重要手册，将建筑师的陈设方案扩展为可传播的家具与室内设计语言。",
+        "sourceIds": ["empire"]
+      }
+    ],
+    "interpretation": "海报是原创帝政风格家具静景，不复刻拿破仑宝座；配色是编辑设定，不鉴定木材、镀金工艺或年代。",
+    "sources": [
+      {
+        "id": "empire",
+        "title": "Empire Style, 1800–1815",
+        "publisher": "The Metropolitan Museum of Art",
+        "url": "https://www.metmuseum.org/essays/empire-style-1800-1815"
+      },
+      {
+        "id": "throne",
+        "title": "Napoleon’s throne",
+        "publisher": "Fondation Napoléon",
+        "url": "https://www.napoleon.org/en/history-of-the-two-empires/objects/napoleons-throne/"
+      }
+    ]
+  }
+}

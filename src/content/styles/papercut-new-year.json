@@ -1,0 +1,120 @@
+{
+  "id": "papercut-new-year",
+  "name": "中国民间剪纸与年画",
+  "englishName": "Chinese Paper-cutting and New Year Prints",
+  "aliases": ["Chinese Paper-cutting and New Year Prints"],
+  "summary": "以剪刻形成的正负形和木版印刷的色层作对照，保留民间纸艺的地域与用途差异。",
+  "category": "eastern-aesthetics",
+  "tags": ["lively", "red", "contrast", "poster", "organic"],
+  "cover": "papercut-new-year-poster",
+  "images": [
+    {
+      "asset": "papercut-new-year-poster",
+      "caption": "中国民间剪纸与年画 · 原创风格演绎海报"
+    }
+  ],
+  "palettes": [
+    {
+      "id": "poster",
+      "name": "主题配色",
+      "description": "人工设定的视觉演绎配色，不是历史颜料检测或行业标准。",
+      "colors": [
+        {
+          "id": "color-1",
+          "name": "朱红",
+          "hex": "#B8493D",
+          "status": "manual",
+          "role": "剪纸主体"
+        },
+        {
+          "id": "color-2",
+          "name": "墨黑",
+          "hex": "#343832",
+          "status": "manual",
+          "role": "版印轮廓"
+        },
+        {
+          "id": "color-3",
+          "name": "暖白",
+          "hex": "#EADBBB",
+          "status": "manual",
+          "role": "纸张背景"
+        },
+        {
+          "id": "color-4",
+          "name": "草绿",
+          "hex": "#5C8065",
+          "status": "manual",
+          "role": "年画叶片设色"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "title": "剪纸靠连接成立",
+      "body": "细线必须与主体相连，镂空是纸张被移除后的空间。不要把细小孤立色点误作单张剪纸，也不要把所有剪紙默认画成红色。"
+    },
+    {
+      "title": "年画不是彩色剪纸",
+      "body": "木版年画依赖版面、墨线和印色；天津杨柳青的半印半画与苏州桃花坞的套色木印不能混称为同一种工艺。"
+    },
+    {
+      "title": "吉祥题材需要语境",
+      "body": "花鸟、鱼与人物在不同地域和节令中有不同含义。讲解时先标明产地、工艺和用途，再讨论寓意，不把谐音解释当作所有图案的唯一来源。"
+    }
+  ],
+  "applications": [
+    "适合民艺工坊导览：把一张连贯剪纸和一张木版年画并列展示，分别解释镂空、套印和手绘；新设计须标为创作练习而非某产地的传统原样。"
+  ],
+  "related": ["ukiyo-e", "dunhuang-murals", "shanghai-calendar-posters"],
+  "order": 97,
+  "updatedAt": "2026-09-14",
+  "designHistory": {
+    "overview": "这是并置两类纸上民艺的比较专题，剪刻与版印各自发展。时间线选择年画生产、传世版印样本和剪纸保护记录，不暗示年画由剪纸演化。",
+    "timeline": [
+      {
+        "year": 1600,
+        "period": "明末至清代",
+        "title": "杨柳青年画的印画结合",
+        "body": "杨柳青年画业在明末兴起、清中期繁盛，创稿、刻版、刷印与手绘填色共同完成作品。它与桃花坞套印传统具有工艺差别。",
+        "sourceIds": ["nianhua"]
+      },
+      {
+        "year": 1901,
+        "period": "二十世纪（馆藏标注1901—2000）",
+        "title": "木版年画延续人物题材",
+        "body": "大英博物馆藏关羽及两位侍者年画采用纸本墨色和设色木版印刷。该记录未指定杨柳青产地，不能仅凭人物造型进行归属。",
+        "sourceIds": ["print"]
+      },
+      {
+        "year": 2009,
+        "period": "2009年",
+        "title": "剪纸进入非遗代表作名录",
+        "body": "中国剪纸列入人类非物质文化遗产代表作名录。保护对象包括多地域传承及生活用途，并不意味着剪纸在这一年才形成。",
+        "sourceIds": ["papercut"]
+      }
+    ],
+    "interpretation": "海报是当代原创工艺对照静物，不代表某一传承人的作品；画面中的两种纸艺保持材料和操作差异。",
+    "sources": [
+      {
+        "id": "nianhua",
+        "title": "新春话年画",
+        "publisher": "中国非物质文化遗产网（薄松年）",
+        "url": "https://www.ihchina.cn/news_1_details/10351.html"
+      },
+      {
+        "id": "print",
+        "title": "New year-print, 1981,0403,0.8",
+        "publisher": "British Museum",
+        "url": "https://www.britishmuseum.org/collection/object/A_1981-0403-0-8"
+      },
+      {
+        "id": "papercut",
+        "title": "中国剪纸",
+        "publisher": "中国国家图书馆·中国记忆",
+        "url": "https://ich.nlc.cn/unesco/detail/8"
+      }
+    ]
+  }
+}

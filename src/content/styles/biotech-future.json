@@ -1,0 +1,120 @@
+{
+  "id": "biotech-future",
+  "name": "生物科技未来",
+  "englishName": "Biotech Futures",
+  "aliases": ["Biotech Futures"],
+  "summary": "以膜、纤维和生长结构想象技术与生命共同制造的未来，强调材料过程而非泛化的绿色装饰。",
+  "category": "future-tech",
+  "tags": ["futuristic", "organic", "translucent", "green", "poster"],
+  "cover": "biotech-future-poster",
+  "images": [
+    {
+      "asset": "biotech-future-poster",
+      "caption": "生物科技未来 · 风格演绎海报"
+    }
+  ],
+  "palettes": [
+    {
+      "id": "poster",
+      "name": "主题配色",
+      "description": "本档案人工设定的演绎配色，不代表历史标准色。",
+      "colors": [
+        {
+          "id": "color-1",
+          "name": "深藻绿",
+          "hex": "#315E56",
+          "status": "manual",
+          "role": "纤维网络"
+        },
+        {
+          "id": "color-2",
+          "name": "膜白",
+          "hex": "#E5E7D8",
+          "status": "manual",
+          "role": "透光外膜"
+        },
+        {
+          "id": "color-3",
+          "name": "培养青",
+          "hex": "#80B7AE",
+          "status": "manual",
+          "role": "玻璃容器"
+        },
+        {
+          "id": "color-4",
+          "name": "孢子金",
+          "hex": "#B5A569",
+          "status": "manual",
+          "role": "局部颗粒"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "title": "结构源自过程",
+      "body": "膜的厚薄、纤维方向和多孔结构应暗示生长或制造方式，而不是把树叶贴在机器上。"
+    },
+    {
+      "title": "想象与可用技术分开",
+      "body": "概念视觉可以提出问题，但应标明推测性质；不能借实验项目宣称所有生物材料已能规模化应用。"
+    },
+    {
+      "title": "生物不等于霓虹绿",
+      "body": "以半透明层、湿润度和柔硬交界组织画面，绿色只是可选配色，生命关系比颜色更重要。"
+    }
+  ],
+  "applications": [
+    "适合材料未来展、概念设计和研究传播；把实验依据放在文字说明，概念场景与真实实验照片分开。"
+  ],
+  "related": ["biophilic", "organic-architecture", "digital-future"],
+  "order": 110,
+  "updatedAt": "2026-09-14",
+  "designHistory": {
+    "overview": "生物科技未来是本档案的编辑主题，不是有统一成立年代的流派。以下节点选取真实跨学科设计实验作参照，关注机器、生物与材料合作；场景的未来设施则属于推测性演绎。",
+    "timeline": [
+      {
+        "year": 2013,
+        "period": "2013年：实验参照",
+        "title": "蚕与机器共同构造",
+        "body": "Silk Pavilion把机器铺设的结构与蚕的吐丝行为结合；Harvard Wyss的项目报道呈现生物参与制造的具体路径。",
+        "sourceIds": ["s1"]
+      },
+      {
+        "year": 2019,
+        "period": "2019年：实验延展",
+        "title": "第二代蚕丝装置",
+        "body": "MoMA记录Silk Pavilion II为2019年作品。相关解说强调蚕丝中胶质与纤维的组成，以及生物调节材料的能力。",
+        "sourceIds": ["s2"]
+      },
+      {
+        "year": 2020,
+        "period": "2020年：展览讨论",
+        "title": "材料生态成为公共议题",
+        "body": "MoMA的Material Ecology展览把材料科学、数字制造和有机设计放在一起讨论，展示跨学科及跨物种合作的未来可能。",
+        "sourceIds": ["s3"]
+      }
+    ],
+    "interpretation": "薄膜、分叉支架和培养容器组成推测性生物制造空间；与真实蚕丝项目的引用分开，不代表设施已可建造。 本场景由AI生成，四色为本档案人工设定的编辑配色。",
+    "sources": [
+      {
+        "id": "s1",
+        "title": "Spinning up a Silk Pavilion",
+        "publisher": "Harvard Wyss Institute",
+        "url": "https://wyss.harvard.edu/news/spinning-up-a-silk-pavilion/"
+      },
+      {
+        "id": "s2",
+        "title": "Neri Oxman. Silk Pavilion",
+        "publisher": "MoMA",
+        "url": "https://www.moma.org/audio/3937"
+      },
+      {
+        "id": "s3",
+        "title": "Neri Oxman: Material Ecology",
+        "publisher": "MoMA",
+        "url": "https://www.moma.org/calendar/exhibitions/5090"
+      }
+    ]
+  }
+}

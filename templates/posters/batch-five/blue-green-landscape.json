@@ -1,0 +1,33 @@
+{
+  "styleId": "blue-green-landscape",
+  "title": "青绿山水设色",
+  "accentLength": 2,
+  "titleColors": ["#345C70", "#456F5C"],
+  "colors": [
+    {
+      "name": "石青",
+      "hex": "#3E7288",
+      "englishName": "Azurite"
+    },
+    {
+      "name": "石绿",
+      "hex": "#5E927B",
+      "englishName": "Malachite"
+    },
+    {
+      "name": "赭石",
+      "hex": "#A77B4F",
+      "englishName": "Ochre"
+    },
+    {
+      "name": "绢白",
+      "hex": "#E3D7B6",
+      "englishName": "Silk"
+    }
+  ],
+  "sidebarCn": ["以勾线立起山骨", "让青绿分出远近", "留水面连接群峰", "在设色中读笔意"],
+  "sidebarEn": ["A Way of Seeing.", "A Way of Living."],
+  "badges": ["设色", "勾线", "层山"],
+  "sceneFile": "assets/poster-scenes/blue-green-landscape.png",
+  "scenePrompt": "An original Chinese blue-green landscape painting, NOT a reproduction: intricately outlined layered mountain ridges with mineral-looking azurite blue and malachite green washes, warm ochre foothills, a winding pale river and a tiny low bridge, delicate pine silhouettes, breathable silk-colored blank sky and water. Horizontal landscape 3:2, balanced asymmetrical panorama, flat traditional brush and mineral-pigment texture, no photorealism. Palette #3E7288 #5E927B #A77B4F #E3D7B6. No text, calligraphy, poems, seals, signature, characters, numbers, borders, swatches or collage."
+}

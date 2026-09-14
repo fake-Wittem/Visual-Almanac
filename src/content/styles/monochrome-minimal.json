@@ -1,0 +1,114 @@
+{
+  "id": "monochrome-minimal",
+  "name": "单色极简",
+  "englishName": "Monochrome Minimalism",
+  "aliases": ["Monochrome Minimalism"],
+  "summary": "限制色相，以明度、表面与比例的细微变化建立清楚层级。",
+  "category": "modern-minimal",
+  "tags": ["calm", "rational", "muted", "blue", "geometry", "brand"],
+  "cover": "monochrome-minimal-poster",
+  "images": [
+    {
+      "asset": "monochrome-minimal-poster",
+      "caption": "单色极简 · 风格演绎海报"
+    }
+  ],
+  "palettes": [
+    {
+      "id": "poster",
+      "name": "主题配色",
+      "description": "为本档案人工设定的视觉配色，海报色卡按相同 HEX 排版；不代表历史时期的标准色。",
+      "colors": [
+        {
+          "id": "color-1",
+          "name": "雾蓝白",
+          "hex": "#D0DADF",
+          "status": "manual",
+          "role": "背景和最浅受光面"
+        },
+        {
+          "id": "color-2",
+          "name": "浅蓝灰",
+          "hex": "#96ACB7",
+          "status": "manual",
+          "role": "陶器和玻璃的中浅调"
+        },
+        {
+          "id": "color-3",
+          "name": "板岩蓝",
+          "hex": "#5A7585",
+          "status": "manual",
+          "role": "石块与织物体积"
+        },
+        {
+          "id": "color-4",
+          "name": "深蓝",
+          "hex": "#2F4858",
+          "status": "manual",
+          "role": "接触阴影和最深褶皱"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "title": "单色不等于黑白",
+      "body": "单一蓝色或土色也可形成单色体系；先选色相范围，再拉开背景、主体和细节的明度，避免所有元素粘在一起。"
+    },
+    {
+      "title": "表面产生差异",
+      "body": "同一色族下，磨砂玻璃、粗织物与光滑石面通过反射方式区分；侧光比增加装饰图案更能呈现材料关系。"
+    },
+    {
+      "title": "应用中的对比",
+      "body": "审美上的低反差不应延伸到正文和关键操作；使用单色体系做品牌或界面时，仍须给必要信息足够清晰的明暗差。"
+    }
+  ],
+  "applications": [
+    "适合材料样本册与单品展示：把主材放在中间明度，背景更浅，接触阴影更深；文字采用独立的深色，避免被柔和画面吞没。"
+  ],
+  "related": ["contemporary-minimal", "suprematism"],
+  "order": 87,
+  "updatedAt": "2026-09-14",
+  "designHistory": {
+    "overview": "“单色极简”是本站编辑主题，以艺术中的颜色限制作为比较材料，而非声称现代单色绘画直接创立了某种室内或品牌风格。单色可以包含同一色相的不同明度，也不只限于黑白。",
+    "timeline": [
+      {
+        "year": 1915,
+        "period": "1915 年",
+        "title": "黑色平面成为抽象命题",
+        "body": "英国国家美术馆的单色专题资料将 Malevich 1915 年的《黑方块》列为关键案例，其意义涉及非再现艺术，而不只是减少配色。",
+        "sourceIds": ["ng"]
+      },
+      {
+        "year": 1918,
+        "period": "1918 年",
+        "title": "白色内部显出材料差异",
+        "body": "MoMA 记录《白上白》的微妙色温、笔触与偏心方形，说明极少色彩仍可通过表面和位置建立视觉关系。",
+        "sourceIds": ["moma"]
+      },
+      {
+        "year": 2017,
+        "period": "2017 年",
+        "title": "单色传统被重新并置",
+        "body": "英国国家美术馆举办 Monochrome: Painting in Black and White，从不同年代的作品讨论减少颜色如何改变观看；这是比较性回顾，并非当代极简的成立事件。",
+        "sourceIds": ["ng"]
+      }
+    ],
+    "interpretation": "原创蓝灰静物用玻璃、织物、石块和陶器表现同色异质；并非所引历史作品的复制，海报四个色阶只是本次编辑的层级方案。",
+    "sources": [
+      {
+        "id": "ng",
+        "title": "Monochrome: Painting in Black and White",
+        "publisher": "The National Gallery, London",
+        "url": "https://www.nationalgallery.org.uk/about-us/press-and-media/press-releases-archive/monochrome-painting-in-black-and-white"
+      },
+      {
+        "id": "moma",
+        "title": "Suprematist Composition: White on White. 1918",
+        "publisher": "MoMA",
+        "url": "https://www.moma.org/collection/works/80385"
+      }
+    ]
+  }
+}

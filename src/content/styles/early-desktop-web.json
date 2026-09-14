@@ -1,0 +1,114 @@
+{
+  "id": "early-desktop-web",
+  "name": "1990年代桌面出版与早期网页",
+  "englishName": "Desktop Publishing and the Early Web",
+  "aliases": ["Desktop Publishing and the Early Web"],
+  "summary": "从桌面排版的窗格到早期网页的链接，用低分彩块与米灰硬件重访个人发布的起点。",
+  "category": "retro",
+  "tags": ["nostalgic", "rational", "geometry", "blue", "cream", "poster"],
+  "cover": "early-desktop-web-poster",
+  "images": [
+    {
+      "asset": "early-desktop-web-poster",
+      "caption": "1990年代桌面出版与早期网页 · 风格演绎海报"
+    }
+  ],
+  "palettes": [
+    {
+      "id": "poster",
+      "name": "主题配色",
+      "description": "为本档案人工设定的视觉配色，海报色卡按相同 HEX 排版；不代表历史时期的标准色。",
+      "colors": [
+        {
+          "id": "color-1",
+          "name": "机壳米灰",
+          "hex": "#D8D0B9",
+          "status": "manual",
+          "role": "主体基调"
+        },
+        {
+          "id": "color-2",
+          "name": "链接蓝",
+          "hex": "#344F9E",
+          "status": "manual",
+          "role": "空间与辅助面"
+        },
+        {
+          "id": "color-3",
+          "name": "石墨灰",
+          "hex": "#363B44",
+          "status": "manual",
+          "role": "材料细节"
+        },
+        {
+          "id": "color-4",
+          "name": "浅青",
+          "hex": "#85BFC4",
+          "status": "manual",
+          "role": "强调与阴影"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "title": "窗口与页面",
+      "body": "边框、矩形窗格与模块化图片区建立秩序，保留较低分辨率的形态提示，避免把所有九十年代媒介都归为像素艺术。"
+    },
+    {
+      "title": "媒介的差别",
+      "body": "桌面出版面向可印刷页面，早期网页面向链接与屏幕阅读；应用时先确定输出介质，再选择栏宽、字体和图像尺度。"
+    },
+    {
+      "title": "复古使用边界",
+      "body": "蓝色链接与米灰硬件可唤起时期记忆；真实界面仍应保证可读性和操作反馈，不必复制旧设备的限制。"
+    }
+  ],
+  "applications": [
+    "适合数字文化展览海报：以一台 CRT 和简洁窗格作主图，用清楚的现代正文说明展品年代，避免让装饰窗口看起来像可点击控件。"
+  ],
+  "related": ["analog-video", "y2k", "swiss-international"],
+  "order": 73,
+  "updatedAt": "2026-09-14",
+  "designHistory": {
+    "overview": "这是一项媒介史编辑主题，把桌面出版与早期万维网在个人计算机上的相遇并置。二者用途与发展路径不同，档案标题并不指一个统一的九十年代设计流派。",
+    "timeline": [
+      {
+        "year": 1985,
+        "period": "1985 年",
+        "title": "桌面成为出版工具",
+        "body": "PageMaker 在 Macintosh 上发布，与 PostScript 和 LaserWriter 共同构成桌面出版环境，使图文编排与输出进入个人计算机工作流程。",
+        "sourceIds": ["chm"]
+      },
+      {
+        "year": 1989,
+        "period": "1989—1990 年",
+        "title": "超文本走向网络",
+        "body": "Tim Berners-Lee 于 1989 年在 CERN 提出万维网，1990 年的浏览器把跨文档的信息访问变成可操作的系统。",
+        "sourceIds": ["cern"]
+      },
+      {
+        "year": 1993,
+        "period": "1993 年",
+        "title": "开放软件推动传播",
+        "body": "CERN 于 4 月 30 日将万维网软件放入公共领域，随后又提供开放许可版本；这一传播条件有助于网页成为广泛使用的发布媒介。",
+        "sourceIds": ["cern"]
+      }
+    ],
+    "interpretation": "原创场景以抽象窗格和排版纸张连接两种媒介，不复刻具体操作系统或网站；海报外框属于本站统一模板，配色为编辑设定。",
+    "sources": [
+      {
+        "id": "chm",
+        "title": "1985 | Timeline of Computer History",
+        "publisher": "Computer History Museum",
+        "url": "https://www.computerhistory.org/timeline/1985/"
+      },
+      {
+        "id": "cern",
+        "title": "The birth of the Web",
+        "publisher": "CERN",
+        "url": "https://home.cern/science/computing/the-birth-of-the-web/"
+      }
+    ]
+  }
+}

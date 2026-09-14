@@ -1,0 +1,33 @@
+{
+  "styleId": "street-stencil",
+  "title": "街头模板喷绘",
+  "accentLength": 2,
+  "titleColors": ["#302C25", "#BC503C"],
+  "colors": [
+    {
+      "name": "喷绘炭黑",
+      "hex": "#292A29",
+      "englishName": "Charcoal"
+    },
+    {
+      "name": "墙面米白",
+      "hex": "#DED8C9",
+      "englishName": "Concrete Ivory"
+    },
+    {
+      "name": "标记朱红",
+      "hex": "#BC503C",
+      "englishName": "Vermilion"
+    },
+    {
+      "name": "风化灰",
+      "hex": "#96978D",
+      "englishName": "Weathered Gray"
+    }
+  ],
+  "sidebarCn": ["以镂空留下轮廓", "让图像重复出现", "将墙面纳入叙事", "用少色建立力量"],
+  "sidebarEn": ["A Way of Seeing.", "A Way of Living."],
+  "badges": ["镂空", "剪影", "套色"],
+  "sceneFile": "assets/poster-scenes/street-stencil.png",
+  "scenePrompt": "Use case: stylized-concept. Asset type: original Visual Almanac archive scene. Create a landscape 3:2 image, 1536x1024 preferred, presenting a striking original street stencil mural on a weathered warm pale concrete wall, front-on view. The central graphic is a large black two-layer stencil of an ordinary folding chair with a small leafy sapling growing upward from its seat, an unexpected poetic urban image. Repeat three smaller stencil silhouettes of the same chair toward the right, each with progressively larger foliage, in black and faded gray; a single muted vermilion circle behind the main chair adds focus. Show convincing cut-stencil bridges and hard mask boundaries, tiny aerosol overspray near edges, matte paint and slightly chipped plaster. Limited palette charcoal #292A29, concrete ivory #DED8C9, vermilion #BC503C and weathered gray #96978D. Strong flat silhouette, legible from a distance, natural side lighting barely reveals wall relief, generous negative space. No imitation of any identifiable artist or existing street artwork, no rats, balloons or famous icons. No graffiti lettering, tags, words, letters, numerals, title, border, paint cans, swatches, logo or watermark."
+}

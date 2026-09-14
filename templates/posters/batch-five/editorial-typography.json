@@ -1,0 +1,33 @@
+{
+  "styleId": "editorial-typography",
+  "title": "当代编辑型排版",
+  "accentLength": 2,
+  "titleColors": ["#373A37", "#685248"],
+  "colors": [
+    {
+      "name": "墨黑",
+      "hex": "#25282A",
+      "englishName": "Editorial Black"
+    },
+    {
+      "name": "纸白",
+      "hex": "#EAE4D7",
+      "englishName": "Paper White"
+    },
+    {
+      "name": "陶红",
+      "hex": "#AE6049",
+      "englishName": "Terracotta"
+    },
+    {
+      "name": "正文灰",
+      "hex": "#929B9D",
+      "englishName": "Body Grey"
+    }
+  ],
+  "sidebarCn": ["让标题建立入口", "让正文保持连贯", "让图像改变节奏", "让留白形成停顿"],
+  "sidebarEn": ["A Way of Seeing.", "A Way of Living."],
+  "badges": ["层级", "跨页", "节奏"],
+  "sceneFile": "assets/poster-scenes/editorial-typography.png",
+  "scenePrompt": "Use case: stylized-concept. Original editorial design material study on an ivory studio table: open large-format unprinted magazine mockup with asymmetrical abstract black bars replacing headline text, fine grey short rules replacing body text, one deep terracotta rectangular image field, adjacent staggered blank folded pages. Carefully composed overhead photographic still life showing paper edges and generous margins, graphic design as physical material. Ink #25282A, paper #EAE4D7, terracotta #AE6049, grey #929B9D. No actual letters or numbers, no readable typography, no mock newspaper names. Asset: original scene for a style archive. Landscape 3:2, single full-bleed image, no text, letters, numbers, labels, logos, watermark, outer poster border, color swatches or badges."
+}

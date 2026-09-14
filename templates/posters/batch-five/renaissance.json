@@ -1,0 +1,33 @@
+{
+  "styleId": "renaissance",
+  "title": "文艺复兴",
+  "accentLength": 2,
+  "titleColors": ["#4F5960", "#86573F"],
+  "colors": [
+    {
+      "name": "灰石",
+      "hex": "#69747A",
+      "englishName": "Grey Stone"
+    },
+    {
+      "name": "灰泥白",
+      "hex": "#E4DBC8",
+      "englishName": "Plaster"
+    },
+    {
+      "name": "陶褐",
+      "hex": "#B58768",
+      "englishName": "Terracotta"
+    },
+    {
+      "name": "橄榄",
+      "hex": "#80826A",
+      "englishName": "Olive"
+    }
+  ],
+  "sidebarCn": ["从一跨展开秩序", "以比例连接空间", "让古典进入日常", "在图示中传递方法"],
+  "sidebarEn": ["A Way of Seeing.", "A Way of Living."],
+  "badges": ["模数", "拱廊", "比例"],
+  "sceneFile": "assets/poster-scenes/renaissance.png",
+  "scenePrompt": "Original imagined Italian Renaissance courtyard loggia, clear repeated round arches resting on elegant grey stone columns, pale plaster walls, coherent modular bays and a terracotta geometric floor receding toward a small planted courtyard. An intimate restrained Florentine architectural atmosphere, balanced perspective and measured spacing, no Baroque curves or exuberant ornament. Soft morning daylight, painterly architectural editorial illustration, landscape 3:2. Palette #69747A #E4DBC8 #B58768 #80826A. Original interpretation, no famous building replica. No people, statues, paintings with faces, text, inscriptions, calligraphy, letters, numbers, logos, borders, swatches or collage."
+}

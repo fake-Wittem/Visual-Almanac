@@ -1,0 +1,120 @@
+{
+  "id": "italian-radical",
+  "name": "意大利激进设计",
+  "englishName": "Italian Radical Design",
+  "aliases": ["Italian Radical Design"],
+  "summary": "以反常尺度、概念环境和日常物件的错置，质问消费社会、功能主义与既定生活方式。",
+  "category": "avant-garde",
+  "tags": ["geometry", "contrast", "free", "red", "poster"],
+  "cover": "italian-radical-poster",
+  "images": [
+    {
+      "asset": "italian-radical-poster",
+      "caption": "意大利激进设计 · 风格演绎海报"
+    }
+  ],
+  "palettes": [
+    {
+      "id": "poster",
+      "name": "主题配色",
+      "description": "本档案人工设定的演绎配色，不代表历史标准色。",
+      "colors": [
+        {
+          "id": "color-1",
+          "name": "质问红",
+          "hex": "#BB4B40",
+          "status": "manual",
+          "role": "软体座具"
+        },
+        {
+          "id": "color-2",
+          "name": "网格白",
+          "hex": "#E8E1D3",
+          "status": "manual",
+          "role": "无限地面"
+        },
+        {
+          "id": "color-3",
+          "name": "结构黑",
+          "hex": "#303132",
+          "status": "manual",
+          "role": "规则网格"
+        },
+        {
+          "id": "color-4",
+          "name": "实验绿",
+          "hex": "#7F9D70",
+          "status": "manual",
+          "role": "异形灯具"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "title": "形式必须有问题意识",
+      "body": "反常家具和无限网格应关联居住、消费或控制的议题，不把激进设计缩成趣味造型目录。"
+    },
+    {
+      "title": "图像也是设计实践",
+      "body": "摄影蒙太奇、模型和假想环境可以论证一种生活方式；注明概念性质，避免当成已建工程。"
+    },
+    {
+      "title": "与孟菲斯的关系",
+      "body": "两者都挑战现代主义秩序，但本档案聚焦1960至1970年代社会批判和概念实验，不把1980年代装饰家具倒置为起点。"
+    }
+  ],
+  "applications": [
+    "适合设计批评展、议题型出版与空间概念提案；让普通物件和异常尺度产生可解释的冲突。"
+  ],
+  "related": ["memphis", "surrealism", "deconstructivist-architecture"],
+  "order": 111,
+  "updatedAt": "2026-09-14",
+  "designHistory": {
+    "overview": "意大利激进设计在1960至1970年代围绕城市、消费和生活方式提出批判。它跨越家具、建筑想象、行为与出版，本档案以Superarchitettura、Superstudio和1972年MoMA展览为线索。",
+    "timeline": [
+      {
+        "year": 1966,
+        "period": "1966年",
+        "title": "整体环境挑战惯例",
+        "body": "皮斯托亚的Superarchitettura展览将Archizoom和Superstudio的家具灯具置于整体设计的环境中，被MFAH视为激进设计的重要早期展览。",
+        "sourceIds": ["s1"]
+      },
+      {
+        "year": 1971,
+        "period": "1971年",
+        "title": "基础设施成为生活想象",
+        "body": "Superstudio的Supersurface设想连续服务网格，让人们不再依赖单个固定建筑；MoMA同时指出这种自由框架隐含无处不在的控制。",
+        "sourceIds": ["s2"]
+      },
+      {
+        "year": 1972,
+        "period": "1972年",
+        "title": "意大利设计接受国际讨论",
+        "body": "MoMA举办Italy: The New Domestic Landscape，以物件、环境和出版讨论意大利设计的成就与问题，扩大对实验居住观念的关注。",
+        "sourceIds": ["s3"]
+      }
+    ],
+    "interpretation": "巨型红色座具、微型门洞和连续网格制造尺度冲突；场景借此提出生活与控制的问题，不复制Superstudio方案。 本场景由AI生成，四色为本档案人工设定的编辑配色。",
+    "sources": [
+      {
+        "id": "s1",
+        "title": "Revolutionary Italian Design through the Collection of Dennis Freedman",
+        "publisher": "MFAH",
+        "url": "https://www.mfah.org/press/mfah-revisits-revolutionary-italian-design-collection-dennis-freedman"
+      },
+      {
+        "id": "s2",
+        "title": "Supersurface, The Happy Island, project. 1971",
+        "publisher": "MoMA",
+        "url": "https://www.moma.org/collection/works/869"
+      },
+      {
+        "id": "s3",
+        "title": "Italy: The New Domestic Landscape",
+        "publisher": "MoMA",
+        "url": "https://www.moma.org/calendar/exhibitions/1783"
+      }
+    ]
+  }
+}

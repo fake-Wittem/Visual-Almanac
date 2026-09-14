@@ -1,0 +1,33 @@
+{
+  "styleId": "iberian-maghrebi-tiles",
+  "title": "伊比利亚瓷砖",
+  "accentLength": 2,
+  "titleColors": ["#31575D", "#725D3D"],
+  "colors": [
+    {
+      "name": "釉绿",
+      "hex": "#4E7C70",
+      "englishName": "Glaze Green"
+    },
+    {
+      "name": "钴蓝",
+      "hex": "#385A77",
+      "englishName": "Cobalt"
+    },
+    {
+      "name": "陶金",
+      "hex": "#B59658",
+      "englishName": "Ceramic Gold"
+    },
+    {
+      "name": "釉白",
+      "hex": "#E2DAC5",
+      "englishName": "Glaze White"
+    }
+  ],
+  "sidebarCn": ["沿接缝辨认工艺", "以墙裙组织尺度", "让几何完成转角", "按地域追索流传"],
+  "sidebarEn": ["A Way of Seeing.", "A Way of Living."],
+  "badges": ["拼嵌", "釉色", "墙裙"],
+  "sceneFile": "assets/poster-scenes/iberian-maghrebi-tiles.png",
+  "scenePrompt": "Original architectural material study inspired by western Mediterranean cut-tile mosaic dado: close oblique view of a low courtyard wall covered in coherent interlocking eight-point stars and polygonal glazed ceramic pieces, clearly visible fine physical joints following EACH cut shape, not a printed texture on square tiles. Muted glaze green cobalt blue ceramic gold ivory, plain warm lime plaster above and simple stone floor below, gentle sunlight reveals slightly varied glaze surfaces. One coherent wall corner, no fountain, no mixed Ottoman floral motifs. Landscape 3:2 editorial architectural illustration. Palette #4E7C70 #385A77 #B59658 #E2DAC5. Original composition not a replica of Alhambra, Sintra or Morocco monument. No text, Arabic calligraphy, pseudoletters, inscriptions, seals, logos, border, swatches or collage."
+}

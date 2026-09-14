@@ -1,0 +1,33 @@
+{
+  "styleId": "dieselpunk",
+  "title": "柴油朋克",
+  "accentLength": 2,
+  "titleColors": ["#302C25", "#384D5B"],
+  "colors": [
+    {
+      "name": "机油黑",
+      "hex": "#303633",
+      "englishName": "Oil Black"
+    },
+    {
+      "name": "旧金属",
+      "hex": "#AAA994",
+      "englishName": "Metal"
+    },
+    {
+      "name": "烟褐",
+      "hex": "#806C54",
+      "englishName": "Smoke"
+    },
+    {
+      "name": "信号橙",
+      "hex": "#BF7442",
+      "englishName": "Signal"
+    }
+  ],
+  "sidebarCn": ["让铆钉标出结构", "以流线传达速度", "把工厂变成城市", "回望另一种明日"],
+  "sidebarEn": ["A Way of Seeing.", "A Way of Living."],
+  "badges": ["铆接", "流线", "机械"],
+  "sceneFile": "assets/poster-scenes/dieselpunk.png",
+  "scenePrompt": "Use case: stylized-concept. Asset type: original Visual Almanac archive scene. Create one original landscape 3:2 raster illustration, 1536x1024 preferred. A fictional interwar-inspired industrial airship terminal, massive riveted steel cargo airship docked beside an elevated platform, streamlined railcar below, layered factory towers in mist, small anonymous workers for scale. Machine-age retrofuturism, plausible exposed ribs, diesel-era vents, oil-dark metal, weathered aluminum, smoky umber with small amber work lights. Dramatic low-angle painted cinematic concept art, no weapons, no military insignia, no brass gear clutter. Full bleed scene, no frame, no title, no logo, no watermark, no labels, no swatches, no readable text. Do not reproduce any existing artwork or brand. Carefully composed, visibly specific to the described visual language."
+}

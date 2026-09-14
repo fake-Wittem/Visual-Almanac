@@ -1,0 +1,33 @@
+{
+  "styleId": "surf-culture",
+  "title": "冲浪文化",
+  "accentLength": 2,
+  "titleColors": ["#302C25", "#384D5B"],
+  "colors": [
+    {
+      "name": "浪蓝",
+      "hex": "#427C91",
+      "englishName": "Wave Blue"
+    },
+    {
+      "name": "板面米白",
+      "hex": "#E7DDC2",
+      "englishName": "Board Ivory"
+    },
+    {
+      "name": "日光橙",
+      "hex": "#C78252",
+      "englishName": "Sun Orange"
+    },
+    {
+      "name": "海岸褐",
+      "hex": "#766B54",
+      "englishName": "Coast Brown"
+    }
+  ],
+  "sidebarCn": ["让板型回应海浪", "从海岸理解社群", "以摄影记录动作", "记得文化的来处"],
+  "sidebarEn": ["A Way of Seeing.", "A Way of Living."],
+  "badges": ["板型", "海浪", "社群"],
+  "sceneFile": "assets/poster-scenes/surf-culture.png",
+  "scenePrompt": "Use case: stylized-concept. Asset type: original Visual Almanac archive scene. Create one original landscape 3:2 raster illustration, 1536x1024 preferred. An original surf culture editorial still life: two elegant vintage longboards with simple unbranded ivory and burnt-orange stripes standing beside a weathered wooden board rack, behind them a teal-blue breaking wave with one tiny surfer silhouette, a small monochrome surf-photo contact sheet lying on sand in foreground with absolutely no text. Hand-painted editorial illustration with subtle print texture, warm coastal light, no tiki motifs, no tropical interiors, no logos. Full bleed scene, no frame, no title, no logo, no watermark, no labels, no swatches, no readable text. Do not reproduce any existing artwork or brand. Carefully composed, visibly specific to the described visual language."
+}

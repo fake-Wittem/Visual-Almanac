@@ -1,0 +1,114 @@
+{
+  "id": "atomic-age",
+  "name": "原子时代 Atomic Age",
+  "englishName": "Atomic Age",
+  "aliases": ["Atomic Age"],
+  "summary": "轨道线、球体与星芒把科学图像转成战后生活的装饰语言，也留下技术乐观与核时代焦虑的双重背景。",
+  "category": "future-tech",
+  "tags": ["geometry", "lively", "blue", "orange", "poster"],
+  "cover": "atomic-age-poster",
+  "images": [
+    {
+      "asset": "atomic-age-poster",
+      "caption": "原子时代 Atomic Age · 风格演绎海报"
+    }
+  ],
+  "palettes": [
+    {
+      "id": "poster",
+      "name": "主题配色",
+      "description": "本档案人工设定的演绎配色，不代表历史标准色。",
+      "colors": [
+        {
+          "id": "color-1",
+          "name": "轨道蓝",
+          "hex": "#375D72",
+          "status": "manual",
+          "role": "轨道线条"
+        },
+        {
+          "id": "color-2",
+          "name": "纸米白",
+          "hex": "#E9DFC7",
+          "status": "manual",
+          "role": "展示背景"
+        },
+        {
+          "id": "color-3",
+          "name": "珊瑚橙",
+          "hex": "#C97953",
+          "status": "manual",
+          "role": "球体节点"
+        },
+        {
+          "id": "color-4",
+          "name": "墨黑",
+          "hex": "#303D40",
+          "status": "manual",
+          "role": "支架和细线"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "title": "科学符号不是模型",
+      "body": "原子轨道和星芒常被简化为传播符号，装饰图不能当作真实物理结构图。"
+    },
+    {
+      "title": "尺度相互转换",
+      "body": "球点、细线和放射形可从织物图案延伸到展览装置，重点在疏密与轻重，而非堆满科学图标。"
+    },
+    {
+      "title": "区分原子与太空",
+      "body": "原子时代偏向科学、能量与微观符号；太空时代偏向航天生活和舱体，两者在战后设计中交叠。"
+    }
+  ],
+  "applications": [
+    "适合科学传播史、战后设计展与生活器物专题；正文搭配安静纸底，图案保留有节奏的空隙。"
+  ],
+  "related": ["space-age", "mid-century", "retro-futurism"],
+  "order": 108,
+  "updatedAt": "2026-09-14",
+  "designHistory": {
+    "overview": "本档案聚焦战后欧美设计中原子、轨道与科学展览母题，以1951年英国节和1958年布鲁塞尔世博会为具体线索。它既包含进步的宣传，也与战争及核技术的历史相连。",
+    "timeline": [
+      {
+        "year": 1951,
+        "period": "1951年",
+        "title": "科学图形进入公共传播",
+        "body": "英国节的科学展海报以核心和环绕电子组织图像。V&A指出原子符号也关联战争中科学技术的作用，不能只读作轻松装饰。",
+        "sourceIds": ["s1"]
+      },
+      {
+        "year": 1958,
+        "period": "1958年",
+        "title": "原子意象成为建筑标志",
+        "body": "布鲁塞尔世博会为Atomium赋予和平利用原子能和技术改善生活的象征意义，科学图像由平面走向公共建筑。",
+        "sourceIds": ["s2"]
+      },
+      {
+        "year": 2006,
+        "period": "2006年",
+        "title": "战后象征转为文化遗产",
+        "body": "Atomium修复后重新开放，以文化和旅游项目延续其公共角色；今天对原子时代的阅读也包含对当年未来想象的回望。",
+        "sourceIds": ["s2"]
+      }
+    ],
+    "interpretation": "轨道形金属线、球点和星芒被组织成装饰性科学展览静物；并非真实物理模型，也不复制英国节或Atomium。 本场景由AI生成，四色为本档案人工设定的编辑配色。",
+    "sources": [
+      {
+        "id": "s1",
+        "title": "The Festival of Britain",
+        "publisher": "V&A",
+        "url": "https://www.vam.ac.uk/articles/the-festival-of-britain"
+      },
+      {
+        "id": "s2",
+        "title": "Discover the Atomium",
+        "publisher": "Atomium",
+        "url": "https://atomium.be/discover"
+      }
+    ]
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "id": "rammed-earth",
+  "name": "夯土与土质建筑视觉",
+  "englishName": "Rammed Earth Architecture",
+  "aliases": ["Rammed Earth Architecture"],
+  "summary": "以夯筑层理、厚墙与深窗洞呈现土质材料的重量和光影，明确其构造语境。",
+  "category": "natural-organic",
+  "tags": ["calm", "organic", "geometry", "brown", "cream", "slides"],
+  "cover": "rammed-earth-poster",
+  "images": [
+    {
+      "asset": "rammed-earth-poster",
+      "caption": "夯土与土质建筑视觉 · 风格演绎海报"
+    }
+  ],
+  "palettes": [
+    {
+      "id": "poster",
+      "name": "主题配色",
+      "description": "为本档案人工设定的视觉配色，海报色卡按相同 HEX 排版；不代表历史时期的标准色。",
+      "colors": [
+        {
+          "id": "color-1",
+          "name": "土黄",
+          "hex": "#B4936C",
+          "status": "manual",
+          "role": "夯筑墙层的主体色"
+        },
+        {
+          "id": "color-2",
+          "name": "黏土褐",
+          "hex": "#896B50",
+          "status": "manual",
+          "role": "较深土层与细颗粒带"
+        },
+        {
+          "id": "color-3",
+          "name": "浅砂",
+          "hex": "#D6C6AA",
+          "status": "manual",
+          "role": "墙体受光面与地面"
+        },
+        {
+          "id": "color-4",
+          "name": "土影",
+          "hex": "#574C40",
+          "status": "manual",
+          "role": "深窗洞与墙角阴影"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "title": "层理来自建造",
+      "body": "夯筑的水平层和骨料形成可见节奏；视觉上应有细微变化，避免把它画成均匀木纹或过于规整的彩色条纹。"
+    },
+    {
+      "title": "厚度与开口",
+      "body": "深窗洞、墙角和门口能比正面墙皮更好地解释厚度；侧光显示颗粒和压实层，直射正面光则容易抹平材料信息。"
+    },
+    {
+      "title": "材料与地域",
+      "body": "生土、土坯、夯土和加稳定剂的材料并不相同；强度、耐雨与热工表现取决于配方、构造和场地，不能从土色外观推断。"
+    }
+  ],
+  "applications": [
+    "适合土建筑展板与材料样本说明：并列展示墙体截面、接缝和原料样本，明确夯筑方式、是否稳定化及地域条件，性能数据只引用对应工程的验证结果。"
+  ],
+  "related": ["natural-handcraft", "organic-architecture", "tropical-modern"],
+  "order": 93,
+  "updatedAt": "2026-09-14",
+  "designHistory": {
+    "overview": "本档案限定于二十一世纪奥地利、瑞士和德国的当代夯土案例，以 Martin Rauch 及其合作实践观察原位夯筑、预制与复合墙体。它不以这些案例替代中国、非洲或其他地区的土建筑传统，也不将所有土质建筑统称为夯土。",
+    "timeline": [
+      {
+        "year": 2008,
+        "period": "2008 年",
+        "title": "原位夯筑形成住宅整体",
+        "body": "Schlins 的 Rauch House 于 2008 年完成，由 Martin Rauch 与 Roger Boltshauser 合作，项目记录明确采用原位生产，厚重墙体与坡地条件共同决定空间。",
+        "sourceIds": ["rauch"]
+      },
+      {
+        "year": 2014,
+        "period": "2014 年",
+        "title": "夯土进入生产建筑外墙",
+        "body": "Ricola 位于 Laufen 的草本中心于 2014 年投入运行，由 Herzog & de Meuron 与 Lehm Ton Erde 合作，采用大型夯土立面连接生产功能与当地材料。",
+        "sourceIds": ["ricola"]
+      },
+      {
+        "year": 2019,
+        "period": "2019 年",
+        "title": "预制复合墙体受到关注",
+        "body": "Alnatura Campus 的夯土墙采用预制单元，并整合保温与墙体供热；项目于 2019 年获得德国可持续建筑奖，展示材料方法向办公建筑扩展。",
+        "sourceIds": ["alnatura"]
+      }
+    ],
+    "interpretation": "原创墙体场景表现水平层理与窗洞深度，不复制所引工程；层色为编辑设定，图像不提供可施工的配比、结构或防水方案。",
+    "sources": [
+      {
+        "id": "rauch",
+        "title": "Rauch House",
+        "publisher": "Lehm Ton Erde",
+        "url": "https://www.lehmtonerde.at/en/projects/rauch-house/"
+      },
+      {
+        "id": "ricola",
+        "title": "Ricola eröffnet Kräuterzentrum in Laufen",
+        "publisher": "Ricola",
+        "url": "https://www.ricola.com/de-de/uber/pressemitteilungen/ricola-eroffnung-krauterzentrum/"
+      },
+      {
+        "id": "alnatura",
+        "title": "Alnatura Campus",
+        "publisher": "Lehm Ton Erde",
+        "url": "https://www.lehmtonerde.at/en/projects/alnatura-campus/"
+      }
+    ]
+  }
+}

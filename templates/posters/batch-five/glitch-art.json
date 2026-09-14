@@ -1,0 +1,33 @@
+{
+  "styleId": "glitch-art",
+  "title": "故障艺术",
+  "accentLength": 2,
+  "titleColors": ["#302C25", "#384D5B"],
+  "colors": [
+    {
+      "name": "信号黑",
+      "hex": "#242C39",
+      "englishName": "Signal"
+    },
+    {
+      "name": "偏移青",
+      "hex": "#57ADB6",
+      "englishName": "Offset Cyan"
+    },
+    {
+      "name": "错误紫",
+      "hex": "#9665AD",
+      "englishName": "Error Violet"
+    },
+    {
+      "name": "像素白",
+      "hex": "#DEE1D9",
+      "englishName": "Pixel"
+    }
+  ],
+  "sidebarCn": ["让错误暴露媒介", "在完整处制造断裂", "以格式理解图像", "区分噪声与机制"],
+  "sidebarEn": ["A Way of Seeing.", "A Way of Living."],
+  "badges": ["断裂", "编码", "偏移"],
+  "sceneFile": "assets/poster-scenes/glitch-art.png",
+  "scenePrompt": "Use case: stylized-concept. Asset type: original Visual Almanac archive scene. Create one original landscape 3:2 raster illustration, 1536x1024 preferred. An original digital glitch-art image of a calm geometric stairwell with a single luminous cube, left third intact and clean, right two thirds progressively fractured into displaced rectangular compression blocks, cyan-violet channel offsets and stretched pixel-sorting bands. Strong intelligible architecture under corrupted-image aesthetics, dark signal blue and off-white, limited controlled error region. Static image, no VHS tape tracking lines, no code text, no interface. Full bleed scene, no frame, no title, no logo, no watermark, no labels, no swatches, no readable text. Do not reproduce any existing artwork or brand. Carefully composed, visibly specific to the described visual language."
+}

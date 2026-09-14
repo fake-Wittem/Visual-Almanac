@@ -1,0 +1,114 @@
+{
+  "id": "street-comic",
+  "name": "街头漫画与波普插画",
+  "englishName": "Street Comics & Pop Illustration",
+  "aliases": ["Street Comics & Pop Illustration"],
+  "summary": "粗轮廓、连续动作和大众图像把街头观看变成可分享的叙事，连接公共空间与印刷传播。",
+  "category": "street-pop",
+  "tags": ["lively", "collage", "halftone", "red", "poster"],
+  "cover": "street-comic-poster",
+  "images": [
+    {
+      "asset": "street-comic-poster",
+      "caption": "街头漫画与波普插画 · 风格演绎海报"
+    }
+  ],
+  "palettes": [
+    {
+      "id": "poster",
+      "name": "主题配色",
+      "description": "本档案人工设定的演绎配色，不代表历史标准色。",
+      "colors": [
+        {
+          "id": "color-1",
+          "name": "轮廓黑",
+          "hex": "#2E3138",
+          "status": "manual",
+          "role": "漫画轮廓"
+        },
+        {
+          "id": "color-2",
+          "name": "纸黄",
+          "hex": "#E0CD88",
+          "status": "manual",
+          "role": "画格背景"
+        },
+        {
+          "id": "color-3",
+          "name": "动作红",
+          "hex": "#C25B4B",
+          "status": "manual",
+          "role": "角色配件"
+        },
+        {
+          "id": "color-4",
+          "name": "天蓝",
+          "hex": "#5C92AA",
+          "status": "manual",
+          "role": "次要画格"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "title": "角色需要动作关系",
+      "body": "轮廓粗并不足以形成漫画：用视线、动作和相邻画面建立时间，让角色不是孤立贴纸。"
+    },
+    {
+      "title": "公共观看与出版不同",
+      "body": "墙面需要远距离识别，印刷可以容纳细节和网点；跨媒介转用时重新安排图形密度。"
+    },
+    {
+      "title": "限定参考脉络",
+      "body": "本档案以1980年代纽约公共图像和绘画交流为线索，不把日漫、地下漫画与街头绘画合并成同一历史。"
+    }
+  ],
+  "applications": [
+    "适合社区文化活动、插画出版与公共艺术导览；以少量原创角色反复出现建立叙事，不借用现成商业形象。"
+  ],
+  "related": ["pop-art", "graffiti-lettering", "street-stencil"],
+  "order": 118,
+  "updatedAt": "2026-09-14",
+  "designHistory": {
+    "overview": "街头漫画与波普插画是本档案的媒介专题。这里选择1980年代纽约公共图像、另类空间和大众绘画的交流作为有限线索，研究直接轮廓与重复图像如何跨越街头和展览。",
+    "timeline": [
+      {
+        "year": 1980,
+        "period": "1980—1985年",
+        "title": "公共图像进入通勤空间",
+        "body": "Haring在纽约地铁黑纸广告空位上以白色粉笔作画，用快速节奏线条和可辨图像与通勤者接触。",
+        "sourceIds": ["s1"]
+      },
+      {
+        "year": 1982,
+        "period": "1982年",
+        "title": "街头实践与画廊相连",
+        "body": "Haring在Tony Shafrazi Gallery举办个展，公共图像的传播与展览体系形成联系；这是一条个案线索，不代表所有街头漫画。",
+        "sourceIds": ["s1"]
+      },
+      {
+        "year": 2017,
+        "period": "2017年",
+        "title": "回看大众图像与绘画交流",
+        "body": "Whitney的Fast Forward以1980年代绘画馆藏展示Haring、Scharf和Wachtel等不同实践，提示漫画式形象在艺术语境中的多样用途。",
+        "sourceIds": ["s2"]
+      }
+    ],
+    "interpretation": "纸袋角色和红球通过动作区段形成原创街头小叙事；角色不是Haring或其他作者的现成图像。 本场景由AI生成，四色为本档案人工设定的编辑配色。",
+    "sources": [
+      {
+        "id": "s1",
+        "title": "Bio",
+        "publisher": "Keith Haring Foundation",
+        "url": "https://www.haring.com/!/about-haring/bio"
+      },
+      {
+        "id": "s2",
+        "title": "Fast Forward: Painting from the 1980s",
+        "publisher": "Whitney Museum of American Art",
+        "url": "https://whitney.org/exhibitions/fast-forward"
+      }
+    ]
+  }
+}

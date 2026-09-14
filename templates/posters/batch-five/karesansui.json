@@ -1,0 +1,33 @@
+{
+  "styleId": "karesansui",
+  "title": "枯山水庭园",
+  "accentLength": 2,
+  "titleColors": ["#4C5148", "#726348"],
+  "colors": [
+    {
+      "name": "砾白",
+      "hex": "#D7D2BF",
+      "englishName": "Gravel"
+    },
+    {
+      "name": "石灰",
+      "hex": "#62675B",
+      "englishName": "Stone"
+    },
+    {
+      "name": "苔绿",
+      "hex": "#748064",
+      "englishName": "Moss"
+    },
+    {
+      "name": "土墙",
+      "hex": "#A99C80",
+      "englishName": "Earth Wall"
+    }
+  ],
+  "sidebarCn": ["从木缘确定视点", "让石组彼此遮映", "用砾纹安排方向", "在空处感受尺度"],
+  "sidebarEn": ["A Way of Seeing.", "A Way of Living."],
+  "badges": ["石组", "白砾", "视点"],
+  "sceneFile": "assets/poster-scenes/karesansui.png",
+  "scenePrompt": "Original imagined Kyoto dry landscape garden, low seated view from a dark timber veranda across carefully raked pale gravel to three asymmetrical groups of weathered stones with modest moss at their bases, aged plain earth wall behind, narrow green treetop glimpse. NOT the exact Ryoanji arrangement. No pond, no water, no bridge, no lantern. Clear rock weight and occlusion, restrained gravel parallel lines bending naturally around stones, quiet overcast daylight. Architectural editorial illustration landscape 3:2. Palette #D7D2BF #62675B #748064 #A99C80. No people, text, letters, calligraphy, numbers, seals, logos, border or swatches."
+}

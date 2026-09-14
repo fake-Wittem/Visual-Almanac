@@ -1,0 +1,120 @@
+{
+  "id": "frutiger-aero",
+  "name": "Frutiger Aero",
+  "englishName": "Frutiger Aero",
+  "aliases": ["Frutiger Aero"],
+  "summary": "光泽透明层与蓝天绿草相遇，回望世纪初对友好数字生活的乐观想象。",
+  "category": "future-tech",
+  "tags": ["translucent", "blue", "green", "futuristic", "brand"],
+  "cover": "frutiger-aero-poster",
+  "images": [
+    {
+      "asset": "frutiger-aero-poster",
+      "caption": "Frutiger Aero · 风格演绎海报"
+    }
+  ],
+  "palettes": [
+    {
+      "id": "poster",
+      "name": "主题配色",
+      "description": "本档案人工设定的演绎配色，不代表历史标准色。",
+      "colors": [
+        {
+          "id": "color-1",
+          "name": "玻璃蓝",
+          "hex": "#3B86B2",
+          "status": "manual",
+          "role": "透明球体与玻璃"
+        },
+        {
+          "id": "color-2",
+          "name": "云白",
+          "hex": "#EDF2E9",
+          "status": "manual",
+          "role": "云层及白色建筑"
+        },
+        {
+          "id": "color-3",
+          "name": "草绿",
+          "hex": "#78A753",
+          "status": "manual",
+          "role": "草地与植物"
+        },
+        {
+          "id": "color-4",
+          "name": "水青",
+          "hex": "#76C5C7",
+          "status": "manual",
+          "role": "水面与折射"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "title": "界面有触感",
+      "body": "通过高光、圆角和半透明层暗示按钮与玻璃，不把每个信息区都覆盖镜面反射。"
+    },
+    {
+      "title": "自然作为技术承诺",
+      "body": "草地、清水与天空和数字物件同框，表达亲近自然的消费技术想象；这些视觉符号不证明产品环保。"
+    },
+    {
+      "title": "名称来自回望",
+      "body": "Frutiger Aero是后来形成的归纳标签，不是当年统一发布的设计规范，也不指字体本身。"
+    }
+  ],
+  "applications": [
+    "适合数字文化展览与怀旧专题：主视觉可以光泽丰富，说明文字置于不透明浅底以保证阅读。"
+  ],
+  "related": ["y2k", "early-desktop-web", "digital-future"],
+  "order": 106,
+  "updatedAt": "2026-09-14",
+  "designHistory": {
+    "overview": "本档案把Frutiger Aero作为回望2000年代消费技术视觉的网络审美标签。Aqua等界面是可核实的前史，CARI的整理则属于后来的命名与研究，两者不可混为一场历史运动。",
+    "timeline": [
+      {
+        "year": 2000,
+        "period": "2000年",
+        "title": "Aqua公开亮相",
+        "body": "Apple发布Mac OS X时介绍发光和半透明的按钮、滚动条及窗口，为这类触感界面提供明确的历史实例。",
+        "sourceIds": ["s1"]
+      },
+      {
+        "year": 2005,
+        "period": "约2005—2013年",
+        "title": "技术与自然的视觉组合",
+        "body": "CARI的分类聚合这一时期的光泽、透明材质和自然意象；这是对不同商业视觉的归纳，并非所有产品遵守同一规范。",
+        "sourceIds": ["s2"]
+      },
+      {
+        "year": 2018,
+        "period": "2018年",
+        "title": "回望性命名",
+        "body": "CARI当前项目史记录，Froyo Tam于2018年建立Frutiger Aero公开社群，并说明名称由Sofi Xian与Froyo共同形成。这是对既有消费图像的回望性分类。",
+        "sourceIds": ["s3"]
+      }
+    ],
+    "interpretation": "透明蓝球、绿草和水面把世纪初消费技术的友好想象并置；场景是当代AI演绎，不是当年广告或实际软件界面。四色为本档案人工设定的编辑配色。",
+    "sources": [
+      {
+        "id": "s1",
+        "title": "Apple Unveils Mac OS X",
+        "publisher": "Apple",
+        "url": "https://www.apple.com/newsroom/2000/01/05Apple-Unveils-Mac-OS-X/"
+      },
+      {
+        "id": "s2",
+        "title": "Frutiger Aero",
+        "publisher": "CARI",
+        "url": "https://cari.institute/aesthetics/frutiger-aero"
+      },
+      {
+        "id": "s3",
+        "title": "Project History",
+        "publisher": "CARI",
+        "url": "https://cari.institute/history"
+      }
+    ]
+  }
+}

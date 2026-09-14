@@ -1,0 +1,33 @@
+{
+  "styleId": "greco-roman",
+  "title": "希腊罗马古典",
+  "accentLength": 2,
+  "titleColors": ["#655343", "#465C61"],
+  "colors": [
+    {
+      "name": "石白",
+      "hex": "#DDD4BD",
+      "englishName": "Stone"
+    },
+    {
+      "name": "陶红",
+      "hex": "#A96950",
+      "englishName": "Terracotta"
+    },
+    {
+      "name": "海灰",
+      "hex": "#788C8C",
+      "englishName": "Sea Grey"
+    },
+    {
+      "name": "深褐",
+      "hex": "#645345",
+      "englishName": "Umber"
+    }
+  ],
+  "sidebarCn": ["由构件理解柱式", "让檐部回应柱列", "区分实建与幻象", "把色彩放回历史"],
+  "sidebarEn": ["A Way of Seeing.", "A Way of Living."],
+  "badges": ["柱式", "比例", "构件"],
+  "sceneFile": "assets/poster-scenes/greco-roman.png",
+  "scenePrompt": "Original imagined ancient Greek Ionic colonnade architectural scene, correct consistent Ionic columns with bases, fluted shafts and paired volute capitals supporting a coherent horizontal entablature, no mixed column orders. Oblique close view of two columns and receding colonnade, warm marble texture, subtle restrained terracotta painted details on moldings, muted blue-grey distant sky. Emphasize complete capital-to-entablature relationship and believable stone construction. Refined architectural illustration, landscape 3:2, palette #DDD4BD #A96950 #788C8C #645345. Not a replica or archaeological reconstruction. No people, statues, text, inscriptions, lettering, numbers, logos, borders, swatches or collage."
+}

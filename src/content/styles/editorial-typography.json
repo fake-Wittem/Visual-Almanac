@@ -1,0 +1,120 @@
+{
+  "id": "editorial-typography",
+  "name": "当代编辑型排版",
+  "englishName": "Contemporary Editorial Typography",
+  "aliases": ["Contemporary Editorial Typography"],
+  "summary": "以标题反差、图文比例和跨页停顿组织阅读，让版面节奏服务于文章内容。",
+  "category": "modern-minimal",
+  "tags": ["rational", "contrast", "geometry", "black", "red", "poster", "slides"],
+  "cover": "editorial-typography-poster",
+  "images": [
+    {
+      "asset": "editorial-typography-poster",
+      "caption": "当代编辑型排版 · 风格演绎海报"
+    }
+  ],
+  "palettes": [
+    {
+      "id": "poster",
+      "name": "主题配色",
+      "description": "为本档案人工设定的视觉配色，海报色卡按相同 HEX 排版；不代表历史时期的标准色。",
+      "colors": [
+        {
+          "id": "color-1",
+          "name": "墨黑",
+          "hex": "#25282A",
+          "status": "manual",
+          "role": "标题与页幅主要重块"
+        },
+        {
+          "id": "color-2",
+          "name": "纸白",
+          "hex": "#EAE4D7",
+          "status": "manual",
+          "role": "页边距与跨页留白"
+        },
+        {
+          "id": "color-3",
+          "name": "陶红",
+          "hex": "#AE6049",
+          "status": "manual",
+          "role": "单幅主图与栏目强调"
+        },
+        {
+          "id": "color-4",
+          "name": "正文灰",
+          "hex": "#929B9D",
+          "status": "manual",
+          "role": "短行形成的正文灰度面"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "title": "入口和连续性",
+      "body": "开篇大标题负责吸引视线，正文的行长、字号和行距保证持续阅读；不要用正文过小来换取更夸张的标题。"
+    },
+    {
+      "title": "跨页节奏",
+      "body": "满版图、短文、长文和空白的交替可形成阅读速度；每个跨页都追求同样的冲击力，反而会失去节奏。"
+    },
+    {
+      "title": "纸屏转换",
+      "body": "印刷跨页能依靠左右页对照，窄屏需要重新组织图注、顺序和段落；同一视觉身份不意味着把整页缩小后直接上屏。"
+    }
+  ],
+  "applications": [
+    "适合专题杂志与研究报告：先区分导读、主体论述和图注三种阅读层级，用不同开篇版式回应不同内容，并在实际字号下检查长文可读性。"
+  ],
+  "related": ["swiss-international", "early-desktop-web"],
+  "order": 86,
+  "updatedAt": "2026-09-14",
+  "designHistory": {
+    "overview": "这是当代出版设计的媒介专题，以《Sight and Sound》和《The New Republic》的具体更新为案例。大字号与留白并非新近发明，也不意味着当代编辑设计只是历史瑞士网格的延续。",
+    "timeline": [
+      {
+        "year": 1932,
+        "period": "1932 年",
+        "title": "持续出版形成识别积累",
+        "body": "《Sight and Sound》创刊于 1932 年；其长期出版积累了栏目、档案与读者预期，为后来的设计更新提供了需要回应的基础。",
+        "sourceIds": ["sight"]
+      },
+      {
+        "year": 2020,
+        "period": "2020 年",
+        "title": "纸刊与网站共同更新",
+        "body": "Pentagram 为《The New Republic》建立新的身份和编辑设计，网站在 2020 年重新上线；栏目分区和数字更新节奏成为设计的一部分。",
+        "sourceIds": ["tnr"]
+      },
+      {
+        "year": 2021,
+        "period": "2021 年",
+        "title": "字体对比塑造电影阅读节奏",
+        "body": "《Sight and Sound》的更新用醒目的标题、可见网格和不同栏目背景组织内容，并以窄体标题与衬线正文形成对照；2021 年刊期呈现了这套视觉。",
+        "sourceIds": ["sight", "bfi"]
+      }
+    ],
+    "interpretation": "场景中的黑条与灰线仅表示标题和正文的面积关系，没有实际可读文字；真实字体选择需在内容与媒介中另行验证，海报外框属于档案模板。",
+    "sources": [
+      {
+        "id": "sight",
+        "title": "Sight and Sound",
+        "publisher": "Pentagram",
+        "url": "https://www.pentagram.com/work/sight-and-sound/story"
+      },
+      {
+        "id": "tnr",
+        "title": "The New Republic",
+        "publisher": "Pentagram",
+        "url": "https://www.pentagram.com/work/the-new-republic/story"
+      },
+      {
+        "id": "bfi",
+        "title": "Sight and Sound: the November 2021 issue",
+        "publisher": "British Film Institute",
+        "url": "https://www.bfi.org.uk/sight-and-sound/news/sight-sound-november-2021-issue"
+      }
+    ]
+  }
+}

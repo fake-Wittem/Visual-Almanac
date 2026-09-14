@@ -1,0 +1,33 @@
+{
+  "styleId": "korean-minhwa",
+  "title": "韩国民画装饰",
+  "accentLength": 2,
+  "titleColors": ["#3E5967", "#874E3E"],
+  "colors": [
+    {
+      "name": "靛蓝",
+      "hex": "#4D697D",
+      "englishName": "Indigo"
+    },
+    {
+      "name": "朱赭",
+      "hex": "#B36E58",
+      "englishName": "Red Ochre"
+    },
+    {
+      "name": "纸黄",
+      "hex": "#DDC699",
+      "englishName": "Paper Gold"
+    },
+    {
+      "name": "叶绿",
+      "hex": "#698466",
+      "englishName": "Leaf Green"
+    }
+  ],
+  "sidebarCn": ["以格间收纳书物", "用斜线展开空间", "让果实参与叙事", "在流传中辨认变化"],
+  "sidebarEn": ["A Way of Seeing.", "A Way of Living."],
+  "badges": ["书物", "格间", "设色"],
+  "sceneFile": "assets/poster-scenes/korean-minhwa.png",
+  "scenePrompt": "Original Korean chaekgeori-inspired still-life painting across a few shallow painted shelf compartments: stacks of closed blue and ochre thread-bound books with BLANK unmarked covers, a small white ceramic vase, a pomegranate and a citrus fruit, a modest peony sprig. Flat ink outlines, playful but coherent oblique shelf perspective, mineral-like muted colors on warm paper, decorative early-modern Korean painting sensibility, not Chinese literati ink landscape. No tiger, no modern branded toys. Landscape 3:2, single continuous painting not photographed panel collage. Palette #4D697D #B36E58 #DDC699 #698466. Absolutely no writing, calligraphy, labels, letters, characters, numbers, seals, signatures, borders, logos or swatches."
+}

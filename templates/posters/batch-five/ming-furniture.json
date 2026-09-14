@@ -1,0 +1,33 @@
+{
+  "styleId": "ming-furniture",
+  "title": "明式家具空间",
+  "accentLength": 2,
+  "titleColors": ["#473B30", "#765238"],
+  "colors": [
+    {
+      "name": "木褐",
+      "hex": "#8C6241",
+      "englishName": "Hardwood"
+    },
+    {
+      "name": "纸白",
+      "hex": "#E4D9C4",
+      "englishName": "Paper"
+    },
+    {
+      "name": "深棕",
+      "hex": "#473B30",
+      "englishName": "Dark Wood"
+    },
+    {
+      "name": "灰绿",
+      "hex": "#858D79",
+      "englishName": "Grey Green"
+    }
+  ],
+  "sidebarCn": ["循线看见构件", "由尺度理解使用", "让木纹顺着结构", "在空处读出比例"],
+  "sidebarEn": ["A Way of Seeing.", "A Way of Living."],
+  "badges": ["框架", "木作", "尺度"],
+  "sceneFile": "assets/poster-scenes/ming-furniture.png",
+  "scenePrompt": "Original Ming-style furniture architectural interior study. Main subject: a Chinese FOUR-PROTRUDING-END OFFICIAL'S-HAT YOKEBACK ARMCHAIR (四出头官帽椅), NOT a horseshoe chair. Critical chair anatomy: a separate almost-horizontal gently bowed high crest rail extending a short distance outward beyond both tall rear posts; a broad narrow vertical curved back splat below the crest; TWO SEPARATE LOW ARMRESTS, one on each side, each horizontal and attached halfway down the rear posts, ending beyond their front arm supports. A large clear vertical gap separates the HIGH crest rail from the LOW independent armrests. Absolutely NO semicircular ring connecting the crest to the armrests, NO continuous horseshoe back. Four legs and visible rectangular stretchers below the seat. Chair seen from slight three-quarter front so top crest and low arms are distinct. Beside it a narrow plain rectangular hardwood table. Warm brown hardwood grain, quiet plaster wall, pale stone floor, small grey-green vase on table, soft side daylight. Refined architectural editorial illustration landscape 3:2. Palette #8C6241 #E4D9C4 #473B30 #858D79. Original interpretation not a museum replica. No people, text, books, calligraphy, letters, numerals, seals, logos, borders, color swatches or collage."
+}

@@ -1,0 +1,33 @@
+{
+  "styleId": "italian-radical",
+  "title": "意大利激进设计",
+  "accentLength": 2,
+  "titleColors": ["#302C25", "#384D5B"],
+  "colors": [
+    {
+      "name": "质问红",
+      "hex": "#BB4B40",
+      "englishName": "Radical Red"
+    },
+    {
+      "name": "网格白",
+      "hex": "#E8E1D3",
+      "englishName": "Grid White"
+    },
+    {
+      "name": "结构黑",
+      "hex": "#303132",
+      "englishName": "Structure"
+    },
+    {
+      "name": "实验绿",
+      "hex": "#7F9D70",
+      "englishName": "Experiment"
+    }
+  ],
+  "sidebarCn": ["以物件质问生活", "让尺度失去常规", "把网格推向远方", "用空间提出问题"],
+  "sidebarEn": ["A Way of Seeing.", "A Way of Living."],
+  "badges": ["反常", "概念", "批判"],
+  "sceneFile": "assets/poster-scenes/italian-radical.png",
+  "scenePrompt": "Use case: stylized-concept. Asset type: original Visual Almanac archive scene. Create one original landscape 3:2 raster illustration, 1536x1024 preferred. An original provocative 1970s Italian radical-design concept environment: a vast ivory square grid floor continuing into a misty horizon, an absurd oversized red soft chair shaped like a folded ribbon beside a tiny conventional doorway, one pale green abstract flower-like lamp. Photomontage-like architectural study with tiny anonymous human silhouette for scale, restrained crisp shadows and printed collage grain. Do not reproduce Superstudio's specific works, no lips sofa, no famous furniture replicas. Full bleed scene, no frame, no title, no logo, no watermark, no labels, no swatches, no readable text. Do not reproduce any existing artwork or brand. Carefully composed, visibly specific to the described visual language."
+}
