@@ -1,0 +1,112 @@
+{
+  "id": "roadside-motel",
+  "name": "美式汽车旅馆与公路",
+  "englishName": "American Roadside Motels",
+  "aliases": ["American Roadside Motels"],
+  "summary": "低层客房、停车前庭与高挑招牌把旅途中的短暂停留变成可辨识的公路景观。",
+  "category": "retro",
+  "tags": ["nostalgic", "poster"],
+  "cover": "roadside-motel-poster",
+  "images": [
+    {
+      "asset": "roadside-motel-poster",
+      "caption": "美式汽车旅馆与公路 · 风格演绎海报"
+    }
+  ],
+  "palettes": [
+    {
+      "id": "poster",
+      "name": "主题配色",
+      "description": "为本档案人工设定的视觉配色，海报色卡按相同 HEX 排版；不代表历史时期的标准色。",
+      "colors": [
+        {
+          "id": "color-1",
+          "name": "湖水青",
+          "hex": "#4B9CA1",
+          "status": "manual",
+          "role": "主体基调"
+        },
+        {
+          "id": "color-2",
+          "name": "珊瑚橙",
+          "hex": "#D66D50",
+          "status": "manual",
+          "role": "结构层次"
+        },
+        {
+          "id": "color-3",
+          "name": "沙地黄",
+          "hex": "#D9BC83",
+          "status": "manual",
+          "role": "视觉强调"
+        },
+        {
+          "id": "color-4",
+          "name": "夜幕蓝",
+          "hex": "#263A52",
+          "status": "manual",
+          "role": "辅助平衡"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "title": "水平与垂直",
+      "body": "低层连续客房形成水平基线，独立招牌以高度和轮廓争取远距离辨识。"
+    },
+    {
+      "title": "夜色层次",
+      "body": "招牌亮光与房间暖光各有尺度，暗处保留道路方向，不用全画面霓虹。"
+    },
+    {
+      "title": "历史边界",
+      "body": "以美国66号公路沿线为主要样本，不把汽车旅行经验视作所有人的平等经历。"
+    }
+  ],
+  "applications": ["适合公路主题影像与活动视觉：用道路消失点组织构图，信息标识须保持清楚可读。"],
+  "related": ["american-diner", "mid-century"],
+  "order": 42,
+  "updatedAt": "2026-09-12",
+  "designHistory": {
+    "overview": "本档案研究汽车旅行催生的住宿与路边传播，区别于美式餐厅室内。66号公路沿线的旅馆、停车场与招牌既是商业设施，也是道路变迁留下的生活记录。",
+    "timeline": [
+      {
+        "year": 1926,
+        "period": "1926年起",
+        "title": "道路形成服务网络",
+        "body": "66号公路进入美国编号公路体系，连接中西部与太平洋沿岸；汽车交通带动沿途住宿和补给设施。",
+        "sourceIds": ["history"]
+      },
+      {
+        "year": 1945,
+        "period": "二战后",
+        "title": "旅行与沿线商业扩展",
+        "body": "战后汽车旅行兴盛，沿线旅馆、餐馆和加油站服务大量旅客，独立招牌成为识别路边生意的显著方式。",
+        "sourceIds": ["overview"]
+      },
+      {
+        "year": 1956,
+        "period": "1950年代后期—1985年",
+        "title": "高速公路改变停留路线",
+        "body": "州际公路建设与连锁商业增长改变沿线经济；66号公路的历史时期通常以1985年终止，其旧有设施逐渐成为保护与再利用对象。",
+        "sourceIds": ["overview", "history"]
+      }
+    ],
+    "interpretation": "海报为当代原创风格演绎，不是历史实景或馆藏复制。低层连续客房形成水平基线，独立招牌以高度和轮廓争取远距离辨识。",
+    "sources": [
+      {
+        "id": "history",
+        "title": "Route 66 History",
+        "publisher": "National Park Service",
+        "url": "https://www.nps.gov/orgs/1453/route-66-history.htm"
+      },
+      {
+        "id": "overview",
+        "title": "Route 66 Overview",
+        "publisher": "National Park Service",
+        "url": "https://home.nps.gov/articles/route-66-overview.htm"
+      }
+    ]
+  }
+}

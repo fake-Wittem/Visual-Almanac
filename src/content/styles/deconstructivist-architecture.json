@@ -1,0 +1,120 @@
+{
+  "id": "deconstructivist-architecture",
+  "name": "解构主义建筑",
+  "englishName": "Deconstructivist Architecture",
+  "aliases": ["Deconstructivist Architecture"],
+  "summary": "错位体块、倾斜网格与相互穿插的表皮，使稳定建筑秩序显露张力。",
+  "category": "avant-garde",
+  "tags": ["rational", "geometry", "metal", "contrast", "black", "slides"],
+  "cover": "deconstructivist-architecture-poster",
+  "images": [
+    {
+      "asset": "deconstructivist-architecture-poster",
+      "caption": "解构主义建筑 · 风格演绎海报"
+    }
+  ],
+  "palettes": [
+    {
+      "id": "poster",
+      "name": "主题配色",
+      "description": "为本档案人工设定的视觉配色，海报色卡按相同 HEX 排版；不代表历史标准色。",
+      "colors": [
+        {
+          "id": "color-1",
+          "name": "锌灰",
+          "hex": "#9DA3A6",
+          "status": "manual",
+          "role": "折面表皮"
+        },
+        {
+          "id": "color-2",
+          "name": "深炭",
+          "hex": "#31363A",
+          "status": "manual",
+          "role": "缝隙与阴影"
+        },
+        {
+          "id": "color-3",
+          "name": "砖红",
+          "hex": "#AD4D3C",
+          "status": "manual",
+          "role": "空间标记"
+        },
+        {
+          "id": "color-4",
+          "name": "雾白",
+          "hex": "#E4E1D8",
+          "status": "manual",
+          "role": "空白与模型"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "title": "体块关系",
+      "body": "先明确主要体量和行走空间，再引入错位与倾斜，视觉冲突不等于结构任意。"
+    },
+    {
+      "title": "材料分层",
+      "body": "以金属、玻璃和实体墙的不同反射组织层次，避免把所有表面处理成相同的碎片纹理。"
+    },
+    {
+      "title": "术语边界",
+      "body": "1988年的展览是关键策展节点，而非所有参展建筑师共同宣布成立一个统一流派；也不等于文字排版解构。"
+    }
+  ],
+  "applications": [
+    "适合建筑展览与空间研究演示：用分层图形比较体块、表皮和动线，不以装饰性斜线代替空间说明。"
+  ],
+  "related": ["industrial-loft", "contemporary-minimal", "memphis"],
+  "order": 68,
+  "updatedAt": "2026-09-12",
+  "designHistory": {
+    "overview": "解构主义建筑作为重要的展览与批评术语，强调规则几何内部的扭转、错置和不稳定感。不同建筑师具有各自的实践脉络，不能将复杂造型全部归为同一理论。",
+    "timeline": [
+      {
+        "year": 1978,
+        "period": "1978—1988年",
+        "title": "住宅改造中的穿插",
+        "body": "盖里在圣莫尼卡住宅改造中使用胶合板、金属板和铁丝网，旧房与新增结构相互显露。",
+        "sourceIds": ["gehry"]
+      },
+      {
+        "year": 1988,
+        "period": "1988年",
+        "title": "策展名称进入公共讨论",
+        "body": "MoMA举办《解构主义建筑》展览，将多位建筑师的实验并置，成为这一术语传播的重要节点。",
+        "sourceIds": ["exhibition"]
+      },
+      {
+        "year": 1997,
+        "period": "1997年",
+        "title": "复杂形体走入大型文化建筑",
+        "body": "毕尔巴鄂古根海姆博物馆开放，石材、玻璃与钛板交织，计算机辅助设计支持复杂体量的实现。",
+        "sourceIds": ["bilbao"]
+      }
+    ],
+    "interpretation": "本海报是当代原创视觉演绎，提炼本档案所述构图与材料关系，不是历史影像、馆藏复制或实际项目记录。主题配色属于本次编辑选择。",
+    "sources": [
+      {
+        "id": "gehry",
+        "title": "Frank O. Gehry",
+        "publisher": "MoMA",
+        "url": "https://www.moma.org/collection/artists/2108"
+      },
+      {
+        "id": "exhibition",
+        "title": "Deconstructivist Architecture",
+        "publisher": "MoMA",
+        "url": "https://www.moma.org/calendar/exhibitions/1813"
+      },
+      {
+        "id": "bilbao",
+        "title": "Architecture: Bilbao",
+        "publisher": "Guggenheim",
+        "url": "https://www.guggenheim.org/about-us/architecture"
+      }
+    ]
+  }
+}

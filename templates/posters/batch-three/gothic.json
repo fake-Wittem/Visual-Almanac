@@ -1,0 +1,33 @@
+{
+  "styleId": "gothic",
+  "title": "哥特式风格",
+  "accentLength": 2,
+  "titleColors": ["#303936", "#79503A"],
+  "colors": [
+    {
+      "name": "石板灰",
+      "hex": "#4A5260",
+      "englishName": "Slate"
+    },
+    {
+      "name": "宝石红",
+      "hex": "#8C283D",
+      "englishName": "Ruby"
+    },
+    {
+      "name": "石灰白",
+      "hex": "#D9CDB5",
+      "englishName": "Limestone"
+    },
+    {
+      "name": "彩窗蓝",
+      "hex": "#275B8A",
+      "englishName": "Glass Blue"
+    }
+  ],
+  "sidebarCn": ["让尖拱引导视线", "让肋架托起空间", "让彩窗过滤光线", "在高度中感受秩序"],
+  "sidebarEn": ["A Way of Seeing.", "A Way of Living."],
+  "badges": ["尖拱", "肋架", "光色"],
+  "sceneFile": "assets/poster-scenes/gothic.png",
+  "scenePrompt": "An imagined Gothic cathedral side aisle with soaring stone piers, rib vaults, pointed tracery and ruby sapphire stained glass casting colored light on limestone. No people. Portrait 4:5. No text, no logo, no swatches, no border. Colors #4A5260, #8C283D, #D9CDB5, #275B8A"
+}

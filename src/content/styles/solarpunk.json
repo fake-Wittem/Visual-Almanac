@@ -1,0 +1,114 @@
+{
+  "id": "solarpunk",
+  "name": "太阳朋克",
+  "englishName": "Solarpunk",
+  "aliases": ["Solarpunk", "太阳朋克"],
+  "summary": "可再生能源、社区协作与种植生活交织，描绘值得共同建设的生态未来。",
+  "category": "future-tech",
+  "tags": ["futuristic", "warm", "organic", "green", "poster"],
+  "cover": "solarpunk-poster",
+  "images": [
+    {
+      "asset": "solarpunk-poster",
+      "caption": "太阳朋克 · 风格演绎海报"
+    }
+  ],
+  "palettes": [
+    {
+      "id": "poster",
+      "name": "主题配色",
+      "description": "为本档案人工设定的视觉配色，海报色卡按相同 HEX 排版；不代表历史时期的标准色。",
+      "colors": [
+        {
+          "id": "color-1",
+          "name": "菜园绿",
+          "hex": "#527A51",
+          "status": "manual",
+          "role": "主题基调"
+        },
+        {
+          "id": "color-2",
+          "name": "日光金",
+          "hex": "#D4B867",
+          "status": "manual",
+          "role": "对比点缀"
+        },
+        {
+          "id": "color-3",
+          "name": "浅麦白",
+          "hex": "#E8E1C4",
+          "status": "manual",
+          "role": "材质辅助"
+        },
+        {
+          "id": "color-4",
+          "name": "晴空蓝",
+          "hex": "#8DB5C1",
+          "status": "manual",
+          "role": "背景留白"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "title": "技术与生活相连",
+      "body": "光伏、雨水收集与交通设施应进入日常使用场景，而不只作为绿色城市的装饰。"
+    },
+    {
+      "title": "社区尺度",
+      "body": "种植、修理与共享空间提供可阅读的活动线索，避免仅靠巨型生态建筑表达未来。"
+    },
+    {
+      "title": "想象与验证",
+      "body": "太阳朋克是文化和行动想象；插图中的设施不等于已验证的工程或环境绩效。"
+    }
+  ],
+  "applications": [
+    "适合太阳朋克主题的展览海报与阅读分享：选取档案中的核心形式组织主视觉，保持正文清晰，并注明图像为当代演绎。"
+  ],
+  "related": ["biophilic", "digital-future", "retro-futurism"],
+  "order": 62,
+  "updatedAt": "2026-09-12",
+  "designHistory": {
+    "overview": "太阳朋克从二十一世纪的网络讨论、文学和视觉实践发展，强调生态未来与社会协作。它不只是一组绿色建筑图像，也关心人如何维护技术、共享资源并改变生活。",
+    "timeline": [
+      {
+        "year": 2008,
+        "period": "2008 年",
+        "title": "为生态未来寻找名称",
+        "body": "受风力辅助货船启发的博客讨论提出 solarpunk，把技术想象转向可再生能源。",
+        "sourceIds": ["manifesto"]
+      },
+      {
+        "year": 2014,
+        "period": "2014 年",
+        "title": "自然与艺术的视觉讨论扩大",
+        "body": "网络创作者将绿色城市、园艺与技术学习等日常主题加入太阳朋克讨论，丰富其世界建构。",
+        "sourceIds": ["manifesto"]
+      },
+      {
+        "year": 2022,
+        "period": "2022 年",
+        "title": "文学研究整理类型特征",
+        "body": "剑桥的相关研究梳理短篇小说、转变后的景观及可再生能源日常化等主题，并讨论其促进气候行动的意图。",
+        "sourceIds": ["cambridge"]
+      }
+    ],
+    "interpretation": "海报以虚构场景提炼太阳朋克的材料、构图与视觉关系；不复制馆藏原件，不作为历史现场或实际工程的证明。",
+    "sources": [
+      {
+        "id": "manifesto",
+        "title": "A Solarpunk Manifesto: Turning Imaginary into Reality",
+        "publisher": "Philosophies / MDPI",
+        "url": "https://www.mdpi.com/2409-9287/8/4/73"
+      },
+      {
+        "id": "cambridge",
+        "title": "Solarpunk — The Cambridge Companion to Literature and Climate",
+        "publisher": "Cambridge University Press",
+        "url": "https://doi.org/10.1017/9781009057868.013"
+      }
+    ]
+  }
+}

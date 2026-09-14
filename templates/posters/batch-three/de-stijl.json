@@ -1,0 +1,33 @@
+{
+  "styleId": "de-stijl",
+  "title": "风格派构成",
+  "accentLength": 2,
+  "titleColors": ["#285CA0", "#A32D26"],
+  "colors": [
+    {
+      "name": "构成红",
+      "hex": "#C53D32",
+      "englishName": "Structural Red"
+    },
+    {
+      "name": "钴蓝",
+      "hex": "#285CA0",
+      "englishName": "Cobalt Blue"
+    },
+    {
+      "name": "原色黄",
+      "hex": "#E8BC37",
+      "englishName": "Primary Yellow"
+    },
+    {
+      "name": "平面白",
+      "hex": "#E9E7DF",
+      "englishName": "Plane White"
+    }
+  ],
+  "sidebarCn": ["让正交组织平面", "让原色彼此制衡", "让空白参与构成", "让关系走向空间"],
+  "sidebarEn": ["A Way of Seeing.", "A Way of Living."],
+  "badges": ["正交", "原色", "平衡"],
+  "sceneFile": "assets/poster-scenes/de-stijl.png",
+  "scenePrompt": "Original De Stijl spatial maquette: perpendicular white planes, narrow black beams, red vertical plane, blue horizontal plane, small yellow block, asymmetric equilibrium with air between planes. Soft studio shadows. Landscape 1.46:1 no text or logos. Not a known artwork replica."
+}

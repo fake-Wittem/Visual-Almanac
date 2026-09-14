@@ -1,0 +1,33 @@
+{
+  "styleId": "scandinavian-organic",
+  "title": "北欧有机设计",
+  "accentLength": 2,
+  "titleColors": ["#454A44", "#72545B"],
+  "colors": [
+    {
+      "name": "桦木",
+      "hex": "#C9A572",
+      "englishName": "Birch"
+    },
+    {
+      "name": "乳白",
+      "hex": "#EEE7D8",
+      "englishName": "Cream"
+    },
+    {
+      "name": "鼠尾草",
+      "hex": "#9EA994",
+      "englishName": "Sage"
+    },
+    {
+      "name": "炭灰",
+      "hex": "#454A44",
+      "englishName": "Charcoal"
+    }
+  ],
+  "sidebarCn": ["让曲线回应身体", "看见木材的层次", "以工艺支撑轻盈", "把自然带入日常"],
+  "sidebarEn": ["A Way of Seeing.", "A Way of Living."],
+  "badges": ["曲木", "尺度", "流线"],
+  "sceneFile": "assets/poster-scenes/scandinavian-organic.png",
+  "scenePrompt": "Original bent birch plywood lounge chair, rounded three-legged stool, flowing clear glass bowl, northern window light and birch trees. Tactile photographic furniture editorial, not a specific designer replica. Portrait 4:5. Palette #C9A572, #EEE7D8, #9EA994, #454A44. No text, letters, logos, signatures, seals, borders, color swatches or collage."
+}

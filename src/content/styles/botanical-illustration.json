@@ -1,0 +1,120 @@
+{
+  "id": "botanical-illustration",
+  "name": "植物学图谱视觉",
+  "englishName": "Botanical Illustration",
+  "aliases": ["Botanical Illustration"],
+  "summary": "用轮廓、局部观察与充足留白组织植物细节，让自然图像带有阅读秩序。",
+  "category": "natural-organic",
+  "tags": ["calm", "organic", "green", "cream", "poster"],
+  "cover": "botanical-illustration-poster",
+  "images": [
+    {
+      "asset": "botanical-illustration-poster",
+      "caption": "植物学图谱视觉 · 风格演绎海报"
+    }
+  ],
+  "palettes": [
+    {
+      "id": "poster",
+      "name": "主题配色",
+      "description": "为本档案人工设定的视觉配色，海报色卡按相同 HEX 排版；不代表历史时期的标准色。",
+      "colors": [
+        {
+          "id": "color-1",
+          "name": "叶绿",
+          "hex": "#607347",
+          "status": "manual",
+          "role": "叶片与叶脉"
+        },
+        {
+          "id": "color-2",
+          "name": "纸白",
+          "hex": "#EAE2CB",
+          "status": "manual",
+          "role": "纸张底色"
+        },
+        {
+          "id": "color-3",
+          "name": "赭黄",
+          "hex": "#B99257",
+          "status": "manual",
+          "role": "果实及花蕊"
+        },
+        {
+          "id": "color-4",
+          "name": "灰梅",
+          "hex": "#72545B",
+          "status": "manual",
+          "role": "花芽与柔和阴影"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "title": "整体与局部",
+      "body": "以完整枝条建立主轮廓，再将花部、叶背或果实剖面作为较小的观察单元；局部需要服务阅读，不能只是随意散落的装饰。"
+    },
+    {
+      "title": "线条与透明色层",
+      "body": "细线说明叶脉和边缘，薄水彩区分体积与成熟度；降低背景纹理强度，使观察细节不被做旧效果遮住。"
+    },
+    {
+      "title": "图谱与花卉纹样",
+      "body": "图谱强调个体、比较和描述，连续花纹强调覆盖与重复。若用于知识传播，植物名称和结构须另行核实，不能把演绎图当成鉴定依据。"
+    }
+  ],
+  "applications": [
+    "适合植物主题手册的章节扉页：一枝主图配少量局部细节，正文用可编辑标签和引线排版；物种信息交由可靠资料核对后填写。"
+  ],
+  "related": ["natural-handcraft", "biophilic", "arts-and-crafts"],
+  "order": 51,
+  "updatedAt": "2026-09-12",
+  "designHistory": {
+    "overview": "植物学图绘是服务观察、识别与出版的媒介传统，而非单纯花卉装饰。这里以英国皇家植物园邱园所述出版与图绘档案为线索，也保留其科学实践与历史权力关系的复杂性。",
+    "timeline": [
+      {
+        "year": 1787,
+        "period": "1787 年",
+        "title": "植物图绘进入连续出版",
+        "body": "《柯蒂斯植物学杂志》创刊，以植物图像与相关文字持续传播园艺和植物学知识。",
+        "sourceIds": ["magazine"]
+      },
+      {
+        "year": 1800,
+        "period": "十九世纪",
+        "title": "细节与采集网络",
+        "body": "脆弱标本难以长期保存，使精确绘图尤为重要；图像的委托与传播也受到商业目标、殖民背景和地方知识取舍的影响。",
+        "sourceIds": ["history"]
+      },
+      {
+        "year": 2019,
+        "period": "二十一世纪",
+        "title": "图绘继续服务研究",
+        "body": "现代植物学仍借助专业绘图比较细小结构；图版与描述共同支持研究，不因摄影普及而失去作用。",
+        "sourceIds": ["art"]
+      }
+    ],
+    "interpretation": "海报将所述形态与材料转译为原创视觉场景；配色为编辑设定，不用于文物鉴定、科学识别或证明环境绩效。",
+    "sources": [
+      {
+        "id": "magazine",
+        "title": "Curtis's Botanical Magazine",
+        "publisher": "Royal Botanic Gardens, Kew",
+        "url": "https://www.kew.org/science/our-science/publications-and-reports/publications/curtis-botanical-magazine"
+      },
+      {
+        "id": "history",
+        "title": "Worth a thousand words: The hidden histories of botanical illustrations",
+        "publisher": "Royal Botanic Gardens, Kew",
+        "url": "https://www.kew.org/read-and-watch/botanical-illustrations-history"
+      },
+      {
+        "id": "art",
+        "title": "What is botanical art?",
+        "publisher": "Royal Botanic Gardens, Kew",
+        "url": "https://www.kew.org/read-and-watch/what-is-botanic-art"
+      }
+    ]
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "id": "rave-acid-house",
+  "name": "Rave与Acid House",
+  "englishName": "Rave & Acid House",
+  "aliases": ["Rave & Acid House"],
+  "summary": "舞池、传单与电子图形以高能色彩和循环节奏连接音乐活动与共同体验。",
+  "category": "street-pop",
+  "tags": ["lively", "geometry", "contrast", "neon", "purple", "poster"],
+  "cover": "rave-acid-house-poster",
+  "images": [
+    {
+      "asset": "rave-acid-house-poster",
+      "caption": "Rave与Acid House · 风格演绎海报"
+    }
+  ],
+  "palettes": [
+    {
+      "id": "poster",
+      "name": "主题配色",
+      "description": "为本档案人工设定的视觉配色，海报色卡按相同 HEX 排版；不代表历史标准色。",
+      "colors": [
+        {
+          "id": "color-1",
+          "name": "酸黄",
+          "hex": "#E2E647",
+          "status": "manual",
+          "role": "高亮图形"
+        },
+        {
+          "id": "color-2",
+          "name": "紫电",
+          "hex": "#7953B5",
+          "status": "manual",
+          "role": "主色场"
+        },
+        {
+          "id": "color-3",
+          "name": "深夜黑",
+          "hex": "#22242E",
+          "status": "manual",
+          "role": "背景与信息"
+        },
+        {
+          "id": "color-4",
+          "name": "荧光青",
+          "hex": "#55C8C0",
+          "status": "manual",
+          "role": "节奏辅助"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "title": "循环建立节拍",
+      "body": "使用同心环、重复单元和强烈尺度对比形成视觉节奏，信息区应保持静止和清晰。"
+    },
+    {
+      "title": "传单与空间",
+      "body": "舞会视觉也包括灯光、厂牌和场所，不能只摘取一个笑脸图案就当作完整文化。"
+    },
+    {
+      "title": "具体地域",
+      "body": "本档案以英国Rave传播为主，承认电子音乐与美国城市等多地的联系，不把所有电子舞曲视为同一种风格。"
+    }
+  ],
+  "applications": ["适合电子音乐活动与夜间文化海报：以高能图形吸引视线，用稳定色块承载日期地点。"],
+  "related": ["op-art", "pop-art", "cyberpunk"],
+  "order": 71,
+  "updatedAt": "2026-09-12",
+  "designHistory": {
+    "overview": "Rave与Acid House关联音乐、夜生活、地方网络和活动传播。视觉研究需要把传单、俱乐部空间与集体体验放在一起，并保留不同音乐城市和社群的差异。",
+    "timeline": [
+      {
+        "year": 1989,
+        "period": "1989—1994年",
+        "title": "地方网络推动场景",
+        "body": "Waltham Forest的音乐社群与地点参与Acid House、Hardcore等类型的发展，地方档案记录这些联系。",
+        "sourceIds": ["east"]
+      },
+      {
+        "year": 1991,
+        "period": "1991—2020年影像",
+        "title": "活动成为集体记忆",
+        "body": "V&A Dundee展出的苏格兰俱乐部影像汇集这一跨度内的现场材料，记录服饰、音乐与社交关系。",
+        "sourceIds": ["dundee"]
+      },
+      {
+        "year": 2020,
+        "period": "2020年",
+        "title": "设计博物馆回看电子文化",
+        "body": "Electronic展览以厂牌、俱乐部、摄影和视觉装置呈现电子音乐与设计的联系。",
+        "sourceIds": ["electronic"]
+      }
+    ],
+    "interpretation": "本海报是当代原创视觉演绎，提炼本档案所述构图与材料关系，不是历史影像、馆藏复制或实际项目记录。主题配色属于本次编辑选择。",
+    "sources": [
+      {
+        "id": "east",
+        "title": "Meet the artists amplifying east London’s lost sounds",
+        "publisher": "V&A",
+        "url": "https://www.vam.ac.uk/blog/east/meet-the-artists-lost-sounds-east-london"
+      },
+      {
+        "id": "dundee",
+        "title": "Delight in Design: What’s on show",
+        "publisher": "V&A Dundee",
+        "url": "https://www.vam.ac.uk/dundee/articles/delight-in-design"
+      },
+      {
+        "id": "electronic",
+        "title": "Electronic: From Kraftwerk to The Chemical Brothers",
+        "publisher": "Design Museum",
+        "url": "https://designmuseum.org/exhibitions/electronic-from-kraftwerk-to-the-chemical-brothers"
+      }
+    ]
+  }
+}

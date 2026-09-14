@@ -1,0 +1,33 @@
+{
+  "styleId": "rinpa",
+  "title": "琳派装饰",
+  "accentLength": 2,
+  "titleColors": ["#454A44", "#72545B"],
+  "colors": [
+    {
+      "name": "金地",
+      "hex": "#B79A56",
+      "englishName": "Gold"
+    },
+    {
+      "name": "鸢尾紫",
+      "hex": "#65547E",
+      "englishName": "Iris"
+    },
+    {
+      "name": "深叶绿",
+      "hex": "#405F4A",
+      "englishName": "Leaf"
+    },
+    {
+      "name": "银米",
+      "hex": "#E6DEBD",
+      "englishName": "Silver Cream"
+    }
+  ],
+  "sidebarCn": ["把自然化为节奏", "用省略强调形态", "让金地留出间隔", "以重复建立呼应"],
+  "sidebarEn": ["A Way of Seeing.", "A Way of Living."],
+  "badges": ["金地", "花叶", "韵律"],
+  "sceneFile": "assets/poster-scenes/rinpa.png",
+  "scenePrompt": "Original Rinpa-inspired decorative painting of simplified violet irises and long green leaves over mottled gold leaf ground, narrow silver-blue stream, asymmetric open space, mineral pigment and pooled ink texture. Portrait 4:5. Palette #B79A56, #65547E, #405F4A, #E6DEBD. No text, letters, logos, signatures, seals, borders, color swatches or collage."
+}

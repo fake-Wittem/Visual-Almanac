@@ -1,0 +1,120 @@
+{
+  "id": "song-ceramics",
+  "name": "宋代器物与生活审美",
+  "englishName": "Song Ceramics and Everyday Aesthetics",
+  "aliases": ["Song Ceramics and Everyday Aesthetics"],
+  "summary": "从白瓷刻花、黑釉茶盏与青釉器形之间，阅读宋代陶瓷的丰富层次。",
+  "category": "eastern-aesthetics",
+  "tags": ["calm", "elegant", "muted", "green", "cream", "brand"],
+  "cover": "song-ceramics-poster",
+  "images": [
+    {
+      "asset": "song-ceramics-poster",
+      "caption": "宋代器物与生活审美 · 风格演绎海报"
+    }
+  ],
+  "palettes": [
+    {
+      "id": "poster",
+      "name": "主题配色",
+      "description": "为本档案人工设定的视觉配色，海报色卡按相同 HEX 排版；不代表历史时期的标准色。",
+      "colors": [
+        {
+          "id": "color-1",
+          "name": "青釉",
+          "hex": "#9EB5A7",
+          "status": "manual",
+          "role": "青釉瓶身"
+        },
+        {
+          "id": "color-2",
+          "name": "象牙",
+          "hex": "#E9DFC9",
+          "status": "manual",
+          "role": "白釉盘与留白"
+        },
+        {
+          "id": "color-3",
+          "name": "茶黑",
+          "hex": "#40372F",
+          "status": "manual",
+          "role": "黑釉茶盏"
+        },
+        {
+          "id": "color-4",
+          "name": "陶褐",
+          "hex": "#A78460",
+          "status": "manual",
+          "role": "木台及陶质暖影"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "title": "器形与口沿",
+      "body": "浅盘、收口茶盏和长颈瓶具有不同重心；用侧光保留口沿、腹部与圈足，不以同一种圆润轮廓代替各类器形。"
+    },
+    {
+      "title": "釉层与纹样",
+      "body": "白釉刻花依靠浅浮雕和光线显现，黑釉可呈细密色变，青釉开片则表现为釉面纹理；这些效果不应混贴在所有器物上。"
+    },
+    {
+      "title": "窑口与用途",
+      "body": "定窑盘、建窑茶盏和南宋官窑器是不同生产与使用语境的样本。并置时保留各自名称，不把低饱和配色概括为整个宋代生活。"
+    }
+  ],
+  "applications": [
+    "适合陶瓷展览导览页：以三种器形的等比例轮廓配釉面近照，分别标明窑口、年代与用途；不要仅以一组色卡代替器物差异。"
+  ],
+  "related": ["chinese-literati", "new-chinese", "natural-handcraft"],
+  "order": 53,
+  "updatedAt": "2026-09-12",
+  "designHistory": {
+    "overview": "本档案限定于宋代陶瓷样本，比较定窑白瓷、建窑茶盏与南宋官窑青瓷。它们涉及不同窑口、用途与使用群体，不能把整个宋代生活归纳为单一的极简美学。",
+    "timeline": [
+      {
+        "year": 1000,
+        "period": "十一至十二世纪",
+        "title": "白釉与浅刻纹样",
+        "body": "定窑划花龙纹盘将图案置于象牙白釉下，说明单色釉并不等于没有装饰；器形、纹样与金属口沿共同构成观感。",
+        "sourceIds": ["ding"]
+      },
+      {
+        "year": 1100,
+        "period": "十一至十二世纪的另一线索",
+        "title": "黑釉茶盏形成鲜明对照",
+        "body": "建窑茶盏使用含铁釉，与同一时期白瓷形成深浅和肌理对比。此处并列不同陶瓷传统，不将其写成彼此替代的直线演化。",
+        "sourceIds": ["jian"]
+      },
+      {
+        "year": 1127,
+        "period": "南宋十二至十三世纪",
+        "title": "官窑青瓷与宫廷需求",
+        "body": "杭州宫廷使用的官窑器以柔和青色釉层及开片形成特征，显示南宋器物趣味与特定生产语境的联系。",
+        "sourceIds": ["guan"]
+      }
+    ],
+    "interpretation": "海报将所述形态与材料转译为原创视觉场景；配色为编辑设定，不用于文物鉴定、科学识别或证明环境绩效。",
+    "sources": [
+      {
+        "id": "ding",
+        "title": "Dish with dragon",
+        "publisher": "The Metropolitan Museum of Art",
+        "url": "https://www.metmuseum.org/art/collection/search/42459"
+      },
+      {
+        "id": "jian",
+        "title": "Tea bowl",
+        "publisher": "The Metropolitan Museum of Art",
+        "url": "https://www.metmuseum.org/art/collection/search/51072"
+      },
+      {
+        "id": "guan",
+        "title": "Vase",
+        "publisher": "The Metropolitan Museum of Art",
+        "url": "https://www.metmuseum.org/art/collection/search/52611"
+      }
+    ]
+  }
+}

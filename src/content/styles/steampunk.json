@@ -1,0 +1,114 @@
+{
+  "id": "steampunk",
+  "name": "蒸汽朋克",
+  "englishName": "Steampunk",
+  "aliases": ["Steampunk", "蒸汽朋克"],
+  "summary": "以蒸汽时代的材料和机器重新想象技术发展，把架空叙事落实为可触摸的器物。",
+  "category": "future-tech",
+  "tags": ["futuristic", "nostalgic", "metal", "brown", "gold", "poster"],
+  "cover": "steampunk-poster",
+  "images": [
+    {
+      "asset": "steampunk-poster",
+      "caption": "蒸汽朋克 · 风格演绎海报"
+    }
+  ],
+  "palettes": [
+    {
+      "id": "poster",
+      "name": "主题配色",
+      "description": "为本档案人工设定的视觉配色，海报色卡按相同 HEX 排版；不代表历史时期的标准色。",
+      "colors": [
+        {
+          "id": "color-1",
+          "name": "黄铜",
+          "hex": "#B58C4B",
+          "status": "manual",
+          "role": "主题基调"
+        },
+        {
+          "id": "color-2",
+          "name": "烟煤",
+          "hex": "#343B3A",
+          "status": "manual",
+          "role": "对比点缀"
+        },
+        {
+          "id": "color-3",
+          "name": "皮革棕",
+          "hex": "#79503A",
+          "status": "manual",
+          "role": "材质辅助"
+        },
+        {
+          "id": "color-4",
+          "name": "旧纸白",
+          "hex": "#D7C5A3",
+          "status": "manual",
+          "role": "背景留白"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "title": "可读的机械关系",
+      "body": "齿轮、阀门、管线应呈现连接关系；无目的地粘贴齿轮难以建立机器可信度。"
+    },
+    {
+      "title": "保留架空属性",
+      "body": "材料可借鉴十九世纪，但机器和社会故事属于后来的创作，不能当作历史记录。"
+    },
+    {
+      "title": "叙事的开放性",
+      "body": "创作可以重新审视殖民背景和角色参与范围，不必照搬帝国时代权力符号。"
+    }
+  ],
+  "applications": [
+    "适合蒸汽朋克主题的展览海报与阅读分享：选取档案中的核心形式组织主视觉，保持正文清晰，并注明图像为当代演绎。"
+  ],
+  "related": ["victorian", "retro-futurism", "cyberpunk"],
+  "order": 63,
+  "updatedAt": "2026-09-12",
+  "designHistory": {
+    "overview": "蒸汽朋克是一种回望工业时代并重写其未来的文化想象。本档案选择器物展览与参与式叙事作为可核实线索，区别于普通维多利亚室内装饰。",
+    "timeline": [
+      {
+        "year": 2009,
+        "period": "2009—2010 年",
+        "title": "器物创作进入博物馆",
+        "body": "牛津科学史博物馆举办蒸汽朋克艺术展，集中展示来自多地的创作者作品，包含机器、服饰和制作活动。",
+        "sourceIds": ["oxford"]
+      },
+      {
+        "year": 2023,
+        "period": "2023 年",
+        "title": "参与式世界进入展览",
+        "body": "Clockwork Watch 的作品出现在大英图书馆展览中，其架空世界通过漫画、角色扮演与沉浸戏剧展开。",
+        "sourceIds": ["library"]
+      },
+      {
+        "year": 2025,
+        "period": "2025 年",
+        "title": "创作者解释新的历史视角",
+        "body": "Yomi Ayeni在图书馆访谈中说明如何构建非殖民的十九世纪英国故事，使更广泛的参与者能够进入叙事。",
+        "sourceIds": ["library"]
+      }
+    ],
+    "interpretation": "海报以虚构场景提炼蒸汽朋克的材料、构图与视觉关系；不复制馆藏原件，不作为历史现场或实际工程的证明。",
+    "sources": [
+      {
+        "id": "oxford",
+        "title": "Steampunk",
+        "publisher": "Museum of the History of Science, Oxford",
+        "url": "https://www.mhs.ox.ac.uk/exhibits/steampunk/index.html"
+      },
+      {
+        "id": "library",
+        "title": "Transporting the Library into a steampunk universe",
+        "publisher": "British Library",
+        "url": "https://www.bl.uk/stories/blogs/posts/transporting-the-library-into-a-steampunk-universe"
+      }
+    ]
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "id": "vienna-secession",
+  "name": "维也纳分离派",
+  "englishName": "Vienna Secession",
+  "aliases": ["Vienna Secession", "维也纳分离派"],
+  "summary": "艺术家协会以展览、建筑和出版打通媒介，几何秩序与装饰表面共同发声。",
+  "category": "classical-decorative",
+  "tags": ["elegant", "geometry", "gold", "cream", "poster"],
+  "cover": "vienna-secession-poster",
+  "images": [
+    {
+      "asset": "vienna-secession-poster",
+      "caption": "维也纳分离派 · 风格演绎海报"
+    }
+  ],
+  "palettes": [
+    {
+      "id": "poster",
+      "name": "主题配色",
+      "description": "为本档案人工设定的视觉配色，海报色卡按相同 HEX 排版；不代表历史时期的标准色。",
+      "colors": [
+        {
+          "id": "color-1",
+          "name": "暖象牙",
+          "hex": "#E9DFC6",
+          "status": "manual",
+          "role": "主题基调"
+        },
+        {
+          "id": "color-2",
+          "name": "墨绿黑",
+          "hex": "#303936",
+          "status": "manual",
+          "role": "对比点缀"
+        },
+        {
+          "id": "color-3",
+          "name": "古金",
+          "hex": "#B29854",
+          "status": "manual",
+          "role": "材质辅助"
+        },
+        {
+          "id": "color-4",
+          "name": "橄榄灰",
+          "hex": "#858961",
+          "status": "manual",
+          "role": "背景留白"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "title": "几何化装饰",
+      "body": "用方格、圆形和细线组织重复纹饰，让留白与图案密度形成明确节奏。"
+    },
+    {
+      "title": "综合艺术",
+      "body": "空间、绘画与器物可围绕同一主题协作，而不是将不同艺术图像简单拼在一起。"
+    },
+    {
+      "title": "组织与样式",
+      "body": "分离派首先是艺术家组织；其成员语言并不一致，也不等于全部维也纳新艺术。"
+    }
+  ],
+  "applications": [
+    "适合维也纳分离派主题的展览海报与阅读分享：选取档案中的核心形式组织主视觉，保持正文清晰，并注明图像为当代演绎。"
+  ],
+  "related": ["art-nouveau", "art-deco", "arts-and-crafts"],
+  "order": 60,
+  "updatedAt": "2026-09-12",
+  "designHistory": {
+    "overview": "维也纳分离派于1897年形成，反对保守的展览体制并探索新的艺术交流。其建筑、期刊及展览构成相互关联的视觉实践，几何化装饰是可提炼的方向之一。",
+    "timeline": [
+      {
+        "year": 1897,
+        "period": "1897 年",
+        "title": "成立新的艺术协会",
+        "body": "克里姆特等艺术家离开保守的艺术家之家，组织新的协会，寻求自主的艺术展示方式。",
+        "sourceIds": ["vienna"]
+      },
+      {
+        "year": 1898,
+        "period": "1898 年",
+        "title": "建筑与出版成为载体",
+        "body": "奥尔布里希设计的展览建筑落成；档案中的《神圣之春》相关图样与信件记录了同期出版实践。",
+        "sourceIds": ["vienna", "archive"]
+      },
+      {
+        "year": 1902,
+        "period": "1902 年",
+        "title": "贝多芬展览与综合艺术",
+        "body": "二十一位艺术家由霍夫曼协调，以建筑、壁画和雕塑共同围绕贝多芬展开展览。",
+        "sourceIds": ["frieze"]
+      }
+    ],
+    "interpretation": "海报以虚构场景提炼维也纳分离派的材料、构图与视觉关系；不复制馆藏原件，不作为历史现场或实际工程的证明。",
+    "sources": [
+      {
+        "id": "vienna",
+        "title": "Secession",
+        "publisher": "Vienna Tourist Board",
+        "url": "https://www.wien.info/en/art-culture/art-nouveau/secession-357940"
+      },
+      {
+        "id": "archive",
+        "title": "Online Archive",
+        "publisher": "Vienna Secession",
+        "url": "https://secession.at/en/onlineArchive"
+      },
+      {
+        "id": "frieze",
+        "title": "Beethoven Frieze",
+        "publisher": "Vienna Secession",
+        "url": "https://secession.at/beethovenfrieze"
+      }
+    ]
+  }
+}

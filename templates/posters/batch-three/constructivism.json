@@ -1,0 +1,33 @@
+{
+  "styleId": "constructivism",
+  "title": "构成主义",
+  "accentLength": 2,
+  "titleColors": ["#302C25", "#B83B31"],
+  "colors": [
+    {
+      "name": "构成红",
+      "hex": "#B83B31",
+      "englishName": "Scarlet"
+    },
+    {
+      "name": "炭黑",
+      "hex": "#252728",
+      "englishName": "Charcoal"
+    },
+    {
+      "name": "纸米白",
+      "hex": "#E9DDC8",
+      "englishName": "Paper Ivory"
+    },
+    {
+      "name": "钢灰",
+      "hex": "#8F9696",
+      "englishName": "Steel Gray"
+    }
+  ],
+  "sidebarCn": ["让斜线组织力量", "让材料进入构造", "把摄影转为节奏", "为传播建立秩序"],
+  "sidebarEn": ["A Way of Seeing.", "A Way of Living."],
+  "badges": ["斜线", "构造", "拼贴"],
+  "sceneFile": "assets/poster-scenes/constructivism.png",
+  "scenePrompt": "Original landscape 3:2 Russian Constructivist photomontage: diagonal scarlet beams, charcoal circles, ivory paper and industrial wheel photograph, tactile printed grain, asymmetric structure. No text, frame or swatches."
+}

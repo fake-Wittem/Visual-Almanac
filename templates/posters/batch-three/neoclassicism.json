@@ -1,0 +1,33 @@
+{
+  "styleId": "neoclassicism",
+  "title": "新古典主义风格",
+  "accentLength": 2,
+  "titleColors": ["#303936", "#79503A"],
+  "colors": [
+    {
+      "name": "鼠尾草",
+      "hex": "#A9B3A1",
+      "englishName": "Sage"
+    },
+    {
+      "name": "象牙白",
+      "hex": "#E8DFC9",
+      "englishName": "Ivory"
+    },
+    {
+      "name": "玫瑰石",
+      "hex": "#B98A7B",
+      "englishName": "Rose Stone"
+    },
+    {
+      "name": "古铜",
+      "hex": "#877048",
+      "englishName": "Bronze"
+    }
+  ],
+  "sidebarCn": ["从古代寻找比例", "让浮雕保持克制", "让器物呼应空间", "用秩序组织细节"],
+  "sidebarEn": ["A Way of Seeing.", "A Way of Living."],
+  "badges": ["比例", "古典", "秩序"],
+  "sceneFile": "assets/poster-scenes/neoclassicism.png",
+  "scenePrompt": "A sunlit sage wall niche with original white urn, restrained laurel relief, slim fluted pilasters, rose stone tabletop and bronze medallion. Symmetrical intimate still life. Portrait 4:5. No text, no logo, no swatches, no border. Colors #A9B3A1, #E8DFC9, #B98A7B, #877048"
+}

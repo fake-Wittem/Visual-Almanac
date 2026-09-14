@@ -1,0 +1,120 @@
+{
+  "id": "scandinavian-organic",
+  "name": "斯堪的纳维亚有机设计",
+  "englishName": "Scandinavian Organic Design",
+  "aliases": ["Scandinavian Organic Design"],
+  "summary": "以曲木工艺、身体尺度与自由轮廓，把现代设计带回可触摸的日常。",
+  "category": "natural-organic",
+  "tags": ["warm", "wood", "organic", "muted", "cream", "brand"],
+  "cover": "scandinavian-organic-poster",
+  "images": [
+    {
+      "asset": "scandinavian-organic-poster",
+      "caption": "斯堪的纳维亚有机设计 · 风格演绎海报"
+    }
+  ],
+  "palettes": [
+    {
+      "id": "poster",
+      "name": "主题配色",
+      "description": "为本档案人工设定的视觉配色，海报色卡按相同 HEX 排版；不代表历史时期的标准色。",
+      "colors": [
+        {
+          "id": "color-1",
+          "name": "桦木",
+          "hex": "#C9A572",
+          "status": "manual",
+          "role": "桦木座面与框架"
+        },
+        {
+          "id": "color-2",
+          "name": "乳白",
+          "hex": "#EEE7D8",
+          "status": "manual",
+          "role": "墙面与光照留白"
+        },
+        {
+          "id": "color-3",
+          "name": "鼠尾草",
+          "hex": "#9EA994",
+          "status": "manual",
+          "role": "窗外植物和织物"
+        },
+        {
+          "id": "color-4",
+          "name": "炭灰",
+          "hex": "#454A44",
+          "status": "manual",
+          "role": "结构阴影与说明文字"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "title": "曲木与受力",
+      "body": "细薄胶合板座面和弯曲木框以不同厚度承担支撑，曲线应在接点处连续，避免画成没有结构依据的流线。"
+    },
+    {
+      "title": "人体尺度",
+      "body": "座面倾角、扶手高度与身体接触位置决定形态；在视觉中保留椅背、座面和脚部的完整关系，比堆放装饰更能说明设计。"
+    },
+    {
+      "title": "手感与系列生产",
+      "body": "清晰木纹、重复构件和可堆叠形式能够同时出现。这里关注阿尔托样本中的工艺与现代生产，区别于泛化的米白北欧房间。"
+    }
+  ],
+  "applications": [
+    "适合家具产品册：用完整侧视图说明坐姿与曲线，另配一张木材接点近照；以桦木色铺底、炭灰标注尺寸，保持产品轮廓清楚。"
+  ],
+  "related": ["organic-modern", "mid-century", "natural-handcraft"],
+  "order": 50,
+  "updatedAt": "2026-09-12",
+  "designHistory": {
+    "overview": "这里以芬兰阿尔瓦·阿尔托在 1930 年代的家具与玻璃设计为具体样本。分类沿用广义北欧设计语境，不把芬兰等同地理上的斯堪的纳维亚，也不以一个设计师代表整个地区。",
+    "timeline": [
+      {
+        "year": 1932,
+        "period": "1932 年",
+        "title": "帕米奥椅的曲木探索",
+        "body": "为疗养院设计的帕米奥椅公开展出，弯曲木框与胶合板座面将材料实验和坐姿需要连接起来。",
+        "sourceIds": ["chair"]
+      },
+      {
+        "year": 1933,
+        "period": "1933 年",
+        "title": "L 形腿与系列生产",
+        "body": "60 号凳采用弯曲实木腿，简化复杂接合并允许堆叠，让木材工艺进入现代系列生产。",
+        "sourceIds": ["stool"]
+      },
+      {
+        "year": 1936,
+        "period": "1936—1937 年",
+        "title": "自由形态进入玻璃",
+        "body": "阿尔托为玻璃设计竞赛提交自由曲线方案，制品于 1937 年巴黎世博会亮相，随后进入萨沃伊餐厅及日常器物语境。",
+        "sourceIds": ["glass"]
+      }
+    ],
+    "interpretation": "海报将所述形态与材料转译为原创视觉场景；配色为编辑设定，不用于文物鉴定、科学识别或证明环境绩效。",
+    "sources": [
+      {
+        "id": "chair",
+        "title": "Paimio-tuoli",
+        "publisher": "Alvar Aalto Foundation",
+        "url": "https://www.alvaraalto.fi/tyo/paimio-tuoli/"
+      },
+      {
+        "id": "stool",
+        "title": "Stool 60",
+        "publisher": "Alvar Aalto Foundation",
+        "url": "https://www.alvaraalto.fi/en/work/stool-60/"
+      },
+      {
+        "id": "glass",
+        "title": "Paris glass. The Aalto vase – 75 years on",
+        "publisher": "Alvar Aalto Foundation",
+        "url": "https://www.alvaraalto.fi/en/news/paris-glass-the-aalto-vase-75-years-on-2/"
+      }
+    ]
+  }
+}

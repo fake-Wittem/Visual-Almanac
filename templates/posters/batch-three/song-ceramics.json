@@ -1,0 +1,33 @@
+{
+  "styleId": "song-ceramics",
+  "title": "宋代器物审美",
+  "accentLength": 2,
+  "titleColors": ["#454A44", "#72545B"],
+  "colors": [
+    {
+      "name": "青釉",
+      "hex": "#9EB5A7",
+      "englishName": "Celadon"
+    },
+    {
+      "name": "象牙",
+      "hex": "#E9DFC9",
+      "englishName": "Ivory"
+    },
+    {
+      "name": "茶黑",
+      "hex": "#40372F",
+      "englishName": "Tea Black"
+    },
+    {
+      "name": "陶褐",
+      "hex": "#A78460",
+      "englishName": "Clay"
+    }
+  ],
+  "sidebarCn": ["从一件器物观看", "辨认釉色的层次", "让刻花藏入光里", "不以极简概括时代"],
+  "sidebarEn": ["A Way of Seeing.", "A Way of Living."],
+  "badges": ["器形", "釉色", "刻花"],
+  "sceneFile": "assets/poster-scenes/song-ceramics.png",
+  "scenePrompt": "Original imagined ivory carved ceramic shallow dish, black iron-glazed tea bowl with brown streaks and grey-blue crackled celadon vase on dark wood table, soft daylight, not museum reproductions. Portrait 4:5. Palette #9EB5A7, #E9DFC9, #40372F, #A78460. No text, letters, logos, signatures, seals, borders, color swatches or collage."
+}

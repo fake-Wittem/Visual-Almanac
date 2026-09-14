@@ -1,0 +1,114 @@
+{
+  "id": "german-rational-products",
+  "name": "战后德国理性产品设计",
+  "englishName": "Postwar German Rational Product Design",
+  "aliases": ["Postwar German Rational Product Design"],
+  "summary": "控制面板的清晰排序与克制外壳共同呈现用途，让产品系列在差异中保持一致。",
+  "category": "modern-minimal",
+  "tags": ["rational", "geometry", "poster"],
+  "cover": "german-rational-products-poster",
+  "images": [
+    {
+      "asset": "german-rational-products-poster",
+      "caption": "战后德国理性产品设计 · 风格演绎海报"
+    }
+  ],
+  "palettes": [
+    {
+      "id": "poster",
+      "name": "主题配色",
+      "description": "为本档案人工设定的视觉配色，海报色卡按相同 HEX 排版；不代表历史时期的标准色。",
+      "colors": [
+        {
+          "id": "color-1",
+          "name": "壳体白",
+          "hex": "#E3E2D9",
+          "status": "manual",
+          "role": "主体基调"
+        },
+        {
+          "id": "color-2",
+          "name": "面板灰",
+          "hex": "#8B9393",
+          "status": "manual",
+          "role": "结构层次"
+        },
+        {
+          "id": "color-3",
+          "name": "按键黑",
+          "hex": "#333B3D",
+          "status": "manual",
+          "role": "视觉强调"
+        },
+        {
+          "id": "color-4",
+          "name": "标识橙",
+          "hex": "#CE783D",
+          "status": "manual",
+          "role": "辅助平衡"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "title": "操作层级",
+      "body": "旋钮、按键和显示区域按任务分组；重点是可辨识关系，不是装饰性的密集按钮。"
+    },
+    {
+      "title": "系列一致性",
+      "body": "产品可以变化尺寸与用途，但控制方式和视觉语言应保持可学习性。"
+    },
+    {
+      "title": "企业样本",
+      "body": "本页以 Braun 与 Dieter Rams、Hans Gugelot 的合作为主要样本，不概括所有德国战后设计。"
+    }
+  ],
+  "applications": [
+    "适合产品说明与科技品牌视觉：用真实的操作层级组织图文，强调色只标出少数关键动作。"
+  ],
+  "related": ["contemporary-minimal", "bauhaus"],
+  "order": 48,
+  "updatedAt": "2026-09-12",
+  "designHistory": {
+    "overview": "战后德国的理性产品设计在企业、设计师与教育机构的合作中发展。本页以 Braun 产品为主要样本，关注外壳、控制界面与产品系列；与乌尔姆专题的教学史互相联系，但不重复同一研究范围。",
+    "timeline": [
+      {
+        "year": 1955,
+        "period": "1955—1956年",
+        "title": "新设计进入家用电器",
+        "body": "Rams 于1955年进入 Braun，随后与 Hans Gugelot 合作开发 SK4；透明盖与简化外壳使唱机摆脱传统家具式包装。",
+        "sourceIds": ["museum", "object"]
+      },
+      {
+        "year": 1957,
+        "period": "1957—1962年",
+        "title": "系列与操作界面发展",
+        "body": "Atelier 1 分离音箱和接收单元；1962年的 Audio 1 将按钮与旋钮组织为清楚的控制区域，体现系统与操作的共同考虑。",
+        "sourceIds": ["museum"]
+      },
+      {
+        "year": 2009,
+        "period": "2009年",
+        "title": "设计伦理被重新讨论",
+        "body": "Design Museum 的 Less and More 展览回顾 Rams 的设计思想，使这些产品成为当代讨论克制、用途与长期使用的历史材料。",
+        "sourceIds": ["museum"]
+      }
+    ],
+    "interpretation": "海报为当代原创风格演绎，不是历史实景或馆藏复制。旋钮、按键和显示区域按任务分组；重点是可辨识关系，不是装饰性的密集按钮。",
+    "sources": [
+      {
+        "id": "museum",
+        "title": "Dieter Rams",
+        "publisher": "Design Museum",
+        "url": "https://designmuseum.org/designers/dieter-rams"
+      },
+      {
+        "id": "object",
+        "title": "Radio-Phonograph (model SK 4/10), 1956",
+        "publisher": "Museum of Modern Art",
+        "url": "https://www.moma.org/collection/works/2649"
+      }
+    ]
+  }
+}

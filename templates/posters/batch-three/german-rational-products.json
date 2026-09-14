@@ -1,0 +1,33 @@
+{
+  "styleId": "german-rational-products",
+  "title": "德国理性产品设计",
+  "accentLength": 2,
+  "titleColors": ["#333B3D", "#92542D"],
+  "colors": [
+    {
+      "name": "壳体白",
+      "hex": "#E3E2D9",
+      "englishName": "Shell White"
+    },
+    {
+      "name": "面板灰",
+      "hex": "#8B9393",
+      "englishName": "Panel Grey"
+    },
+    {
+      "name": "按键黑",
+      "hex": "#333B3D",
+      "englishName": "Control Black"
+    },
+    {
+      "name": "标识橙",
+      "hex": "#CE783D",
+      "englishName": "Signal Orange"
+    }
+  ],
+  "sidebarCn": ["让用途决定层级", "让控制清楚可辨", "让系列共享语言", "让克制服务日常"],
+  "sidebarEn": ["A Way of Seeing.", "A Way of Living."],
+  "badges": ["控制", "序列", "克制"],
+  "sceneFile": "assets/poster-scenes/german-rational-products.png",
+  "scenePrompt": "Original restrained postwar German product-design still life: unbranded off-white tabletop radio with a carefully ordered grey tuning panel and two black round knobs, separate rectangular speaker, one small orange control accent. Clean precise industrial object, soft studio light, uncluttered neutral ground. Shell white #E3E2D9 panel grey #8B9393 control black #333B3D signal orange #CE783D. Landscape 1.46:1 no text logos border swatches; no copy of a named historical product."
+}

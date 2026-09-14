@@ -1,0 +1,120 @@
+{
+  "id": "european-travel-posters",
+  "name": "战后欧洲旅行海报",
+  "englishName": "Postwar European Travel Posters",
+  "aliases": ["Postwar European Travel Posters"],
+  "summary": "将目的地压缩成鲜明色块，让山海轮廓、交通线与假日想象共同构成旅行邀约。",
+  "category": "retro",
+  "tags": ["nostalgic", "poster"],
+  "cover": "european-travel-posters-poster",
+  "images": [
+    {
+      "asset": "european-travel-posters-poster",
+      "caption": "战后欧洲旅行海报 · 风格演绎海报"
+    }
+  ],
+  "palettes": [
+    {
+      "id": "poster",
+      "name": "主题配色",
+      "description": "为本档案人工设定的视觉配色，海报色卡按相同 HEX 排版；不代表历史时期的标准色。",
+      "colors": [
+        {
+          "id": "color-1",
+          "name": "暖纸白",
+          "hex": "#F2E4C6",
+          "status": "manual",
+          "role": "主体基调"
+        },
+        {
+          "id": "color-2",
+          "name": "山湖蓝",
+          "hex": "#366C86",
+          "status": "manual",
+          "role": "结构层次"
+        },
+        {
+          "id": "color-3",
+          "name": "朱砂红",
+          "hex": "#C85036",
+          "status": "manual",
+          "role": "视觉强调"
+        },
+        {
+          "id": "color-4",
+          "name": "松林绿",
+          "hex": "#36594A",
+          "status": "manual",
+          "role": "辅助平衡"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "title": "目的地剪影",
+      "body": "用具有辨识度的山海轮廓作主角，交通工具作为比例锚点，不堆积景点。"
+    },
+    {
+      "title": "媒介边界",
+      "body": "这是旅行宣传的媒介专题；战后作品延续战前图绘和摄影实验，并非独立统一流派。"
+    },
+    {
+      "title": "当代转译",
+      "body": "图像负责唤起向往，路线、票价和日期仍应以清晰的真实信息呈现。"
+    }
+  ],
+  "applications": [
+    "适合旅行主题海报与展览封面：保留一条视觉引导线和一个目的地意象，正文另设清楚的信息区。"
+  ],
+  "related": ["art-deco", "swiss-international", "mid-century"],
+  "order": 41,
+  "updatedAt": "2026-09-12",
+  "designHistory": {
+    "overview": "本专题以英国铁路宣传为主要史料样本，并参照瑞士旅游图像传统。战后的旅行海报继续将交通服务与目的地想象结合；平涂插画只是其中一种路径，不代表欧洲各国全部作品。",
+    "timeline": [
+      {
+        "year": 1935,
+        "period": "1930年代：前史",
+        "title": "摄影进入旅游宣传",
+        "body": "Herbert Matter 为瑞士旅游宣传引入摄影与图形组合。1935 年的汽车旅行海报说明，战后宣传继承的媒介语言并不只有手绘风景。",
+        "sourceIds": ["matter"]
+      },
+      {
+        "year": 1950,
+        "period": "1950年代",
+        "title": "铁路与目的地继续结合",
+        "body": "V&A 的 Hans Unger 档案保存其为英国铁路设计的宣传作品；铁路宣传继续将交通选择与目的地形象联系起来。",
+        "sourceIds": ["unger"]
+      },
+      {
+        "year": 2020,
+        "period": "2020年",
+        "title": "旧海报成为可再编辑的文化记忆",
+        "body": "英国国家铁路博物馆重新编辑馆藏旅行海报，以新的旅行提示替换宣传信息，展示这些图像从商业传播到历史回望的转换。",
+        "sourceIds": ["rail"]
+      }
+    ],
+    "interpretation": "海报为当代原创风格演绎，不是历史实景或馆藏复制。用具有辨识度的山海轮廓作主角，交通工具作为比例锚点，不堆积景点。",
+    "sources": [
+      {
+        "id": "matter",
+        "title": "Plakat Für schöne Autofahrten die Schweiz",
+        "publisher": "Switzerland Tourism / Museum für Gestaltung Zürich",
+        "url": "https://www.myswitzerland.com/de-ch/erlebnisse/staedte-kultur/kunst-kultur/kunst/plakat-fuer-schoene-autofahrten-die-schweiz/"
+      },
+      {
+        "id": "unger",
+        "title": "Hans Unger, graphic designer and mosaic artist",
+        "publisher": "Victoria and Albert Museum",
+        "url": "https://www.vam.ac.uk/__data/assets/pdf_file/0014/250133/unger_aad-1978-03_20140818.pdf"
+      },
+      {
+        "id": "rail",
+        "title": "Vintage travel posters—reimagined",
+        "publisher": "National Railway Museum",
+        "url": "https://blog.railwaymuseum.org.uk/vintage-travel-posters-reimagined/"
+      }
+    ]
+  }
+}

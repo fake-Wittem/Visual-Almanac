@@ -1,0 +1,33 @@
+{
+  "styleId": "deconstructivist-architecture",
+  "title": "解构主义建筑",
+  "accentLength": 2,
+  "titleColors": ["#302C25", "#AD4D3C"],
+  "colors": [
+    {
+      "name": "锌灰",
+      "hex": "#9DA3A6",
+      "englishName": "Zinc Gray"
+    },
+    {
+      "name": "深炭",
+      "hex": "#31363A",
+      "englishName": "Deep Charcoal"
+    },
+    {
+      "name": "砖红",
+      "hex": "#AD4D3C",
+      "englishName": "Brick Red"
+    },
+    {
+      "name": "雾白",
+      "hex": "#E4E1D8",
+      "englishName": "Mist White"
+    }
+  ],
+  "sidebarCn": ["让体块相互穿插", "在错位中辨认秩序", "让表皮显露层次", "用空间承接张力"],
+  "sidebarEn": ["A Way of Seeing.", "A Way of Living."],
+  "badges": ["错位", "折面", "张力"],
+  "sceneFile": "assets/poster-scenes/deconstructivist-architecture.png",
+  "scenePrompt": "Original landscape 3:2 architectural model photograph of an invented cultural pavilion, tilted zinc planes interlocking with white solid blocks and a restrained brick red ramp, deep joints, studio daylight, no real landmark copy, no text, frames or swatches."
+}

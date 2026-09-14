@@ -1,0 +1,112 @@
+{
+  "id": "seventies-interiors",
+  "name": "1970年代家居",
+  "englishName": "1970s Domestic Interiors",
+  "aliases": ["1970s Domestic Interiors"],
+  "summary": "低矮软包与连续色面把坐卧活动连成一片，暖色和厚实织物强化身体尺度。",
+  "category": "retro",
+  "tags": ["nostalgic", "poster"],
+  "cover": "seventies-interiors-poster",
+  "images": [
+    {
+      "asset": "seventies-interiors-poster",
+      "caption": "1970年代家居 · 风格演绎海报"
+    }
+  ],
+  "palettes": [
+    {
+      "id": "poster",
+      "name": "主题配色",
+      "description": "为本档案人工设定的视觉配色，海报色卡按相同 HEX 排版；不代表历史时期的标准色。",
+      "colors": [
+        {
+          "id": "color-1",
+          "name": "焦橙",
+          "hex": "#BD653C",
+          "status": "manual",
+          "role": "主体基调"
+        },
+        {
+          "id": "color-2",
+          "name": "橄榄绿",
+          "hex": "#79794A",
+          "status": "manual",
+          "role": "结构层次"
+        },
+        {
+          "id": "color-3",
+          "name": "奶油白",
+          "hex": "#E7D7BA",
+          "status": "manual",
+          "role": "视觉强调"
+        },
+        {
+          "id": "color-4",
+          "name": "可可棕",
+          "hex": "#594136",
+          "status": "manual",
+          "role": "辅助平衡"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "title": "身体尺度",
+      "body": "压低座椅与桌面高度，用软包体块组织交流区域，不把所有家具压成同一高度。"
+    },
+    {
+      "title": "织物与图案",
+      "body": "大尺度图案集中于少数表面，绒面与灯光提供细节，避免满屋重复花纹。"
+    },
+    {
+      "title": "样本边界",
+      "body": "本页从欧洲实验居住设计提炼视觉，不代表1970年代所有家庭，也不等同全部中古现代。"
+    }
+  ],
+  "applications": ["适合家居专题摄影与展览场景：先明确坐卧区域的整体轮廓，再用一组暖色控制视线。"],
+  "related": ["mid-century", "memphis", "organic-modern"],
+  "order": 43,
+  "updatedAt": "2026-09-12",
+  "designHistory": {
+    "overview": "1970年代家居包含多种并存取向。本页以1960年代末至1970年代初的欧洲实验家居和展览为史料入口，讨论家具如何从独立物件转为可坐卧的环境；暖棕配色是本页的编辑选择。",
+    "timeline": [
+      {
+        "year": 1968,
+        "period": "1968—1969年",
+        "title": "家具走向整体环境",
+        "body": "Visiona 系列开始通过展览探索新的居住方式，Panton 与 Colombo 等设计师将家具、材料和空间一起考虑。",
+        "sourceIds": ["visiona"]
+      },
+      {
+        "year": 1970,
+        "period": "1970—1971年",
+        "title": "柔软的居住景观",
+        "body": "Panton 的 Visiona 2 与随后 Mourgue 的 Visiona 3 延续环境实验，展示晚1960年代至早1970年代的先锋居住概念。",
+        "sourceIds": ["visiona"]
+      },
+      {
+        "year": 1972,
+        "period": "1972年",
+        "title": "居住方式成为展览议题",
+        "body": "MoMA 的 Italy: The New Domestic Landscape 汇集意大利设计成果和居住环境研究，将日常生活安排本身放在讨论中心。",
+        "sourceIds": ["domestic"]
+      }
+    ],
+    "interpretation": "海报为当代原创风格演绎，不是历史实景或馆藏复制。压低座椅与桌面高度，用软包体块组织交流区域，不把所有家具压成同一高度。",
+    "sources": [
+      {
+        "id": "visiona",
+        "title": "Visiona",
+        "publisher": "Vitra Design Museum",
+        "url": "https://www.design-museum.de/en/exhibitions/detailpages/visiona.html"
+      },
+      {
+        "id": "domestic",
+        "title": "Italy: The New Domestic Landscape",
+        "publisher": "Museum of Modern Art",
+        "url": "https://www.moma.org/calendar/exhibitions/1783"
+      }
+    ]
+  }
+}

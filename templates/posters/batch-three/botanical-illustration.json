@@ -1,0 +1,33 @@
+{
+  "styleId": "botanical-illustration",
+  "title": "植物学图谱视觉",
+  "accentLength": 2,
+  "titleColors": ["#454A44", "#72545B"],
+  "colors": [
+    {
+      "name": "叶绿",
+      "hex": "#607347",
+      "englishName": "Leaf"
+    },
+    {
+      "name": "纸白",
+      "hex": "#EAE2CB",
+      "englishName": "Paper"
+    },
+    {
+      "name": "赭黄",
+      "hex": "#B99257",
+      "englishName": "Ochre"
+    },
+    {
+      "name": "灰梅",
+      "hex": "#72545B",
+      "englishName": "Plum"
+    }
+  ],
+  "sidebarCn": ["从观察进入自然", "把局部清楚展开", "让轮廓保有呼吸", "以留白组织知识"],
+  "sidebarEn": ["A Way of Seeing.", "A Way of Living."],
+  "badges": ["观察", "图绘", "细节"],
+  "sceneFile": "assets/poster-scenes/botanical-illustration.png",
+  "scenePrompt": "Original pear branch botanical watercolor and graphite illustration on ivory paper with separate flower section and leaf underside; fine venation, observational arrangement, no scientific identification claim. Portrait 4:5. Palette #607347, #EAE2CB, #B99257, #72545B. No text, letters, logos, signatures, seals, borders, color swatches or collage."
+}

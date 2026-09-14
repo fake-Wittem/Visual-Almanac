@@ -1,0 +1,114 @@
+{
+  "id": "post-punk-new-wave",
+  "name": "后朋克与新浪潮平面",
+  "englishName": "Post-Punk & New Wave Graphics",
+  "aliases": ["Post-Punk & New Wave Graphics"],
+  "summary": "唱片封套以冷静几何、实验摄影和开放的图像关系回应音乐的复杂情绪。",
+  "category": "street-pop",
+  "tags": ["mysterious", "collage", "geometry", "contrast", "blue", "brand"],
+  "cover": "post-punk-new-wave-poster",
+  "images": [
+    {
+      "asset": "post-punk-new-wave-poster",
+      "caption": "后朋克与新浪潮平面 · 风格演绎海报"
+    }
+  ],
+  "palettes": [
+    {
+      "id": "poster",
+      "name": "主题配色",
+      "description": "为本档案人工设定的视觉配色，海报色卡按相同 HEX 排版；不代表历史标准色。",
+      "colors": [
+        {
+          "id": "color-1",
+          "name": "夜蓝",
+          "hex": "#253849",
+          "status": "manual",
+          "role": "基底"
+        },
+        {
+          "id": "color-2",
+          "name": "冷灰",
+          "hex": "#9EA9AC",
+          "status": "manual",
+          "role": "摄影中间调"
+        },
+        {
+          "id": "color-3",
+          "name": "旧白",
+          "hex": "#E7E1D5",
+          "status": "manual",
+          "role": "留白"
+        },
+        {
+          "id": "color-4",
+          "name": "信号橙",
+          "hex": "#CB6849",
+          "status": "manual",
+          "role": "小面积跳色"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "title": "图像可以含蓄",
+      "body": "使用局部摄影、空白与几何关系传递情绪，不要求画面直接说明音乐内容。"
+    },
+    {
+      "title": "封套的物质性",
+      "body": "纸张、印刷和内外封套可以一起设计；单张数字缩略图仍需保留可识别的主结构。"
+    },
+    {
+      "title": "不同设计者的差异",
+      "body": "Saville的秩序与Oliver的密度各有路径，本档案并置研究，避免说成一种统一的后朋克版式。"
+    }
+  ],
+  "applications": [
+    "适合独立音乐视觉与文化刊物：选择一幅有张力的摄影，再以简洁信息区与之形成节奏。"
+  ],
+  "related": ["punk-diy", "swiss-international", "dada"],
+  "order": 70,
+  "updatedAt": "2026-09-12",
+  "designHistory": {
+    "overview": "英国后朋克与新浪潮音乐的平面设计在1970年代末及1980年代形成多种路径。Factory与4AD等厂牌提供了实验空间，现代主义秩序、摄影和后现代拼贴在不同设计者手中呈现不同面貌。",
+    "timeline": [
+      {
+        "year": 1978,
+        "period": "1978年",
+        "title": "俱乐部海报建立语言",
+        "body": "Peter Saville为Factory俱乐部设计海报，从现代主义排版与工业标识中寻找视觉资源。",
+        "sourceIds": ["saville"]
+      },
+      {
+        "year": 1980,
+        "period": "1980年代",
+        "title": "厂牌身份形成不同路径",
+        "body": "Saville持续开展唱片设计；Vaughan Oliver为4AD发展密集图像、摄影与不规则排版，展现另一种音乐视觉。",
+        "sourceIds": ["saville", "oliver"]
+      },
+      {
+        "year": 2000,
+        "period": "2000年代",
+        "title": "图像转向数字再处理",
+        "body": "Saville参与SHOWstudio并数字重组旧封套；唱片视觉进入新的媒介与再阐释环境。",
+        "sourceIds": ["saville"]
+      }
+    ],
+    "interpretation": "本海报是当代原创视觉演绎，提炼本档案所述构图与材料关系，不是历史影像、馆藏复制或实际项目记录。主题配色属于本次编辑选择。",
+    "sources": [
+      {
+        "id": "saville",
+        "title": "Peter Saville",
+        "publisher": "Design Museum",
+        "url": "https://designmuseum.org/designers/peter-saville"
+      },
+      {
+        "id": "oliver",
+        "title": "Heart on his Sleeve: Vaughan Oliver",
+        "publisher": "V&A",
+        "url": "https://www.vam.ac.uk/blog/sketch-product/heart-his-sleeve-vaughan-oliver"
+      }
+    ]
+  }
+}

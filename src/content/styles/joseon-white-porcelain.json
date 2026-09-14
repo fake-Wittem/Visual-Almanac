@@ -1,0 +1,114 @@
+{
+  "id": "joseon-white-porcelain",
+  "name": "朝鲜王朝白瓷与文人器物",
+  "englishName": "Joseon White Porcelain",
+  "aliases": ["Joseon White Porcelain"],
+  "summary": "从白釉器形与文房用具出发，阅读朝鲜王朝陶瓷中朴素与装饰并存的面貌。",
+  "category": "eastern-aesthetics",
+  "tags": ["calm", "elegant", "cream", "blue", "brand"],
+  "cover": "joseon-white-porcelain-poster",
+  "images": [
+    {
+      "asset": "joseon-white-porcelain-poster",
+      "caption": "朝鲜王朝白瓷与文人器物 · 风格演绎海报"
+    }
+  ],
+  "palettes": [
+    {
+      "id": "poster",
+      "name": "主题配色",
+      "description": "为本档案人工设定的视觉配色，海报色卡按相同 HEX 排版；不代表历史时期的标准色。",
+      "colors": [
+        {
+          "id": "color-1",
+          "name": "瓷白",
+          "hex": "#E8E5DB",
+          "status": "manual",
+          "role": "月壶与笔筒白釉"
+        },
+        {
+          "id": "color-2",
+          "name": "淡灰蓝",
+          "hex": "#A6B2B8",
+          "status": "manual",
+          "role": "背景与冷色釉影"
+        },
+        {
+          "id": "color-3",
+          "name": "墨褐",
+          "hex": "#554B43",
+          "status": "manual",
+          "role": "毛笔和器物暗部"
+        },
+        {
+          "id": "color-4",
+          "name": "浅木",
+          "hex": "#B9A58A",
+          "status": "manual",
+          "role": "木台与暖色反光"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "title": "器形与轻微不对称",
+      "body": "月壶以饱满腹部、短颈和较小圈足形成轮廓，轻微不对称可保留手工制作的差异；不应夸张成破损或歪斜。"
+    },
+    {
+      "title": "白釉中的层次",
+      "body": "用侧光区分釉面的乳白、冷灰与暖影，避免纯白抠图抹去体积；文房器的镂孔则以孔洞和内壁阴影形成装饰。"
+    },
+    {
+      "title": "朴素与装饰并存",
+      "body": "白瓷也有青花、铁绘和礼仪性造型。月壶、笔筒与仪礼器物应分别理解，不将其统称为侘寂，也不把纯白视为整个朝鲜王朝的唯一审美。"
+    }
+  ],
+  "applications": [
+    "适合白瓷器物目录：以灰蓝底衬托白釉，搭配正面器形、口沿和圈足细节；图注明确年代与器用，避免仅靠“极简”标签解释文化。"
+  ],
+  "related": ["wabi-sabi", "chinese-literati", "natural-handcraft"],
+  "order": 56,
+  "updatedAt": "2026-09-12",
+  "designHistory": {
+    "overview": "以朝鲜王朝的白瓷为范围，关注宫廷、仪礼与文房用途。朴素白釉具有重要位置，但青花、铁绘等装饰同样存在，不能把韩国器物概括为单一的纯白风格。",
+    "timeline": [
+      {
+        "year": 1460,
+        "period": "十五世纪中后期",
+        "title": "官窑组织与白瓷生产",
+        "body": "朝廷于 1460 年代参与建立和管理分院窑场，为宫廷等需求生产白瓷；器形与品质因使用对象而异。",
+        "sourceIds": ["white"]
+      },
+      {
+        "year": 1700,
+        "period": "十八世纪",
+        "title": "月壶与装饰并存",
+        "body": "大型圆腹月壶在十八世纪流行，同时青花、铁绘及铜红等白瓷装饰并未消失，白瓷传统内部保持多样性。",
+        "sourceIds": ["white"]
+      },
+      {
+        "year": 1800,
+        "period": "十九世纪",
+        "title": "文房器物扩展表现",
+        "body": "镂空笔筒等文房器物让白瓷通过结构与光影呈现装饰；与此同时，高足碗盘等仪礼用瓷继续大量生产，显示文人器用与社会礼仪需求并行。",
+        "sourceIds": ["white", "ritual"]
+      }
+    ],
+    "interpretation": "海报将所述形态与材料转译为原创视觉场景；配色为编辑设定，不用于文物鉴定、科学识别或证明环境绩效。",
+    "sources": [
+      {
+        "id": "white",
+        "title": "In Pursuit of White: Porcelain in the Joseon Dynasty, 1392–1910",
+        "publisher": "The Metropolitan Museum of Art",
+        "url": "https://www.metmuseum.org/ko/essays/in-pursuit-of-white-porcelain-in-the-joseon-dynasty-1392-1910"
+      },
+      {
+        "id": "ritual",
+        "title": "Ritual Porcelains of Joseon Dynasty",
+        "publisher": "National Museum of Korea",
+        "url": "https://www.museum.go.kr/site/eng/exhiSpecialTheme/view/current?exhiSpThemId=69184"
+      }
+    ]
+  }
+}

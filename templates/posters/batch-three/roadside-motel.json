@@ -1,0 +1,33 @@
+{
+  "styleId": "roadside-motel",
+  "title": "美式公路旅馆",
+  "accentLength": 2,
+  "titleColors": ["#263A52", "#A94735"],
+  "colors": [
+    {
+      "name": "湖水青",
+      "hex": "#4B9CA1",
+      "englishName": "Turquoise"
+    },
+    {
+      "name": "珊瑚橙",
+      "hex": "#D66D50",
+      "englishName": "Coral"
+    },
+    {
+      "name": "沙地黄",
+      "hex": "#D9BC83",
+      "englishName": "Desert Sand"
+    },
+    {
+      "name": "夜幕蓝",
+      "hex": "#263A52",
+      "englishName": "Night Blue"
+    }
+  ],
+  "sidebarCn": ["让道路延伸视线", "让招牌指引停留", "让客房连成横线", "让夜色保有层次"],
+  "sidebarEn": ["A Way of Seeing.", "A Way of Living."],
+  "badges": ["公路", "招牌", "停留"],
+  "sceneFile": "assets/poster-scenes/roadside-motel.png",
+  "scenePrompt": "Original 1960s American Southwest motel exterior at blue hour, cream single-storey motor court, two period cars, tall abstract arrow neon sign without letters, asphalt road into desert. Turquoise coral sand midnight blue. Cinematic realism, landscape 1.46:1. No text logos border swatches."
+}

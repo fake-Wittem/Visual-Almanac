@@ -1,0 +1,126 @@
+{
+  "id": "y2k",
+  "name": "Y2K 千禧未来视觉",
+  "englishName": "Y2K",
+  "aliases": ["Y2K", "Y2K 千禧未来视觉"],
+  "summary": "半透明塑料、圆润电子器物与银色反光，凝结世纪之交对数字日常的想象。",
+  "category": "future-tech",
+  "tags": ["futuristic", "nostalgic", "metal", "translucent", "purple", "poster"],
+  "cover": "y2k-poster",
+  "images": [
+    {
+      "asset": "y2k-poster",
+      "caption": "Y2K 千禧未来视觉 · 风格演绎海报"
+    }
+  ],
+  "palettes": [
+    {
+      "id": "poster",
+      "name": "主题配色",
+      "description": "为本档案人工设定的视觉配色，海报色卡按相同 HEX 排版；不代表历史时期的标准色。",
+      "colors": [
+        {
+          "id": "color-1",
+          "name": "数码银",
+          "hex": "#B9C6D0",
+          "status": "manual",
+          "role": "主题基调"
+        },
+        {
+          "id": "color-2",
+          "name": "透明紫",
+          "hex": "#9C8BC7",
+          "status": "manual",
+          "role": "对比点缀"
+        },
+        {
+          "id": "color-3",
+          "name": "电光蓝",
+          "hex": "#4776AB",
+          "status": "manual",
+          "role": "材质辅助"
+        },
+        {
+          "id": "color-4",
+          "name": "乳白",
+          "hex": "#EDF0E8",
+          "status": "manual",
+          "role": "背景留白"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "title": "限定研究入口",
+      "body": "这里从消费电子与材料语言进入千禧视觉，不把同期全部时装、音乐与网页视为同一样式。"
+    },
+    {
+      "title": "外壳与内部",
+      "body": "半透明表面让内部结构隐约可见，圆润体量和反光细节制造亲近而新鲜的技术感。"
+    },
+    {
+      "title": "控制高光",
+      "body": "金属与透明体需要留出稳定背景；应用到版面时应为正文设置低干扰区域。"
+    }
+  ],
+  "applications": [
+    "适合Y2K 千禧未来视觉主题的展览海报与阅读分享：选取档案中的核心形式组织主视觉，保持正文清晰，并注明图像为当代演绎。"
+  ],
+  "related": ["space-age", "retro-futurism", "digital-future"],
+  "order": 61,
+  "updatedAt": "2026-09-12",
+  "designHistory": {
+    "overview": "Y2K 是围绕千禧年前后视觉文化的回望性归纳，不是统一成立的设计运动。本档案以1998—2000年的消费电子和界面材料为历史切片，提炼技术进入日常生活的乐观想象。",
+    "timeline": [
+      {
+        "year": 1998,
+        "period": "1998 年",
+        "title": "互联网进入家用产品叙事",
+        "body": "苹果发布 iMac，以面向大众的互联网电脑定位呈现消费电子的新方向；V&A亦将其收录于数字设计脉络。",
+        "sourceIds": ["imac", "digital"]
+      },
+      {
+        "year": 1999,
+        "period": "1999 年",
+        "title": "消费电子持续迭代",
+        "body": "吸入式光驱版本 iMac 于1999年推出，说明世纪之交的数字生活也依赖持续改进的具体设备。",
+        "sourceIds": ["spec"]
+      },
+      {
+        "year": 2020,
+        "period": "2020 年代的回看",
+        "title": "成为当代文化检索标签",
+        "body": "V&A的 Mused 使用 Y2K 作为文化内容标签，体现当代对这一时期的重新命名和归类；本站的材质组合属于编辑提炼。",
+        "sourceIds": ["mused"]
+      }
+    ],
+    "interpretation": "海报以虚构场景提炼Y2K 千禧未来视觉的材料、构图与视觉关系；不复制馆藏原件，不作为历史现场或实际工程的证明。",
+    "sources": [
+      {
+        "id": "imac",
+        "title": "Apple lance iMac",
+        "publisher": "Apple",
+        "url": "https://www.apple.com/ca/fr/press/1998/05/iMac.html"
+      },
+      {
+        "id": "digital",
+        "title": "Digital Art & Design",
+        "publisher": "Victoria and Albert Museum",
+        "url": "https://www.vam.ac.uk/collections/digital-art-design"
+      },
+      {
+        "id": "spec",
+        "title": "iMac (Slot Loading) - Technical Specifications",
+        "publisher": "Apple",
+        "url": "https://support.apple.com/en-us/112301"
+      },
+      {
+        "id": "mused",
+        "title": "Y2K Archives",
+        "publisher": "V&A Mused",
+        "url": "https://www.vam.ac.uk/mused/tag/y2k/"
+      }
+    ]
+  }
+}

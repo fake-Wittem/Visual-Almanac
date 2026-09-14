@@ -2,6 +2,9 @@ node_modules/
 dist/
 coverage/
 artifacts/
+# 本地生成草稿、核验脚本与浏览器会话产物
+/output/
+/.playwright-cli/
 public/images/generated/
 .env*
 !.env.example

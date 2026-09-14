@@ -1,0 +1,33 @@
+{
+  "styleId": "ukiyo-e",
+  "title": "浮世绘平面语言",
+  "accentLength": 2,
+  "titleColors": ["#454A44", "#72545B"],
+  "colors": [
+    {
+      "name": "靛青",
+      "hex": "#355A70",
+      "englishName": "Indigo"
+    },
+    {
+      "name": "朱赭",
+      "hex": "#B96345",
+      "englishName": "Vermilion"
+    },
+    {
+      "name": "纸黄",
+      "hex": "#E4D5AD",
+      "englishName": "Paper"
+    },
+    {
+      "name": "松绿",
+      "hex": "#53614A",
+      "englishName": "Pine"
+    }
+  ],
+  "sidebarCn": ["以轮廓组织画面", "让套色形成层次", "用截景改变视线", "记住出版与社群"],
+  "sidebarEn": ["A Way of Seeing.", "A Way of Living."],
+  "badges": ["套色", "轮廓", "截景"],
+  "sceneFile": "assets/poster-scenes/ukiyo-e.png",
+  "scenePrompt": "Original ukiyo-e woodblock landscape: diagonal footbridge across broad river, tiny travelers with straw hats, cropped pine foreground and distant village, flat indigo and ochre, carved contours and bokashi sky, no known print replica. Portrait 4:5. Palette #355A70, #B96345, #E4D5AD, #53614A. No text, letters, logos, signatures, seals, borders, color swatches or collage."
+}

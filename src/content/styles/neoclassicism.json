@@ -1,0 +1,114 @@
+{
+  "id": "neoclassicism",
+  "name": "新古典主义",
+  "englishName": "Neoclassicism",
+  "aliases": ["Neoclassicism", "新古典主义"],
+  "summary": "古代母题经考察与重组进入现代器用，以比例、低浮雕与成套装饰建立秩序。",
+  "category": "classical-decorative",
+  "tags": ["elegant", "rational", "geometry", "cream", "brand"],
+  "cover": "neoclassicism-poster",
+  "images": [
+    {
+      "asset": "neoclassicism-poster",
+      "caption": "新古典主义 · 风格演绎海报"
+    }
+  ],
+  "palettes": [
+    {
+      "id": "poster",
+      "name": "主题配色",
+      "description": "为本档案人工设定的视觉配色，海报色卡按相同 HEX 排版；不代表历史时期的标准色。",
+      "colors": [
+        {
+          "id": "color-1",
+          "name": "鼠尾草",
+          "hex": "#A9B3A1",
+          "status": "manual",
+          "role": "主题基调"
+        },
+        {
+          "id": "color-2",
+          "name": "象牙白",
+          "hex": "#E8DFC9",
+          "status": "manual",
+          "role": "对比点缀"
+        },
+        {
+          "id": "color-3",
+          "name": "玫瑰石",
+          "hex": "#B98A7B",
+          "status": "manual",
+          "role": "材质辅助"
+        },
+        {
+          "id": "color-4",
+          "name": "古铜",
+          "hex": "#877048",
+          "status": "manual",
+          "role": "背景留白"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "title": "有节制的装饰",
+      "body": "细密花环、凹槽和奖章常依附清晰的构图秩序，不等于完全无装饰。"
+    },
+    {
+      "title": "整体协调",
+      "body": "墙面、天花与家具可以使用相同的间距和母题，先统一尺度，再增加细节。"
+    },
+    {
+      "title": "重新阐释古代",
+      "body": "新古典主义是十八世纪以来的再解释，不能与古希腊、古罗马本身混为同一时期。"
+    }
+  ],
+  "applications": [
+    "适合新古典主义主题的展览海报与阅读分享：选取档案中的核心形式组织主视觉，保持正文清晰，并注明图像为当代演绎。"
+  ],
+  "related": ["rococo", "baroque", "art-deco"],
+  "order": 58,
+  "updatedAt": "2026-09-12",
+  "designHistory": {
+    "overview": "新古典主义于十八世纪中叶在英国、法国等地发展，古代遗址的考察、壮游与出版共同推动其传播。本档案侧重装饰艺术及罗伯特·亚当的室内设计线索。",
+    "timeline": [
+      {
+        "year": 1750,
+        "period": "1750 年代",
+        "title": "考古与壮游的影响",
+        "body": "赫库兰尼姆和庞贝的发现重新激发古代趣味；旅行归来的欧洲贵族参与传播相关形式。",
+        "sourceIds": ["neo"]
+      },
+      {
+        "year": 1760,
+        "period": "1760 年代",
+        "title": "古典语言进入整体室内",
+        "body": "亚当把古代及文艺复兴装饰来源重新提炼，用于墙面、天花、家具与器物的协调设计。",
+        "sourceIds": ["adam"]
+      },
+      {
+        "year": 1773,
+        "period": "1773 年起",
+        "title": "出版与市场扩散",
+        "body": "亚当兄弟分期出版建筑作品集，推动整体室内观念传播；此时新古典家具已进入更广泛市场。",
+        "sourceIds": ["adam"]
+      }
+    ],
+    "interpretation": "海报以虚构场景提炼新古典主义的材料、构图与视觉关系；不复制馆藏原件，不作为历史现场或实际工程的证明。",
+    "sources": [
+      {
+        "id": "neo",
+        "title": "Neoclassicism",
+        "publisher": "Victoria and Albert Museum",
+        "url": "https://www.vam.ac.uk/collections/neoclassicism"
+      },
+      {
+        "id": "adam",
+        "title": "Robert Adam: Neoclassical architect and designer",
+        "publisher": "Victoria and Albert Museum",
+        "url": "https://www.vam.ac.uk/articles/robert-adam-neoclassical-architect-and-designer"
+      }
+    ]
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "id": "circular-repair",
+  "name": "循环材料与修补美学",
+  "englishName": "Reuse and Visible Repair",
+  "aliases": ["Reuse and Visible Repair"],
+  "summary": "让拼接、补缀与材料旧痕成为可读细节，表达物品继续被使用的过程。",
+  "category": "natural-organic",
+  "tags": ["warm", "textile", "organic", "blue", "brown", "brand"],
+  "cover": "circular-repair-poster",
+  "images": [
+    {
+      "asset": "circular-repair-poster",
+      "caption": "循环材料与修补美学 · 风格演绎海报"
+    }
+  ],
+  "palettes": [
+    {
+      "id": "poster",
+      "name": "主题配色",
+      "description": "为本档案人工设定的视觉配色，海报色卡按相同 HEX 排版；不代表历史时期的标准色。",
+      "colors": [
+        {
+          "id": "color-1",
+          "name": "靛蓝",
+          "hex": "#40556B",
+          "status": "manual",
+          "role": "原有靛蓝织物"
+        },
+        {
+          "id": "color-2",
+          "name": "亚麻",
+          "hex": "#D8C9AC",
+          "status": "manual",
+          "role": "浅色针脚与补片"
+        },
+        {
+          "id": "color-3",
+          "name": "锈红",
+          "hex": "#AA654D",
+          "status": "manual",
+          "role": "对比补丁"
+        },
+        {
+          "id": "color-4",
+          "name": "木褐",
+          "hex": "#7B6955",
+          "status": "manual",
+          "role": "再用木材与接缝阴影"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "title": "针脚的组织",
+      "body": "织补针脚可形成规则的小块网格，拼接边缘保留转折与接缝；选择少数明确修补位置，比全幅磨损噪点更容易读懂。"
+    },
+    {
+      "title": "新旧材料关系",
+      "body": "旧靛蓝织物与较新的亚麻补片通过色差和织纹区分，连接处保持清楚，让材料经历与继续使用的意图同时可见。"
+    },
+    {
+      "title": "修补与再用的区别",
+      "body": "修补延长原物用途，再用可能改变材料功能；两者可以并置，但不要用随机拼贴冒充实际修复，也不以外观推断环境收益。"
+    }
+  ],
+  "applications": [
+    "适合修补工作坊招募海报：用一处可读的补缀特写作主体，以针脚节奏设计分隔线，并清楚列出可带来的衣物类型与所需工具。"
+  ],
+  "related": ["natural-handcraft", "arts-and-crafts", "bohemian"],
+  "order": 52,
+  "updatedAt": "2026-09-12",
+  "designHistory": {
+    "overview": "这是一项编辑主题，将欧洲织物修补史与当代材料再用放在一起比较，并不宣称存在统一的历史流派。外观中的补缀和旧痕不能单独证明循环性或减排效果。",
+    "timeline": [
+      {
+        "year": 1763,
+        "period": "十八世纪",
+        "title": "织补作为可练习的知识",
+        "body": "V&A 收藏的荷兰织补样本展示了以练习记录修补技巧的传统，针脚既解决材料损坏，也形成可观察的结构。",
+        "sourceIds": ["sampler"]
+      },
+      {
+        "year": 1991,
+        "period": "1991 年",
+        "title": "旧衣转为家具材料",
+        "body": "Tejo Remy 的 Rag Chair 将二手衣物叠合并用金属带束紧，原有织物进入新用途，材料差异成为作品的可见部分。",
+        "sourceIds": ["rag"]
+      },
+      {
+        "year": 2017,
+        "period": "2017 年",
+        "title": "修补技艺进入博物馆教育",
+        "body": "V&A 的手缝课程继续教授织补与缝合方法，说明这类知识可以通过当代公共教育传递，而不只保留在旧物中。",
+        "sourceIds": ["workshop"]
+      }
+    ],
+    "interpretation": "海报将所述形态与材料转译为原创视觉场景；配色为编辑设定，不用于文物鉴定、科学识别或证明环境绩效。",
+    "sources": [
+      {
+        "id": "sampler",
+        "title": "Embroidery – a history of needlework samplers",
+        "publisher": "Victoria and Albert Museum",
+        "url": "https://www.vam.ac.uk/articles/embroidery-a-history-of-needlework-samplers"
+      },
+      {
+        "id": "rag",
+        "title": "Rag Chair by Tejo Remy",
+        "publisher": "Droog",
+        "url": "https://www.droog.com/projects/rag-chair-by-tejo-remy/"
+      },
+      {
+        "id": "workshop",
+        "title": "A Stitch in Time",
+        "publisher": "Victoria and Albert Museum",
+        "url": "https://www.vam.ac.uk/event/BRmz3xbG/a-stitch-in-time"
+      }
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "styleId": "steampunk",
+  "title": "蒸汽朋克风格",
+  "accentLength": 2,
+  "titleColors": ["#303936", "#79503A"],
+  "colors": [
+    {
+      "name": "黄铜",
+      "hex": "#B58C4B",
+      "englishName": "Brass"
+    },
+    {
+      "name": "烟煤",
+      "hex": "#343B3A",
+      "englishName": "Coal"
+    },
+    {
+      "name": "皮革棕",
+      "hex": "#79503A",
+      "englishName": "Leather"
+    },
+    {
+      "name": "旧纸白",
+      "hex": "#D7C5A3",
+      "englishName": "Old Paper"
+    }
+  ],
+  "sidebarCn": ["让管线连接机器", "让黄铜留下时间", "以手作构建想象", "在历史之外续写"],
+  "sidebarEn": ["A Way of Seeing.", "A Way of Living."],
+  "badges": ["机械", "架空", "手作"],
+  "sceneFile": "assets/poster-scenes/steampunk.png",
+  "scenePrompt": "Original fictional steam-powered astronomical instrument on a workbench, connected brass pipes, dark iron flywheel, leather bellows and warm lamplight. Legible plausible mechanisms, not loose decorative gears. Portrait 4:5. No text, no logo, no swatches, no border. Colors #B58C4B, #343B3A, #79503A, #D7C5A3"
+}

@@ -1,0 +1,112 @@
+{
+  "id": "de-stijl",
+  "name": "风格派",
+  "englishName": "De Stijl",
+  "aliases": ["De Stijl"],
+  "summary": "用正交平面、原色与不对称平衡，把画面的关系延伸到器物和空间。",
+  "category": "modern-minimal",
+  "tags": ["rational", "geometry", "poster"],
+  "cover": "de-stijl-poster",
+  "images": [
+    {
+      "asset": "de-stijl-poster",
+      "caption": "风格派 · 风格演绎海报"
+    }
+  ],
+  "palettes": [
+    {
+      "id": "poster",
+      "name": "主题配色",
+      "description": "为本档案人工设定的视觉配色，海报色卡按相同 HEX 排版；不代表历史时期的标准色。",
+      "colors": [
+        {
+          "id": "color-1",
+          "name": "构成红",
+          "hex": "#C53D32",
+          "status": "manual",
+          "role": "主体基调"
+        },
+        {
+          "id": "color-2",
+          "name": "钴蓝",
+          "hex": "#285CA0",
+          "status": "manual",
+          "role": "结构层次"
+        },
+        {
+          "id": "color-3",
+          "name": "原色黄",
+          "hex": "#E8BC37",
+          "status": "manual",
+          "role": "视觉强调"
+        },
+        {
+          "id": "color-4",
+          "name": "平面白",
+          "hex": "#E9E7DF",
+          "status": "manual",
+          "role": "辅助平衡"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "title": "关系优先",
+      "body": "先安排线、面和空白的比例，再配置颜色；原色并不需要平均分配面积。"
+    },
+    {
+      "title": "平面到空间",
+      "body": "把交错平面理解为组织方法，避免只在普通家具上贴红黄蓝方格。"
+    },
+    {
+      "title": "运动内部差异",
+      "body": "风格派成员观点与形式并非完全一致，不以某一种正交画面概括整个团体。"
+    }
+  ],
+  "applications": ["适合几何展陈与文化海报：以少量正交分割建立节奏，文字沿共同基线排列。"],
+  "related": ["bauhaus", "swiss-international"],
+  "order": 45,
+  "updatedAt": "2026-09-12",
+  "designHistory": {
+    "overview": "风格派以1917年创办的同名荷兰刊物为联系平台，连接绘画、建筑与设计。它借几何、原色和不对称关系探索新的生活环境，不能只理解为一种红黄蓝装饰图案。",
+    "timeline": [
+      {
+        "year": 1917,
+        "period": "1917年",
+        "title": "刊物连接艺术与建筑",
+        "body": "Theo van Doesburg 创办 De Stijl，刊物汇集画家和建筑师，主张打破艺术门类之间的等级并重新塑造生活环境。",
+        "sourceIds": ["museum"]
+      },
+      {
+        "year": 1923,
+        "period": "1923—1924年",
+        "title": "构成进入建筑空间",
+        "body": "巴黎展览和 Rietveld 在乌得勒支的住宅，将平面关系带入建筑模型与实际居住空间。",
+        "sourceIds": ["catalogue"]
+      },
+      {
+        "year": 1925,
+        "period": "1925—1932年",
+        "title": "分歧与延续",
+        "body": "成员的形式探索继续变化，Mondrian 离开团体；van Doesburg 于1931年去世，1932年出现刊物最后一期。",
+        "sourceIds": ["catalogue"]
+      }
+    ],
+    "interpretation": "海报为当代原创风格演绎，不是历史实景或馆藏复制。先安排线、面和空白的比例，再配置颜色；原色并不需要平均分配面积。",
+    "sources": [
+      {
+        "id": "museum",
+        "title": "De Stijl",
+        "publisher": "Kunstmuseum Den Haag",
+        "url": "https://www.kunstmuseum.nl/nl/deelcollectie/de-stijl"
+      },
+      {
+        "id": "catalogue",
+        "title": "De Stijl, 1917–1928",
+        "publisher": "Museum of Modern Art",
+        "url": "https://www.moma.org/documents/moma_catalogue_1798_300159061.pdf"
+      }
+    ]
+  }
+}

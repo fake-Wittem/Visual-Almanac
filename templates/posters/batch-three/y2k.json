@@ -1,0 +1,33 @@
+{
+  "styleId": "y2k",
+  "title": "千禧未来视觉",
+  "accentLength": 2,
+  "titleColors": ["#303936", "#79503A"],
+  "colors": [
+    {
+      "name": "数码银",
+      "hex": "#B9C6D0",
+      "englishName": "Digital Silver"
+    },
+    {
+      "name": "透明紫",
+      "hex": "#9C8BC7",
+      "englishName": "Clear Violet"
+    },
+    {
+      "name": "电光蓝",
+      "hex": "#4776AB",
+      "englishName": "Electric Blue"
+    },
+    {
+      "name": "乳白",
+      "hex": "#EDF0E8",
+      "englishName": "Milky White"
+    }
+  ],
+  "sidebarCn": ["让外壳透出结构", "让银色映照光线", "让圆润亲近生活", "回看千禧年的未来"],
+  "sidebarEn": ["A Way of Seeing.", "A Way of Living."],
+  "badges": ["透明", "数码", "光泽"],
+  "sceneFile": "assets/poster-scenes/y2k.png",
+  "scenePrompt": "Fictional translucent violet portable CD player, silver headphones and iridescent disc on a pale blue acrylic plinth. Rounded late 1990s consumer electronics, no branding. Portrait 4:5. No text, no logo, no swatches, no border. Colors #B9C6D0, #9C8BC7, #4776AB, #EDF0E8"
+}

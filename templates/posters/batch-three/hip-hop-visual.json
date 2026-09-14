@@ -1,0 +1,33 @@
+{
+  "styleId": "hip-hop-visual",
+  "title": "嘻哈视觉",
+  "accentLength": 2,
+  "titleColors": ["#302C25", "#24252A"],
+  "colors": [
+    {
+      "name": "唱片黑",
+      "hex": "#24252A",
+      "englishName": "Vinyl Black"
+    },
+    {
+      "name": "节拍红",
+      "hex": "#C44837",
+      "englishName": "Beat Red"
+    },
+    {
+      "name": "旧纸白",
+      "hex": "#E4DAC6",
+      "englishName": "Flyer Ivory"
+    },
+    {
+      "name": "铜黄",
+      "hex": "#B8944C",
+      "englishName": "Brass Yellow"
+    }
+  ],
+  "sidebarCn": ["从街区听见节拍", "让唱盘连接现场", "把采样变成层次", "为社群保留位置"],
+  "sidebarEn": ["A Way of Seeing.", "A Way of Living."],
+  "badges": ["节拍", "社群", "采样"],
+  "sceneFile": "assets/poster-scenes/hip-hop-visual.png",
+  "scenePrompt": "Original landscape 3:2 editorial still life of two unbranded vinyl turntables, mixer and hand cut blank graphic flyers on a street community music table, warm side light, black red old paper brass palette, grainy documentary mood, no text logos people or copied album artwork."
+}

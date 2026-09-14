@@ -1,0 +1,33 @@
+{
+  "styleId": "seventies-interiors",
+  "title": "七十年代家居",
+  "accentLength": 2,
+  "titleColors": ["#594136", "#9B4E2E"],
+  "colors": [
+    {
+      "name": "焦橙",
+      "hex": "#BD653C",
+      "englishName": "Burnt Orange"
+    },
+    {
+      "name": "橄榄绿",
+      "hex": "#79794A",
+      "englishName": "Olive"
+    },
+    {
+      "name": "奶油白",
+      "hex": "#E7D7BA",
+      "englishName": "Cream"
+    },
+    {
+      "name": "可可棕",
+      "hex": "#594136",
+      "englishName": "Cocoa"
+    }
+  ],
+  "sidebarCn": ["让软包连接坐卧", "让暖色围合交流", "让图案集中表达", "让家具成为环境"],
+  "sidebarEn": ["A Way of Seeing.", "A Way of Living."],
+  "badges": ["软包", "暖调", "低坐"],
+  "sceneFile": "assets/poster-scenes/seventies-interiors.png",
+  "scenePrompt": "Original 1970s experimental lounge, low rounded burnt-orange corduroy modular seating, cream mushroom lamp, smoked acrylic low table and olive geometric textile panel. Walnut edge, warm tactile editorial photography. Landscape 1.46:1 scene only, no text or logos, not a historical room replica."
+}

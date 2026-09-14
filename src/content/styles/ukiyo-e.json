@@ -1,0 +1,114 @@
+{
+  "id": "ukiyo-e",
+  "name": "浮世绘平面语言",
+  "englishName": "Ukiyo-e Graphic Language",
+  "aliases": ["Ukiyo-e Graphic Language"],
+  "summary": "以明确轮廓、套色平面与大胆截景组织人物和风景，保留木版印刷的节奏。",
+  "category": "eastern-aesthetics",
+  "tags": ["lively", "contrast", "blue", "red", "poster"],
+  "cover": "ukiyo-e-poster",
+  "images": [
+    {
+      "asset": "ukiyo-e-poster",
+      "caption": "浮世绘平面语言 · 风格演绎海报"
+    }
+  ],
+  "palettes": [
+    {
+      "id": "poster",
+      "name": "主题配色",
+      "description": "为本档案人工设定的视觉配色，海报色卡按相同 HEX 排版；不代表历史时期的标准色。",
+      "colors": [
+        {
+          "id": "color-1",
+          "name": "靛青",
+          "hex": "#355A70",
+          "status": "manual",
+          "role": "水面与远山"
+        },
+        {
+          "id": "color-2",
+          "name": "朱赭",
+          "hex": "#B96345",
+          "status": "manual",
+          "role": "人物和暮色点缀"
+        },
+        {
+          "id": "color-3",
+          "name": "纸黄",
+          "hex": "#E4D5AD",
+          "status": "manual",
+          "role": "纸张与浅色天空"
+        },
+        {
+          "id": "color-4",
+          "name": "松绿",
+          "hex": "#53614A",
+          "status": "manual",
+          "role": "近景松枝"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "title": "轮廓与套色",
+      "body": "明确的主轮廓约束平面色块，渐变仅用于天空或水面等局部；保留色层的分工，比给照片添加木纹更接近版画语言。"
+    },
+    {
+      "title": "截景与远近",
+      "body": "把树枝、桥梁等近景截出画框，再以较小人物和远处屋顶建立距离。斜向线引导视线，画面不必依靠西式单点透视。"
+    },
+    {
+      "title": "出版中的图像",
+      "body": "浮世绘包含演员、城市娱乐、名所和故事等题材，由多种专业协作生产；不能只用巨浪或富士山代表全部传统。"
+    }
+  ],
+  "applications": [
+    "适合城市漫游路线封面：用桥梁或街角的斜向轮廓组织原创地点图，限用三至四色；路线、站点和文字作为独立可编辑层清晰呈现。"
+  ],
+  "related": ["ink-expression", "pop-art", "rinpa"],
+  "order": 55,
+  "updatedAt": "2026-09-12",
+  "designHistory": {
+    "overview": "本档案研究日本江户时期木版画的构图与生产语言。浮世绘与城市娱乐、商业出版及旅行需求有关，不只是一种波浪图案，也不限于风景题材。",
+    "timeline": [
+      {
+        "year": 1740,
+        "period": "1740 年代",
+        "title": "有限套色的技术阶段",
+        "body": "早期单版黑白印刷与手工加彩之外，额外木版开始用于粉色、绿色等套印，版与色的关系逐步发展。",
+        "sourceIds": ["prints"]
+      },
+      {
+        "year": 1765,
+        "period": "1765 年",
+        "title": "锦绘扩展全彩表现",
+        "body": "多色木版技术成熟，铃木春信的作品展示锦绘带来的色彩层次；作品由画师、雕版师、印刷师和出版者协作完成。",
+        "sourceIds": ["harunobu", "prints"]
+      },
+      {
+        "year": 1830,
+        "period": "十九世纪前半叶",
+        "title": "旅行与名所风景传播",
+        "body": "旅行文化带动名所图像需求，风景版画以近景截取、远近对照及平面色块组织观看，并作为可广泛购买的印刷品传播。",
+        "sourceIds": ["prints"]
+      }
+    ],
+    "interpretation": "海报将所述形态与材料转译为原创视觉场景；配色为编辑设定，不用于文物鉴定、科学识别或证明环境绩效。",
+    "sources": [
+      {
+        "id": "prints",
+        "title": "Japanese woodblock prints (ukiyo-e)",
+        "publisher": "Victoria and Albert Museum",
+        "url": "https://www.vam.ac.uk/articles/japanese-woodblock-prints-ukiyo-e"
+      },
+      {
+        "id": "harunobu",
+        "title": "Two Ladies",
+        "publisher": "The Metropolitan Museum of Art",
+        "url": "https://www.metmuseum.org/art/collection/search/54863"
+      }
+    ]
+  }
+}

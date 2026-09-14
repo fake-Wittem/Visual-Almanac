@@ -1,0 +1,33 @@
+{
+  "styleId": "circular-repair",
+  "title": "循环修补美学",
+  "accentLength": 2,
+  "titleColors": ["#454A44", "#72545B"],
+  "colors": [
+    {
+      "name": "靛蓝",
+      "hex": "#40556B",
+      "englishName": "Indigo"
+    },
+    {
+      "name": "亚麻",
+      "hex": "#D8C9AC",
+      "englishName": "Linen"
+    },
+    {
+      "name": "锈红",
+      "hex": "#AA654D",
+      "englishName": "Rust"
+    },
+    {
+      "name": "木褐",
+      "hex": "#7B6955",
+      "englishName": "Wood"
+    }
+  ],
+  "sidebarCn": ["让针脚成为细节", "保留材料的记忆", "为旧物延续用途", "以连接形成秩序"],
+  "sidebarEn": ["A Way of Seeing.", "A Way of Living."],
+  "badges": ["修补", "再用", "痕迹"],
+  "sceneFile": "assets/poster-scenes/circular-repair.png",
+  "scenePrompt": "Mended indigo linen cushion with visible cream darning and rust patches on reclaimed timber bench, plain recycled fiber notebook and thread spool; tactile warm still life, intact useful objects. Portrait 4:5. Palette #40556B, #D8C9AC, #AA654D, #7B6955. No text, letters, logos, signatures, seals, borders, color swatches or collage."
+}

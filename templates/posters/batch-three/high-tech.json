@@ -1,0 +1,33 @@
+{
+  "styleId": "high-tech",
+  "title": "高技派风格",
+  "accentLength": 2,
+  "titleColors": ["#303936", "#79503A"],
+  "colors": [
+    {
+      "name": "钢灰",
+      "hex": "#A7B1B6",
+      "englishName": "Steel"
+    },
+    {
+      "name": "管线红",
+      "hex": "#B74D43",
+      "englishName": "Pipe Red"
+    },
+    {
+      "name": "结构蓝",
+      "hex": "#456F89",
+      "englishName": "Structure Blue"
+    },
+    {
+      "name": "玻璃白",
+      "hex": "#E1E7E4",
+      "englishName": "Glass White"
+    }
+  ],
+  "sidebarCn": ["让结构显露在外", "让设备组织立面", "让构件形成节奏", "为空间保留弹性"],
+  "sidebarEn": ["A Way of Seeing.", "A Way of Living."],
+  "badges": ["结构", "设备", "模块"],
+  "sceneFile": "assets/poster-scenes/high-tech.png",
+  "scenePrompt": "Original high-tech architecture atrium, exposed silver steel trusses, clearly joined modular beams, red service ducts, blue stair tower and transparent glass facade. Daylight, empty flexible floor, architectural illustration, no copied building. Portrait 4:5. No text, no logo, no swatches, no border. Colors #A7B1B6, #B74D43, #456F89, #E1E7E4"
+}

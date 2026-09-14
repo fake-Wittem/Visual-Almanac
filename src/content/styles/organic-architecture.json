@@ -1,0 +1,120 @@
+{
+  "id": "organic-architecture",
+  "name": "有机建筑",
+  "englishName": "Organic Architecture",
+  "aliases": ["Organic Architecture"],
+  "summary": "让建筑从场地、材料和内部生活生长，水平线与自然地形彼此呼应。",
+  "category": "natural-organic",
+  "tags": ["warm", "wood", "organic", "green", "brown", "slides"],
+  "cover": "organic-architecture-poster",
+  "images": [
+    {
+      "asset": "organic-architecture-poster",
+      "caption": "有机建筑 · 风格演绎海报"
+    }
+  ],
+  "palettes": [
+    {
+      "id": "poster",
+      "name": "主题配色",
+      "description": "为本档案人工设定的视觉配色，海报色卡按相同 HEX 排版；不代表历史时期的标准色。",
+      "colors": [
+        {
+          "id": "color-1",
+          "name": "石灰褐",
+          "hex": "#8B806C",
+          "status": "manual",
+          "role": "石墙与岩体"
+        },
+        {
+          "id": "color-2",
+          "name": "苔藓绿",
+          "hex": "#62715A",
+          "status": "manual",
+          "role": "林地与苔藓"
+        },
+        {
+          "id": "color-3",
+          "name": "暖赭",
+          "hex": "#B98D54",
+          "status": "manual",
+          "role": "露台和暖光"
+        },
+        {
+          "id": "color-4",
+          "name": "米白",
+          "hex": "#E8DDC8",
+          "status": "manual",
+          "role": "天空与版面留白"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "title": "水平与地形",
+      "body": "低矮屋檐、连续露台和横向石墙形成主线；用地形高差组织层次，让建筑轮廓与坡面互相回应。"
+    },
+    {
+      "title": "材料连续性",
+      "body": "石材可以从外墙延伸到室内地面或壁炉，木构与玻璃接续其间；通过真实接合表达整体，而不把自然纹理铺成背景贴图。"
+    },
+    {
+      "title": "从内部生活出发",
+      "body": "开放空间、内置座椅和通向户外的路径共同组织使用；有机建筑不必全是曲线，也不等于在现代盒子周围种树。"
+    }
+  ],
+  "applications": [
+    "适合建筑专题展板：以一条水平轴组织建筑照片、场地剖面和材料细节，使用苔绿与石褐标示建筑和地形的联系。"
+  ],
+  "related": ["organic-modern", "biophilic", "mid-century"],
+  "order": 49,
+  "updatedAt": "2026-09-12",
+  "designHistory": {
+    "overview": "本档案以美国建筑师弗兰克·劳埃德·赖特的实践为线索，研究建筑整体与场地的联系。有机并不只指曲线，也不是对建筑环保绩效的判断。",
+    "timeline": [
+      {
+        "year": 1900,
+        "period": "二十世纪初",
+        "title": "草原住宅与开放空间",
+        "body": "赖特的草原住宅用低缓屋顶、水平展开与相互连通的空间回应美国中西部环境，为其有机建筑探索建立基础。",
+        "sourceIds": ["prairie"]
+      },
+      {
+        "year": 1935,
+        "period": "1935 年起",
+        "title": "流水别墅融入溪流",
+        "body": "流水别墅把居住空间置于溪流之上，让水声、岩石与露台进入日常生活，建筑与自然的联系超越窗外观景。",
+        "sourceIds": ["fallingwater"]
+      },
+      {
+        "year": 1937,
+        "period": "1937—1938 年起",
+        "title": "沙漠材料的整体实验",
+        "body": "西塔里埃森从沙漠营地发展为生活与工作场所，以当地石材和连续步道、庭院组织空间，显示同一理念在不同环境中的变化。",
+        "sourceIds": ["west"]
+      }
+    ],
+    "interpretation": "海报将所述形态与材料转译为原创视觉场景；配色为编辑设定，不用于文物鉴定、科学识别或证明环境绩效。",
+    "sources": [
+      {
+        "id": "prairie",
+        "title": "The Prairie Style",
+        "publisher": "Frank Lloyd Wright Trust",
+        "url": "https://www.flwright.org/explore/prairie-style"
+      },
+      {
+        "id": "fallingwater",
+        "title": "Fallingwater",
+        "publisher": "Frank Lloyd Wright Foundation",
+        "url": "https://franklloydwright.org/site/fallingwater/"
+      },
+      {
+        "id": "west",
+        "title": "Taliesin West",
+        "publisher": "Frank Lloyd Wright Foundation",
+        "url": "https://franklloydwright.org/site/taliesin-west/"
+      }
+    ]
+  }
+}

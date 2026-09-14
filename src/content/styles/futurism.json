@@ -1,0 +1,112 @@
+{
+  "id": "futurism",
+  "name": "未来主义",
+  "englishName": "Futurism",
+  "aliases": ["Futurism"],
+  "summary": "重复的轮廓、交叠的运动平面与速度节奏，记录二十世纪初对机器时代的激烈回应。",
+  "category": "avant-garde",
+  "tags": ["lively", "geometry", "contrast", "orange", "poster"],
+  "cover": "futurism-poster",
+  "images": [
+    {
+      "asset": "futurism-poster",
+      "caption": "未来主义 · 风格演绎海报"
+    }
+  ],
+  "palettes": [
+    {
+      "id": "poster",
+      "name": "主题配色",
+      "description": "为本档案人工设定的视觉配色，海报色卡按相同 HEX 排版；不代表历史标准色。",
+      "colors": [
+        {
+          "id": "color-1",
+          "name": "动势红",
+          "hex": "#B64A30",
+          "status": "manual",
+          "role": "运动焦点"
+        },
+        {
+          "id": "color-2",
+          "name": "赭金",
+          "hex": "#D3AE56",
+          "status": "manual",
+          "role": "光线节拍"
+        },
+        {
+          "id": "color-3",
+          "name": "汽油蓝",
+          "hex": "#254D5E",
+          "status": "manual",
+          "role": "深色交叠"
+        },
+        {
+          "id": "color-4",
+          "name": "暖纸",
+          "hex": "#E8DFC8",
+          "status": "manual",
+          "role": "背景呼吸"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "title": "分解运动",
+      "body": "沿着对象的运动方向重复轮廓，保持主方向可辨，避免把动感简单等同于模糊。"
+    },
+    {
+      "title": "空间交叠",
+      "body": "形体与周围空气可以穿插，色面需有主次，让力量跨越对象边缘而非堆叠装饰线。"
+    },
+    {
+      "title": "历史与未来想象",
+      "body": "本档案限定意大利历史运动，区别于本站未来科技类；对战争与激进政治的赞美属于需要辨析的历史背景。"
+    }
+  ],
+  "applications": ["适合运动主题文化海报：以轮廓递进表现时间，在静止信息区保留清晰的日期与说明。"],
+  "related": ["art-deco", "dada", "space-age"],
+  "order": 67,
+  "updatedAt": "2026-09-12",
+  "designHistory": {
+    "overview": "未来主义于1909年通过马里内蒂的宣言进入公众视野，以速度、机器和对传统的决裂提出新语言。其形式创新与战争崇拜、政治激进性并存，应分别理解。",
+    "timeline": [
+      {
+        "year": 1909,
+        "period": "1909年",
+        "title": "宣言公开发布",
+        "body": "马里内蒂在《费加罗报》发表未来主义宣言，以印刷传播提出对机器与速度的赞美。",
+        "sourceIds": ["print"]
+      },
+      {
+        "year": 1913,
+        "period": "1913年",
+        "title": "运动进入雕塑与文字",
+        "body": "波丘尼的《空间中连续性的独特形式》探索身体与周围空间的动态关系；同年文字与噪音实验也在展开。",
+        "sourceIds": ["sculpture", "print"]
+      },
+      {
+        "year": 2009,
+        "period": "2009年",
+        "title": "百年回看印刷实验",
+        "body": "MoMA以百年展览重新梳理宣言、传单与诗刊，展示这一运动如何面向公众传播主张。",
+        "sourceIds": ["print"]
+      }
+    ],
+    "interpretation": "本海报是当代原创视觉演绎，提炼本档案所述构图与材料关系，不是历史影像、馆藏复制或实际项目记录。主题配色属于本次编辑选择。",
+    "sources": [
+      {
+        "id": "print",
+        "title": "Words in Freedom: Futurism at 100",
+        "publisher": "MoMA",
+        "url": "https://www.moma.org/interactives/exhibitions/2009/futurism/"
+      },
+      {
+        "id": "sculpture",
+        "title": "Unique Forms of Continuity in Space",
+        "publisher": "MoMA",
+        "url": "https://www.moma.org/collection/works/81179"
+      }
+    ]
+  }
+}

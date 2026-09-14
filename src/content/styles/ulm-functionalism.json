@@ -1,0 +1,112 @@
+{
+  "id": "ulm-functionalism",
+  "name": "乌尔姆功能主义",
+  "englishName": "Ulm Functionalism",
+  "aliases": ["Ulm Functionalism"],
+  "summary": "模块、分析与视觉规范共同组织设计，让清晰的关系贯穿器物、信息与教学。",
+  "category": "modern-minimal",
+  "tags": ["rational", "geometry", "poster"],
+  "cover": "ulm-functionalism-poster",
+  "images": [
+    {
+      "asset": "ulm-functionalism-poster",
+      "caption": "乌尔姆功能主义 · 风格演绎海报"
+    }
+  ],
+  "palettes": [
+    {
+      "id": "poster",
+      "name": "主题配色",
+      "description": "为本档案人工设定的视觉配色，海报色卡按相同 HEX 排版；不代表历史时期的标准色。",
+      "colors": [
+        {
+          "id": "color-1",
+          "name": "纸白",
+          "hex": "#E8E5DA",
+          "status": "manual",
+          "role": "主体基调"
+        },
+        {
+          "id": "color-2",
+          "name": "石墨黑",
+          "hex": "#353A3B",
+          "status": "manual",
+          "role": "结构层次"
+        },
+        {
+          "id": "color-3",
+          "name": "系统蓝",
+          "hex": "#426982",
+          "status": "manual",
+          "role": "视觉强调"
+        },
+        {
+          "id": "color-4",
+          "name": "木样黄",
+          "hex": "#B99B64",
+          "status": "manual",
+          "role": "辅助平衡"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "title": "系统性",
+      "body": "相同零件、对齐线和尺度建立联系，避免只有白底黑字的表面简约。"
+    },
+    {
+      "title": "教学与方法",
+      "body": "关注设计过程中的分析、试验和协作，视觉秩序是方法的结果之一。"
+    },
+    {
+      "title": "研究边界",
+      "body": "本页记录学校与教学传统；德国理性产品专题则以企业中的具体产品序列为中心。"
+    }
+  ],
+  "applications": ["适合信息展示和研究材料：先建立模块与层级，再以少量强调色表示分类。"],
+  "related": ["bauhaus", "swiss-international"],
+  "order": 47,
+  "updatedAt": "2026-09-12",
+  "designHistory": {
+    "overview": "乌尔姆设计学院于1953年至1968年办学，将工业产品、视觉传达、建筑和信息等领域纳入设计教育。这里的功能主义是研究入口：学校内部对艺术、科学与分析方法持续存在讨论，并非单一教条。",
+    "timeline": [
+      {
+        "year": 1953,
+        "period": "1953—1955年",
+        "title": "学校与校园建立",
+        "body": "课程于1953年在临时场所开始，Max Bill 设计的校园于1955年正式启用，工作坊与共同生活构成教学环境。",
+        "sourceIds": ["history"]
+      },
+      {
+        "year": 1956,
+        "period": "1956—1960年代",
+        "title": "形成并争论乌尔姆模式",
+        "body": "年轻教师推动科学与理论进入设计；校内发展小组连接工业委托，分析方法与设计判断之间也引起持续争论。",
+        "sourceIds": ["history"]
+      },
+      {
+        "year": 1968,
+        "period": "1968年",
+        "title": "关闭与方法遗产",
+        "body": "资金撤回和财政困境最终导致学院关闭。档案馆保存其教学、研究与设计材料，使这一短暂实验仍可被研究。",
+        "sourceIds": ["closure"]
+      }
+    ],
+    "interpretation": "海报为当代原创风格演绎，不是历史实景或馆藏复制。相同零件、对齐线和尺度建立联系，避免只有白底黑字的表面简约。",
+    "sources": [
+      {
+        "id": "history",
+        "title": "Designing for democracy: History",
+        "publisher": "HfG-Archiv / Museum Ulm",
+        "url": "https://hfg-archiv.museumulm.de/en/the-hfg-archive/history/"
+      },
+      {
+        "id": "closure",
+        "title": "Wir demonstrieren! Hochschule für Gestaltung Ulm 1968",
+        "publisher": "HfG-Archiv / Museum Ulm",
+        "url": "https://hfg-archiv.museumulm.de/ausstellung/wir-demonstrieren-hochschule-fuer-gestaltung-ulm-1968/"
+      }
+    ]
+  }
+}

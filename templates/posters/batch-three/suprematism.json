@@ -1,0 +1,33 @@
+{
+  "styleId": "suprematism",
+  "title": "至上主义",
+  "accentLength": 2,
+  "titleColors": ["#302C25", "#242424"],
+  "colors": [
+    {
+      "name": "暖白",
+      "hex": "#EDE8DC",
+      "englishName": "Warm White"
+    },
+    {
+      "name": "墨黑",
+      "hex": "#242424",
+      "englishName": "Ink Black"
+    },
+    {
+      "name": "朱红",
+      "hex": "#B94232",
+      "englishName": "Vermilion"
+    },
+    {
+      "name": "赭黄",
+      "hex": "#C5A04C",
+      "englishName": "Ochre"
+    }
+  ],
+  "sidebarCn": ["让色面脱离对象", "用倾斜产生悬浮", "在空白中寻找平衡", "把感知留给观看"],
+  "sidebarEn": ["A Way of Seeing.", "A Way of Living."],
+  "badges": ["悬浮", "色面", "非具象"],
+  "sceneFile": "assets/poster-scenes/suprematism.png",
+  "scenePrompt": "Original landscape 3:2 non-objective Suprematist painting, floating tilted black quadrilateral, vermilion rectangle, ochre disk and slender blue plane across warm white, tactile pigment, asymmetry. No text, frame or swatches."
+}

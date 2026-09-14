@@ -1,0 +1,112 @@
+{
+  "id": "constructivism",
+  "name": "构成主义",
+  "englishName": "Constructivism",
+  "aliases": ["Constructivism"],
+  "summary": "斜向结构、工业材料和摄影拼贴，让平面成为组织信息与社会传播的场所。",
+  "category": "avant-garde",
+  "tags": ["rational", "geometry", "collage", "contrast", "red", "poster"],
+  "cover": "constructivism-poster",
+  "images": [
+    {
+      "asset": "constructivism-poster",
+      "caption": "构成主义 · 风格演绎海报"
+    }
+  ],
+  "palettes": [
+    {
+      "id": "poster",
+      "name": "主题配色",
+      "description": "为本档案人工设定的视觉配色，海报色卡按相同 HEX 排版；不代表历史标准色。",
+      "colors": [
+        {
+          "id": "color-1",
+          "name": "构成红",
+          "hex": "#B83B31",
+          "status": "manual",
+          "role": "方向与重点"
+        },
+        {
+          "id": "color-2",
+          "name": "炭黑",
+          "hex": "#252728",
+          "status": "manual",
+          "role": "结构骨架"
+        },
+        {
+          "id": "color-3",
+          "name": "纸米白",
+          "hex": "#E9DDC8",
+          "status": "manual",
+          "role": "纸面留白"
+        },
+        {
+          "id": "color-4",
+          "name": "钢灰",
+          "hex": "#8F9696",
+          "status": "manual",
+          "role": "摄影中间调"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "title": "结构先于装饰",
+      "body": "先用一条主对角线组织方向，再让圆、矩形和照片裁切回应它，避免将几何形当作随意散落的装饰。"
+    },
+    {
+      "title": "照片与信息",
+      "body": "摄影可以提供现实尺度，色块提供阅读路径；两者的对比应服务清晰的内容层级。"
+    },
+    {
+      "title": "历史边界",
+      "body": "本档案讨论俄国先锋艺术中的材料组织与传播实验，区别于包豪斯教学，也区别于至上主义的非具象感知。"
+    }
+  ],
+  "applications": ["适合展览海报与文化出版：将主信息沿单一斜轴组织，正文仍保持稳定阅读方向。"],
+  "related": ["bauhaus", "dada", "swiss-international"],
+  "order": 65,
+  "updatedAt": "2026-09-12",
+  "designHistory": {
+    "overview": "构成主义在二十世纪初俄国先锋艺术中发展，关注材料、结构以及艺术与现代社会的关系。它的几何外观不能脱离革命年代的社会诉求，也不是所有红黑海报的统称。",
+    "timeline": [
+      {
+        "year": 1920,
+        "period": "约1920年",
+        "title": "材料进入空间",
+        "body": "罗德琴科的空间构成以材料切割与展开建立体积，绘画平面之外的结构成为实验对象。",
+        "sourceIds": ["terms"]
+      },
+      {
+        "year": 1921,
+        "period": "1921年",
+        "title": "转向社会用途",
+        "body": "罗德琴科宣布结束绘画实践并转向其他媒介，试图将创作与社会生活连接。",
+        "sourceIds": ["artist"]
+      },
+      {
+        "year": 1923,
+        "period": "1920年代",
+        "title": "结构延伸到传播",
+        "body": "这一时期的构成、摄影与印刷实验扩展了艺术家的工作范围；几何组织与图像传播相互联系。",
+        "sourceIds": ["terms", "artist"]
+      }
+    ],
+    "interpretation": "本海报是当代原创视觉演绎，提炼本档案所述构图与材料关系，不是历史影像、馆藏复制或实际项目记录。主题配色属于本次编辑选择。",
+    "sources": [
+      {
+        "id": "terms",
+        "title": "Constructivism",
+        "publisher": "MoMA",
+        "url": "https://www.moma.org/collection/terms/constructivism"
+      },
+      {
+        "id": "artist",
+        "title": "Rodchenko: Introduction",
+        "publisher": "MoMA",
+        "url": "https://www.moma.org/interactives/exhibitions/1998/rodchenko/introduction.html"
+      }
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "styleId": "futurism",
+  "title": "未来主义",
+  "accentLength": 2,
+  "titleColors": ["#302C25", "#B64A30"],
+  "colors": [
+    {
+      "name": "动势红",
+      "hex": "#B64A30",
+      "englishName": "Motion Red"
+    },
+    {
+      "name": "赭金",
+      "hex": "#D3AE56",
+      "englishName": "Ochre Gold"
+    },
+    {
+      "name": "汽油蓝",
+      "hex": "#254D5E",
+      "englishName": "Petrol Blue"
+    },
+    {
+      "name": "暖纸",
+      "hex": "#E8DFC8",
+      "englishName": "Warm Paper"
+    }
+  ],
+  "sidebarCn": ["让轮廓记录速度", "让平面交叠运动", "把节拍带入色彩", "从静止观看时间"],
+  "sidebarEn": ["A Way of Seeing.", "A Way of Living."],
+  "badges": ["速度", "叠影", "动势"],
+  "sceneFile": "assets/poster-scenes/futurism.png",
+  "scenePrompt": "Original landscape 3:2 historical Italian Futurist painting, speeding bicycle and anonymous rider dissolving into angular arcs and overlapping ochre vermilion petrol blue ivory planes, tactile pigment. No text, frame, copied painting or war imagery."
+}

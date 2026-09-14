@@ -1,0 +1,33 @@
+{
+  "styleId": "post-punk-new-wave",
+  "title": "后朋克与新浪潮平面",
+  "accentLength": 2,
+  "titleColors": ["#302C25", "#253849"],
+  "colors": [
+    {
+      "name": "夜蓝",
+      "hex": "#253849",
+      "englishName": "Night Blue"
+    },
+    {
+      "name": "冷灰",
+      "hex": "#9EA9AC",
+      "englishName": "Cool Gray"
+    },
+    {
+      "name": "旧白",
+      "hex": "#E7E1D5",
+      "englishName": "Aged White"
+    },
+    {
+      "name": "信号橙",
+      "hex": "#CB6849",
+      "englishName": "Signal Orange"
+    }
+  ],
+  "sidebarCn": ["让图像保有悬念", "在留白中听见回声", "以摄影回应音乐", "让封套形成记忆"],
+  "sidebarEn": ["A Way of Seeing.", "A Way of Living."],
+  "badges": ["唱片", "冷感", "实验"],
+  "sceneFile": "assets/poster-scenes/post-punk-new-wave.png",
+  "scenePrompt": "Original landscape 3:2 editorial album-art experiment, close cropped monochrome photograph of rippling water under a geometric shadow, deep navy field with a small signal orange rectangle and cream paper edge, cool silver grain, elegant unsettling asymmetry, no text or copied record cover, no frame or swatches."
+}

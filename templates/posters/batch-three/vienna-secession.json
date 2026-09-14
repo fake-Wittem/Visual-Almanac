@@ -1,0 +1,33 @@
+{
+  "styleId": "vienna-secession",
+  "title": "维也纳分离派风格",
+  "accentLength": 2,
+  "titleColors": ["#303936", "#79503A"],
+  "colors": [
+    {
+      "name": "暖象牙",
+      "hex": "#E9DFC6",
+      "englishName": "Warm Ivory"
+    },
+    {
+      "name": "墨绿黑",
+      "hex": "#303936",
+      "englishName": "Ink Green"
+    },
+    {
+      "name": "古金",
+      "hex": "#B29854",
+      "englishName": "Antique Gold"
+    },
+    {
+      "name": "橄榄灰",
+      "hex": "#858961",
+      "englishName": "Olive"
+    }
+  ],
+  "sidebarCn": ["用几何组织装饰", "让展览连接艺术", "在网格中安放金色", "以留白平衡繁复"],
+  "sidebarEn": ["A Way of Seeing.", "A Way of Living."],
+  "badges": ["几何", "装饰", "综合"],
+  "sceneFile": "assets/poster-scenes/vienna-secession.png",
+  "scenePrompt": "An original exhibition alcove with ivory walls, fine gold geometric laurel grid, square dark chair and restrained mosaic details. Not a copy of a historical building. Portrait 4:5. No text, no logo, no swatches, no border. Colors #E9DFC6, #303936, #B29854, #858961"
+}

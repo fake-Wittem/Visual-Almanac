@@ -1,0 +1,114 @@
+{
+  "id": "rinpa",
+  "name": "琳派装饰",
+  "englishName": "Rinpa Decorative Art",
+  "aliases": ["Rinpa Decorative Art"],
+  "summary": "以金地、自然母题与大胆省略组织画面，让花叶在空白中形成韵律。",
+  "category": "eastern-aesthetics",
+  "tags": ["elegant", "organic", "gold", "green", "purple", "poster"],
+  "cover": "rinpa-poster",
+  "images": [
+    {
+      "asset": "rinpa-poster",
+      "caption": "琳派装饰 · 风格演绎海报"
+    }
+  ],
+  "palettes": [
+    {
+      "id": "poster",
+      "name": "主题配色",
+      "description": "为本档案人工设定的视觉配色，海报色卡按相同 HEX 排版；不代表历史时期的标准色。",
+      "colors": [
+        {
+          "id": "color-1",
+          "name": "金地",
+          "hex": "#B79A56",
+          "status": "manual",
+          "role": "金箔地与大面积间隔"
+        },
+        {
+          "id": "color-2",
+          "name": "鸢尾紫",
+          "hex": "#65547E",
+          "status": "manual",
+          "role": "鸢尾花瓣"
+        },
+        {
+          "id": "color-3",
+          "name": "深叶绿",
+          "hex": "#405F4A",
+          "status": "manual",
+          "role": "长叶和深色轮廓"
+        },
+        {
+          "id": "color-4",
+          "name": "银米",
+          "hex": "#E6DEBD",
+          "status": "manual",
+          "role": "流水与浅色细部"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "title": "金地与空白",
+      "body": "金地既是材料效果也是构图空间，花叶之间保留大块间隔；避免把每个空隙填满，使观看可以在密集与疏朗之间移动。"
+    },
+    {
+      "title": "母题的省略与重复",
+      "body": "将花瓣、叶片或流水概括为少数清晰形态，再通过方向、大小和间距形成韵律；重复不必机械等距。"
+    },
+    {
+      "title": "平面色块与渗化",
+      "body": "大轮廓保持明确，叶片内部可用墨色或颜料的渗化增加层次。装饰性不依赖写实透视，也不等于通用的金色日式花纹。"
+    }
+  ],
+  "applications": [
+    "适合季节主题邀请卡：取一组花叶沿边缘展开，保留中央金米色空白承载日期与地点；用深叶绿文字保证可读性。"
+  ],
+  "related": ["ink-expression", "art-nouveau", "new-chinese"],
+  "order": 54,
+  "updatedAt": "2026-09-12",
+  "designHistory": {
+    "overview": "琳派是后起名称，关联日本绘画、漆器、陶瓷与织物中的装饰性表达。许多创作者通过追慕前人而延续传统，并非同一时期成立、持续师徒相授的固定团体。",
+    "timeline": [
+      {
+        "year": 1600,
+        "period": "十七世纪初",
+        "title": "光悦与宗达的探索",
+        "body": "本阿弥光悦和俵屋宗达等人的实践，将文学、书法和自然题材带入装饰性表达，为后来的琳派传统提供起点。",
+        "sourceIds": ["style"]
+      },
+      {
+        "year": 1700,
+        "period": "十七世纪末至十八世纪初",
+        "title": "光琳简化与跨媒介传播",
+        "body": "尾形光琳用更凝练的形态与鲜明构成处理题材，图案书及工艺应用使这些视觉方法跨越绘画与器物。",
+        "sourceIds": ["style"]
+      },
+      {
+        "year": 1800,
+        "period": "十九世纪初及以后",
+        "title": "江户再兴与后续变化",
+        "body": "酒井抱一在江户重新研究光琳，铃木其一继续发展花草表现；琳派随时代与媒介改变，不能理解为一套固定纹样。",
+        "sourceIds": ["exhibition"]
+      }
+    ],
+    "interpretation": "海报将所述形态与材料转译为原创视觉场景；配色为编辑设定，不用于文物鉴定、科学识别或证明环境绩效。",
+    "sources": [
+      {
+        "id": "style",
+        "title": "Rinpa Painting Style",
+        "publisher": "The Metropolitan Museum of Art",
+        "url": "https://www.metmuseum.org/ja/essays/rinpa-painting-style"
+      },
+      {
+        "id": "exhibition",
+        "title": "Designing Nature: The Rinpa Aesthetic in Japanese Art",
+        "publisher": "The Metropolitan Museum of Art",
+        "url": "https://www.metmuseum.org/exhibitions/listings/2012/rinpa-aesthetic"
+      }
+    ]
+  }
+}

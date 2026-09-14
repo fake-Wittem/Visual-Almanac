@@ -1,0 +1,112 @@
+{
+  "id": "suprematism",
+  "name": "至上主义",
+  "englishName": "Suprematism",
+  "aliases": ["Suprematism"],
+  "summary": "几何色面悬浮在开放背景中，用倾斜、间距和重量关系探索非具象感知。",
+  "category": "avant-garde",
+  "tags": ["calm", "geometry", "contrast", "cream", "poster"],
+  "cover": "suprematism-poster",
+  "images": [
+    {
+      "asset": "suprematism-poster",
+      "caption": "至上主义 · 风格演绎海报"
+    }
+  ],
+  "palettes": [
+    {
+      "id": "poster",
+      "name": "主题配色",
+      "description": "为本档案人工设定的视觉配色，海报色卡按相同 HEX 排版；不代表历史标准色。",
+      "colors": [
+        {
+          "id": "color-1",
+          "name": "暖白",
+          "hex": "#EDE8DC",
+          "status": "manual",
+          "role": "开放背景"
+        },
+        {
+          "id": "color-2",
+          "name": "墨黑",
+          "hex": "#242424",
+          "status": "manual",
+          "role": "视觉重心"
+        },
+        {
+          "id": "color-3",
+          "name": "朱红",
+          "hex": "#B94232",
+          "status": "manual",
+          "role": "偏心色面"
+        },
+        {
+          "id": "color-4",
+          "name": "赭黄",
+          "hex": "#C5A04C",
+          "status": "manual",
+          "role": "辅助平衡"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "title": "重量与空白",
+      "body": "保留大片空白，让少量形状的面积、方向和相互距离承担构图，不靠具象故事填满背景。"
+    },
+    {
+      "title": "平面中的运动",
+      "body": "适度倾斜可以产生漂浮感，边缘无需模拟机械加工；细微笔触仍能保留绘画的物质性。"
+    },
+    {
+      "title": "与构成主义区分",
+      "body": "这里关注独立于外部对象的形式与感知；不能把至上主义直接解释为工业产品或宣传设计方法。"
+    }
+  ],
+  "applications": ["适合艺术出版封面与展览视觉：以少量色面形成重心，标题留在独立的清晰区域。"],
+  "related": ["op-art", "contemporary-minimal", "bauhaus"],
+  "order": 66,
+  "updatedAt": "2026-09-12",
+  "designHistory": {
+    "overview": "马列维奇以至上主义探索非具象绘画，使形状、颜色与空间关系成为作品主题。馆藏作品显示，这种探索包括强烈色面对比，也包括近乎同色的微妙变化。",
+    "timeline": [
+      {
+        "year": 1915,
+        "period": "1915年",
+        "title": "色块成为独立主题",
+        "body": "马列维奇的《背包男孩的绘画写实主义》以色块关系探索非具象表达，人物题名不再意味着写实描绘。",
+        "sourceIds": ["terms"]
+      },
+      {
+        "year": 1918,
+        "period": "1918年",
+        "title": "白色关系的极限",
+        "body": "《白上白》用微妙白色差异、偏心方形和笔触探索没有明确边界的空间感。",
+        "sourceIds": ["white"]
+      },
+      {
+        "year": 1920,
+        "period": "1920年",
+        "title": "图绘整理与传播",
+        "body": "《至上主义：34幅图绘》将相关探索转入出版媒介，提供研究绘画之外传播的具体材料。",
+        "sourceIds": ["terms"]
+      }
+    ],
+    "interpretation": "本海报是当代原创视觉演绎，提炼本档案所述构图与材料关系，不是历史影像、馆藏复制或实际项目记录。主题配色属于本次编辑选择。",
+    "sources": [
+      {
+        "id": "terms",
+        "title": "Suprematism",
+        "publisher": "MoMA",
+        "url": "https://www.moma.org/collection/terms/suprematism"
+      },
+      {
+        "id": "white",
+        "title": "Suprematist Composition: White on White",
+        "publisher": "MoMA",
+        "url": "https://www.moma.org/collection/works/80385"
+      }
+    ]
+  }
+}

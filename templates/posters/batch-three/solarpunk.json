@@ -1,0 +1,33 @@
+{
+  "styleId": "solarpunk",
+  "title": "太阳朋克风格",
+  "accentLength": 2,
+  "titleColors": ["#303936", "#79503A"],
+  "colors": [
+    {
+      "name": "菜园绿",
+      "hex": "#527A51",
+      "englishName": "Garden Green"
+    },
+    {
+      "name": "日光金",
+      "hex": "#D4B867",
+      "englishName": "Solar Gold"
+    },
+    {
+      "name": "浅麦白",
+      "hex": "#E8E1C4",
+      "englishName": "Wheat Cream"
+    },
+    {
+      "name": "晴空蓝",
+      "hex": "#8DB5C1",
+      "englishName": "Sky Blue"
+    }
+  ],
+  "sidebarCn": ["让能源进入日常", "让种植连接社区", "让修理延续器物", "共同想象生态未来"],
+  "sidebarEn": ["A Way of Seeing.", "A Way of Living."],
+  "badges": ["生态", "社区", "共建"],
+  "sceneFile": "assets/poster-scenes/solarpunk.png",
+  "scenePrompt": "Sunlit cooperative neighborhood greenhouse, photovoltaic roof, rainwater tank, vegetable beds, cargo bicycle and communal repair bench. Human scale optimistic ecological future illustration. Portrait 4:5. No text, no logo, no swatches, no border. Colors #527A51, #D4B867, #E8E1C4, #8DB5C1"
+}

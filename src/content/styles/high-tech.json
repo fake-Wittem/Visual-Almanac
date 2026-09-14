@@ -1,0 +1,120 @@
+{
+  "id": "high-tech",
+  "name": "高技派",
+  "englishName": "High-tech Architecture",
+  "aliases": ["High-tech Architecture", "高技派"],
+  "summary": "钢结构、管道与交通设备显露在外，把建筑的装配逻辑转化为视觉语言。",
+  "category": "future-tech",
+  "tags": ["rational", "futuristic", "metal", "geometry", "translucent", "slides"],
+  "cover": "high-tech-poster",
+  "images": [
+    {
+      "asset": "high-tech-poster",
+      "caption": "高技派 · 风格演绎海报"
+    }
+  ],
+  "palettes": [
+    {
+      "id": "poster",
+      "name": "主题配色",
+      "description": "为本档案人工设定的视觉配色，海报色卡按相同 HEX 排版；不代表历史时期的标准色。",
+      "colors": [
+        {
+          "id": "color-1",
+          "name": "钢灰",
+          "hex": "#A7B1B6",
+          "status": "manual",
+          "role": "主题基调"
+        },
+        {
+          "id": "color-2",
+          "name": "管线红",
+          "hex": "#B74D43",
+          "status": "manual",
+          "role": "对比点缀"
+        },
+        {
+          "id": "color-3",
+          "name": "结构蓝",
+          "hex": "#456F89",
+          "status": "manual",
+          "role": "材质辅助"
+        },
+        {
+          "id": "color-4",
+          "name": "玻璃白",
+          "hex": "#E1E7E4",
+          "status": "manual",
+          "role": "背景留白"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "title": "显露系统",
+      "body": "结构、设备和外皮分层可读，接点与重复构件的节奏比表面科技纹理更重要。"
+    },
+    {
+      "title": "颜色帮助区分",
+      "body": "可用少量强调色标示不同系统，但历史建筑的配色规则不能直接套作真实设备规范。"
+    },
+    {
+      "title": "与数字未来区别",
+      "body": "高技派研究真实建筑材料、施工和空间弹性，并非泛指任何有未来感的建筑渲染。"
+    }
+  ],
+  "applications": [
+    "适合高技派主题的展览海报与阅读分享：选取档案中的核心形式组织主视觉，保持正文清晰，并注明图像为当代演绎。"
+  ],
+  "related": ["digital-future", "bauhaus", "space-age"],
+  "order": 64,
+  "updatedAt": "2026-09-12",
+  "designHistory": {
+    "overview": "高技派在二十世纪六十年代后期的英国现代建筑中发展，强调工程技术、轻质材料与构造系统的显露。本档案以蓬皮杜中心为重要历史线索，理解结构如何参与公共空间组织。",
+    "timeline": [
+      {
+        "year": 1960,
+        "period": "1960 年代后期",
+        "title": "现代主义中的工程取向",
+        "body": "英国建筑实践开始更鲜明地借用工程与新技术，强调轻质表面、结构和设备的可见性。",
+        "sourceIds": ["riba"]
+      },
+      {
+        "year": 1971,
+        "period": "1971 年",
+        "title": "公共文化建筑的竞争方案",
+        "body": "蓬皮杜中心竞赛选中皮亚诺、罗杰斯等人的方案，将金属结构、预制构件和灵活空间带入文化建筑讨论。",
+        "sourceIds": ["competition"]
+      },
+      {
+        "year": 1977,
+        "period": "1977 年",
+        "title": "建筑系统成为城市形象",
+        "body": "蓬皮杜中心开放，玻璃金属结构、明亮管线及外部自动扶梯形成公共立面，内部保持可调整的开放平台。",
+        "sourceIds": ["pompidou"]
+      }
+    ],
+    "interpretation": "海报以虚构场景提炼高技派的材料、构图与视觉关系；不复制馆藏原件，不作为历史现场或实际工程的证明。",
+    "sources": [
+      {
+        "id": "riba",
+        "title": "High Tech in architecture",
+        "publisher": "Royal Institute of British Architects",
+        "url": "https://www.riba.org/explore/riba-collections/architectural-styles/high-tech-movement/"
+      },
+      {
+        "id": "competition",
+        "title": "1971 Beaubourg Competition",
+        "publisher": "Centre Pompidou",
+        "url": "https://www.centrepompidou.fr/fileadmin/user_upload/Press_release_-_1971_Beaubourg_Competition.pdf"
+      },
+      {
+        "id": "pompidou",
+        "title": "An iconic architecture",
+        "publisher": "Centre Pompidou",
+        "url": "https://www.centrepompidou.fr/en/centre-pompidou-is-transforming-itself/an-iconic-architecture"
+      }
+    ]
+  }
+}

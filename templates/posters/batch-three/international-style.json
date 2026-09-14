@@ -1,0 +1,33 @@
+{
+  "styleId": "international-style",
+  "title": "国际风格建筑",
+  "accentLength": 2,
+  "titleColors": ["#59646B", "#47626E"],
+  "colors": [
+    {
+      "name": "墙面白",
+      "hex": "#E7E8E4",
+      "englishName": "Wall White"
+    },
+    {
+      "name": "钢架灰",
+      "hex": "#59646B",
+      "englishName": "Steel Grey"
+    },
+    {
+      "name": "玻璃蓝",
+      "hex": "#9FB8C1",
+      "englishName": "Glass Blue"
+    },
+    {
+      "name": "草地绿",
+      "hex": "#657767",
+      "englishName": "Lawn Green"
+    }
+  ],
+  "sidebarCn": ["让体量展现秩序", "让窗带延伸水平", "让结构显露节奏", "让空隙连接场地"],
+  "sidebarEn": ["A Way of Seeing.", "A Way of Living."],
+  "badges": ["体块", "窗带", "秩序"],
+  "sceneFile": "assets/poster-scenes/international-style.png",
+  "scenePrompt": "Original international-style architectural scene: low white rectangular pavilion raised on slender steel columns, continuous ribbon glazing, flat roof, open grass foreground and clear pale sky, strong horizontal proportions, understated photographic architectural realism. Palette wall white #E7E8E4 steel grey #59646B glass blue #9FB8C1 lawn green #657767. Landscape 1.46:1. No text logos frame swatches. Not a replica of a known building."
+}

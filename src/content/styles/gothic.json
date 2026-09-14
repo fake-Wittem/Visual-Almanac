@@ -1,0 +1,114 @@
+{
+  "id": "gothic",
+  "name": "哥特式",
+  "englishName": "Gothic",
+  "aliases": ["Gothic", "哥特式"],
+  "summary": "尖拱、肋架与彩窗共同组织向上的空间，光色与结构彼此呼应。",
+  "category": "classical-decorative",
+  "tags": ["mysterious", "geometry", "translucent", "blue", "red", "poster"],
+  "cover": "gothic-poster",
+  "images": [
+    {
+      "asset": "gothic-poster",
+      "caption": "哥特式 · 风格演绎海报"
+    }
+  ],
+  "palettes": [
+    {
+      "id": "poster",
+      "name": "主题配色",
+      "description": "为本档案人工设定的视觉配色，海报色卡按相同 HEX 排版；不代表历史时期的标准色。",
+      "colors": [
+        {
+          "id": "color-1",
+          "name": "石板灰",
+          "hex": "#4A5260",
+          "status": "manual",
+          "role": "主题基调"
+        },
+        {
+          "id": "color-2",
+          "name": "宝石红",
+          "hex": "#8C283D",
+          "status": "manual",
+          "role": "对比点缀"
+        },
+        {
+          "id": "color-3",
+          "name": "石灰白",
+          "hex": "#D9CDB5",
+          "status": "manual",
+          "role": "材质辅助"
+        },
+        {
+          "id": "color-4",
+          "name": "彩窗蓝",
+          "hex": "#275B8A",
+          "status": "manual",
+          "role": "背景留白"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "title": "结构先于符号",
+      "body": "尖拱、肋拱顶与扶壁共同改变空间和采光条件；不可把尖角装饰当成完整建筑逻辑。"
+    },
+    {
+      "title": "光色与叙事",
+      "body": "彩窗由铅条和玻璃分区构成，轮廓既分隔颜色，也帮助组织图像叙事。"
+    },
+    {
+      "title": "范围区分",
+      "body": "本档案研究中世纪欧洲传统，区别于近代哥特复兴和音乐社群的哥特亚文化。"
+    }
+  ],
+  "applications": [
+    "适合哥特式主题的展览海报与阅读分享：选取档案中的核心形式组织主视觉，保持正文清晰，并注明图像为当代演绎。"
+  ],
+  "related": ["baroque", "art-nouveau", "arts-and-crafts"],
+  "order": 57,
+  "updatedAt": "2026-09-12",
+  "designHistory": {
+    "overview": "哥特式在十二世纪法国的建筑探索中形成，并传播到欧洲不同地区及雕塑、彩窗、器物等媒介。它兼有结构创新、宗教叙事和自然观察，不能概括成黑暗气氛。",
+    "timeline": [
+      {
+        "year": 1140,
+        "period": "1140—1144 年",
+        "title": "光照与高度的新空间",
+        "body": "圣但尼教堂东部改建把既有建筑技术重新组合，使更高、更明亮的礼仪空间成为重要范例。",
+        "sourceIds": ["gothic-va"]
+      },
+      {
+        "year": 1170,
+        "period": "1170 年代起",
+        "title": "外部支撑与大窗",
+        "body": "飞扶壁帮助承接拱顶侧推力，墙面得以容纳更大的窗；建筑语言随后在各地发展出不同版本。",
+        "sourceIds": ["gothic-met"]
+      },
+      {
+        "year": 1250,
+        "period": "十三至十四世纪",
+        "title": "从教堂向多种媒介扩展",
+        "body": "随着城市、贸易和赞助群体发展，哥特形式进入器物与图像；艺术家也更细致地处理自然叶形和人物情感。",
+        "sourceIds": ["gothic-va"]
+      }
+    ],
+    "interpretation": "海报以虚构场景提炼哥特式的材料、构图与视觉关系；不复制馆藏原件，不作为历史现场或实际工程的证明。",
+    "sources": [
+      {
+        "id": "gothic-va",
+        "title": "The Gothic style – an introduction",
+        "publisher": "Victoria and Albert Museum",
+        "url": "https://www.vam.ac.uk/articles/the-gothic-style-an-introduction"
+      },
+      {
+        "id": "gothic-met",
+        "title": "Gothic Art",
+        "publisher": "The Metropolitan Museum of Art",
+        "url": "https://www.metmuseum.org/fr/essays/gothic-art"
+      }
+    ]
+  }
+}

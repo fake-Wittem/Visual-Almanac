@@ -1,0 +1,114 @@
+{
+  "id": "gothic-revival",
+  "name": "哥特复兴",
+  "englishName": "Gothic Revival",
+  "aliases": ["Gothic Revival", "哥特复兴"],
+  "summary": "近代设计重新学习中世纪建筑与彩窗工艺，让历史形式参与工业时代的设计讨论。",
+  "category": "classical-decorative",
+  "tags": ["nostalgic", "wood", "translucent", "brown", "red", "poster"],
+  "cover": "gothic-revival-poster",
+  "images": [
+    {
+      "asset": "gothic-revival-poster",
+      "caption": "哥特复兴 · 风格演绎海报"
+    }
+  ],
+  "palettes": [
+    {
+      "id": "poster",
+      "name": "主题配色",
+      "description": "为本档案人工设定的视觉配色，海报色卡按相同 HEX 排版；不代表历史时期的标准色。",
+      "colors": [
+        {
+          "id": "color-1",
+          "name": "深橡木",
+          "hex": "#4D352B",
+          "status": "manual",
+          "role": "主题基调"
+        },
+        {
+          "id": "color-2",
+          "name": "暗宝石",
+          "hex": "#7E3044",
+          "status": "manual",
+          "role": "对比点缀"
+        },
+        {
+          "id": "color-3",
+          "name": "琥珀",
+          "hex": "#C49B52",
+          "status": "manual",
+          "role": "材质辅助"
+        },
+        {
+          "id": "color-4",
+          "name": "羊皮纸",
+          "hex": "#E5D5B8",
+          "status": "manual",
+          "role": "背景留白"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "title": "历史重读",
+      "body": "尖拱与三叶饰出现在建筑、家具和彩窗中，需标明它们属于近代对中世纪的再解释。"
+    },
+    {
+      "title": "铅条组织色块",
+      "body": "使用少量浓色玻璃与清晰接缝构成图案，比统一叠加旧化滤镜更能体现媒介。"
+    },
+    {
+      "title": "工艺与社会观念",
+      "body": "复兴运动也涉及工业化下的制作方式与价值选择，不能只理解为仿古装饰。"
+    }
+  ],
+  "applications": [
+    "适合哥特复兴主题的展览海报与阅读分享：选取档案中的核心形式组织主视觉，保持正文清晰，并注明图像为当代演绎。"
+  ],
+  "related": ["victorian", "arts-and-crafts", "art-nouveau"],
+  "order": 59,
+  "updatedAt": "2026-09-12",
+  "designHistory": {
+    "overview": "哥特复兴并非中世纪哥特式的连续延长。它在近代重新研究历史形式，结合浪漫想象、宗教建筑需求及对工业生产的反思；这里以英国彩窗和装饰工艺为线索。",
+    "timeline": [
+      {
+        "year": 1750,
+        "period": "十八世纪",
+        "title": "对中世纪的重新想象",
+        "body": "自然、历史和浪漫叙事的兴趣，为后来的建筑与装饰复兴提供了文化背景。",
+        "sourceIds": ["glass"]
+      },
+      {
+        "year": 1800,
+        "period": "十九世纪前半叶",
+        "title": "重新掌握彩窗技艺",
+        "body": "设计师与技术人员研究中世纪玻璃，复兴通体彩色玻璃和铅条拼接，使浓郁色块重回窗面。",
+        "sourceIds": ["glass"]
+      },
+      {
+        "year": 1861,
+        "period": "1861 年及以后",
+        "title": "转入工艺美术的探索",
+        "body": "莫里斯的公司将彩窗带入住宅委托；工艺美术运动继续发展对设计与制作关系的思考，并非仅复制旧样。",
+        "sourceIds": ["glass", "craft"]
+      }
+    ],
+    "interpretation": "海报以虚构场景提炼哥特复兴的材料、构图与视觉关系；不复制馆藏原件，不作为历史现场或实际工程的证明。",
+    "sources": [
+      {
+        "id": "glass",
+        "title": "Stained glass: the Gothic Revival and beyond",
+        "publisher": "Victoria and Albert Museum",
+        "url": "https://www.vam.ac.uk/articles/stained-glass-gothic-revival-and-beyond"
+      },
+      {
+        "id": "craft",
+        "title": "Arts and Crafts: an introduction",
+        "publisher": "Victoria and Albert Museum",
+        "url": "https://www.vam.ac.uk/articles/arts-and-crafts-an-introduction"
+      }
+    ]
+  }
+}

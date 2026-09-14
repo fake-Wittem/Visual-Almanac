@@ -1,0 +1,112 @@
+{
+  "id": "hip-hop-visual",
+  "name": "嘻哈视觉",
+  "englishName": "Hip-Hop Visual Culture",
+  "aliases": ["Hip-Hop Visual Culture"],
+  "summary": "唱盘、摄影、传单与街区表达共同形成音乐社群的视觉记忆。",
+  "category": "street-pop",
+  "tags": ["lively", "collage", "contrast", "red", "black", "poster"],
+  "cover": "hip-hop-visual-poster",
+  "images": [
+    {
+      "asset": "hip-hop-visual-poster",
+      "caption": "嘻哈视觉 · 风格演绎海报"
+    }
+  ],
+  "palettes": [
+    {
+      "id": "poster",
+      "name": "主题配色",
+      "description": "为本档案人工设定的视觉配色，海报色卡按相同 HEX 排版；不代表历史标准色。",
+      "colors": [
+        {
+          "id": "color-1",
+          "name": "唱片黑",
+          "hex": "#24252A",
+          "status": "manual",
+          "role": "唱盘与轮廓"
+        },
+        {
+          "id": "color-2",
+          "name": "节拍红",
+          "hex": "#C44837",
+          "status": "manual",
+          "role": "节奏标记"
+        },
+        {
+          "id": "color-3",
+          "name": "旧纸白",
+          "hex": "#E4DAC6",
+          "status": "manual",
+          "role": "传单底色"
+        },
+        {
+          "id": "color-4",
+          "name": "铜黄",
+          "hex": "#B8944C",
+          "status": "manual",
+          "role": "细节提亮"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "title": "媒介共同出现",
+      "body": "让唱盘、传单、舞蹈或摄影建立具体关系，不能只靠金链和喷漆概括嘻哈。"
+    },
+    {
+      "title": "采样式层级",
+      "body": "通过图像裁切与重复建立节拍；主照片、标题和时间地点各有稳定层级。"
+    },
+    {
+      "title": "社群背景",
+      "body": "研究纽约街区及其传播脉络，承认参与者的多样性；生成场景不是某场历史演出的记录。"
+    }
+  ],
+  "applications": ["适合音乐活动海报与社群出版：让摄影叙事和信息节奏协同，明确主办者与活动地点。"],
+  "related": ["graffiti-lettering", "punk-diy", "pop-art"],
+  "order": 69,
+  "updatedAt": "2026-09-12",
+  "designHistory": {
+    "overview": "嘻哈的视觉文化与DJ、MC、舞蹈及涂鸦互相联系，从纽约街区的活动传播发展到全球音乐影像。此处关注媒介与社群，不将单一服饰配件当作全部文化。",
+    "timeline": [
+      {
+        "year": 1980,
+        "period": "1980年代初",
+        "title": "摄影保存早期现场",
+        "body": "Eyejammie收藏中的早期照片记录表演者与社群，提供理解音乐、身份和城市环境的材料。",
+        "sourceIds": ["collection"]
+      },
+      {
+        "year": 1990,
+        "period": "1990年代中后期",
+        "title": "传播规模扩大",
+        "body": "史密森尼的摄影展将早期发展与1990年代中后期的文化扩展联系起来，显示嘻哈的影响超越单一音乐场景。",
+        "sourceIds": ["represent"]
+      },
+      {
+        "year": 2015,
+        "period": "2015年",
+        "title": "摄影成为公共馆藏",
+        "body": "非裔美国人历史文化国家博物馆购藏超过400张Eyejammie照片，使其进入公共研究与展览体系。",
+        "sourceIds": ["collection"]
+      }
+    ],
+    "interpretation": "本海报是当代原创视觉演绎，提炼本档案所述构图与材料关系，不是历史影像、馆藏复制或实际项目记录。主题配色属于本次编辑选择。",
+    "sources": [
+      {
+        "id": "collection",
+        "title": "Eyejammie Hip-Hop Photo Collection Acquired",
+        "publisher": "Smithsonian NMAAHC",
+        "url": "https://nmaahc.si.edu/sites/default/files/downloads/news/hip_hop_photo_collection_release_091615.pdf"
+      },
+      {
+        "id": "represent",
+        "title": "Represent: Hip-Hop Photography",
+        "publisher": "Smithsonian",
+        "url": "https://www.si.edu/exhibitions/represent-hip-hop-photography%3Aevent-exhib-6617"
+      }
+    ]
+  }
+}

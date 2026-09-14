@@ -1,0 +1,33 @@
+{
+  "styleId": "joseon-white-porcelain",
+  "title": "朝鲜白瓷器物",
+  "accentLength": 2,
+  "titleColors": ["#454A44", "#72545B"],
+  "colors": [
+    {
+      "name": "瓷白",
+      "hex": "#E8E5DB",
+      "englishName": "Porcelain"
+    },
+    {
+      "name": "淡灰蓝",
+      "hex": "#A6B2B8",
+      "englishName": "Blue Grey"
+    },
+    {
+      "name": "墨褐",
+      "hex": "#554B43",
+      "englishName": "Ink Brown"
+    },
+    {
+      "name": "浅木",
+      "hex": "#B9A58A",
+      "englishName": "Pale Wood"
+    }
+  ],
+  "sidebarCn": ["让器形承接光线", "从用途理解细节", "在白釉中辨认变化", "保留具体文化语境"],
+  "sidebarEn": ["A Way of Seeing.", "A Way of Living."],
+  "badges": ["白釉", "器用", "留白"],
+  "sceneFile": "assets/poster-scenes/joseon-white-porcelain.png",
+  "scenePrompt": "Original imagined Joseon-inspired white porcelain moon jar and small pierced brush holder on low pale wood platform, subtle irregular rounded profile and milky glaze, blue-grey paper backdrop, soft side daylight; not replicas of museum objects. Portrait 4:5. Palette #E8E5DB, #A6B2B8, #554B43, #B9A58A. No text, letters, logos, signatures, seals, borders, color swatches or collage."
+}

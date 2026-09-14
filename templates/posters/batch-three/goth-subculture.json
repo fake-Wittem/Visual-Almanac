@@ -1,0 +1,33 @@
+{
+  "styleId": "goth-subculture",
+  "title": "哥特亚文化",
+  "accentLength": 3,
+  "titleColors": ["#302C25", "#24212B"],
+  "colors": [
+    {
+      "name": "墨夜",
+      "hex": "#24212B",
+      "englishName": "Ink Night"
+    },
+    {
+      "name": "葡萄紫",
+      "hex": "#66506F",
+      "englishName": "Grape Violet"
+    },
+    {
+      "name": "旧银",
+      "hex": "#AAA7AE",
+      "englishName": "Old Silver"
+    },
+    {
+      "name": "暗玫瑰",
+      "hex": "#824451",
+      "englishName": "Dark Rose"
+    }
+  ],
+  "sidebarCn": ["从音乐走进社群", "让暗色呈现层次", "以材质承接光线", "保留浪漫与自我"],
+  "sidebarEn": ["A Way of Seeing.", "A Way of Living."],
+  "badges": ["音乐", "暗色", "浪漫"],
+  "sceneFile": "assets/poster-scenes/goth-subculture.png",
+  "scenePrompt": "Original landscape 3:2 editorial goth music still life, unbranded black vinyl record half out of a blank sleeve, grape violet velvet, fine black lace and small tarnished silver jewelry, dried dark rose, restrained club backroom side light. Rich visible dark textures, no text logos skulls cathedral or frame."
+}

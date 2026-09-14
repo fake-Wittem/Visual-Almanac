@@ -1,0 +1,112 @@
+{
+  "id": "international-style",
+  "name": "国际风格建筑",
+  "englishName": "International Style Architecture",
+  "aliases": ["International Style Architecture"],
+  "summary": "连续窗带、轻盈体块与规则结构强调空间组织，让立面秩序替代附加装饰。",
+  "category": "modern-minimal",
+  "tags": ["rational", "geometry", "poster"],
+  "cover": "international-style-poster",
+  "images": [
+    {
+      "asset": "international-style-poster",
+      "caption": "国际风格建筑 · 风格演绎海报"
+    }
+  ],
+  "palettes": [
+    {
+      "id": "poster",
+      "name": "主题配色",
+      "description": "为本档案人工设定的视觉配色，海报色卡按相同 HEX 排版；不代表历史时期的标准色。",
+      "colors": [
+        {
+          "id": "color-1",
+          "name": "墙面白",
+          "hex": "#E7E8E4",
+          "status": "manual",
+          "role": "主体基调"
+        },
+        {
+          "id": "color-2",
+          "name": "钢架灰",
+          "hex": "#59646B",
+          "status": "manual",
+          "role": "结构层次"
+        },
+        {
+          "id": "color-3",
+          "name": "玻璃蓝",
+          "hex": "#9FB8C1",
+          "status": "manual",
+          "role": "视觉强调"
+        },
+        {
+          "id": "color-4",
+          "name": "草地绿",
+          "hex": "#657767",
+          "status": "manual",
+          "role": "辅助平衡"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "title": "体量与空隙",
+      "body": "以水平楼板、柱网和开口组织比例，留意遮阴与地面层的关系。"
+    },
+    {
+      "title": "透明的层次",
+      "body": "玻璃既反射也透视，不将立面画成没有厚度的浅蓝平面。"
+    },
+    {
+      "title": "名称边界",
+      "body": "这里讨论建筑史中的国际风格，区别于瑞士国际主义平面，也不代指全部现代建筑。"
+    }
+  ],
+  "applications": ["适合建筑主题版面与空间可视化：让结构线与版面网格呼应，保留体量之间的空白。"],
+  "related": ["bauhaus", "swiss-international"],
+  "order": 46,
+  "updatedAt": "2026-09-12",
+  "designHistory": {
+    "overview": "国际风格是理解部分现代建筑的重要历史术语，1932年 MoMA 的建筑展览推动其传播。本页关注规则体量、去装饰和新材料形成的视觉秩序，不把这些外观直接等同完整的功能与社会目标。",
+    "timeline": [
+      {
+        "year": 1923,
+        "period": "1920年代",
+        "title": "新材料与新体量实验",
+        "body": "MoMA 所收录的1923年乡间住宅方案及1920年代后期住宅，呈现现代建筑对体块、开口与结构的探索。",
+        "sourceIds": ["works"]
+      },
+      {
+        "year": 1932,
+        "period": "1932年",
+        "title": "展览明确传播框架",
+        "body": "MoMA 举办 Modern Architecture: International Exhibition，以模型与照片介绍多位建筑师，强调实用、灵活、规则与简化材料表达。",
+        "sourceIds": ["exhibition"]
+      },
+      {
+        "year": 1950,
+        "period": "1950年代",
+        "title": "语言扩展到办公建筑",
+        "body": "联合国秘书处立面与 Lever House 等馆藏资料显示，玻璃幕墙和规则体量在战后大型办公建筑中获得新的尺度。",
+        "sourceIds": ["works"]
+      }
+    ],
+    "interpretation": "海报为当代原创风格演绎，不是历史实景或馆藏复制。以水平楼板、柱网和开口组织比例，留意遮阴与地面层的关系。",
+    "sources": [
+      {
+        "id": "exhibition",
+        "title": "Architecture for a Modern Age",
+        "publisher": "Museum of Modern Art",
+        "url": "https://www.moma.org/interactives/moma_through_time/1930/architecture-for-a-modern-age/"
+      },
+      {
+        "id": "works",
+        "title": "International Style",
+        "publisher": "Museum of Modern Art",
+        "url": "https://www.moma.org/collection/terms/international-style"
+      }
+    ]
+  }
+}

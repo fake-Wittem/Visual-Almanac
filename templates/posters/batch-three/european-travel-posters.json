@@ -1,0 +1,33 @@
+{
+  "styleId": "european-travel-posters",
+  "title": "欧洲旅行海报",
+  "accentLength": 2,
+  "titleColors": ["#366C86", "#A74430"],
+  "colors": [
+    {
+      "name": "暖纸白",
+      "hex": "#F2E4C6",
+      "englishName": "Paper Cream"
+    },
+    {
+      "name": "山湖蓝",
+      "hex": "#366C86",
+      "englishName": "Alpine Blue"
+    },
+    {
+      "name": "朱砂红",
+      "hex": "#C85036",
+      "englishName": "Vermilion"
+    },
+    {
+      "name": "松林绿",
+      "hex": "#36594A",
+      "englishName": "Pine Green"
+    }
+  ],
+  "sidebarCn": ["让山海成为邀约", "让交通引向远方", "让色块凝练风景", "让假日留在纸上"],
+  "sidebarEn": ["A Way of Seeing.", "A Way of Living."],
+  "badges": ["远行", "色块", "假日"],
+  "sceneFile": "assets/poster-scenes/european-travel-posters.png",
+  "scenePrompt": "Original postwar European rail travel illustration: Alpine lake, small sailboat, red train on far-shore viaduct, layered peaks. Lithographic large flat shapes and subtle paper grain. Warm cream, alpine blue, vermilion and pine green. No text or logos. Landscape 1.46:1 scene only."
+}

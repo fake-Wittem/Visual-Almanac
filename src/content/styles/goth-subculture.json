@@ -1,0 +1,112 @@
+{
+  "id": "goth-subculture",
+  "name": "哥特亚文化",
+  "englishName": "Goth Subculture",
+  "aliases": ["Goth Subculture"],
+  "summary": "以音乐社群为核心，暗色服饰、戏剧化形象与浪漫想象构成多样的自我表达。",
+  "category": "street-pop",
+  "tags": ["mysterious", "textile", "contrast", "purple", "black", "poster"],
+  "cover": "goth-subculture-poster",
+  "images": [
+    {
+      "asset": "goth-subculture-poster",
+      "caption": "哥特亚文化 · 风格演绎海报"
+    }
+  ],
+  "palettes": [
+    {
+      "id": "poster",
+      "name": "主题配色",
+      "description": "为本档案人工设定的视觉配色，海报色卡按相同 HEX 排版；不代表历史标准色。",
+      "colors": [
+        {
+          "id": "color-1",
+          "name": "墨夜",
+          "hex": "#24212B",
+          "status": "manual",
+          "role": "主背景"
+        },
+        {
+          "id": "color-2",
+          "name": "葡萄紫",
+          "hex": "#66506F",
+          "status": "manual",
+          "role": "织物层次"
+        },
+        {
+          "id": "color-3",
+          "name": "旧银",
+          "hex": "#AAA7AE",
+          "status": "manual",
+          "role": "金属细节"
+        },
+        {
+          "id": "color-4",
+          "name": "暗玫瑰",
+          "hex": "#824451",
+          "status": "manual",
+          "role": "情绪点色"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "title": "暗色要有层次",
+      "body": "用丝绒、蕾丝和金属反射区分相近深色，避免把黑色区域压成没有结构的平面。"
+    },
+    {
+      "title": "文化先于符号",
+      "body": "唱片、演出和聚会是关键背景，不用墓碑或尖拱替代音乐社群自身的表达。"
+    },
+    {
+      "title": "与建筑分开",
+      "body": "哥特亚文化与中世纪哥特式、十九世纪哥特复兴不是同一历史运动；借用关系不意味着连续的统一流派。"
+    }
+  ],
+  "applications": ["适合音乐出版和亚文化展览视觉：以材质与局部光线表达氛围，保留醒目的正文对比。"],
+  "related": ["punk-diy", "victorian", "hollywood"],
+  "order": 72,
+  "updatedAt": "2026-09-12",
+  "designHistory": {
+    "overview": "哥特亚文化从1970年代末以来的音乐与夜店场景中发展，并与文学、浪漫想象和服饰相互关联。参与者、支系与场所多样，暗色外观不能代表所有成员的身份和观念。",
+    "timeline": [
+      {
+        "year": 1978,
+        "period": "1970年代末至1980年代初",
+        "title": "音乐场景形成",
+        "body": "学术研究将The Damned、Siouxsie and the Banshees、Bauhaus等音乐路径与早期哥特文化联系起来，Batcave成为重要聚集点。",
+        "sourceIds": ["whitby"]
+      },
+      {
+        "year": 1980,
+        "period": "1980年代",
+        "title": "浪漫与未知的借用",
+        "body": "V&A梳理哥特文学、艺术和时尚之间的联系，说明浪漫主义对未知的兴趣为现代哥特文化提供了资源。",
+        "sourceIds": ["gothic"]
+      },
+      {
+        "year": 1994,
+        "period": "1994年起",
+        "title": "聚会延续社群",
+        "body": "Jo Hampshire组织Whitby Goth Weekend，使音乐、服饰与不同支系的参与者在周期性活动中相遇。",
+        "sourceIds": ["whitby"]
+      }
+    ],
+    "interpretation": "本海报是当代原创视觉演绎，提炼本档案所述构图与材料关系，不是历史影像、馆藏复制或实际项目记录。主题配色属于本次编辑选择。",
+    "sources": [
+      {
+        "id": "whitby",
+        "title": "Whitby Goth Weekend (1994-present): Gothic Subcultures",
+        "publisher": "Northumbria University",
+        "url": "https://researchportal.northumbria.ac.uk/en/publications/whitby-goth-weekend-1994-present-gothic-subcultures/"
+      },
+      {
+        "id": "gothic",
+        "title": "Gothic to Goth",
+        "publisher": "V&A",
+        "url": "https://www.vam.ac.uk/event/8AB79WR3/gothic-to-goth-2017"
+      }
+    ]
+  }
+}

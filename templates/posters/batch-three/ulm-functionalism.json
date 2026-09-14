@@ -1,0 +1,33 @@
+{
+  "styleId": "ulm-functionalism",
+  "title": "乌尔姆功能主义",
+  "accentLength": 2,
+  "titleColors": ["#353A3B", "#426982"],
+  "colors": [
+    {
+      "name": "纸白",
+      "hex": "#E8E5DA",
+      "englishName": "Paper White"
+    },
+    {
+      "name": "石墨黑",
+      "hex": "#353A3B",
+      "englishName": "Graphite"
+    },
+    {
+      "name": "系统蓝",
+      "hex": "#426982",
+      "englishName": "System Blue"
+    },
+    {
+      "name": "木样黄",
+      "hex": "#B99B64",
+      "englishName": "Wood Ochre"
+    }
+  ],
+  "sidebarCn": ["让模块构成系统", "让方法支持判断", "让分析连接制作", "让设计回应日常"],
+  "sidebarEn": ["A Way of Seeing.", "A Way of Living."],
+  "badges": ["系统", "模块", "方法"],
+  "sceneFile": "assets/poster-scenes/ulm-functionalism.png",
+  "scenePrompt": "Original Ulm design-school workbench study: modular white stacking cups, carefully arranged simple wooden joint study and blue-grey geometric paper models on a pale surface, disciplined spacing, precise useful shapes, natural side light. Paper white #E8E5DA graphite #353A3B system blue #426982 wood ochre #B99B64. Photographic landscape 1.46:1 scene only, no text or brand, no frame swatches."
+}

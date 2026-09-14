@@ -1,0 +1,114 @@
+{
+  "id": "analog-video",
+  "name": "1980年代录像带与模拟电视",
+  "englishName": "1980s Analog Video",
+  "aliases": ["1980s Analog Video"],
+  "summary": "磁带盒、厚重屏幕与有限信号色构成家庭录像的媒介记忆，轻微扫描纹理保留观看距离。",
+  "category": "retro",
+  "tags": ["nostalgic", "poster"],
+  "cover": "analog-video-poster",
+  "images": [
+    {
+      "asset": "analog-video-poster",
+      "caption": "1980年代录像带与模拟电视 · 风格演绎海报"
+    }
+  ],
+  "palettes": [
+    {
+      "id": "poster",
+      "name": "主题配色",
+      "description": "为本档案人工设定的视觉配色，海报色卡按相同 HEX 排版；不代表历史时期的标准色。",
+      "colors": [
+        {
+          "id": "color-1",
+          "name": "炭灰",
+          "hex": "#30323A",
+          "status": "manual",
+          "role": "主体基调"
+        },
+        {
+          "id": "color-2",
+          "name": "信号青",
+          "hex": "#58B7C3",
+          "status": "manual",
+          "role": "结构层次"
+        },
+        {
+          "id": "color-3",
+          "name": "褪洋红",
+          "hex": "#B86691",
+          "status": "manual",
+          "role": "视觉强调"
+        },
+        {
+          "id": "color-4",
+          "name": "银灰",
+          "hex": "#C5C7C9",
+          "status": "manual",
+          "role": "辅助平衡"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "title": "媒介物件",
+      "body": "录像带的窗口、盒体和播放器槽口是识别核心，与音频磁带分别处理。"
+    },
+    {
+      "title": "画面痕迹",
+      "body": "少量扫描线和色偏用于提示模拟观看，不用强故障覆盖主体。"
+    },
+    {
+      "title": "主题边界",
+      "body": "此页研究家庭录像与电视物件；故障艺术关注错误作为创作方法，二者不能直接画等号。"
+    }
+  ],
+  "applications": [
+    "适合影像回顾展与录像专题封面：将媒介轮廓和信号色作为主视觉，日期与片名保持清晰。"
+  ],
+  "related": ["hong-kong-cinema", "hollywood"],
+  "order": 44,
+  "updatedAt": "2026-09-12",
+  "designHistory": {
+    "overview": "家庭录像改变了电视节目只能随播随看的关系。此页以1970年代家用录像技术进入市场、1980年代设备样本为依据，提炼录像包装与模拟屏幕的视觉记忆，不把滤镜效果当成全部媒介史。",
+    "timeline": [
+      {
+        "year": 1971,
+        "period": "1971年",
+        "title": "盒式录像技术推进",
+        "body": "Sony 推出 U-matic，盒式载体减轻了装载裸带的操作负担；其较大的尺寸与价格限制了家庭普及。",
+        "sourceIds": ["sony"]
+      },
+      {
+        "year": 1975,
+        "period": "1975年",
+        "title": "家庭观看可以移时",
+        "body": "Betamax 推出，以更小的盒式磁带和录制播放能力服务家庭观看，强调按自己的时间观看节目。",
+        "sourceIds": ["sony"]
+      },
+      {
+        "year": 1981,
+        "period": "1980年代",
+        "title": "多种家用录像设备并存",
+        "body": "科学博物馆集团收藏的1981年 Panasonic VHS 与约1980年 Sony Betamax 等设备，保留了不同格式并行时期的实体证据。",
+        "sourceIds": ["collection"]
+      }
+    ],
+    "interpretation": "海报为当代原创风格演绎，不是历史实景或馆藏复制。录像带的窗口、盒体和播放器槽口是识别核心，与音频磁带分别处理。",
+    "sources": [
+      {
+        "id": "sony",
+        "title": "Product & Technology Milestones — Recorder & Player",
+        "publisher": "Sony Group",
+        "url": "https://www.sony.com/en/SonyInfo/CorporateInfo/History/sonyhistory-d.html"
+      },
+      {
+        "id": "collection",
+        "title": "Video recorder collection",
+        "publisher": "Science Museum Group",
+        "url": "https://collection.sciencemuseumgroup.org.uk/search/object_type/video-recorder"
+      }
+    ]
+  }
+}
