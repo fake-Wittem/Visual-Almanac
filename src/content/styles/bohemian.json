@@ -1,16 +1,16 @@
 {
   "id": "bohemian",
-  "name": "波西米亚复古",
-  "englishName": "Bohemian Living",
-  "aliases": ["Bohemian Living"],
-  "summary": "陶土、藤编与织物肌理相互叠加，让温暖的大地色自由生长。",
-  "category": "retro",
+  "name": "波西米亚自然混搭",
+  "englishName": "Natural Bohemian Interiors",
+  "aliases": ["Bohemian Living", "波西米亚复古"],
+  "summary": "藤编、亚麻、陶土与植物组成松弛的自然混搭，靠材料差异与个人收藏形成层次。",
+  "category": "natural-organic",
   "tags": ["free", "warm", "organic", "textile", "orange", "brown", "cream", "brand", "poster"],
   "cover": "bohemian-poster",
   "images": [
     {
       "asset": "bohemian-poster",
-      "caption": "波西米亚复古 · 统一版式风格演绎海报"
+      "caption": "波西米亚自然混搭 · 原创风格演绎海报"
     }
   ],
   "palettes": [
@@ -58,14 +58,18 @@
     {
       "title": "材质观察",
       "body": "藤编、织物与天然肌理是观察到的主要特征。"
+    },
+    {
+      "title": "研究范围与关联",
+      "body": "本页以自然材料和个性化室内搭配为中心。自然手作研究制作痕迹；1960—1970 年代反文化是文化参照，不把本页的当代室内当作其历史复原。"
     }
   ],
   "applications": ["大面积亚麻白承接陶土色和橄榄绿，纹理只留在装饰区域。"],
-  "related": [],
+  "related": ["natural-handcraft", "organic-modern"],
   "order": 9,
-  "updatedAt": "2026-09-10",
+  "updatedAt": "2026-09-15",
   "designHistory": {
-    "overview": "“波西米亚”在这里是一种生活与审美态度的延伸，不等同于某一地区的统一室内样式。其文化线索从 19 世纪艺术家的非主流生活，延伸到 1960 年代的混搭与反文化。",
+    "overview": "波西米亚自然混搭是本页对当代自然材料室内的编辑归纳。下列艺术家生活与反文化史提供自由混搭的文化参照，不构成藤编或亚麻家具的起源史，也不代表某一地区的统一传统。",
     "timeline": [
       {
         "year": 1851,

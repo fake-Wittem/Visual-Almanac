@@ -58,7 +58,7 @@ describe('配色和关联', () => {
     expect(relatedStyles(first, [first, second])[0]!.reason).toBe('同属现代简约')
     expect(
       relatedStyles({ ...all[0]!, tags: [], related: [] }, [{ ...all[1]!, tags: [] }])[0]!.reason,
-    ).toBe('同属复古')
+    ).toBe('同属年代怀旧')
   })
   it('待核对颜色不进入整组与 CSS 输出', () => {
     const p = {

@@ -1,6 +1,6 @@
 {
   "styleId": "french-salon",
-  "title": "法式沙龙复古",
+  "title": "当代法式复古混搭",
   "accentLength": 2,
   "colors": [
     {
@@ -24,9 +24,9 @@
       "englishName": "Antique Gold"
     }
   ],
-  "sidebarCn": ["雾蓝接住自然光", "灰粉温柔地晕开", "曲线绕过旧金边", "优雅停在日常之间"],
+  "sidebarCn": ["历史线脚作背景", "现代座椅留余白", "材质串起新与旧", "混搭进入日常"],
   "sidebarEn": ["A Way of Seeing.", "A Way of Living."],
-  "badges": ["优雅", "曲线", "柔光"],
+  "badges": ["新旧", "混搭", "日常"],
   "sceneFile": "assets/poster-scenes/french-salon.png",
-  "scenePrompt": "Generate ONLY one landscape central scene for a Visual Almanac archive poster, aspect ratio about 1.46:1. French salon with mist blue paneled walls, dusty pink curved upholstered settee, linen beige rug and marble table foreground, slim antique gold mirror and delicate carved molding background. Soft daylight, airy restrained rococo curves, elegant editorial interior photograph. Palette echoes #788C9A, #D3B3A5, #E3D4BD, #A48358. Detailed cohesive single scene, foreground middle and background, premium realistic materials, balanced exposure. No poster layout, no borders, no text, no swatches, no collage, no watermarks. The fixed archive layout will be applied separately by the existing renderer."
+  "scenePrompt": "Generate ONLY one landscape central scene for a Visual Almanac archive poster, aspect ratio about 1.46:1. French salon with mist blue paneled walls, dusty pink curved upholstered settee, linen beige rug and marble table foreground, slim antique gold mirror and delicate carved molding background. Soft daylight, contemporary eclectic arrangement with restrained historic molding and modern furniture, elegant editorial interior photograph. Palette echoes #788C9A, #D3B3A5, #E3D4BD, #A48358. Detailed cohesive single scene, foreground middle and background, premium realistic materials, balanced exposure. No poster layout, no borders, no text, no swatches, no collage, no watermarks. The fixed archive layout will be applied separately by the existing renderer."
 }

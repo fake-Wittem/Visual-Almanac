@@ -3,4 +3,8 @@ import App from './app/App.vue'
 import { router } from './app/router'
 import './styles/main.css'
 import './styles/motion.css'
+import './styles/cabinet.css'
+import './styles/cabinet/home.css'
+import './styles/cabinet/records.css'
+import './styles/cabinet/back-to-top.css'
 createApp(App).use(router).mount('#app')

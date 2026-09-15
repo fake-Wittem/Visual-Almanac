@@ -1,16 +1,16 @@
 {
   "id": "seventies-interiors",
-  "name": "1970年代家居",
-  "englishName": "1970s Domestic Interiors",
-  "aliases": ["1970s Domestic Interiors"],
-  "summary": "低矮软包与连续色面把坐卧活动连成一片，暖色和厚实织物强化身体尺度。",
-  "category": "retro",
+  "name": "1970年代实验家居",
+  "englishName": "1970s Experimental Interiors",
+  "aliases": ["1970s Domestic Interiors", "1970年代家居"],
+  "summary": "1960年代末至1970年代初的欧洲实验家居，把软包、低矮体块与模块家具组织成可居住的环境。",
+  "category": "avant-garde",
   "tags": ["nostalgic", "poster"],
   "cover": "seventies-interiors-poster",
   "images": [
     {
       "asset": "seventies-interiors-poster",
-      "caption": "1970年代家居 · 风格演绎海报"
+      "caption": "1970年代实验家居 · 原创风格演绎海报"
     }
   ],
   "palettes": [
@@ -62,14 +62,18 @@
     {
       "title": "样本边界",
       "body": "本页从欧洲实验居住设计提炼视觉，不代表1970年代所有家庭，也不等同全部中古现代。"
+    },
+    {
+      "title": "研究范围与关联",
+      "body": "研究家具如何转变为整体居住环境。意大利激进设计另讨论反设计立场与群体实践，中古现代侧重现代家具结构和生产。"
     }
   ],
   "applications": ["适合家居专题摄影与展览场景：先明确坐卧区域的整体轮廓，再用一组暖色控制视线。"],
-  "related": ["mid-century", "memphis", "organic-modern"],
+  "related": ["mid-century", "memphis", "organic-modern", "italian-radical"],
   "order": 43,
-  "updatedAt": "2026-09-12",
+  "updatedAt": "2026-09-15",
   "designHistory": {
-    "overview": "1970年代家居包含多种并存取向。本页以1960年代末至1970年代初的欧洲实验家居和展览为史料入口，讨论家具如何从独立物件转为可坐卧的环境；暖棕配色是本页的编辑选择。",
+    "overview": "本页限定1960年代末至1970年代初的欧洲实验家居，重点是 Visiona 与1972年 MoMA 展览中的环境提案。它研究先锋居住实验，不代表1970年代普通家庭的整体面貌；暖棕配色是本站的视觉取舍。",
     "timeline": [
       {
         "year": 1968,

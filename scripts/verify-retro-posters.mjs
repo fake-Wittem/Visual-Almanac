@@ -16,7 +16,8 @@ const styles = await Promise.all(
 assert.deepEqual(
   recipes.map((r) => r.styleId).sort(),
   styles
-    .filter((s) => s.category === 'retro' && recipes.some((r) => r.styleId === s.id))
+    // 此目录记录初始12份海报的制作批次，不再代表当前主分类。
+    .filter((s) => recipes.some((r) => r.styleId === s.id))
     .map((s) => s.id)
     .sort(),
 )
@@ -72,4 +73,4 @@ await writeFile(
     2,
   ) + '\n',
 )
-console.log('12 张复古海报：分类覆盖、尺寸、48 个色块像素、文案输入和 24 张浏览图片检查通过。')
+console.log('初始12张海报：档案覆盖、尺寸、48个色块像素、文案输入和24张浏览图片检查通过。')

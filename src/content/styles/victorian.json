@@ -1,16 +1,16 @@
 {
   "id": "victorian",
-  "name": "维多利亚古典",
-  "englishName": "Victorian Classic",
-  "aliases": ["Victorian Classic"],
+  "name": "维多利亚室内装饰",
+  "englishName": "Victorian Interiors",
+  "aliases": ["Victorian Classic", "维多利亚古典"],
   "summary": "深绿与酒红交织，雕饰、丝绒和古金色细节营造浓郁的古典气息。",
-  "category": "retro",
+  "category": "classical-decorative",
   "tags": ["luxurious", "elegant", "wood", "textile", "green", "red", "gold", "brand", "poster"],
   "cover": "victorian-poster",
   "images": [
     {
       "asset": "victorian-poster",
-      "caption": "维多利亚古典 · 统一版式风格演绎海报"
+      "caption": "维多利亚室内装饰 · 原创风格演绎海报"
     }
   ],
   "palettes": [
@@ -58,12 +58,16 @@
     {
       "title": "材质观察",
       "body": "丝绒、雕花木作与古金色点缀构成丰富层次。"
+    },
+    {
+      "title": "研究范围与关联",
+      "body": "限定英国维多利亚时代的室内装饰与折衷趣味，不将整个时代视为统一古典主义。哥特复兴与工艺美术分别讨论形式复兴和制作改革，本页以它们进入家庭空间的关系为重点。"
     }
   ],
   "applications": ["深绿色作主体，象牙白提供阅读区域，古金用于分隔线。"],
-  "related": [],
+  "related": ["gothic-revival", "arts-and-crafts"],
   "order": 2,
-  "updatedAt": "2026-09-10",
+  "updatedAt": "2026-09-15",
   "designHistory": {
     "overview": "维多利亚时代的设计并不只有繁复装饰：历史复兴、工业制造和设计改革同时存在。本档案选取的是其中重视雕饰、织物与浓厚室内氛围的一支。",
     "timeline": [

@@ -58,14 +58,18 @@
     {
       "title": "材质观察",
       "body": "深木色、织物格纹与黄铜适合小面积组合。"
+    },
+    {
+      "title": "研究范围与关联",
+      "body": "聚焦当代对英国学院阅读日常的再组织；哥特复兴是建筑与工艺的历史运动。本页不直接等同 Dark Academia，也不把所有深木色书房视为英国学院。"
     }
   ],
   "applications": ["以奶杏作为大面积底色，深蓝承载文字，酒红用作少量强调。"],
-  "related": [],
+  "related": ["gothic-revival"],
   "order": 1,
-  "updatedAt": "2026-09-10",
+  "updatedAt": "2026-09-15",
   "designHistory": {
-    "overview": "“英伦学院复古”是本档案对图书馆、旧书与传统室内气质的归纳。它没有单一的创始年代，历史线索来自英国学术空间的积累，以及后来对中世纪工艺的重新发现。",
+    "overview": "本页是围绕英国学院阅读空间的当代怀旧编辑主题：旧书、书架、木作与学习日常构成场景。历史节点解释这些参照从何而来，不把学院建筑史当作某个网络审美的创立史。",
     "timeline": [
       {
         "year": 1488,
@@ -87,6 +91,13 @@
         "title": "历史工艺重新进入日常设计",
         "body": "哥特复兴重新重视中世纪形式与彩色玻璃；世纪后期的工艺美术运动又强调材料和手工制作，为传统书房气质提供另一层设计背景。",
         "sourceIds": ["gothic", "crafts"]
+      },
+      {
+        "year": 2026,
+        "period": "当代传播（来源查阅于2026年）",
+        "title": "阅读空间进入影像与公众观看",
+        "body": "博德利图书馆向影视和摄影制作开放部分历史空间，同时强调其作为工作图书馆的使用限制。影像取景为今天重新观看学院空间提供一种途径，并不证明所有学院怀旧图像属于同一社群。",
+        "sourceIds": ["filming"]
       }
     ],
     "interpretation": "本档案把这些历史线索转译为深木色、旧纸感和有秩序的排版。格纹、黄铜与具体四色配色属于当代组合，并非某座学院或某个历史时期的统一标准。",
@@ -108,6 +119,12 @@
         "title": "Arts and Crafts: an introduction",
         "publisher": "Victoria and Albert Museum",
         "url": "https://www.vam.ac.uk/articles/arts-and-crafts-an-introduction"
+      },
+      {
+        "id": "filming",
+        "title": "Commercial filming and photography",
+        "publisher": "牛津大学博德利图书馆",
+        "url": "https://visit.bodleian.ox.ac.uk/venue-hire/filming-photography"
       }
     ]
   }

@@ -1,16 +1,16 @@
 {
   "id": "french-salon",
-  "name": "法式沙龙复古",
-  "englishName": "French Salon",
-  "aliases": ["French Salon"],
-  "summary": "雾蓝、浅粉和米白在自然光里融合，细腻曲线带来轻盈的优雅。",
+  "name": "当代法式复古混搭",
+  "englishName": "Contemporary French Eclectic",
+  "aliases": ["French Salon", "法式沙龙复古"],
+  "summary": "历史护墙线脚与镜框，搭配现代曲线沙发和简洁桌面，让不同时代的家具进入当代日常。",
   "category": "retro",
   "tags": ["elegant", "calm", "muted", "textile", "blue", "cream", "brand", "slides"],
   "cover": "french-salon-poster",
   "images": [
     {
       "asset": "french-salon-poster",
-      "caption": "法式沙龙复古 · 统一版式风格演绎海报"
+      "caption": "当代法式复古混搭 · 原创风格演绎海报"
     }
   ],
   "palettes": [
@@ -48,24 +48,30 @@
   ],
   "notes": [
     {
-      "title": "字体气质",
-      "body": "细腻衬线标题与轻量正文组合，保留呼吸感。"
+      "title": "新旧关系",
+      "body": "保留线脚与镜框作为历史参照，以现代软包和简洁桌面建立当代生活层。避免把全部家具统一仿古。"
     },
     {
       "title": "构图与节奏",
-      "body": "以大块留白与轻柔曲线组织画面，减少高密度装饰。"
+      "body": "先安排通行和交谈，再以留白控制装饰密度；曲线并不要求贝壳纹或满铺雕饰。"
     },
     {
-      "title": "材质观察",
-      "body": "亚麻、织物与少量旧金色细线适合作为细节。"
+      "title": "材料与配色",
+      "body": "织物、石材与少量金属形成质感差异。粉彩是本档案的选择，不是法式室内的必要条件。"
+    },
+    {
+      "title": "研究范围与关联",
+      "body": "本页的核心是当代如何安排新旧家具与空间；洛可可页研究十八世纪历史装饰。两者以参照关系关联，不作为同一流派的两份档案。"
     }
   ],
-  "applications": ["用米白形成背景，雾蓝作为主要色，灰粉用于柔和的辅助。"],
-  "related": [],
+  "applications": [
+    "保留一组线脚或旧镜作为空间参照，配合现代座椅与日常照明；用材质、尺度和新旧差异组织搭配。"
+  ],
+  "related": ["rococo", "neoclassicism", "mid-century"],
   "order": 3,
-  "updatedAt": "2026-09-10",
+  "updatedAt": "2026-09-15",
   "designHistory": {
-    "overview": "“法式沙龙复古”在这里指向以 18 世纪法国室内装饰和家具为主要参照的当代审美。其发展既与洛可可的曲线有关，也与巴黎工匠体系及之后的古典化变化有关。",
+    "overview": "本页是当代室内搭配的编辑专题：把法国历史装饰参照、现代家具与今天的生活安排放在同一空间。下列历史节点说明可借鉴的家具工艺，以及当代设计如何重新组织这些参照，不是一个从十八世纪连续发展至今的正式流派。洛可可的器物、纹样和传播另见其独立档案。",
     "timeline": [
       {
         "year": 1700,
@@ -82,14 +88,14 @@
         "sourceIds": ["rococo"]
       },
       {
-        "year": 1780,
-        "period": "18 世纪后期",
-        "title": "样式变化与工坊制度转折",
-        "body": "大都会博物馆所藏约 1788 年扶手椅保留了世纪末精细家具工艺的实例；1791 年行会制度被解散，原有制作组织也随之改变。",
-        "sourceIds": ["furniture"]
+        "year": 2017,
+        "period": "2017 年报道的巴黎住宅",
+        "title": "历史装饰进入当代生活",
+        "body": "AD 对 Joseph Dirand 巴黎住宅的采访展示了历史感护墙装饰与现代座椅、当代艺术并置的方式。设计师将今天的生活舒适度纳入空间安排；这是本页观察新旧混搭的一项参照，不是本海报描绘的真实项目。",
+        "sourceIds": ["dirand"]
       }
     ],
-    "interpretation": "本档案用雾蓝、灰粉、米白与细曲线提炼轻盈的室内气质。这是对历史家具和装饰的再组织，并不意味着所有法国沙龙都采用柔和粉彩。",
+    "interpretation": "海报是本站的当代混搭演绎：简化的历史线脚与镜框、现代曲线沙发、简洁石材桌面共同构成日常空间。它不复原十八世纪沙龙，不复制采访中的住宅，也不把“法式”限定为洛可可或粉彩。",
     "sources": [
       {
         "id": "furniture",
@@ -102,6 +108,12 @@
         "title": "The Rococo style – an introduction",
         "publisher": "Victoria and Albert Museum",
         "url": "https://www.vam.ac.uk/articles/the-rococo-style-an-introduction"
+      },
+      {
+        "id": "dirand",
+        "title": "Un appartement à Paris signé Joseph Dirand",
+        "publisher": "AD France · Oscar Duboÿ 对设计师的采访",
+        "url": "https://www.admagazine.fr/decoration/visite-deco/diaporama/un-appartement-signe-joseph-dirand/47124"
       }
     ]
   }

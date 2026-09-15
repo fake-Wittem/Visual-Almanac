@@ -62,14 +62,18 @@
     {
       "title": "工艺与社会观念",
       "body": "复兴运动也涉及工业化下的制作方式与价值选择，不能只理解为仿古装饰。"
+    },
+    {
+      "title": "研究范围与关联",
+      "body": "研究后世的历史形式复兴，不因名称含“复兴”归入年代怀旧。维多利亚室内装饰是时代生活环境，不能代替本运动的专题。"
     }
   ],
   "applications": [
     "适合哥特复兴主题的展览海报与阅读分享：选取档案中的核心形式组织主视觉，保持正文清晰，并注明图像为当代演绎。"
   ],
-  "related": ["victorian", "arts-and-crafts", "art-nouveau"],
+  "related": ["victorian", "arts-and-crafts", "art-nouveau", "gothic"],
   "order": 59,
-  "updatedAt": "2026-09-12",
+  "updatedAt": "2026-09-15",
   "designHistory": {
     "overview": "哥特复兴并非中世纪哥特式的连续延长。它在近代重新研究历史形式，结合浪漫想象、宗教建筑需求及对工业生产的反思；这里以英国彩窗和装饰工艺为线索。",
     "timeline": [

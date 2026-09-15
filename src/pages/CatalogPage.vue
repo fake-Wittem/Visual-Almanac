@@ -1,6 +1,16 @@
 <script setup lang="ts">
 import { computed, nextTick, onBeforeUnmount, ref, watch } from 'vue'
-import { Search, SlidersHorizontal, X, ArrowUpRight, ChevronLeft, ChevronRight } from '@lucide/vue'
+import {
+  Search,
+  SlidersHorizontal,
+  X,
+  ArrowUpRight,
+  ChevronLeft,
+  ChevronRight,
+  ArrowLeft,
+  LayoutGrid,
+  List,
+} from '@lucide/vue'
 import { catalog } from '../repositories/catalog'
 import { tags } from '../content/tags'
 import { categories } from '../content/categories'
@@ -8,7 +18,8 @@ import { dimensions } from '../content/schema'
 import { emptyFilters, filterStyles, sortStyles, pageStyles, type Filters } from '../domain/catalog'
 import { useCatalogQuery } from '../composables/useCatalogQuery'
 import { useFavorites } from '../composables/useFavorites'
-import StyleCard from '../components/catalog/StyleCard.vue'
+import ArchiveRecord from '../components/cabinet/ArchiveRecord.vue'
+import { collections } from '../components/cabinet/collections'
 import FilterPanel from '../components/catalog/FilterPanel.vue'
 import EmptyState from '../components/common/EmptyState.vue'
 import ModalDialog from '../components/common/ModalDialog.vue'
@@ -22,8 +33,10 @@ const sortOptions = computed(() => [
   { value: 'name', label: '名称 A–Z' },
   ...(favorites.value ? [{ value: 'saved', label: '最近收藏' }] : []),
 ])
-const { favorites, filters, apply } = useCatalogQuery(),
+const { favorites, filters, apply: applyQuery } = useCatalogQuery(),
   { has, saved } = useFavorites()
+const collection = computed(() => collections.find((c) => c.id === filters.value.category))
+const layout = ref('grid')
 const base = computed(() => catalog.list().filter((s) => !favorites.value || has(s.id)))
 const results = computed(() =>
   sortStyles(filterStyles(base.value, filters.value), filters.value.sort, saved.value),
@@ -31,11 +44,16 @@ const results = computed(() =>
 const pagination = computed(() => pageStyles(results.value, filters.value.page))
 const search = ref(filters.value.q),
   composing = ref(false)
-let searchTimer: ReturnType<typeof setTimeout>
+let searchTimer: ReturnType<typeof setTimeout> | undefined
+function apply(value: Filters, replace = false) {
+  clearTimeout(searchTimer)
+  searchTimer = undefined
+  return applyQuery(value, replace)
+}
 watch(
   () => filters.value.q,
   (v) => {
-    search.value = v
+    if (!searchTimer) search.value = v
   },
 )
 watch(
@@ -47,6 +65,7 @@ watch(
 )
 function submitSearch(immediate = false) {
   clearTimeout(searchTimer)
+  searchTimer = undefined
   if (composing.value) return
   const run = () => void apply({ ...filters.value, q: search.value.trim(), page: 1 }, true)
   if (immediate) run()
@@ -112,31 +131,59 @@ function applyDraft() {
 }
 </script>
 <template>
-  <div class="catalog-layout page-width">
-    <aside class="desktop-filters" aria-label="筛选档案">
-      <FilterPanel :model-value="filters" :items="base" @update:model-value="apply($event)" />
-    </aside>
+  <div
+    class="catalog-layout cabinet-catalog cabinet-width"
+    :class="{ 'catalog-list-view': layout === 'list' }"
+  >
     <section class="catalog-content">
+      <RouterLink class="catalog-back" to="/"><ArrowLeft :size="14" /> 返回序厅</RouterLink>
       <div class="catalog-heading">
         <div>
           <p class="eyebrow">
             {{ favorites ? 'YOUR PERSONAL COLLECTION' : 'THE VISUAL ARCHIVE'
             }}<span class="eyebrow-line" />
           </p>
-          <h1>{{ favorites ? '心动的风格，留在这里。' : '让灵感，有迹可循。' }}</h1>
+          <h1>
+            {{
+              favorites
+                ? '我的私人收藏。'
+                : collection
+                  ? collection.name + '。'
+                  : '风格，有迹可循。'
+            }}
+          </h1>
           <p class="page-description">
             {{
               favorites
                 ? '收藏保存在当前浏览器中，随时回来重拾灵感。'
-                : '从一张图、一组颜色开始，发现属于你的视觉语言。'
+                : collection?.description ||
+                  '八个章节，无数种观看世界的方式。打开一份档案，开始你的探索。'
             }}
           </p>
         </div>
         <span class="archive-count"
-          ><b>{{ String(base.length).padStart(2, '0') }}</b
+          ><b>{{ String(results.length).padStart(2, '0') }}</b
           ><span>{{ favorites ? '份收藏' : '份风格档案' }}</span></span
         >
       </div>
+      <nav class="catalog-chapters" aria-label="档案分类">
+        <button
+          :class="{ selected: !filters.category }"
+          :aria-pressed="!filters.category"
+          @click="apply({ ...filters, category: '', page: 1 })"
+        >
+          全部馆藏
+        </button>
+        <button
+          v-for="c in collections"
+          :key="c.id"
+          :class="{ selected: filters.category === c.id }"
+          :aria-pressed="filters.category === c.id"
+          @click="apply({ ...filters, category: c.id, page: 1 })"
+        >
+          {{ c.name }}
+        </button>
+      </nav>
       <div class="catalog-tools">
         <form class="search-field" role="search" @submit.prevent="submitSearch(true)">
           <Search :size="18" /><input
@@ -154,10 +201,10 @@ function applyDraft() {
               aria-label="清空搜索"
               @click="clearSearch"
             >
-              <X :size="16" /></button></MotionTransition
-          ><kbd aria-hidden="true">⌕</kbd>
+              <X :size="16" /></button
+          ></MotionTransition>
         </form>
-        <button class="mobile-filter-button" @click="openFilters">
+        <button class="cabinet-filter-button" @click="openFilters">
           <SlidersHorizontal :size="17" />筛选<span v-if="active.length">{{
             active.length
           }}</span></button
@@ -185,14 +232,18 @@ function applyDraft() {
               results.length
             }}</span></MotionTransition
           ></span
-        ><span class="result-note"
-          >{{ favorites ? '为下一次创作保留灵感' : '不同风格，同样值得细看'
-          }}<ArrowUpRight :size="13"
-        /></span>
+        >
+        <div class="catalog-view-switch" aria-label="展示方式">
+          <button aria-label="展柜视图" :aria-pressed="layout === 'grid'" @click="layout = 'grid'">
+            <LayoutGrid :size="17" /></button
+          ><button aria-label="目录视图" :aria-pressed="layout === 'list'" @click="layout = 'list'">
+            <List :size="19" />
+          </button>
+        </div>
       </div>
       <MotionLayout
-        ><MotionList class="style-grid">
-          <StyleCard v-for="(s, i) in pagination.items" :key="s.id" :style="s" :eager="i < 3" />
+        ><MotionList class="style-grid cabinet-records">
+          <ArchiveRecord v-for="(s, i) in pagination.items" :key="s.id" :style="s" :eager="i < 3" />
         </MotionList>
         <MotionTransition
           ><EmptyState
@@ -207,7 +258,7 @@ function applyDraft() {
                 ? '遇到喜欢的风格，点击书签就能留在这里。'
                 : '试着减少筛选条件，给灵感多一点空间。'
             "
-            ><RouterLink v-if="favorites && !base.length" class="primary-button" to="/"
+            ><RouterLink v-if="favorites && !base.length" class="primary-button" to="/catalog"
               >浏览全部档案 <ArrowUpRight :size="16" /></RouterLink
             ><button v-else class="primary-button" @click="clear">清除条件</button></EmptyState
           ></MotionTransition

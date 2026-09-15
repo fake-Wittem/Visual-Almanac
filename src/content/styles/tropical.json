@@ -1,16 +1,16 @@
 {
   "id": "tropical",
-  "name": "热带殖民复古",
-  "englishName": "Tropical Retreat",
-  "aliases": ["Tropical Retreat"],
-  "summary": "植物绿、藤编与明亮的自然光，形成舒展而有层次的热带想象。",
+  "name": "新加坡黑白洋房怀旧",
+  "englishName": "Singapore Bungalow Nostalgia",
+  "aliases": ["Tropical Retreat", "热带殖民复古"],
+  "summary": "以新加坡黑白洋房及其保存为线索，观察深色构件、遮阴空间与热带生活记忆。",
   "category": "retro",
   "tags": ["free", "warm", "organic", "wood", "green", "brown", "cream", "brand", "slides"],
   "cover": "tropical-poster",
   "images": [
     {
       "asset": "tropical-poster",
-      "caption": "热带殖民复古 · 统一版式风格演绎海报"
+      "caption": "新加坡黑白洋房怀旧 · 原创风格演绎海报"
     }
   ],
   "palettes": [
@@ -58,14 +58,18 @@
     {
       "title": "材质观察",
       "body": "藤编、木作和植物形成材质线索。"
+    },
+    {
+      "title": "研究范围与关联",
+      "body": "以新加坡黑白洋房和城市保存记忆为范围；不泛指整个热带地区，不以植物数量判断分类。"
     }
   ],
   "applications": ["用象牙米作为轻盈底色，棕榈绿形成主色，日落橘小面积提亮。"],
-  "related": [],
+  "related": ["tropical-modern"],
   "order": 12,
-  "updatedAt": "2026-09-10",
+  "updatedAt": "2026-09-15",
   "designHistory": {
-    "overview": "本档案以新加坡殖民时期 bungalow 的演变为一条具体线索，理解热带环境如何改变建筑形式。“热带殖民复古”是对这些空间元素的当代归纳，不能概括整个热带地区的设计传统。",
+    "overview": "本页限定新加坡二十世纪前期黑白洋房及其后来的保存。早期 bungalow 是背景线索；重点是这一具体住宅类型如何成为城市记忆，不以“热带殖民”概括不同地区，也不把殖民居住秩序美化为统一度假风格。",
     "timeline": [
       {
         "year": 1830,
@@ -76,20 +80,27 @@
       },
       {
         "year": 1900,
-        "period": "1900—1930 年代",
-        "title": "黑白住宅与装饰艺术并存",
-        "body": "黑白 bungalow 以白墙、深色构件和宽阔屋顶形成鲜明对比。1930 年建成的Bukit Chandu 住宅也带有 Art Deco 元素，显示样式并非单线发展。",
-        "sourceIds": ["bungalow", "bukit"]
+        "period": "1900—1920 年代",
+        "title": "黑白洋房形成鲜明轮廓",
+        "body": "URA 将 Black and White Bungalow 列为这一时期的住宅类型。白色墙面与深色构件形成对比，屋顶和遮阴空间回应热带环境。",
+        "sourceIds": ["bungalow"]
       },
       {
-        "year": 1950,
-        "period": "1950—1960 年代",
-        "title": "现代几何语言进入住宅",
-        "body": "新加坡的现代 bungalow 转向更自由的几何造型。气候适应与新的形式语言继续结合，建筑不再只沿用早期历史装饰。",
+        "year": 1930,
+        "period": "1930 年代起",
+        "title": "Wessex 住宅与殖民军事生活",
+        "body": "Roots 记录 Wessex Estate 的黑白住宅由英国方面兴建，用于附近军事设施人员居住。这个具体用途提醒我们，住宅形式同时关联殖民社会的身份和资源分配。",
+        "sourceIds": ["wessex"]
+      },
+      {
+        "year": 1991,
+        "period": "1991 年起",
+        "title": "历史住宅进入保存框架",
+        "body": "URA 说明，1900—1950 年代建成的黑白及其他类型 bungalow 从1991年起陆续获得保留地位。保存让这些住宅成为理解城市历史的实体参照，而非只留下可复制的装饰外观。",
         "sourceIds": ["bungalow"]
       }
     ],
-    "interpretation": "海报强调绿植、藤编、遮阴与通透感，是对热带生活空间的视觉整理。建筑也承载殖民社会的权力与居住差异；这些背景不能被简化成纯粹的度假想象。",
+    "interpretation": "海报借用遮阴、深浅对照和藤编表现当代怀旧阅读，不是某栋黑白洋房的测绘复原。植物和休闲家具不能代替殖民社会背景；当代热带现代另讨论现代结构与气候回应。",
     "sources": [
       {
         "id": "bungalow",
@@ -98,10 +109,10 @@
         "url": "https://www.ura.gov.sg/conservation/conservation-resources/understanding-the-bungalow/"
       },
       {
-        "id": "bukit",
-        "title": "Reflections at Bukit Chandu: The Building",
-        "publisher": "新加坡国家文物局 NHB",
-        "url": "https://www.nhb.gov.sg/bukitchandu/about-us/the-building"
+        "id": "wessex",
+        "title": "Black & White Bungalows",
+        "publisher": "新加坡国家文物局 Roots",
+        "url": "https://www.roots.gov.sg/places/places-landing/Places/landmarks/my-queenstown-heritage-trail/black-white-bungalows"
       }
     ]
   }

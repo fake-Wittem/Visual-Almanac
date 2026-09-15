@@ -1,2 +1,2 @@
 import { reactive } from 'vue'
-export const navigation = reactive({ listing: '/', scroll: 0 })
+export const navigation = reactive({ listing: '/catalog', scroll: 0 })

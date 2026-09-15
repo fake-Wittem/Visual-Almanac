@@ -1,16 +1,16 @@
 {
   "id": "showa",
-  "name": "昭和日式复古",
-  "englishName": "Showa Nostalgia",
-  "aliases": ["Showa Nostalgia"],
-  "summary": "暖灯、深木色与生活旧物，留住朴素、亲近而缓慢的时间。",
+  "name": "战后昭和生活",
+  "englishName": "Postwar Showa Everyday Life",
+  "aliases": ["Showa Nostalgia", "昭和日式复古"],
+  "summary": "以1950—1960年代日本家庭与消费生活为参照，木色、暖灯和家用器物串起战后日常记忆。",
   "category": "retro",
   "tags": ["warm", "nostalgic", "wood", "textile", "green", "brown", "cream", "poster", "slides"],
   "cover": "showa-poster",
   "images": [
     {
       "asset": "showa-poster",
-      "caption": "昭和日式复古 · 统一版式风格演绎海报"
+      "caption": "战后昭和生活 · 原创风格演绎海报"
     }
   ],
   "palettes": [
@@ -58,27 +58,31 @@
     {
       "title": "材质观察",
       "body": "木质、花纹织物与暖灯构成可感知的温度。"
+    },
+    {
+      "title": "研究范围与关联",
+      "body": "限定战后日本生活记忆；大正浪漫研究更早的插画、出版与都市文化，不能按同一组日式器物合并。"
     }
   ],
   "applications": ["以米白减轻深木色重量，琥珀黄或复古红少量强调。"],
-  "related": [],
+  "related": ["taisho-romance"],
   "order": 7,
-  "updatedAt": "2026-09-10",
+  "updatedAt": "2026-09-15",
   "designHistory": {
-    "overview": "“昭和复古”常把日本不同年代的日常物件重新组合。这里以东京生活史为线索，区分战前城市住宅、战后家电普及与青年消费文化，而不把它们看成同时出现的一套样式。",
+    "overview": "本页限定战后昭和的1950—1960年代，以东京的住宅、家电与青年消费为史料入口。昭和跨越多个阶段，本页不把战前生活、战后增长和整个时代混成一套样式。",
     "timeline": [
-      {
-        "year": 1930,
-        "period": "1930—1940 年代",
-        "title": "木造日常与战争造成的断裂",
-        "body": "战前东京的普通住宅仍有木造生活空间；战争、空袭和物资短缺改变了城市与家庭生活。这段历史不能只以温暖怀旧来概括。",
-        "sourceIds": ["edo"]
-      },
       {
         "year": 1955,
         "period": "1950 年代后期",
-        "title": "家电与集合住宅改变家庭",
-        "body": "经济增长带动电视、洗衣机和冰箱普及。1959 年建成的云雀丘团地是博物馆用来呈现这一生活转变的住宅案例。",
+        "title": "家电改变家庭生活",
+        "body": "电视、洗衣机和冰箱进入更多家庭，改变日常劳动与家庭娱乐。江户东京博物馆以这一变化呈现战后生活转型。",
+        "sourceIds": ["edo"]
+      },
+      {
+        "year": 1959,
+        "period": "1959 年",
+        "title": "团地组织新的居住日常",
+        "body": "1959 年建成的云雀丘团地是博物馆呈现战后住宅生活的案例。紧凑住宅与家庭器物应结合使用场景理解。",
         "sourceIds": ["edo"]
       },
       {
@@ -89,7 +93,7 @@
         "sourceIds": ["lifestyles"]
       }
     ],
-    "interpretation": "深木色、暖灯与旧器物是本张海报对日常记忆的选择。它不覆盖昭和时期所有设计，也不意味着当时只有朴素、缓慢的一种生活方式。",
+    "interpretation": "海报用木色、暖灯与日常器物构成战后生活怀旧场景，不是特定团地的复原；1950—1960 年代也存在明亮、工业化与面向未来的设计。",
     "sources": [
       {
         "id": "edo",

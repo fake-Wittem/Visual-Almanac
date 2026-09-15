@@ -1,8 +1,8 @@
 {
   "id": "shanghai-calendar-posters",
-  "name": "旧上海装饰与月份牌",
-  "englishName": "Shanghai Calendar Posters",
-  "aliases": ["Shanghai Calendar Posters"],
+  "name": "旧上海月份牌广告",
+  "englishName": "Shanghai Calendar Advertising",
+  "aliases": ["Shanghai Calendar Posters", "旧上海装饰与月份牌"],
   "summary": "以柔和人物、花卉与商业印刷的层次，观察二十世纪前期上海的都市生活想象。",
   "category": "retro",
   "tags": ["nostalgic", "elegant", "muted", "green", "red", "poster"],
@@ -10,7 +10,7 @@
   "images": [
     {
       "asset": "shanghai-calendar-posters-poster",
-      "caption": "旧上海装饰与月份牌 · 风格演绎海报"
+      "caption": "旧上海月份牌广告 · 原创风格演绎海报"
     }
   ],
   "palettes": [
@@ -62,14 +62,18 @@
     {
       "title": "商业语境",
       "body": "月份牌承担广告和日历功能，城市女性形象也受到商业观看方式影响；本场景不复用烟草广告，更不把广告图像当作所有上海人的生活记录。"
+    },
+    {
+      "title": "研究范围与关联",
+      "body": "以旧上海月份牌广告的图文构成与商业传播为中心；不覆盖全部上海建筑装饰。民国书刊与印刷另以出版物、版式和印制为对象。"
     }
   ],
   "applications": [
     "适合上海商业美术展览的导览封面：以人物和一组花卉建立焦点，说明原件作者、产品类别和印刷年代，现代活动信息采用另设的清晰文字区。"
   ],
-  "related": ["art-deco", "hong-kong-cinema"],
+  "related": ["art-deco", "hong-kong-cinema", "republican-print"],
   "order": 81,
-  "updatedAt": "2026-09-14",
+  "updatedAt": "2026-09-15",
   "designHistory": {
     "overview": "本档案限定二十世纪前期上海的月份牌商业图像，以胡伯翔和擦笔水彩技法资料为线索。月份牌、年画和都市装饰存在交流，但不是同一媒介，也不能用女性广告形象概括整个民国社会。",
     "timeline": [

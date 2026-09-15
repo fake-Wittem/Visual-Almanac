@@ -62,14 +62,18 @@
     {
       "title": "范围区分",
       "body": "本档案研究中世纪欧洲传统，区别于近代哥特复兴和音乐社群的哥特亚文化。"
+    },
+    {
+      "title": "研究范围与关联",
+      "body": "以中世纪建筑结构、宗教空间和工艺为主体；哥特复兴是后世对这些形式的重新研究，哥特亚文化又有独立的音乐与社群背景。"
     }
   ],
   "applications": [
     "适合哥特式主题的展览海报与阅读分享：选取档案中的核心形式组织主视觉，保持正文清晰，并注明图像为当代演绎。"
   ],
-  "related": ["baroque", "art-nouveau", "arts-and-crafts"],
+  "related": ["baroque", "art-nouveau", "arts-and-crafts", "gothic-revival"],
   "order": 57,
-  "updatedAt": "2026-09-12",
+  "updatedAt": "2026-09-15",
   "designHistory": {
     "overview": "哥特式在十二世纪法国的建筑探索中形成，并传播到欧洲不同地区及雕塑、彩窗、器物等媒介。它兼有结构创新、宗教叙事和自然观察，不能概括成黑暗气氛。",
     "timeline": [

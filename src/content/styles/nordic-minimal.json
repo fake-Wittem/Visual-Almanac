@@ -67,7 +67,7 @@
   "applications": ["以自然白为底、炭灰写正文，浅木色划分内容区，少量绿用于按钮或图表重点。"],
   "related": ["organic-modern", "mid-century"],
   "order": 15,
-  "updatedAt": "2026-09-09",
+  "updatedAt": "2026-09-15",
   "designHistory": {
     "overview": "当代北欧简约是跨地域的审美归纳，并非北欧设计的全部。这里以芬兰曲木和丹麦家具的历史为线索，说明轻盈、工艺与日常尺度的来源。",
     "timeline": [
@@ -93,7 +93,7 @@
         "sourceIds": ["danish"]
       }
     ],
-    "interpretation": "本图选择其中明亮、低饱和的一支作当代演绎；它与复古分类的中古现代相关，但不是同一份时代档案。",
+    "interpretation": "本图选择其中明亮、低饱和的一支作当代演绎；它与现代简约分类中的中古现代相关，但不是同一份时代档案。",
     "sources": [
       {
         "id": "aalto",

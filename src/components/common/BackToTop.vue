@@ -4,7 +4,7 @@ import { ArrowUp } from '@lucide/vue'
 import MotionTransition from '../motion/MotionTransition.vue'
 
 const visible = ref(false)
-const update = () => (visible.value = window.scrollY > 0)
+const update = () => (visible.value = window.scrollY > 8)
 function backToTop() {
   window.scrollTo({
     top: 0,
@@ -14,8 +14,12 @@ function backToTop() {
 onMounted(() => {
   update()
   window.addEventListener('scroll', update, { passive: true })
+  window.addEventListener('pageshow', update)
 })
-onBeforeUnmount(() => window.removeEventListener('scroll', update))
+onBeforeUnmount(() => {
+  window.removeEventListener('scroll', update)
+  window.removeEventListener('pageshow', update)
+})
 </script>
 <template>
   <MotionTransition preset="popup">
@@ -26,8 +30,8 @@ onBeforeUnmount(() => window.removeEventListener('scroll', update))
       aria-label="返回顶部"
       @click="backToTop"
     >
-      <ArrowUp :size="19" :stroke-width="1.5" />
-      <span>顶部</span>
+      <ArrowUp :size="22" :stroke-width="1.25" />
+      <span>回页首</span>
     </button>
   </MotionTransition>
 </template>

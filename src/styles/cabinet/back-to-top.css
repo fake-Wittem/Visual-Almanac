@@ -1,0 +1,94 @@
+/* Cabinet back-to-top: base, responsive layouts and motion overrides in cascade order. */
+body:has(.toast) .back-to-top {
+  bottom: max(100px, calc(env(safe-area-inset-bottom) + 80px));
+}
+.back-to-top {
+  position: fixed;
+  z-index: 40;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  right: max(22px, env(safe-area-inset-right));
+  bottom: max(26px, calc(env(safe-area-inset-bottom) + 18px));
+  width: 62px;
+  height: 62px;
+  gap: 1px;
+  border: 3px double #806c42;
+  border-radius: 50%;
+  color: #343c2b;
+  background: #c8b27d url('/images/cabinet/brass.webp') center / cover;
+  box-shadow:
+    inset 0 0 0 2px #eee0b57a,
+    0 5px 14px #493e2d30;
+  cursor: pointer;
+  transition:
+    opacity 320ms ease,
+    transform 400ms cubic-bezier(0.2, 0.75, 0.22, 1),
+    box-shadow 250ms;
+  translate: none;
+}
+.back-to-top span {
+  font: 10px/1.4 var(--serif);
+  letter-spacing: 1px;
+  padding-left: 1px;
+}
+.back-to-top svg {
+  transition: transform 300ms cubic-bezier(0.2, 0.75, 0.22, 1);
+}
+.back-to-top:hover {
+  color: #263021;
+  border-color: #715a31;
+  background: #c8b27d url('/images/cabinet/brass.webp') center / cover;
+  transform: translateY(-4px);
+  box-shadow:
+    inset 0 0 0 2px #eee0b59c,
+    0 9px 20px #493e2d40;
+}
+.back-to-top:hover svg {
+  transform: translateY(-2px);
+}
+.back-to-top:active {
+  transform: translateY(-1px) scale(0.96);
+}
+.back-to-top:focus-visible {
+  outline: 2px solid #596344;
+  outline-offset: 5px;
+}
+.back-to-top.motion-popup-enter-active,
+.back-to-top.motion-popup-leave-active {
+  transition:
+    opacity 320ms ease,
+    transform 400ms cubic-bezier(0.2, 0.75, 0.22, 1);
+}
+.back-to-top.motion-popup-enter-from,
+.back-to-top.motion-popup-leave-to {
+  opacity: 0;
+  transform: translateY(16px) scale(0.86) rotate(-12deg);
+  pointer-events: none;
+}
+@media (max-width: 680px) {
+  .back-to-top {
+    width: 56px;
+    height: 56px;
+    right: max(16px, env(safe-area-inset-right));
+    bottom: calc(82px + env(safe-area-inset-bottom));
+  }
+  body:has(.toast) .back-to-top {
+    bottom: calc(150px + env(safe-area-inset-bottom));
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .back-to-top,
+  .back-to-top svg,
+  .back-to-top.motion-popup-enter-active,
+  .back-to-top.motion-popup-leave-active {
+    transition: none;
+  }
+  .back-to-top:hover,
+  .back-to-top:hover svg,
+  .back-to-top.motion-popup-enter-from,
+  .back-to-top.motion-popup-leave-to {
+    transform: none;
+  }
+}

@@ -62,12 +62,16 @@
     {
       "title": "媒介与边界",
       "body": "建筑、玻璃、家具和印刷相互影响；新艺术的流动线条不能与 Art Deco 的几何秩序混写。"
+    },
+    {
+      "title": "研究范围与关联",
+      "body": "以跨地域的艺术与装饰语言为范围；维也纳分离派还包含具体组织、展览和出版活动，不仅是一组植物曲线。"
     }
   ],
   "applications": ["可用单条连续植物线串联标题和插图；正文区保持平静，避免复杂曲线影响信息阅读。"],
-  "related": ["arts-and-crafts", "art-deco", "rococo"],
+  "related": ["arts-and-crafts", "art-deco", "rococo", "vienna-secession"],
   "order": 32,
-  "updatedAt": "2026-09-10",
+  "updatedAt": "2026-09-15",
   "designHistory": {
     "overview": "新艺术运动在十九世纪末至二十世纪初跨国展开，试图摆脱历史样式的重复。自然形态、流动线条与结构装饰的一体化是重要方向，但各地名称与形式不同，并不都由弯曲花藤构成。",
     "timeline": [

@@ -1,8 +1,8 @@
 {
   "id": "islamic-ornament",
-  "name": "伊斯兰几何与植物纹饰",
-  "englishName": "Islamic Geometric and Vegetal Ornament",
-  "aliases": ["Islamic Geometric and Vegetal Ornament"],
+  "name": "奥斯曼几何与植物纹饰",
+  "englishName": "Ottoman Geometric & Floral Ornament",
+  "aliases": ["Islamic Geometric and Vegetal Ornament", "伊斯兰几何与植物纹饰"],
   "summary": "限定奥斯曼安纳托利亚的织毯、纸上绘画与陶器，比较星形组织和曲叶母题如何随媒介变化。",
   "category": "classical-decorative",
   "tags": ["geometry", "elegant", "blue", "red", "textile", "poster"],
@@ -10,7 +10,7 @@
   "images": [
     {
       "asset": "islamic-ornament-poster",
-      "caption": "伊斯兰几何与植物纹饰 · 原创风格演绎海报"
+      "caption": "奥斯曼几何与植物纹饰 · 原创风格演绎海报"
     }
   ],
   "palettes": [
@@ -62,6 +62,10 @@
     {
       "title": "限定样本避免泛化",
       "body": "本篇仅比较十五至十六世纪奥斯曼安纳托利亚的三个样本，不代表伊朗、南亚、北非的全部装饰传统；书法也有语言含义，不能以伪文字替代。"
+    },
+    {
+      "title": "研究范围与关联",
+      "body": "限定奥斯曼安纳托利亚的地毯、纸上绘画与陶器。伊斯兰艺术是更广的文化背景，不作为本专题覆盖全部地域的声明。"
     }
   ],
   "applications": [
@@ -69,7 +73,7 @@
   ],
   "related": ["iberian-maghrebi-tiles", "byzantine-decoration", "arts-and-crafts"],
   "order": 104,
-  "updatedAt": "2026-09-14",
+  "updatedAt": "2026-09-15",
   "designHistory": {
     "overview": "伊斯兰艺术涵盖广阔地域，本档案主动缩小到奥斯曼安纳托利亚。通过十五世纪星形乌沙克毯、十六世纪萨兹叶绘画与伊兹尼克盘，观察非建筑装饰的变化，区别于伊比利亚及北非瓷砖专题。",
     "timeline": [
